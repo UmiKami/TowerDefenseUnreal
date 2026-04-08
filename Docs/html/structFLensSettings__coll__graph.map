@@ -1,0 +1,11 @@
+<map id="FLensSettings" name="FLensSettings">
+<area shape="rect" id="Node000001" title=" " alt="" coords="257,698,481,793"/>
+<area shape="rect" id="Node000002" href="$structFLensBloomSettings.html" title=" " alt="" coords="133,508,357,603"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,600,332,685,327,684,274,605"/>
+<area shape="rect" id="Node000003" href="$structFGaussianSumBloomSettings.html" title=" " alt="" coords="5,5,234,413"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="194,410,225,492,220,492,193,415"/>
+<area shape="rect" id="Node000004" href="$structFConvolutionBloomSettings.html" title=" " alt="" coords="258,84,482,334"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="360,332,347,400,324,463,303,496,299,493,319,461,342,398,357,337"/>
+<area shape="rect" id="Node000005" href="$structFLensImperfectionSettings.html" title=" " alt="" coords="381,486,605,625"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="450,623,410,686,407,682,446,626"/>
+</map>

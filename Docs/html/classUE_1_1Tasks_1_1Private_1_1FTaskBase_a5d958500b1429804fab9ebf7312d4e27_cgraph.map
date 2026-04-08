@@ -1,0 +1,63 @@
+<map id="UE::Tasks::Private::FTaskBase::BusyWait" name="UE::Tasks::Private::FTaskBase::BusyWait">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,241,174,286"/>
+<area shape="rect" id="Node000002" href="$namespaceUE_1_1Tasks.html#aea6281095262a24737f7007f636dd4f3" title=" " alt="" coords="233,29,386,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,240,117,204,144,159,178,113,220,73,242,62,239,66,223,77,182,117,148,162,121,206,103,242"/>
+<area shape="rect" id="Node000004" href="$namespaceUE_1_1Tasks_1_1Private.html#ab272d0bebe5559d670e9985975c76e8a" title=" " alt="" coords="448,72,621,116"/>
+<area shape="poly" id="edge35_Node000001_Node000004" title=" " alt="" coords="101,239,121,210,148,176,181,143,220,117,272,97,327,86,382,81,435,82,430,85,382,87,328,91,274,102,223,122,185,147,152,179,125,213,106,241"/>
+<area shape="rect" id="Node000005" href="$classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#a2c5baa6b9f3d089ceed8cef215e5dd47" title=" " alt="" coords="226,156,394,200"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="148,238,238,204,234,208,151,242"/>
+<area shape="rect" id="Node000008" href="$UnrealTemplate_8h.html#aea228b8b6d93b902d974d3bfa72f888f" title=" " alt="" coords="1278,224,1352,252"/>
+<area shape="poly" id="edge25_Node000001_Node000008" title=" " alt="" coords="173,253,340,241,533,235,782,235,1266,237,1261,239,782,240,533,240,340,247,175,258"/>
+<area shape="rect" id="Node000013" href="$namespaceLowLevelTasks.html#a34a153f18933e9629bb0580fa88f1037" title=" " alt="" coords="671,317,891,345"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="174,269,657,317,655,321,174,274"/>
+<area shape="rect" id="Node000018" href="$classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#aa84f3305b87a29d8ea93c7aee1de1ae3" title=" " alt="" coords="222,326,398,371"/>
+<area shape="poly" id="edge26_Node000001_Node000018" title=" " alt="" coords="149,283,238,319,234,321,149,289"/>
+<area shape="rect" id="Node000019" href="$namespaceUE_1_1Tasks_1_1Private.html#af8a69d1222df913744ba84c8f4d3635e" title=" " alt="" coords="241,396,378,440"/>
+<area shape="poly" id="edge27_Node000001_Node000019" title=" " alt="" coords="111,283,160,332,223,381,233,388,227,388,220,385,157,336,111,288"/>
+<area shape="rect" id="Node000020" href="$classUE_1_1FTimeout.html#af4380ec84f743343f307aa97a6221744" title=" " alt="" coords="232,464,388,492"/>
+<area shape="poly" id="edge28_Node000001_Node000020" title=" " alt="" coords="100,283,120,321,147,366,181,411,223,450,231,457,225,457,220,455,177,415,142,369,116,323,100,288"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="272,29,266,20,271,11,286,5,310,3,336,5,351,13,346,15,334,10,310,8,287,10,274,15,271,20,277,29"/>
+<area shape="rect" id="Node000003" href="$namespaceUE_1_1Tasks_1_1Private.html#a3c97875dfc9b6d7932ecb2aa9d1c0c80" title=" " alt="" coords="712,24,850,68"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="386,41,699,44,695,47,388,46"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="373,55,436,70,431,72,375,60"/>
+<area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="268,154,266,145,274,136,288,131,310,129,334,131,349,140,344,141,332,136,310,134,289,136,277,141,271,147,273,155"/>
+<area shape="rect" id="Node000006" href="$namespaceUE_1_1Tasks.html#abc1c66af526d86a5771eaa88fbeb6890" title=" " alt="" coords="474,164,595,192"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="394,175,461,177,456,179,395,180"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="562,161,622,126,645,108,670,90,708,73,703,76,673,95,649,112,625,131,565,166"/>
+<area shape="poly" id="edge16_Node000006_Node000006" title=" " alt="" coords="496,163,490,155,495,145,510,139,535,137,561,140,577,148,572,149,560,145,535,143,511,145,498,149,495,155,501,164"/>
+<area shape="rect" id="Node000007" href="$namespaceUE_1_1Tasks.html#aaaad2d03e3325cc817dabbcc0c803bc2" title=" " alt="" coords="712,104,850,132"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="593,161,708,135,704,137,595,166"/>
+<area shape="rect" id="Node000011" href="$namespaceUE_1_1Tasks.html#a541d69fcf33d7c1e47e72d0d7c82d37a" title=" " alt="" coords="693,164,869,192"/>
+<area shape="poly" id="edge14_Node000006_Node000011" title=" " alt="" coords="595,175,680,177,675,179,596,180"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="850,110,918,108,999,110,1085,120,1169,141,1203,155,1235,173,1289,214,1284,213,1232,178,1201,160,1167,146,1084,125,998,115,918,113,851,115"/>
+<area shape="rect" id="Node000009" href="$classUE_1_1Tasks_1_1Private_1_1FTaskHandle.html#a818f46523c924fe91bf6ebc3da92f915" title=" " alt="" coords="970,36,1136,80"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="846,101,958,78,953,80,848,106"/>
+<area shape="poly" id="edge12_Node000009_Node000008" title=" " alt="" coords="1131,78,1169,97,1207,124,1241,154,1295,213,1290,212,1238,158,1204,128,1167,101,1131,83"/>
+<area shape="rect" id="Node000010" href="$classUE_1_1Tasks_1_1Private_1_1FTaskHandle.html#a2b2d9271f8cb076bc68001f0115c4b0b" title=" " alt="" coords="1233,36,1397,80"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="1137,55,1220,57,1215,58,1138,60"/>
+<area shape="rect" id="Node000012" href="$namespaceUE_1_1Tasks_1_1Private.html#a9bf41ac6827c157918023f936c6056d6" title=" " alt="" coords="966,156,1141,200"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="869,175,952,177,947,178,870,180"/>
+<area shape="poly" id="edge22_Node000013_Node000008" title=" " alt="" coords="864,314,1266,246,1261,247,865,319"/>
+<area shape="poly" id="edge18_Node000013_Node000013" title=" " alt="" coords="739,316,732,308,738,299,754,293,781,291,810,293,827,302,822,302,809,298,781,296,755,298,741,303,738,308,744,318"/>
+<area shape="rect" id="Node000014" href="$classLowLevelTasks_1_1FScheduler.html#a2a3735829a221bd545329b16441263f1" title=" " alt="" coords="954,326,1152,371"/>
+<area shape="poly" id="edge19_Node000013_Node000014" title=" " alt="" coords="891,336,941,341,936,342,891,341"/>
+<area shape="rect" id="Node000016" href="$classLowLevelTasks_1_1FScheduler.html#a7cabeb5e582da946360f501f3cba0ee6" title=" " alt="" coords="939,399,1168,426"/>
+<area shape="poly" id="edge23_Node000013_Node000016" title=" " alt="" coords="823,343,939,381,981,394,976,394,938,386,823,348"/>
+<area shape="poly" id="edge21_Node000014_Node000008" title=" " alt="" coords="1120,323,1167,305,1269,260,1275,258,1169,310,1121,328"/>
+<area shape="rect" id="Node000015" href="$classLowLevelTasks_1_1FScheduler.html#a79d48cf0f9cfb1494a3c654dca373c92" title=" " alt="" coords="1216,324,1414,368"/>
+<area shape="poly" id="edge20_Node000014_Node000015" title=" " alt="" coords="1153,345,1203,347,1198,347,1153,350"/>
+<area shape="rect" id="Node000017" href="$classLowLevelTasks_1_1FScheduler.html#a5de33ac0315d13706d2ba3ffcf47e9d3" title=" " alt="" coords="1216,393,1414,438"/>
+<area shape="poly" id="edge24_Node000016_Node000017" title=" " alt="" coords="1168,411,1203,414,1198,414,1169,416"/>
+<area shape="rect" id="Node000021" href="$structFAndroidTime.html#a5b5bb216ae0a5b18ac37803321e13261" title=" " alt="" coords="446,457,623,485"/>
+<area shape="poly" id="edge29_Node000020_Node000021" title=" " alt="" coords="387,473,433,474,428,475,388,478"/>
+<area shape="rect" id="Node000022" href="$classUE_1_1FTimeout.html#a078db2217228d961fd6cc6cdccf662e4" title=" " alt="" coords="446,509,623,537"/>
+<area shape="poly" id="edge30_Node000020_Node000022" title=" " alt="" coords="382,490,450,506,445,506,382,495"/>
+<area shape="rect" id="Node000023" href="$classUE_1_1FTimeout.html#ae3e77f522e3663c684fbc33a019795a8" title=" " alt="" coords="686,501,876,546"/>
+<area shape="poly" id="edge31_Node000022_Node000023" title=" " alt="" coords="624,521,673,523,667,523,624,526"/>
+<area shape="rect" id="Node000024" href="$structFGenericPlatformTime.html#ae93c6f9d1331579c9caa034bbe5c5b07" title=" " alt="" coords="970,488,1137,532"/>
+<area shape="poly" id="edge32_Node000023_Node000024" title=" " alt="" coords="876,516,957,514,952,515,877,521"/>
+<area shape="rect" id="Node000026" href="$classUE_1_1FTimeout.html#acf54bbda28f7feaa9185252da4ecedd1" title=" " alt="" coords="953,556,1154,584"/>
+<area shape="poly" id="edge34_Node000023_Node000026" title=" " alt="" coords="877,537,956,553,951,553,876,542"/>
+<area shape="rect" id="Node000025" href="$structFGenericPlatformTime.html#a514862b6d853f900b43d961fd0029f0e" title=" " alt="" coords="1226,488,1405,532"/>
+<area shape="poly" id="edge33_Node000024_Node000025" title=" " alt="" coords="1137,507,1213,510,1207,510,1137,512"/>
+</map>

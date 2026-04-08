@@ -1,0 +1,11 @@
+<map id="FAnimNode_SequencePlayer_Standalone" name="FAnimNode_SequencePlayer_Standalone">
+<area shape="rect" id="Node000001" title=" " alt="" coords="13,2046,268,2638"/>
+<area shape="rect" id="Node000002" href="$structFAnimNode__SequencePlayerBase.html" title=" " alt="" coords="26,1422,254,1998"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,2010,143,2046,138,2045,140,2015"/>
+<area shape="rect" id="Node000003" href="$structFAnimNode__AssetPlayerBase.html" title=" " alt="" coords="21,950,260,1374"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,1387,143,1423,138,1422,140,1392"/>
+<area shape="rect" id="Node000004" href="$structFAnimNode__AssetPlayerRelevancyBase.html" title=" " alt="" coords="5,567,275,902"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="140,915,143,950,138,950,140,920"/>
+<area shape="rect" id="Node000005" href="$structFAnimNode__Base.html" title=" " alt="" coords="27,5,253,519"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="140,532,143,567,138,567,140,537"/>
+</map>

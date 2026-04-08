@@ -1,0 +1,99 @@
+<map id="UParticleModule" name="UParticleModule">
+<area shape="rect" id="Node000001" title=" " alt="" coords="4991,126,5207,790"/>
+<area shape="rect" id="Node000003" href="$classUParticleModuleAccelerationBase.html" title=" " alt="" coords="212,1062,443,1134"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="4974,465,4190,505,3621,539,2995,581,2360,632,1763,693,1493,726,1249,762,1039,801,867,841,796,863,726,889,591,950,473,1012,384,1064,381,1060,470,1007,588,945,724,884,794,858,865,836,1038,795,1249,757,1492,721,1762,688,2360,627,2995,575,3620,533,4190,500,4979,464"/>
+<area shape="rect" id="Node000006" href="$classUParticleModuleAttractorBase.html" title=" " alt="" coords="879,1062,1085,1134"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="4974,466,4469,499,4103,527,3685,566,3231,615,2755,677,2275,752,2038,794,1807,841,1599,892,1395,953,1214,1014,1074,1064,1072,1059,1212,1009,1393,948,1597,887,1805,836,2037,789,2274,746,2754,671,3230,610,3685,560,4103,522,4468,494,4979,465"/>
+<area shape="rect" id="Node000011" href="$classUParticleModuleBeamBase.html" title=" " alt="" coords="1818,1050,2005,1145"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="4974,464,4797,475,4552,490,4256,515,3920,550,3559,599,3183,662,2994,700,2806,742,2622,789,2441,841,2313,888,2188,944,2077,1002,1988,1053,1985,1048,2074,998,2186,940,2311,883,2440,836,2620,784,2805,737,2993,695,3182,657,3558,593,3920,545,4255,509,4552,485,4796,469,4979,463"/>
+<area shape="rect" id="Node000016" href="$classUParticleModuleCameraBase.html" title=" " alt="" coords="2452,1062,2653,1134"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="4974,470,4513,516,4204,550,3874,593,3546,643,3242,702,3106,734,2985,768,2881,803,2798,841,2761,863,2726,890,2664,951,2613,1012,2576,1064,2573,1060,2609,1009,2660,947,2723,886,2758,859,2795,836,2879,798,2983,762,3105,728,3241,696,3545,638,3873,587,4204,545,4513,510,4979,469"/>
+<area shape="rect" id="Node000018" href="$classUParticleModuleCollisionBase.html" title=" " alt="" coords="2808,1062,3014,1134"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="4974,472,4680,512,4485,543,4269,582,4038,631,3802,690,3566,759,3339,841,3227,893,3121,954,3028,1014,2958,1064,2955,1060,3025,1010,3118,949,3225,888,3337,836,3564,754,3800,684,4037,626,4268,577,4484,538,4680,507,4979,471"/>
+<area shape="rect" id="Node000021" href="$classUParticleModuleColorBase.html" title=" " alt="" coords="3350,1062,3534,1134"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="4974,472,4731,509,4575,537,4404,575,4226,624,4046,683,3869,755,3784,796,3702,841,3629,892,3563,953,3509,1014,3468,1064,3465,1060,3505,1010,3559,950,3625,888,3699,836,3781,791,3867,750,4044,678,4225,619,4403,570,4574,532,4730,503,4979,471"/>
+<area shape="rect" id="Node000026" href="$classUParticleModuleEventBase.html" title=" " alt="" coords="3713,1062,3899,1134"/>
+<area shape="poly" id="edge24_Node000001_Node000026" title=" " alt="" coords="4974,466,4876,477,4754,494,4617,519,4471,554,4322,603,4248,632,4176,665,4105,702,4037,744,3973,790,3913,840,3891,865,3871,893,3842,953,3824,1013,3813,1064,3809,1060,3818,1012,3837,951,3867,890,3886,861,3909,836,3970,785,4034,739,4102,698,4173,660,4246,627,4320,597,4470,549,4616,513,4753,488,4875,472,4979,465"/>
+<area shape="rect" id="Node000031" href="$classUParticleModuleKillBase.html" title=" " alt="" coords="3923,1062,4094,1134"/>
+<area shape="poly" id="edge27_Node000001_Node000031" title=" " alt="" coords="4974,474,4890,491,4788,511,4675,540,4556,578,4435,626,4317,685,4261,718,4207,756,4155,796,4108,840,4087,865,4069,893,4041,954,4024,1013,4015,1064,4011,1060,4019,1012,4036,952,4064,891,4082,862,4104,836,4152,792,4203,751,4258,714,4315,680,4433,621,4554,573,4674,535,4787,506,4889,485,4979,473"/>
+<area shape="rect" id="Node000034" href="$classUParticleModuleLifetimeBase.html" title=" " alt="" coords="4118,1062,4321,1134"/>
+<area shape="poly" id="edge30_Node000001_Node000034" title=" " alt="" coords="4980,491,4833,542,4750,575,4663,615,4575,661,4489,713,4409,773,4336,840,4314,866,4295,894,4264,955,4243,1014,4229,1064,4225,1060,4238,1012,4259,953,4290,892,4310,863,4332,836,4405,769,4486,709,4572,656,4660,610,4748,570,4831,537,4974,492"/>
+<area shape="rect" id="Node000037" href="$classUParticleModuleLightBase.html" title=" " alt="" coords="4346,1062,4528,1134"/>
+<area shape="poly" id="edge32_Node000001_Node000037" title=" " alt="" coords="4981,513,4875,573,4758,646,4699,689,4643,736,4589,786,4541,840,4505,896,4478,957,4458,1015,4445,1064,4442,1060,4453,1013,4473,955,4500,893,4537,837,4586,782,4639,732,4696,685,4755,642,4872,568,4976,515"/>
+<area shape="rect" id="Node000040" href="$classUParticleModuleLocationBase.html" title=" " alt="" coords="4552,1062,4756,1134"/>
+<area shape="poly" id="edge34_Node000001_Node000040" title=" " alt="" coords="4983,575,4874,700,4820,769,4771,840,4737,899,4708,960,4667,1064,4664,1060,4704,958,4733,896,4766,837,4816,766,4870,696,4979,577"/>
+<area shape="rect" id="Node000058" href="$classUParticleModuleMaterialBase.html" title=" " alt="" coords="4780,1062,4984,1134"/>
+<area shape="poly" id="edge35_Node000001_Node000058" title=" " alt="" coords="4989,788,4896,1064,4892,1060,4984,792"/>
+<area shape="rect" id="Node000060" href="$classUParticleModuleOrbitBase.html" title=" " alt="" coords="5008,1062,5190,1134"/>
+<area shape="poly" id="edge36_Node000001_Node000060" title=" " alt="" coords="5101,803,5101,1063,5097,1060,5098,807"/>
+<area shape="rect" id="Node000061" href="$classUParticleModuleOrientationBase.html" title=" " alt="" coords="5215,1062,5437,1134"/>
+<area shape="poly" id="edge37_Node000001_Node000061" title=" " alt="" coords="5214,775,5316,1063,5311,1061,5211,779"/>
+<area shape="rect" id="Node000063" href="$classUParticleModuleParameterBase.html" title=" " alt="" coords="5461,1062,5679,1134"/>
+<area shape="poly" id="edge38_Node000001_Node000063" title=" " alt="" coords="5218,566,5338,691,5398,763,5452,837,5488,896,5518,957,5560,1063,5555,1060,5513,960,5483,899,5448,840,5394,766,5334,695,5217,571"/>
+<area shape="rect" id="Node000066" href="$classUParticleModuleRequired.html" title=" " alt="" coords="5703,838,5939,1357"/>
+<area shape="poly" id="edge39_Node000001_Node000066" title=" " alt="" coords="5221,510,5332,567,5456,641,5519,684,5581,731,5640,782,5693,837,5706,853,5701,851,5689,840,5636,786,5578,735,5516,688,5453,645,5329,571,5221,516"/>
+<area shape="rect" id="Node000067" href="$classUParticleModuleRotationBase.html" title=" " alt="" coords="5962,1062,6167,1134"/>
+<area shape="poly" id="edge40_Node000001_Node000067" title=" " alt="" coords="5222,482,5384,526,5479,558,5578,597,5679,644,5777,699,5870,763,5953,836,5976,862,5995,891,6026,953,6048,1012,6060,1063,6056,1060,6042,1014,6021,955,5991,894,5972,866,5949,840,5866,767,5774,704,5676,649,5576,602,5477,563,5383,531,5222,487"/>
+<area shape="rect" id="Node000073" href="$classUParticleModuleRotationRateBase.html" title=" " alt="" coords="6191,1062,6426,1134"/>
+<area shape="poly" id="edge41_Node000001_Node000073" title=" " alt="" coords="5221,470,5314,483,5424,504,5546,532,5677,570,5810,618,5942,678,6006,712,6067,750,6126,791,6181,836,6206,862,6228,890,6263,951,6287,1012,6303,1063,6298,1061,6282,1013,6258,954,6223,893,6202,865,6178,840,6123,796,6064,754,6003,717,5940,682,5808,623,5675,575,5545,538,5423,509,5313,489,5222,475"/>
+<area shape="rect" id="Node000081" href="$classUParticleModuleSizeBase.html" title=" " alt="" coords="6450,1062,6626,1134"/>
+<area shape="poly" id="edge42_Node000001_Node000081" title=" " alt="" coords="5222,457,5334,462,5472,474,5628,495,5795,528,5967,577,6053,607,6137,642,6218,682,6297,728,6371,779,6440,836,6463,861,6482,889,6510,951,6528,1011,6537,1063,6532,1060,6523,1013,6505,953,6477,892,6459,865,6436,840,6367,783,6294,732,6216,687,6134,647,6051,612,5966,582,5794,534,5627,500,5471,479,5334,467,5222,462"/>
+<area shape="rect" id="Node000087" href="$classUParticleModuleSpawnBase.html" title=" " alt="" coords="6651,995,6844,1201"/>
+<area shape="poly" id="edge43_Node000001_Node000087" title=" " alt="" coords="5222,473,5550,522,5756,558,5971,601,6181,651,6372,707,6456,737,6529,769,6591,802,6640,836,6672,870,6697,910,6716,953,6730,997,6725,994,6711,955,6692,913,6667,874,6636,840,6589,807,6527,774,6454,742,6370,712,6180,656,5970,607,5755,563,5550,527,5222,478"/>
+<area shape="rect" id="Node000090" href="$classUParticleModuleSubUVBase.html" title=" " alt="" coords="6868,1062,7061,1134"/>
+<area shape="poly" id="edge44_Node000001_Node000090" title=" " alt="" coords="5222,469,5592,512,5829,546,6078,587,6322,637,6437,665,6544,695,6642,727,6728,762,6801,798,6857,836,6882,860,6902,888,6933,950,6952,1011,6962,1064,6958,1061,6947,1012,6928,952,6898,891,6877,864,6854,840,6798,802,6726,766,6640,732,6543,700,6436,670,6321,642,6077,593,5828,551,5592,517,5222,474"/>
+<area shape="rect" id="Node000093" href="$classUParticleModuleTrailBase.html" title=" " alt="" coords="7085,1050,7263,1145"/>
+<area shape="poly" id="edge45_Node000001_Node000093" title=" " alt="" coords="5222,465,5634,501,5902,532,6185,572,6464,621,6595,650,6718,682,6830,716,6928,753,7010,793,7074,836,7097,859,7116,885,7145,942,7162,1000,7172,1053,7167,1049,7157,1001,7140,944,7112,887,7093,862,7071,840,7008,798,6926,758,6828,721,6716,687,6594,655,6462,627,6184,577,5901,537,5633,507,5222,470"/>
+<area shape="rect" id="Node000095" href="$classUParticleModuleTypeDataBase.html" title=" " alt="" coords="7287,930,7527,1265"/>
+<area shape="poly" id="edge46_Node000001_Node000095" title=" " alt="" coords="5222,464,5669,498,5964,528,6278,568,6588,617,6735,646,6872,678,6998,713,7109,751,7203,792,7277,836,7300,856,7320,878,7353,931,7349,929,7316,882,7296,860,7274,840,7201,796,7108,756,6997,718,6871,683,6734,651,6587,622,6277,573,5963,534,5668,504,5222,469"/>
+<area shape="rect" id="Node000101" href="$classUParticleModuleVectorFieldBase.html" title=" " alt="" coords="7551,1062,7773,1134"/>
+<area shape="poly" id="edge47_Node000001_Node000101" title=" " alt="" coords="5222,461,5434,471,5718,488,6051,514,6407,550,6585,573,6759,599,6926,629,7082,662,7225,699,7351,740,7458,786,7502,810,7541,836,7567,860,7589,887,7624,949,7646,1010,7658,1063,7654,1060,7641,1012,7619,951,7585,890,7563,863,7538,840,7500,815,7455,791,7350,745,7224,704,7081,667,6925,634,6758,604,6584,578,6406,556,6051,519,5718,493,5433,476,5223,466"/>
+<area shape="rect" id="Node000108" href="$classUParticleModuleVelocityBase.html" title=" " alt="" coords="7797,1050,7999,1145"/>
+<area shape="poly" id="edge48_Node000001_Node000108" title=" " alt="" coords="5222,459,5451,465,5764,478,6132,500,6526,534,6724,556,6917,582,7103,612,7277,646,7436,686,7577,730,7694,780,7744,808,7786,836,7810,858,7831,884,7862,941,7883,999,7894,1052,7889,1049,7877,1001,7857,943,7826,887,7806,862,7783,840,7741,812,7692,785,7575,735,7435,691,7276,652,7102,617,6917,587,6723,561,6525,539,6131,505,5763,483,5451,470,5223,464"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5068,5,5131,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="5101,90,5102,127,5097,124,5098,95"/>
+<area shape="rect" id="Node000004" href="$classUParticleModuleAcceleration.html" title=" " alt="" coords="5,1604,204,1855"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="308,1151,218,1406,149,1605,144,1603,213,1404,310,1146"/>
+<area shape="rect" id="Node000005" href="$classUParticleModuleAccelerationOverLifetime.html" title=" " alt="" coords="228,1651,427,1807"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="329,1148,330,1652,325,1651,325,1151"/>
+<area shape="rect" id="Node000007" href="$classUParticleModuleAttractorLine.html" title=" " alt="" coords="450,1615,652,1844"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="920,1145,863,1193,794,1255,725,1327,666,1407,637,1457,614,1511,579,1616,574,1613,609,1509,633,1455,661,1404,721,1324,790,1251,860,1189,924,1141"/>
+<area shape="rect" id="Node000008" href="$classUParticleModuleAttractorParticle.html" title=" " alt="" coords="676,1539,864,1919"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="966,1146,878,1406,833,1541,829,1538,873,1404,963,1150"/>
+<area shape="rect" id="Node000009" href="$classUParticleModuleAttractorPoint.html" title=" " alt="" coords="888,1506,1076,1952"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="984,1147,985,1507,979,1505,980,1151"/>
+<area shape="rect" id="Node000010" href="$classUParticleModuleAttractorPointGravity.html" title=" " alt="" coords="1100,1595,1288,1863"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="1000,1145,1090,1404,1153,1596,1148,1595,1085,1406,998,1150"/>
+<area shape="rect" id="Node000012" href="$classUParticleModuleBeamModifier.html" title=" " alt="" coords="1312,1492,1551,1966"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1833,1152,1768,1204,1697,1263,1627,1332,1565,1407,1539,1449,1515,1494,1511,1490,1534,1446,1561,1404,1623,1328,1694,1259,1765,1200,1828,1155"/>
+<area shape="rect" id="Node000013" href="$classUParticleModuleBeamNoise.html" title=" " alt="" coords="1575,1503,1768,1955"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="1886,1157,1836,1273,1782,1406,1746,1505,1742,1501,1777,1404,1831,1271,1882,1160"/>
+<area shape="rect" id="Node000014" href="$classUParticleModuleBeamSource.html" title=" " alt="" coords="1792,1470,2031,1989"/>
+<area shape="poly" id="edge13_Node000011_Node000014" title=" " alt="" coords="1913,1158,1914,1471,1909,1469,1910,1162"/>
+<area shape="rect" id="Node000015" href="$classUParticleModuleBeamTarget.html" title=" " alt="" coords="2054,1481,2294,1978"/>
+<area shape="poly" id="edge14_Node000011_Node000015" title=" " alt="" coords="1939,1156,2046,1404,2077,1482,2072,1480,2041,1406,1936,1161"/>
+<area shape="rect" id="Node000017" href="$classUParticleModuleCameraOffset.html" title=" " alt="" coords="2318,1604,2526,1855"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="2545,1147,2450,1606,2446,1602,2540,1150"/>
+<area shape="rect" id="Node000019" href="$classUParticleModuleCollision.html" title=" " alt="" coords="2551,1439,2787,2020"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="2895,1146,2782,1441,2778,1437,2890,1150"/>
+<area shape="rect" id="Node000020" href="$classUParticleModuleCollisionGPU.html" title=" " alt="" coords="2810,1548,3012,1910"/>
+<area shape="poly" id="edge19_Node000018_Node000020" title=" " alt="" coords="2913,1147,2914,1550,2909,1547,2909,1151"/>
+<area shape="rect" id="Node000022" href="$classUParticleModuleColor.html" title=" " alt="" coords="3036,1592,3237,1866"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="3410,1145,3332,1263,3290,1333,3251,1406,3211,1500,3178,1595,3174,1591,3206,1498,3246,1404,3285,1331,3328,1260,3405,1148"/>
+<area shape="rect" id="Node000024" href="$classUParticleModuleColorOverLife.html" title=" " alt="" coords="3261,1592,3468,1866"/>
+<area shape="poly" id="edge22_Node000021_Node000024" title=" " alt="" coords="3438,1147,3383,1595,3379,1591,3434,1150"/>
+<area shape="rect" id="Node000025" href="$classUParticleModuleColorScaleOverLife.html" title=" " alt="" coords="3492,1553,3749,1905"/>
+<area shape="poly" id="edge23_Node000021_Node000025" title=" " alt="" coords="3458,1146,3573,1554,3569,1552,3454,1150"/>
+<area shape="rect" id="Node000027" href="$classUParticleModuleEventGenerator.html" title=" " alt="" coords="3774,1592,3993,1866"/>
+<area shape="poly" id="edge25_Node000026_Node000027" title=" " alt="" coords="3814,1147,3869,1594,3864,1591,3810,1151"/>
+<area shape="rect" id="Node000028" href="$classUParticleModuleEventReceiverBase.html" title=" " alt="" coords="4018,1671,4261,1788"/>
+<area shape="poly" id="edge26_Node000026_Node000028" title=" " alt="" coords="3817,1146,3831,1196,3850,1251,3877,1306,3913,1355,3936,1372,3959,1379,3982,1386,4006,1403,4032,1434,4054,1468,4089,1540,4115,1610,4130,1673,4126,1670,4109,1612,4084,1542,4049,1471,4027,1437,4003,1407,3980,1391,3957,1384,3934,1377,3909,1359,3873,1309,3845,1253,3826,1198,3814,1151"/>
+<area shape="rect" id="Node000032" href="$classUParticleModuleKillBox.html" title=" " alt="" coords="4285,1604,4477,1855"/>
+<area shape="poly" id="edge28_Node000031_Node000032" title=" " alt="" coords="4016,1147,4026,1198,4044,1253,4070,1308,4087,1333,4108,1355,4128,1370,4149,1377,4190,1378,4232,1380,4253,1388,4274,1403,4311,1447,4338,1498,4357,1551,4369,1605,4365,1602,4352,1553,4333,1500,4306,1450,4271,1407,4251,1392,4231,1385,4190,1384,4148,1382,4126,1375,4104,1359,4083,1337,4065,1311,4039,1255,4021,1199,4013,1151"/>
+<area shape="rect" id="Node000033" href="$classUParticleModuleKillHeight.html" title=" " alt="" coords="4501,1615,4689,1844"/>
+<area shape="poly" id="edge29_Node000031_Node000033" title=" " alt="" coords="4014,1146,4024,1199,4040,1255,4068,1310,4086,1334,4108,1355,4132,1372,4157,1383,4180,1389,4204,1392,4251,1388,4298,1378,4345,1368,4392,1364,4416,1367,4441,1374,4465,1386,4490,1403,4512,1424,4531,1448,4560,1501,4579,1559,4590,1616,4586,1613,4574,1560,4555,1504,4526,1451,4508,1428,4487,1407,4463,1390,4439,1379,4415,1372,4392,1369,4345,1373,4299,1383,4252,1393,4204,1397,4179,1394,4155,1388,4130,1376,4104,1359,4082,1338,4063,1313,4035,1257,4019,1200,4011,1151"/>
+<area shape="rect" id="Node000035" href="$classUParticleModuleLifetime.html" title=" " alt="" coords="4713,1604,4901,1855"/>
+<area shape="poly" id="edge31_Node000034_Node000035" title=" " alt="" coords="4228,1147,4241,1199,4262,1256,4293,1310,4312,1335,4336,1355,4360,1371,4383,1381,4429,1389,4474,1385,4519,1376,4563,1367,4609,1365,4655,1375,4678,1386,4702,1403,4741,1446,4769,1496,4788,1550,4800,1605,4796,1602,4783,1551,4764,1498,4737,1449,4699,1407,4676,1391,4653,1380,4608,1370,4564,1373,4520,1382,4475,1391,4429,1394,4382,1386,4357,1375,4332,1359,4309,1338,4288,1313,4257,1258,4236,1200,4225,1151"/>
+<area shape="rect" id="Node000038" href="$classUParticleModuleLight.html" title=" " alt="" coords="4925,1405,5140,2053"/>
+<area shape="poly" id="edge33_Node000037_Node000038" title=" " alt="" coords="4443,1147,4454,1199,4472,1255,4500,1310,4519,1334,4541,1355,4565,1371,4589,1382,4635,1391,4681,1388,4726,1378,4771,1369,4818,1366,4865,1375,4890,1386,4914,1403,4928,1417,4923,1416,4911,1407,4887,1391,4864,1380,4817,1371,4772,1374,4727,1383,4681,1393,4635,1396,4587,1387,4563,1376,4538,1359,4515,1338,4496,1313,4467,1257,4449,1200,4440,1151"/>
+</map>

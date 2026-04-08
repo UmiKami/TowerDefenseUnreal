@@ -1,0 +1,36 @@
+<map id="USoundCue" name="USoundCue">
+<area shape="rect" id="Node000001" title=" " alt="" coords="635,2963,887,3980"/>
+<area shape="rect" id="Node000002" href="$classUSoundBase.html" title=" " alt="" coords="397,2265,661,2890"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="614,2902,637,2987,632,2986,613,2908"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,1863,68,1935"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="44,1947,60,2002,82,2057,115,2114,151,2170,233,2277,318,2373,399,2456,394,2458,314,2377,229,2280,147,2173,110,2117,77,2059,55,2004,44,1952"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="92,1854,283,1944"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="216,1954,399,2315,394,2316,216,1960"/>
+<area shape="rect" id="Node000005" href="$classIInterface__AssetUserData.html" title=" " alt="" coords="307,1785,513,2013"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="433,2025,477,2265,471,2265,432,2031"/>
+<area shape="rect" id="Node000006" href="$structFSoundConcurrencySettings.html" title=" " alt="" coords="536,1740,756,2058"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="619,2055,588,2249,583,2248,618,2061"/>
+<area shape="rect" id="Node000007" href="$structFSoundTimecodeOffset.html" title=" " alt="" coords="779,1863,998,1935"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="883,1932,848,2073,819,2159,782,2242,731,2329,673,2410,669,2407,726,2326,777,2240,814,2157,843,2071,881,1937"/>
+<area shape="rect" id="Node000008" href="$structFSoundAttenuationSettings.html" title=" " alt="" coords="1039,2324,1296,2832"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1054,2829,896,3180,891,3177,1050,2833"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1023,1863,1202,1935"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1118,1947,1150,2324,1144,2323,1116,1952"/>
+<area shape="rect" id="Node000010" href="$structFRuntimeFloatCurve.html" title=" " alt="" coords="1227,1840,1398,1958"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="1302,1955,1228,2308,1223,2306,1299,1960"/>
+<area shape="rect" id="Node000011" href="$structFRichCurve.html" title=" " alt="" coords="1192,1327,1434,1667"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1313,1664,1315,1825,1310,1823,1312,1669"/>
+<area shape="rect" id="Node000012" href="$structFRealCurve.html" title=" " alt="" coords="1229,937,1397,1277"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1313,1290,1315,1327,1310,1326,1312,1295"/>
+<area shape="poly" id="edge17_Node000012_Node000012" title=" " alt="" coords="1396,1070,1416,1084,1423,1107,1421,1122,1414,1134,1409,1131,1416,1121,1418,1107,1412,1087,1397,1076"/>
+<area shape="rect" id="Node000013" href="$structFIndexedCurve.html" title=" " alt="" coords="1392,396,1623,888"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1400,899,1386,939,1381,937,1398,904"/>
+<area shape="poly" id="edge14_Node000013_Node000013" title=" " alt="" coords="1622,595,1643,613,1649,642,1646,662,1638,677,1633,674,1641,660,1644,642,1638,616,1623,600"/>
+<area shape="rect" id="Node000014" href="$structFKeyHandle.html" title=" " alt="" coords="1227,61,1351,268"/>
+<area shape="poly" id="edge16_Node000012_Node000014" title=" " alt="" coords="1268,265,1252,397,1240,535,1234,643,1236,750,1252,887,1258,921,1252,920,1247,888,1231,750,1228,642,1235,534,1247,396,1267,270"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1335,264,1390,381,1385,381,1335,270"/>
+<area shape="rect" id="Node000015" href="$structFKeyHandleMap.html" title=" " alt="" coords="1425,5,1589,323"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="1508,321,1510,380,1505,379,1507,326"/>
+<area shape="rect" id="Node000016" href="$structFSoundAttenuationPluginSettings.html" title=" " alt="" coords="1423,1812,1650,1986"/>
+<area shape="poly" id="edge18_Node000008_Node000016" title=" " alt="" coords="1541,1983,1541,2044,1534,2110,1519,2178,1495,2242,1458,2307,1412,2367,1362,2422,1311,2470,1307,2466,1358,2418,1408,2363,1453,2304,1490,2240,1514,2176,1528,2109,1536,2044,1539,1988"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="UE::UnifiedError::TErrorDetails&lt; T &gt;" name="UE::UnifiedError::TErrorDetails&lt; T &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="100,1113,316,1448"/>
+<area shape="rect" id="Node000002" href="$classUE_1_1UnifiedError_1_1FDynamicErrorDetails.html" title="FDynamicErrorDetails; base implementation of inner error details, for use by derived classes to reduc..." alt="" coords="100,775,316,1065"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,1077,211,1114,206,1113,208,1082"/>
+<area shape="rect" id="Node000003" href="$classUE_1_1UnifiedError_1_1FRefCountedErrorDetails.html" title="FRefCountedErrorDetails; base implementation of refcounting for IErrorDetails, this is used for heap ..." alt="" coords="100,503,316,727"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="209,739,211,775,206,775,208,744"/>
+<area shape="rect" id="Node000004" href="$classUE_1_1UnifiedError_1_1IErrorDetails.html" title=" " alt="" coords="5,210,211,455"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="157,467,172,503,166,504,157,472"/>
+<area shape="rect" id="Node000005" href="$classIRefCountedObject.html" title=" " alt="" coords="23,14,193,153"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="108,165,111,210,106,210,108,170"/>
+<area shape="rect" id="Node000006" href="$classFRefCountBase.html" title=" " alt="" coords="236,218,384,447"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="263,463,251,504,246,503,265,458"/>
+<area shape="rect" id="Node000007" href="$classUE_1_1Private_1_1TTransactionalAtomicRefCount.html" title=" " alt="" coords="217,5,405,162"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="311,174,313,219,308,218,310,179"/>
+</map>

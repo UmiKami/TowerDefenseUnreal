@@ -1,0 +1,27 @@
+var classTMallocBinnedCommon =
+[
+    [ "FPoolHashBucket", "structTMallocBinnedCommon_1_1FPoolHashBucket.html", "structTMallocBinnedCommon_1_1FPoolHashBucket" ],
+    [ "FPerThreadFreeBlockLists", "structTMallocBinnedCommon_1_1FPerThreadFreeBlockLists.html", "structTMallocBinnedCommon_1_1FPerThreadFreeBlockLists" ],
+    [ "Internal", "structTMallocBinnedCommon_1_1Internal.html", "structTMallocBinnedCommon_1_1Internal" ],
+    [ "AllocateHashBuckets", "classTMallocBinnedCommon.html#a15943b9cb2584071e24efbac3ed8e0cf", null ],
+    [ "BoundSizeToPoolIndex", "classTMallocBinnedCommon.html#a551612b231c440f039f9f5b75b47805e", null ],
+    [ "ClearAndDisableTLSCachesOnCurrentThread", "classTMallocBinnedCommon.html#ae8fc28871f06aceb09697cafa1e85d6a", null ],
+    [ "GetAllocationSizeExternal", "classTMallocBinnedCommon.html#acf298cb4c74b6912d1a63eac03158af1", null ],
+    [ "GetAllocatorStats", "classTMallocBinnedCommon.html#ad0a351d6d86c4a57890a17051ca73b72", null ],
+    [ "GetFreeBlockListsRegistrationMutex", "classTMallocBinnedCommon.html#a5e4e0e63babc9f0a15cd67b8786f294b", null ],
+    [ "GetRegisteredFreeBlockLists", "classTMallocBinnedCommon.html#a0b103b31cbb22a8f32919d09739c030f", null ],
+    [ "GetTotalAllocatedSmallPoolMemory", "classTMallocBinnedCommon.html#aba0d885952ed15a4ebb411028c6268ae", null ],
+    [ "MarkTLSCachesAsUnusedOnCurrentThread", "classTMallocBinnedCommon.html#a9a523ff5406d604179a1306b6a1ae643", null ],
+    [ "MarkTLSCachesAsUsedOnCurrentThread", "classTMallocBinnedCommon.html#aefc9ebfb1ba9bdd00414f7d2a043f925", null ],
+    [ "PromoteToLargerBin", "classTMallocBinnedCommon.html#addb3513836624c1879e9d6a36cdcb770", null ],
+    [ "QuantizeSizeCommon", "classTMallocBinnedCommon.html#a5414d3db745c23ef1a9c9e0bfb138676", null ],
+    [ "RegisterThreadFreeBlockLists", "classTMallocBinnedCommon.html#a4128f7dda870cb8c3a3bc754fe219869", null ],
+    [ "SetupTLSCachesOnCurrentThread", "classTMallocBinnedCommon.html#a13ce65c6b744491d3aca4c85588c48f2", null ],
+    [ "UnregisterThreadFreeBlockLists", "classTMallocBinnedCommon.html#ae31c8e8d498ed76927e7d5a662f08663", null ],
+    [ "UpdateStatsCommon", "classTMallocBinnedCommon.html#a6be51c8a19c4b61cfc7a901a895d42f1", null ],
+    [ "FMallocBinnedCommonUtils", "classTMallocBinnedCommon.html#acfcb1c7a5ce63d7916c4885029a37c4b", null ],
+    [ "HashBucketFreeList", "classTMallocBinnedCommon.html#a3887adff16c6005c915641fc28ee978c", null ],
+    [ "HashBuckets", "classTMallocBinnedCommon.html#a821ca7db00f4164499ffa4a2f600cc1a", null ],
+    [ "MAX_SMALL_POOL_SIZE", "classTMallocBinnedCommon.html#a104e53cb0c47265751681dfb5630a221", null ],
+    [ "NUM_SMALL_POOLS", "classTMallocBinnedCommon.html#a38776aed628e5af22047a95aeeaa18a9", null ]
+];

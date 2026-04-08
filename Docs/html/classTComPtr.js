@@ -1,0 +1,25 @@
+var classTComPtr =
+[
+    [ "PointerType", "classTComPtr.html#aa7a5f549e13ad7a0a88f38aa57bd33c8", null ],
+    [ "TComPtr", "classTComPtr.html#ac16979cdfe5dcffb0f59e9723b9eae16", null ],
+    [ "TComPtr", "classTComPtr.html#ab6199681b9bbf5c492ad1a3829ed9d6c", null ],
+    [ "TComPtr", "classTComPtr.html#a5cfc5f2831a4dcb117de4a18ca141f33", null ],
+    [ "TComPtr", "classTComPtr.html#a187ed5d90205c4c4aec9c66b32c39f61", null ],
+    [ "~TComPtr", "classTComPtr.html#a8748e154e1bd5c111172cb49acf1e522", null ],
+    [ "Attach", "classTComPtr.html#ac156a020e00389a8fe5bd8183e32b8cd", null ],
+    [ "Detach", "classTComPtr.html#a9cc41566d284f15d543218bb9cb16f85", null ],
+    [ "FromQueryInterface", "classTComPtr.html#aecf690082226fa7d832495b5d45d6f31", null ],
+    [ "Get", "classTComPtr.html#a3e521422a0e77886d7a4a3262a1a4455", null ],
+    [ "IsValid", "classTComPtr.html#a61fc4c80a57adcc128fb0ff5f417b8ae", null ],
+    [ "operator PointerType *", "classTComPtr.html#a3fd20686d8d684d9a8feb44a4abb7c4c", null ],
+    [ "operator!=", "classTComPtr.html#a97780094e9c69bc1f4674f4f0a3513ad", null ],
+    [ "operator&", "classTComPtr.html#a188f6f454a72417de724e09ad4d42f71", null ],
+    [ "operator->", "classTComPtr.html#a29b744fc0c08619280849bcf411219b3", null ],
+    [ "operator=", "classTComPtr.html#a147584309f380a1fe788a612098dd0ac", null ],
+    [ "operator=", "classTComPtr.html#abd78782b0b3593473324dcbaa497aede", null ],
+    [ "operator=", "classTComPtr.html#a8b055e3ec28b621da7a6289783f653cc", null ],
+    [ "operator==", "classTComPtr.html#a3e5c2aa68c32e25f064219fb1ff6a169", null ],
+    [ "Reset", "classTComPtr.html#aabe5921fe72fd198c5ea5ca91ea273ec", null ],
+    [ "GetTypeHash", "classTComPtr.html#a7d4df0f44991b4a6a506932de28bc5a8", null ],
+    [ "RawPointer", "classTComPtr.html#a9a737a54039922b34061240906cfe7f6", null ]
+];

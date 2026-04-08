@@ -1,0 +1,11 @@
+<map id="AGameState" name="AGameState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,1234,240,1731"/>
+<area shape="rect" id="Node000005" href="$classATowerGameState.html" title="Manages the game state for the Tower game mode." alt="" coords="60,1779,190,1851"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="127,1743,128,1780,123,1778,124,1748"/>
+<area shape="rect" id="Node000002" href="$classAGameStateBase.html" title=" " alt="" coords="5,352,245,1186"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,1199,128,1235,123,1234,125,1204"/>
+<area shape="rect" id="Node000003" href="$classAInfo.html" title=" " alt="" coords="13,126,238,304"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,317,128,353,123,353,125,322"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="98,5,152,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,90,128,126,123,126,125,95"/>
+</map>

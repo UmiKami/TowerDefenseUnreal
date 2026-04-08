@@ -1,0 +1,24 @@
+<map id="UHapticFeedbackEffect_Curve" name="UHapticFeedbackEffect_Curve">
+<area shape="rect" id="Node000001" title=" " alt="" coords="133,2142,296,2254"/>
+<area shape="rect" id="Node000002" href="$classUHapticFeedbackEffect__Base.html" title=" " alt="" coords="5,1952,207,2069"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,2080,185,2143,180,2143,146,2085"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="75,1762,138,1835"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,1847,109,1953,104,1952,106,1852"/>
+<area shape="rect" id="Node000004" href="$structFHapticFeedbackDetails__Curve.html" title=" " alt="" coords="231,1958,416,2064"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="295,2062,257,2130,253,2126,291,2065"/>
+<area shape="rect" id="Node000005" href="$structFRuntimeFloatCurve.html" title=" " alt="" coords="238,1740,409,1857"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="325,1854,326,1941,321,1940,322,1859"/>
+<area shape="rect" id="Node000006" href="$structFRichCurve.html" title=" " alt="" coords="202,1327,444,1667"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="324,1664,326,1724,321,1723,323,1669"/>
+<area shape="rect" id="Node000007" href="$structFRealCurve.html" title=" " alt="" coords="240,937,408,1277"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="324,1290,326,1327,321,1326,323,1295"/>
+<area shape="poly" id="edge12_Node000007_Node000007" title=" " alt="" coords="406,1071,427,1084,434,1107,432,1122,425,1133,420,1131,427,1121,429,1107,423,1087,408,1076"/>
+<area shape="rect" id="Node000008" href="$structFIndexedCurve.html" title=" " alt="" coords="403,396,634,888"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="409,904,397,939,392,937,410,899"/>
+<area shape="poly" id="edge9_Node000008_Node000008" title=" " alt="" coords="633,595,653,613,660,642,657,662,649,677,644,675,652,660,655,642,649,616,634,600"/>
+<area shape="rect" id="Node000009" href="$structFKeyHandle.html" title=" " alt="" coords="238,61,362,268"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="278,270,263,397,251,535,244,643,247,750,263,887,269,920,263,920,258,888,242,750,239,642,245,534,258,396,279,265"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="346,264,401,381,396,381,346,270"/>
+<area shape="rect" id="Node000010" href="$structFKeyHandleMap.html" title=" " alt="" coords="436,5,600,323"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="519,321,521,380,516,379,518,326"/>
+</map>

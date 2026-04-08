@@ -1,0 +1,28 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Animation/CustomAttributes.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Animation/CustomAttributes.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1460,5,1654,84"/>
+<area shape="rect" id="Node000002" href="$AnimSequence_8h.html" title=" " alt="" coords="1241,132,1435,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1478,91,1407,134,1405,129,1473,93"/>
+<area shape="rect" id="Node000011" href="$AnimationSettings_8h.html" title=" " alt="" coords="1460,132,1654,211"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="1558,98,1559,133,1555,130,1555,102"/>
+<area shape="rect" id="Node000012" href="$AttributeBlendOperator_8h.html" title=" " alt="" coords="1678,132,1873,211"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="1638,89,1710,132,1705,131,1638,95"/>
+<area shape="rect" id="Node000003" href="$AnimCompress_8h.html" title=" " alt="" coords="729,259,923,337"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1223,201,924,276,923,270,1228,199"/>
+<area shape="rect" id="Node000007" href="$AnimCompress__RemoveLinearKeys_8h.html" title=" " alt="" coords="1204,385,1472,464"/>
+<area shape="poly" id="edge12_Node000002_Node000007" title=" " alt="" coords="1340,225,1340,386,1336,383,1336,228"/>
+<area shape="rect" id="Node000008" href="$AnimCompress__PerTrackCompression_8h.html" title=" " alt="" coords="1281,512,1566,591"/>
+<area shape="poly" id="edge11_Node000002_Node000008" title=" " alt="" coords="1387,220,1443,294,1468,338,1487,385,1495,425,1487,465,1476,490,1460,514,1457,509,1471,488,1482,463,1490,425,1482,386,1464,340,1439,297,1385,225"/>
+<area shape="rect" id="Node000004" href="$AnimCompress__BitwiseCompressOnly_8h.html" title=" " alt="" coords="5,385,290,464"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="711,317,524,349,309,388,291,392,289,387,308,383,523,344,716,315"/>
+<area shape="rect" id="Node000005" href="$AnimCompress__LeastDestructive_8h.html" title=" " alt="" coords="112,512,365,591"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="711,310,615,324,510,340,417,362,381,374,354,388,336,404,326,422,318,442,304,465,269,513,266,509,300,463,313,439,321,419,332,401,351,383,379,369,416,356,509,335,614,319,716,309"/>
+<area shape="rect" id="Node000006" href="$AnimCompress__RemoveEverySecondKey_8h.html" title=" " alt="" coords="365,385,668,464"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="718,343,614,387,612,382,713,344"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="939,322,1192,383,1206,388,1201,388,1191,388,938,328"/>
+<area shape="rect" id="Node000009" href="$AnimCompress__RemoveTrivialKeys_8h.html" title=" " alt="" coords="692,385,960,464"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="828,351,828,386,824,383,824,355"/>
+<area shape="rect" id="Node000010" href="$AnimStreamable_8h.html" title=" " alt="" coords="985,385,1179,464"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="920,342,1005,385,1000,385,919,347"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="186,474,213,512,207,511,184,479"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1375,475,1399,513,1395,510,1372,480"/>
+</map>

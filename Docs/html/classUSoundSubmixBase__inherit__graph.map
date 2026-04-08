@@ -1,0 +1,15 @@
+<map id="USoundSubmixBase" name="USoundSubmixBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="262,126,456,511"/>
+<area shape="rect" id="Node000003" href="$classUEndpointSubmix.html" title=" " alt="" coords="5,645,228,829"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="254,501,172,647,167,645,256,496"/>
+<area shape="rect" id="Node000004" href="$classUSoundSubmixWithParentBase.html" title=" " alt="" coords="253,567,466,908"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="360,523,362,568,357,567,359,528"/>
+<area shape="rect" id="Node000007" href="$classUSoundfieldEndpointSubmix.html" title=" " alt="" coords="491,559,690,916"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="463,505,495,559,489,559,464,510"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="328,5,391,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="360,90,362,126,357,126,359,95"/>
+<area shape="rect" id="Node000005" href="$classUSoundSubmix.html" title=" " alt="" coords="87,964,352,1813"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="321,919,313,965,308,963,319,925"/>
+<area shape="rect" id="Node000006" href="$classUSoundfieldSubmix.html" title=" " alt="" coords="376,1240,622,1536"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="400,920,471,1241,465,1241,398,924"/>
+</map>

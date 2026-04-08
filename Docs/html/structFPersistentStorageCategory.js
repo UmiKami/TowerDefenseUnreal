@@ -1,0 +1,27 @@
+var structFPersistentStorageCategory =
+[
+    [ "CategoryStat", "structFPersistentStorageCategory_1_1CategoryStat.html", "structFPersistentStorageCategory_1_1CategoryStat" ],
+    [ "FPersistentStorageCategory", "structFPersistentStorageCategory.html#a3d79f4e247caba05c7574e0d9a53f4f0", null ],
+    [ "AddOrUpdateFile", "structFPersistentStorageCategory.html#a996b00d221baf6b76306fb6cf408d6d5", null ],
+    [ "GetAvailableSize", "structFPersistentStorageCategory.html#afacc3ea8e68167d85d5ca6bd3189fca9", null ],
+    [ "GetCategoryName", "structFPersistentStorageCategory.html#a16588b504f0ac14b71ef3655f82d6003", null ],
+    [ "GetCategoryOptionalQuota", "structFPersistentStorageCategory.html#a1ff5a9b0c496cb5cf5e2bace7c2002b2", null ],
+    [ "GetCategoryQuota", "structFPersistentStorageCategory.html#a51e166ec85808f1ff4fa4ff48cafce26", null ],
+    [ "GetDirectories", "structFPersistentStorageCategory.html#abc17047c8dbb7f73fe40088d9619d20c", null ],
+    [ "GetLockRegistry", "structFPersistentStorageCategory.html#a7814086014b0ad7dba8d79bc3818ad6f", null ],
+    [ "GetStat", "structFPersistentStorageCategory.html#a95aca1a00ec3c337d94694e1231b1385", null ],
+    [ "GetUsedSize", "structFPersistentStorageCategory.html#a18cd0120702228d1795a233b3c5e0564", null ],
+    [ "IsCategoryFull", "structFPersistentStorageCategory.html#adc56abd993192a0b6421c075a6ea0693", null ],
+    [ "IsInCategory", "structFPersistentStorageCategory.html#a1157d152281f1c73f31ad2897bee80c7", null ],
+    [ "RemoveFile", "structFPersistentStorageCategory.html#aab21dc21796c839cc40d634ba4d99dc1", null ],
+    [ "ShouldManageFile", "structFPersistentStorageCategory.html#ad7caff2b9a655737b5a00e5c43a8d9fe", null ],
+    [ "TryUpdateQuota", "structFPersistentStorageCategory.html#aaf92dbfb11f093d2b832a578b2ecee4f", null ],
+    [ "CategoryName", "structFPersistentStorageCategory.html#ab13bf3a537a540cfd2547955fb34aa83", null ],
+    [ "Directories", "structFPersistentStorageCategory.html#a4bb9c4b66bec5cf66b1d7c22b1d758f3", null ],
+    [ "FileLockRegistry", "structFPersistentStorageCategory.html#ac73b8e1cf8dc1cb5c76ba166bb9b3454", null ],
+    [ "FileSizes", "structFPersistentStorageCategory.html#a4100925990d4b2d9e9c712d160afdf3f", null ],
+    [ "FileSizesLock", "structFPersistentStorageCategory.html#a25cecc91416224417a9b608cc83584d7", null ],
+    [ "OptionalStorageQuota", "structFPersistentStorageCategory.html#a187026dd1250285a40ce8030b69a726a", null ],
+    [ "StorageQuota", "structFPersistentStorageCategory.html#a9590fc0ff1b95eab432ba6f0d8032679", null ],
+    [ "UsedQuota", "structFPersistentStorageCategory.html#a1858aeff44cbe01e8a7199e7ebec23bc", null ]
+];

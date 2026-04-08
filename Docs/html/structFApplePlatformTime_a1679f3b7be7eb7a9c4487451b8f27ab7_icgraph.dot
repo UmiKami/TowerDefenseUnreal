@@ -1,0 +1,15 @@
+digraph "FApplePlatformTime::Cycles"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FApplePlatformTime\l::Cycles",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FApplePlatformTime\l::Cycles64",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFApplePlatformTime.html#a5906835b173364f8b947e8ae26e2ae01",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FApplePlatformTime\l::Seconds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFApplePlatformTime.html#a1e5e517d418cc7a885fb346868999d86",tooltip=" "];
+}

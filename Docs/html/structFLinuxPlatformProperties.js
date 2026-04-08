@@ -1,0 +1,25 @@
+var structFLinuxPlatformProperties =
+[
+    [ "AllowsCallStackDumpDuringAssert", "structFLinuxPlatformProperties.html#a398a2e7a81c1f0717cc6d7d10305caa1", null ],
+    [ "AllowsFramerateSmoothing", "structFLinuxPlatformProperties.html#a079b917dacede4207a56550491ac0b38", null ],
+    [ "GetMemoryMappingAlignment", "structFLinuxPlatformProperties.html#a2518b1ebfa5750062f19e5e1a367c403", null ],
+    [ "GetRuntimeSettingsClassName", "structFLinuxPlatformProperties.html#a94be452e775d80fd35cc98cd74efbc7b", null ],
+    [ "GetVariantPriority", "structFLinuxPlatformProperties.html#ada832277376bab32ebed567606756987", null ],
+    [ "HasEditorOnlyData", "structFLinuxPlatformProperties.html#ac9bc8a349c146193f8b86420b3abf0a9", null ],
+    [ "HasFixedResolution", "structFLinuxPlatformProperties.html#a6d7722d94ca1fd9b1c2f3d3b0a1e2172", null ],
+    [ "HasSecurePackageFormat", "structFLinuxPlatformProperties.html#ac6910ef8e9660c5fa0e2132514ff899f", null ],
+    [ "IniPlatformName", "structFLinuxPlatformProperties.html#a6ac17c694b73231abbabd27221fd8d73", null ],
+    [ "IsArm64", "structFLinuxPlatformProperties.html#acabab76de6a986e5fae4c4af504c89d4", null ],
+    [ "IsClientOnly", "structFLinuxPlatformProperties.html#a0bf69f1e710da17700cd8127ba858517", null ],
+    [ "IsGameOnly", "structFLinuxPlatformProperties.html#ab51d13adfabddd007c2d33ec07487a16", null ],
+    [ "IsServerOnly", "structFLinuxPlatformProperties.html#a6415600e9bfb677007237463289b1bb9", null ],
+    [ "PlatformName", "structFLinuxPlatformProperties.html#a77a567e5e2c21ba31d62a30eb007ec31", null ],
+    [ "RequiresCookedData", "structFLinuxPlatformProperties.html#aaae1a5ece13cf6fdeea812a2a8de89d0", null ],
+    [ "RequiresUserCredentials", "structFLinuxPlatformProperties.html#ad5eb557604be514c60564187c5501f92", null ],
+    [ "SupportsAudioStreaming", "structFLinuxPlatformProperties.html#a7d8b19f71c3eb048c2751c256595c9cb", null ],
+    [ "SupportsAutoSDK", "structFLinuxPlatformProperties.html#af6701470b9c0d737468ac35b049612d1", null ],
+    [ "SupportsMultipleGameInstances", "structFLinuxPlatformProperties.html#ad019bef149049db59a7950fdc0db7034", null ],
+    [ "SupportsQuit", "structFLinuxPlatformProperties.html#ab592dd79dfadec0c28a123f530a6e9f1", null ],
+    [ "SupportsRayTracing", "structFLinuxPlatformProperties.html#a9c65177c03ca832e7612e18cb42abcf6", null ],
+    [ "SupportsWindowedMode", "structFLinuxPlatformProperties.html#afc770deec4c4465d1f4e5640e7d506aa", null ]
+];

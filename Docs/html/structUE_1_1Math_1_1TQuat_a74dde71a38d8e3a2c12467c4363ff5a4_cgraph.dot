@@ -1,0 +1,31 @@
+digraph "UE::Math::TQuat::IsIdentity"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Math::TQuat::IsIdentity",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Math::TQuat::Equals",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structUE_1_1Math_1_1TQuat.html#aef3bef61d87c4ed76f04c022858917d6",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Math::TQuat::TQuat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structUE_1_1Math_1_1TQuat.html#aa00eaeaefa4ce44b9e1abec419496faa",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="VectorAbs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$UnrealMathFPU_8h.html#ab9814b1f1bffd9aed9cf20196375c8ba",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="VectorAdd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$UnrealMathFPU_8h.html#abf7bfa77d888eda9563159b57f10c55f",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="VectorAnyGreaterThan",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$UnrealMathFPU_8h.html#a41e2a97036d7ebcb0763f1ea919e7767",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="VectorLoadAligned",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$UnrealMathFPU_8h.html#a50d6614d62a81f173e926fe880c5f48a",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="VectorLoad",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$UnrealMathFPU_8h.html#a7b647256a2fdfa30b641b9fc152408d0",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="MakeVectorRegisterFloat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$UnrealMathFPU_8h.html#a0455131f2d8e67175bd5edfbd9f5acc9",tooltip=" "];
+  Node2 -> Node10 [id="edge9_Node000002_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="VectorLoadFloat1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$UnrealMathFPU_8h.html#a4902f8e7011c5f7bfcd1953ca1f08ea1",tooltip=" "];
+  Node10 -> Node9 [id="edge10_Node000010_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node11 [id="edge11_Node000002_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="VectorSubtract",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$UnrealMathFPU_8h.html#a9d54d08ff950ce0c68c873cd0a050e71",tooltip=" "];
+}

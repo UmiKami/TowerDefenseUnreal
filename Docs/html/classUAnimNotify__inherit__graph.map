@@ -1,0 +1,17 @@
+<map id="UAnimNotify" name="UAnimNotify">
+<area shape="rect" id="Node000001" title=" " alt="" coords="702,126,932,466"/>
+<area shape="rect" id="Node000003" href="$classUAnimNotify__PauseClothingSimulation.html" title=" " alt="" coords="5,626,255,799"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="686,327,591,356,481,397,371,449,318,481,269,516,242,541,218,569,177,628,172,625,213,565,238,537,266,512,315,476,368,445,479,392,589,351,690,324"/>
+<area shape="rect" id="Node000004" href="$classUAnimNotify__PlayParticleEffect.html" title=" " alt="" coords="280,514,530,911"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="692,384,616,448,544,516,532,530,528,526,540,512,613,444,688,387"/>
+<area shape="rect" id="Node000005" href="$classUAnimNotify__PlaySound.html" title=" " alt="" coords="555,587,805,838"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="758,478,723,589,719,586,754,482"/>
+<area shape="rect" id="Node000006" href="$classUAnimNotify__ResetClothingSimulation.html" title=" " alt="" coords="829,626,1079,799"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="879,478,929,627,924,625,876,482"/>
+<area shape="rect" id="Node000007" href="$classUAnimNotify__ResetDynamics.html" title=" " alt="" coords="1104,643,1354,782"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="945,383,1021,444,1094,512,1147,577,1191,644,1186,642,1142,580,1090,516,1018,448,944,388"/>
+<area shape="rect" id="Node000008" href="$classUAnimNotify__ResumeClothingSimulation.html" title=" " alt="" coords="1379,626,1629,799"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="946,323,1045,351,1155,392,1266,445,1319,476,1368,512,1396,537,1421,565,1462,627,1457,625,1416,569,1392,541,1365,516,1316,481,1263,449,1153,397,1043,356,946,328"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="786,5,848,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="818,90,819,127,815,125,816,95"/>
+</map>

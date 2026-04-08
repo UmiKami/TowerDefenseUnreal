@@ -1,0 +1,13 @@
+<map id="FTTTrackBase" name="FTTTrackBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="102,5,241,189"/>
+<area shape="rect" id="Node000002" href="$structFTTEventTrack.html" title=" " alt="" coords="5,237,159,399"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,206,117,239,112,237,130,201"/>
+<area shape="rect" id="Node000003" href="$structFTTPropertyTrack.html" title=" " alt="" coords="184,271,338,366"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,201,245,271,240,271,214,206"/>
+<area shape="rect" id="Node000004" href="$structFTTFloatTrack.html" title=" " alt="" coords="23,447,152,542"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="207,374,135,449,132,445,203,377"/>
+<area shape="rect" id="Node000005" href="$structFTTLinearColorTrack.html" title=" " alt="" coords="176,447,346,542"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="263,378,263,448,259,446,259,382"/>
+<area shape="rect" id="Node000006" href="$structFTTVectorTrack.html" title=" " alt="" coords="371,447,509,542"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="320,373,395,447,390,447,318,378"/>
+</map>

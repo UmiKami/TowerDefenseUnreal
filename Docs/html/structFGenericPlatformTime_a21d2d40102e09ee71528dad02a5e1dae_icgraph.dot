@@ -1,0 +1,31 @@
+digraph "FGenericPlatformTime::ToSeconds64"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FGenericPlatformTime\l::ToSeconds64",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::FTimeout::GetElapsed\lSeconds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1FTimeout.html#a7867cd2ce17a22e0e5b5895de472bdee",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::FTimeout::GetElapsedTime",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1FTimeout.html#a495889c830f519839e28182a71ed56c6",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::FTimeout::GetRemaining\lSeconds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1FTimeout.html#a930d9fd136a0576c15946dc75ad5215b",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::FTimeout::GetRemainingTime",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1FTimeout.html#abf2af7d33cd432ed84869185fa6e2e34",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::FTimeout::GetRemaining\lRoundedUpMilliseconds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1FTimeout.html#a8e1b9a0f459fc6515c10be996cbd9570",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE::FTimeout::GetTimeout\lSeconds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1FTimeout.html#aabee79e17c3026f0ca3b8883920d7a18",tooltip=" "];
+  Node7 -> Node4 [id="edge7_Node000007_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node8 [id="edge8_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="UE::FTimeout::GetTimeout\lValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1FTimeout.html#a0a168fa068e539654ec1ce3ad355d740",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FGenericPlatformTime\l::ToMilliseconds64",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFGenericPlatformTime.html#ab12687631b7aab78d7ab83be94ac2b2d",tooltip=" "];
+  Node9 -> Node10 [id="edge10_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="Audio::FQuartzLatencyTimer\l::GetCurrentTimePassedMs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classAudio_1_1FQuartzLatencyTimer.html#a34ffd877c06288c5cb3c3b54a6163123",tooltip=" "];
+  Node9 -> Node11 [id="edge11_Node000009_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="Audio::FQuartzLatencyTimer\l::GetResultsMilliseconds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classAudio_1_1FQuartzLatencyTimer.html#aa8f3fd93bb2b396e0fa38b086ce0c30b",tooltip=" "];
+}

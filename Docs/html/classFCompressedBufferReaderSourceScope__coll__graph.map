@@ -1,0 +1,43 @@
+<map id="FCompressedBufferReaderSourceScope" name="FCompressedBufferReaderSourceScope">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1337,4773,1583,4958"/>
+<area shape="rect" id="Node000002" href="$classFCompressedBufferReader.html" title=" " alt="" coords="1350,4293,1570,4700"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1462,4698,1462,4758,1458,4755,1458,4702"/>
+<area shape="rect" id="Node000003" href="$classFArchive.html" title=" " alt="" coords="1025,3215,1278,4220"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1279,4124,1338,4268,1345,4287,1340,4285,1333,4270,1277,4129"/>
+<area shape="rect" id="Node000004" href="$structFArchiveState.html" title=" " alt="" coords="636,1564,889,2670"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="893,2649,1032,3215,1027,3215,892,2655"/>
+<area shape="poly" id="edge13_Node000004_Node000004" title=" " alt="" coords="888,2019,901,2036,909,2058,916,2117,912,2165,900,2200,895,2198,906,2164,910,2117,904,2059,896,2038,889,2024"/>
+<area shape="rect" id="Node000005" href="$structFArchiveState_1_1FFastPathLoadBuffer.html" title=" " alt="" coords="5,1154,210,1310"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="139,1307,179,1387,225,1468,322,1606,427,1741,532,1864,627,1971,622,1973,528,1868,423,1744,317,1610,220,1470,174,1389,140,1312"/>
+<area shape="rect" id="Node000006" href="$structFPackageFileVersion.html" title=" " alt="" coords="234,1006,405,1458"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="405,1441,420,1468,524,1678,630,1877,625,1878,520,1681,415,1470,406,1446"/>
+<area shape="rect" id="Node000007" href="$classFEngineVersionBase.html" title=" " alt="" coords="430,1050,640,1413"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="581,1410,635,1610,629,1610,581,1416"/>
+<area shape="rect" id="Node000008" href="$classFCustomVersionContainer.html" title=" " alt="" coords="664,1084,862,1380"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="763,1377,765,1548,760,1547,762,1382"/>
+<area shape="rect" id="Node000009" href="$classTArray.html" title=" " alt="" coords="658,207,868,922"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="763,919,765,1067,760,1067,762,924"/>
+<area shape="rect" id="Node000010" href="$structFArchiveSavePackageData.html" title=" " alt="" coords="885,1173,1096,1290"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="986,1288,975,1407,952,1541,926,1642,897,1744,892,1743,921,1641,947,1540,970,1406,985,1293"/>
+<area shape="rect" id="Node000011" href="$structFArchiveSerializedPropertyChain.html" title=" " alt="" coords="1120,1070,1350,1394"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="1167,1396,1102,1542,1002,1727,900,1900,895,1898,997,1724,1097,1539,1169,1391"/>
+<area shape="rect" id="Node000012" href="$classTArray.html" title=" " alt="" coords="1123,248,1333,880"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1231,877,1235,1053,1230,1053,1231,883"/>
+<area shape="rect" id="Node000013" href="$classTSizedInlineAllocator.html" title=" " alt="" coords="1254,5,1434,112"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1324,114,1320,136,1295,233,1290,231,1315,135,1326,109"/>
+<area shape="rect" id="Node000016" href="$classTArray.html" title=" " alt="" coords="1358,248,1568,880"/>
+<area shape="poly" id="edge19_Node000016_Node000013" title=" " alt="" coords="1389,109,1405,135,1422,182,1436,232,1431,232,1417,184,1400,137,1390,114"/>
+<area shape="rect" id="Node000014" href="$classFCompressedBuffer.html" title=" " alt="" coords="1376,2694,1544,3191"/>
+<area shape="poly" id="edge14_Node000002_Node000014" title=" " alt="" coords="1462,3189,1462,4277,1457,4276,1458,3192"/>
+<area shape="poly" id="edge15_Node000014_Node000014" title=" " alt="" coords="1544,2804,1556,2825,1564,2854,1569,2894,1570,2943,1566,3016,1554,3065,1549,3062,1561,3015,1565,2943,1563,2894,1558,2855,1551,2827,1543,2810"/>
+<area shape="rect" id="Node000015" href="$classFCompositeBuffer.html" title=" " alt="" coords="1382,995,1537,1469"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="1461,1467,1462,2678,1457,2677,1459,1471"/>
+<area shape="poly" id="edge17_Node000015_Node000015" title=" " alt="" coords="1537,1181,1549,1188,1557,1199,1562,1213,1564,1232,1561,1255,1553,1271,1548,1269,1556,1253,1559,1232,1557,1215,1552,1201,1545,1192,1538,1186"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="1462,877,1463,978,1458,977,1461,883"/>
+<area shape="rect" id="Node000017" href="$structUE_1_1CompressedBuffer_1_1Private_1_1FDecoderContext.html" title=" " alt="" coords="1600,3639,1786,3796"/>
+<area shape="poly" id="edge20_Node000002_Node000017" title=" " alt="" coords="1677,3793,1631,3990,1565,4221,1546,4279,1542,4275,1560,4219,1625,3988,1674,3798"/>
+<area shape="rect" id="Node000018" href="$classFUniqueBuffer.html" title=" " alt="" coords="1678,1869,1813,2366"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="1739,2364,1699,3623,1694,3622,1735,2368"/>
+<area shape="rect" id="Node000019" href="$classUE_1_1SharedBuffer_1_1Private_1_1TBufferOwnerPtr.html" title=" " alt="" coords="1630,1034,1881,1430"/>
+<area shape="poly" id="edge22_Node000018_Node000019" title=" " alt="" coords="1754,1427,1751,1852,1746,1851,1753,1432"/>
+</map>

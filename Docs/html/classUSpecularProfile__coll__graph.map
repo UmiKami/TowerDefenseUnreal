@@ -1,0 +1,22 @@
+<map id="USpecularProfile" name="USpecularProfile">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,2120,193,2237"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="47,1941,109,2014"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,2026,96,2120,91,2120,82,2031"/>
+<area shape="rect" id="Node000003" href="$structFSpecularProfileStruct.html" title=" " alt="" coords="133,1908,314,2047"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,2045,146,2108,142,2105,179,2049"/>
+<area shape="rect" id="Node000004" href="$structFRuntimeCurveLinearColor.html" title=" " alt="" coords="130,1740,316,1812"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="224,1810,226,1891,221,1890,222,1815"/>
+<area shape="rect" id="Node000005" href="$structFRichCurve.html" title=" " alt="" coords="102,1327,344,1667"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="224,1664,226,1724,221,1723,223,1669"/>
+<area shape="rect" id="Node000006" href="$structFRealCurve.html" title=" " alt="" coords="139,937,307,1277"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="224,1290,226,1327,221,1327,223,1295"/>
+<area shape="poly" id="edge11_Node000006_Node000006" title=" " alt="" coords="306,1071,327,1084,334,1107,331,1122,324,1133,320,1131,326,1121,329,1107,322,1087,308,1076"/>
+<area shape="rect" id="Node000007" href="$structFIndexedCurve.html" title=" " alt="" coords="302,396,534,888"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="309,904,297,938,292,937,310,899"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="533,595,553,613,560,642,557,662,549,677,544,675,552,660,555,642,549,616,534,600"/>
+<area shape="rect" id="Node000008" href="$structFKeyHandle.html" title=" " alt="" coords="137,61,261,268"/>
+<area shape="poly" id="edge10_Node000006_Node000008" title=" " alt="" coords="178,270,163,397,151,535,144,643,147,750,163,887,168,920,163,920,157,888,142,750,139,642,145,534,157,396,178,265"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="246,264,301,380,296,381,246,270"/>
+<area shape="rect" id="Node000009" href="$structFKeyHandleMap.html" title=" " alt="" coords="336,5,500,323"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="418,321,421,380,415,379,418,326"/>
+</map>

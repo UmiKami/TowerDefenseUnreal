@@ -1,0 +1,19 @@
+<map id="INavAgentInterface" name="INavAgentInterface">
+<area shape="rect" id="Node000001" title=" " alt="" coords="261,5,479,234"/>
+<area shape="rect" id="Node000002" href="$classAController.html" title=" " alt="" coords="5,282,239,1265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,249,253,283,242,307,237,305,248,281,271,244"/>
+<area shape="rect" id="Node000003" href="$classANavigationObjectBase.html" title=" " alt="" coords="263,581,478,966"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="371,246,373,581,368,581,370,251"/>
+<area shape="rect" id="Node000006" href="$classAPawn.html" title=" " alt="" coords="502,285,756,1262"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="470,244,493,281,504,305,499,306,488,283,471,249"/>
+<area shape="rect" id="Node000004" href="$classAPlayerStart.html" title=" " alt="" coords="310,1925,431,1998"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="372,979,373,1926,368,1925,368,982"/>
+<area shape="rect" id="Node000005" href="$classAPlayerStartPIE.html" title=" " alt="" coords="314,2680,426,2753"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="373,2012,373,2681,368,2680,368,2013"/>
+<area shape="rect" id="Node000007" href="$classACharacter.html" title=" " alt="" coords="473,1313,747,2610"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="622,1274,623,1314,618,1312,621,1280"/>
+<area shape="rect" id="Node000008" href="$classADefaultPawn.html" title=" " alt="" coords="772,1735,1006,2187"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="752,1274,762,1312,849,1736,844,1735,757,1313,751,1279"/>
+<area shape="rect" id="Node000009" href="$classASpectatorPawn.html" title=" " alt="" coords="827,2658,951,2775"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="891,2200,892,2659,886,2657,887,2203"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="MemoryTrace_UnmarkAllocAsHeap" name="MemoryTrace_UnmarkAllocAsHeap">
+<area shape="rect" id="Node000001" title=" " alt="" coords="569,198,820,226"/>
+<area shape="rect" id="Node000002" href="$classTLinearAllocatorBase.html#addbd9a9df408f98a0b41a016cc443936" title=" " alt="" coords="311,143,514,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="571,196,515,190,515,185,577,195"/>
+<area shape="rect" id="Node000007" href="$structTLinearAllocatorBase_1_1FTLSCleanup.html#aafb01890ac3177d97b2f33cd3e7590e6" title=" " alt="" coords="305,228,521,273"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="571,229,522,239,521,233,577,228"/>
+<area shape="rect" id="Node000003" href="$classTConcurrentLinearBulkObjectAllocator.html#a7315f0b4efbf043fea81fdd1dbc6b566" title=" " alt="" coords="5,5,257,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="351,134,306,108,256,81,231,70,230,65,258,76,308,103,356,134"/>
+<area shape="rect" id="Node000004" href="$structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_ebfca0ca727d882be72a3faf47657acc.html#ab8f462c72b42809c39cc833b9a44f541" title=" " alt="" coords="13,92,249,170"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="293,157,249,151,249,146,299,155"/>
+<area shape="rect" id="Node000005" href="$classTConcurrentLinearObject.html#af3f9b13fb5ab4ed27ac1334386a96fc7" title=" " alt="" coords="40,194,222,238"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="293,192,223,205,222,200,298,190"/>
+<area shape="rect" id="Node000006" href="$classTConcurrentLinearObject.html#afbe7373d66f800a0b1da308af8ddf7a7" title=" " alt="" coords="40,263,222,308"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="316,210,306,218,282,236,258,253,224,267,222,262,255,248,279,232,303,214,311,212"/>
+</map>

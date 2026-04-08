@@ -1,0 +1,27 @@
+var classFVirtualAllocator =
+[
+    [ "FFreeLink", "structFVirtualAllocator_1_1FFreeLink.html", "structFVirtualAllocator_1_1FFreeLink" ],
+    [ "FPerBlockSize", "structFVirtualAllocator_1_1FPerBlockSize.html", "structFVirtualAllocator_1_1FPerBlockSize" ],
+    [ "FVirtualAllocatorStatsPerBlockSize", "structFVirtualAllocator_1_1FVirtualAllocatorStatsPerBlockSize.html", "structFVirtualAllocator_1_1FVirtualAllocatorStatsPerBlockSize" ],
+    [ "FVirtualAllocatorStats", "structFVirtualAllocator_1_1FVirtualAllocatorStats.html", "structFVirtualAllocator_1_1FVirtualAllocatorStats" ],
+    [ "FVirtualAllocator", "classFVirtualAllocator.html#abbcb0bb68a21b9f4842eb660055cdbf2", null ],
+    [ "~FVirtualAllocator", "classFVirtualAllocator.html#a05855ab9c5f120d7bfe9eefb23acf8ac", null ],
+    [ "AllocateVirtualPages", "classFVirtualAllocator.html#a2af10279b46f99ab58cf093ca06a2d42", null ],
+    [ "AllocNewVM", "classFVirtualAllocator.html#abaf958914f69c0a3710c0ceec8f23172", null ],
+    [ "FreeVirtual", "classFVirtualAllocator.html#aaad3b00fba016eb24d84f7801cf9a285", null ],
+    [ "FreeVirtualByBlock", "classFVirtualAllocator.html#ade19d9ff3b04c0361abb7454710a2783", null ],
+    [ "GetPagesForSizeAndAlignment", "classFVirtualAllocator.html#a6ec77a4efbb0aa8487aef347a41380e9", null ],
+    [ "GetStats", "classFVirtualAllocator.html#aa06a18b494b4b5ab9c3c3b317dbbd500", null ],
+    [ "bBacksMalloc", "classFVirtualAllocator.html#a360a801eefb0b2e6c86d2403507a5f23", null ],
+    [ "Blocks", "classFVirtualAllocator.html#a43989eb07a8770f48298a2cda2d49fbd", null ],
+    [ "CriticalSection", "classFVirtualAllocator.html#afe4cfebddd7f31e333553f34750edbe2", null ],
+    [ "HighAddress", "classFVirtualAllocator.html#a1cb7f502a5fe7da282ca5a12fbe86996", null ],
+    [ "LinkSize", "classFVirtualAllocator.html#a72803effa18988bff85dd6f2ee4c4cd6", null ],
+    [ "LowAddress", "classFVirtualAllocator.html#a3404d6505e18da347571329e2504149b", null ],
+    [ "MaximumAlignment", "classFVirtualAllocator.html#af219e6993163376a354d7674e2eb7975", null ],
+    [ "NextAlloc", "classFVirtualAllocator.html#a84028864f747d3672de6fba750eb08d2", null ],
+    [ "PageSize", "classFVirtualAllocator.html#a98cc8fa3ad97745542d7e700b0ea1086", null ],
+    [ "RecycledLinks", "classFVirtualAllocator.html#ae3f11bbe844b0f90bd9bb2966025ba3e", null ],
+    [ "SpaceConsumed", "classFVirtualAllocator.html#ae8683d9bf069c2cb19b0ba9bd596f099", null ],
+    [ "TotalSize", "classFVirtualAllocator.html#a3b724439edd74b64fc403de4d91738e6", null ]
+];

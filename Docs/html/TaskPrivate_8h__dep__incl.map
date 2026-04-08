@@ -1,0 +1,73 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Core/Public/Tasks/TaskPrivate.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Core/Public/Tasks/TaskPrivate.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="2740,5,2969,67"/>
+<area shape="rect" id="Node000002" href="$TaskGraphInterfaces_8h.html" title=" " alt="" coords="1716,115,1929,194"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2722,53,1930,144,1929,138,2727,51"/>
+<area shape="rect" id="Node000028" href="$Pipe_8h.html" title=" " alt="" coords="2829,250,3011,312"/>
+<area shape="poly" id="edge31_Node000001_Node000028" title=" " alt="" coords="2860,80,2869,136,2883,193,2906,251,2901,249,2877,194,2864,137,2857,85"/>
+<area shape="rect" id="Node000029" href="$Tasks_2Task_8h.html" title=" " alt="" coords="2892,124,3076,185"/>
+<area shape="poly" id="edge32_Node000001_Node000029" title=" " alt="" coords="2900,75,2953,124,2948,122,2899,80"/>
+<area shape="rect" id="Node000003" href="$Async_8h.html" title=" " alt="" coords="2204,250,2401,312"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1944,181,2175,239,2207,250,2201,250,2174,244,1944,187"/>
+<area shape="rect" id="Node000005" href="$IPlatformFileManagedStorageWrapper_8h.html" title=" " alt="" coords="2441,368,2655,447"/>
+<area shape="poly" id="edge14_Node000002_Node000005" title=" " alt="" coords="1944,160,2070,171,2206,187,2329,210,2378,224,2415,239,2452,266,2484,300,2510,335,2530,369,2525,367,2506,338,2480,303,2448,270,2412,244,2376,229,2328,215,2205,192,2069,176,1945,166"/>
+<area shape="rect" id="Node000008" href="$CoreSharedPCH_8h.html" title=" " alt="" coords="1832,512,2048,574"/>
+<area shape="poly" id="edge12_Node000002_Node000008" title=" " alt="" coords="1858,205,1876,241,1901,315,1919,391,1939,513,1934,510,1914,392,1895,317,1871,243,1855,210"/>
+<area shape="rect" id="Node000009" href="$LocalWorkQueue_8h.html" title=" " alt="" coords="948,242,1161,320"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="1698,166,1456,195,1314,217,1174,244,1163,247,1161,242,1173,239,1313,212,1455,190,1703,165"/>
+<area shape="rect" id="Node000010" href="$ParallelFor_8h.html" title=" " alt="" coords="1936,250,2162,312"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="1907,199,1997,250,1992,249,1906,204"/>
+<area shape="rect" id="Node000011" href="$FileCache_8h.html" title=" " alt="" coords="1185,242,1362,320"/>
+<area shape="poly" id="edge13_Node000002_Node000011" title=" " alt="" coords="1698,174,1544,204,1374,244,1363,248,1361,243,1373,239,1543,199,1703,172"/>
+<area shape="rect" id="Node000012" href="$MallocBinnedCommonUtils_8h.html" title=" " alt="" coords="1386,242,1606,320"/>
+<area shape="poly" id="edge15_Node000002_Node000012" title=" " alt="" coords="1710,199,1598,244,1597,239,1705,200"/>
+<area shape="rect" id="Node000013" href="$IoDispatcher_8h.html" title=" " alt="" coords="2590,250,2804,312"/>
+<area shape="poly" id="edge16_Node000002_Node000013" title=" " alt="" coords="1945,166,2205,196,2508,239,2593,257,2587,257,2508,244,2204,201,1945,171"/>
+<area shape="rect" id="Node000016" href="$QueuedThreadPoolWrapper_8h.html" title=" " alt="" coords="1630,242,1861,320"/>
+<area shape="poly" id="edge19_Node000002_Node000016" title=" " alt="" coords="1793,206,1771,243,1768,239,1788,209"/>
+<area shape="rect" id="Node000017" href="$ParticleSystem_8h.html" title=" " alt="" coords="492,242,676,320"/>
+<area shape="poly" id="edge20_Node000002_Node000017" title=" " alt="" coords="1698,155,1505,160,1253,172,1114,183,972,198,830,219,691,244,677,248,675,243,690,239,829,213,971,193,1114,178,1252,167,1505,155,1703,154"/>
+<area shape="rect" id="Node000026" href="$BodySetup_8h.html" title=" " alt="" coords="703,242,924,320"/>
+<area shape="poly" id="edge29_Node000002_Node000026" title=" " alt="" coords="1698,160,1546,171,1355,186,1145,210,937,244,925,247,923,242,935,239,1145,204,1354,180,1546,165,1703,159"/>
+<area shape="rect" id="Node000004" href="$CoroParallelFor_8h.html" title=" " alt="" coords="1977,368,2180,447"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="2238,319,2149,370,2148,365,2233,320"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="2376,317,2474,368,2469,367,2375,322"/>
+<area shape="rect" id="Node000006" href="$AutomationTest_8h.html" title=" " alt="" coords="2204,368,2417,447"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="2307,326,2310,369,2306,366,2304,330"/>
+<area shape="rect" id="Node000007" href="$Core_8h.html" title=" " alt="" coords="2222,512,2399,574"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="2312,460,2313,513,2309,510,2309,464"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="2192,452,2025,514,2024,509,2187,453"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="2061,325,2072,369,2067,366,2058,329"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="2002,321,1983,346,1968,370,1954,406,1946,444,1941,513,1937,510,1941,444,1949,404,1963,367,1979,343,1997,324"/>
+<area shape="rect" id="Node000014" href="$IoDispatcherBackend_8h.html" title=" " alt="" coords="2887,368,3089,447"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="2782,316,2900,368,2895,367,2781,321"/>
+<area shape="rect" id="Node000015" href="$PackageWriter_8h.html" title=" " alt="" coords="2679,368,2862,447"/>
+<area shape="poly" id="edge18_Node000013_Node000015" title=" " alt="" coords="2724,323,2750,369,2745,367,2722,328"/>
+<area shape="rect" id="Node000018" href="$ParticleSystemComponent_8h.html" title=" " alt="" coords="472,368,682,447"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="582,334,582,369,577,367,580,338"/>
+<area shape="rect" id="Node000019" href="$ParticleModuleEventGenerator_8h.html" title=" " alt="" coords="5,504,283,582"/>
+<area shape="poly" id="edge22_Node000018_Node000019" title=" " alt="" coords="455,447,295,498,270,505,268,501,294,492,459,444"/>
+<area shape="rect" id="Node000020" href="$ParticleModuleEventReceiverBase_8h.html" title=" " alt="" coords="307,495,565,591"/>
+<area shape="poly" id="edge23_Node000018_Node000020" title=" " alt="" coords="528,456,487,497,484,493,523,459"/>
+<area shape="rect" id="Node000023" href="$ParticleModuleParameterDynamic_8h.html" title=" " alt="" coords="589,495,851,591"/>
+<area shape="poly" id="edge26_Node000018_Node000023" title=" " alt="" coords="630,455,672,495,667,494,629,460"/>
+<area shape="rect" id="Node000025" href="$ParticleEventManager_8h.html" title=" " alt="" coords="875,504,1058,582"/>
+<area shape="poly" id="edge28_Node000018_Node000025" title=" " alt="" coords="697,445,783,468,864,492,886,503,880,503,862,498,781,473,697,450"/>
+<area shape="rect" id="Node000021" href="$ParticleModuleEventReceiverKillParticles_8h.html" title=" " alt="" coords="26,639,283,734"/>
+<area shape="poly" id="edge24_Node000020_Node000021" title=" " alt="" coords="331,597,250,640,248,636,326,599"/>
+<area shape="rect" id="Node000022" href="$ParticleModuleEventReceiverSpawn_8h.html" title=" " alt="" coords="307,639,565,734"/>
+<area shape="poly" id="edge25_Node000020_Node000022" title=" " alt="" coords="438,604,438,640,434,637,434,608"/>
+<area shape="rect" id="Node000024" href="$ParticleModuleParameterDynamic__Seeded_8h.html" title=" " alt="" coords="589,639,851,734"/>
+<area shape="poly" id="edge27_Node000023_Node000024" title=" " alt="" coords="722,604,722,640,718,637,718,608"/>
+<area shape="rect" id="Node000027" href="$SkeletalBodySetup_8h.html" title=" " alt="" coords="707,368,928,447"/>
+<area shape="poly" id="edge30_Node000026_Node000027" title=" " alt="" coords="817,334,818,369,814,366,814,338"/>
+<area shape="poly" id="edge33_Node000029_Node000013" title=" " alt="" coords="2903,191,2767,252,2766,247,2898,193"/>
+<area shape="poly" id="edge34_Node000029_Node000028" title=" " alt="" coords="2964,198,2937,252,2934,248,2959,201"/>
+<area shape="rect" id="Node000030" href="$TaskConcurrencyLimiter_8h.html" title=" " alt="" coords="3035,242,3288,320"/>
+<area shape="poly" id="edge35_Node000029_Node000030" title=" " alt="" coords="3040,192,3109,242,3103,240,3038,197"/>
+<area shape="rect" id="Node000031" href="$StaticMesh_8h.html" title=" " alt="" coords="3312,242,3488,320"/>
+<area shape="poly" id="edge36_Node000029_Node000031" title=" " alt="" coords="3091,179,3301,239,3314,246,3309,245,3299,244,3091,185"/>
+<area shape="rect" id="Node000032" href="$InstancedStaticMesh_8h.html" title=" " alt="" coords="3508,368,3684,447"/>
+<area shape="poly" id="edge37_Node000031_Node000032" title=" " alt="" coords="3474,326,3538,368,3532,367,3473,331"/>
+<area shape="rect" id="Node000033" href="$LightWeightInstanceStaticMeshManager_8h.html" title=" " alt="" coords="3185,368,3484,447"/>
+<area shape="poly" id="edge38_Node000031_Node000033" title=" " alt="" coords="3375,333,3356,370,3353,366,3370,336"/>
+</map>

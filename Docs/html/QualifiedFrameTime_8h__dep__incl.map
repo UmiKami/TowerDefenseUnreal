@@ -1,0 +1,97 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Core/Public/Misc/QualifiedFrameTime.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Core/Public/Misc/QualifiedFrameTime.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1070,5,1306,84"/>
+<area shape="rect" id="Node000002" href="$App_8h.html" title=" " alt="" coords="636,140,812,202"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1053,83,814,149,812,144,1057,80"/>
+<area shape="rect" id="Node000044" href="$TimecodeProvider_8h.html" title=" " alt="" coords="1100,132,1276,211"/>
+<area shape="poly" id="edge47_Node000001_Node000044" title=" " alt="" coords="1190,97,1191,133,1186,130,1187,102"/>
+<area shape="rect" id="Node000046" href="$KismetMathLibrary_8h.html" title=" " alt="" coords="1300,132,1476,211"/>
+<area shape="poly" id="edge49_Node000001_Node000046" title=" " alt="" coords="1263,90,1329,131,1323,132,1263,95"/>
+<area shape="rect" id="Node000003" href="$ParallelFor_8h.html" title=" " alt="" coords="151,267,377,329"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="619,200,390,261,363,269,360,264,389,256,623,196"/>
+<area shape="rect" id="Node000004" href="$CoreSharedPCH_8h.html" title=" " alt="" coords="5,394,222,456"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="618,175,492,182,349,196,281,206,222,221,174,239,141,261,121,291,111,326,109,362,111,394,106,394,104,362,106,325,116,288,137,257,171,234,220,216,280,201,348,190,491,177,623,172"/>
+<area shape="rect" id="Node000006" href="$Core_8h.html" title=" " alt="" coords="401,267,578,329"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="652,211,548,269,545,265,656,208"/>
+<area shape="rect" id="Node000007" href="$FeedbackContextAnsi_8h.html" title=" " alt="" coords="602,259,847,337"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="725,216,727,259,722,257,723,220"/>
+<area shape="rect" id="Node000008" href="$MallocBinnedCommonUtils_8h.html" title=" " alt="" coords="871,259,1092,337"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="800,207,904,258,899,258,800,212"/>
+<area shape="rect" id="Node000009" href="$StreamableRenderAsset_8h.html" title=" " alt="" coords="1116,259,1311,337"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="827,190,961,219,1105,256,1119,262,1113,262,1103,261,959,224,828,195"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="215,341,152,395,148,392,217,337"/>
+<area shape="rect" id="Node000005" href="$CoroParallelFor_8h.html" title=" " alt="" coords="245,385,448,464"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="293,339,324,384,318,385,293,345"/>
+<area shape="rect" id="Node000010" href="$SkeletalMesh_8h.html" title=" " alt="" coords="900,512,1076,591"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="1100,343,1046,369,1015,387,999,416,990,449,987,482,986,513,982,510,981,482,985,448,994,414,1012,383,1043,364,1105,341"/>
+<area shape="rect" id="Node000012" href="$SkinnedAsset_8h.html" title=" " alt="" coords="1025,385,1202,464"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="1175,348,1146,387,1143,383,1171,351"/>
+<area shape="rect" id="Node000013" href="$StaticMesh_8h.html" title=" " alt="" coords="1225,385,1402,464"/>
+<area shape="poly" id="edge14_Node000009_Node000013" title=" " alt="" coords="1255,347,1285,385,1280,384,1253,352"/>
+<area shape="rect" id="Node000016" href="$Texture_8h.html" title=" " alt="" coords="3448,385,3624,464"/>
+<area shape="poly" id="edge17_Node000009_Node000016" title=" " alt="" coords="1325,335,1419,349,1530,361,1795,381,2099,397,2420,407,3029,418,3450,423,3445,424,3029,424,2420,413,2099,402,1795,387,1530,366,1419,354,1326,340"/>
+<area shape="rect" id="Node000011" href="$PreviewMeshCollection_8h.html" title=" " alt="" coords="735,639,924,717"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="929,599,880,641,878,636,924,602"/>
+<area shape="poly" id="edge13_Node000012_Node000010" title=" " alt="" coords="1066,474,1029,514,1026,509,1061,477"/>
+<area shape="rect" id="Node000014" href="$InstancedStaticMesh_8h.html" title=" " alt="" coords="1163,512,1339,591"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="1289,476,1272,514,1269,509,1285,480"/>
+<area shape="rect" id="Node000015" href="$LightWeightInstanceStaticMeshManager_8h.html" title=" " alt="" coords="1362,512,1662,591"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="1388,470,1453,512,1448,511,1387,475"/>
+<area shape="rect" id="Node000017" href="$CurveLinearColorAtlas_8h.html" title=" " alt="" coords="948,639,1130,717"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="3430,428,3103,438,2660,453,2221,478,2038,495,1901,515,1836,532,1788,553,1739,574,1674,593,1594,608,1526,615,1408,617,1291,619,1223,626,1143,641,1131,644,1130,639,1142,636,1222,621,1291,614,1408,611,1525,609,1593,602,1673,588,1737,569,1786,548,1834,527,1900,509,2038,489,2220,473,2660,448,3103,432,3435,427"/>
+<area shape="rect" id="Node000018" href="$Texture2D_8h.html" title=" " alt="" coords="1912,512,2088,591"/>
+<area shape="poly" id="edge19_Node000016_Node000018" title=" " alt="" coords="3430,435,2089,546,2089,540,3435,434"/>
+<area shape="rect" id="Node000030" href="$Texture2DDynamic_8h.html" title=" " alt="" coords="3248,512,3424,591"/>
+<area shape="poly" id="edge33_Node000016_Node000030" title=" " alt="" coords="3464,472,3399,514,3397,509,3459,473"/>
+<area shape="rect" id="Node000031" href="$TextureCube_8h.html" title=" " alt="" coords="3448,512,3624,591"/>
+<area shape="poly" id="edge34_Node000016_Node000031" title=" " alt="" coords="3538,478,3538,513,3534,510,3534,482"/>
+<area shape="rect" id="Node000034" href="$TextureRenderTarget_8h.html" title=" " alt="" coords="3651,512,3827,591"/>
+<area shape="poly" id="edge37_Node000016_Node000034" title=" " alt="" coords="3613,470,3678,512,3673,511,3611,475"/>
+<area shape="rect" id="Node000041" href="$PhysicalMaterialMask_8h.html" title=" " alt="" coords="3851,512,4093,591"/>
+<area shape="poly" id="edge44_Node000016_Node000041" title=" " alt="" coords="3640,453,3840,509,3853,516,3848,515,3838,515,3639,458"/>
+<area shape="rect" id="Node000042" href="$VirtualTextureAdapter_8h.html" title=" " alt="" coords="4118,512,4357,591"/>
+<area shape="poly" id="edge45_Node000016_Node000042" title=" " alt="" coords="3640,435,3855,464,3981,485,4106,509,4120,515,4115,514,4105,515,3980,490,3855,469,3640,440"/>
+<area shape="rect" id="Node000043" href="$VirtualTextureBuilder_8h.html" title=" " alt="" coords="4382,512,4621,591"/>
+<area shape="poly" id="edge46_Node000016_Node000043" title=" " alt="" coords="3640,428,3784,437,3967,453,4169,477,4370,509,4384,515,4379,514,4369,515,4168,482,3966,458,3784,443,3640,433"/>
+<area shape="poly" id="edge20_Node000018_Node000017" title=" " alt="" coords="1899,579,1835,593,1730,606,1641,611,1488,610,1414,610,1335,613,1247,623,1143,641,1131,644,1130,639,1142,636,1246,617,1335,608,1414,605,1488,605,1640,606,1730,600,1834,588,1894,579"/>
+<area shape="rect" id="Node000019" href="$LightMapTexture2D_8h.html" title=" " alt="" coords="1155,639,1331,717"/>
+<area shape="poly" id="edge21_Node000018_Node000019" title=" " alt="" coords="1899,578,1835,593,1761,603,1697,609,1589,612,1481,618,1418,626,1345,641,1332,645,1331,639,1344,636,1417,621,1480,613,1588,607,1697,603,1760,598,1834,588,1894,579"/>
+<area shape="rect" id="Node000020" href="$ShadowMapTexture2D_8h.html" title=" " alt="" coords="1356,639,1538,717"/>
+<area shape="poly" id="edge22_Node000018_Node000020" title=" " alt="" coords="1899,577,1835,593,1757,607,1695,615,1634,624,1557,641,1539,646,1538,641,1556,636,1633,619,1695,610,1756,602,1834,588,1894,578"/>
+<area shape="rect" id="Node000021" href="$Texture2DArray_8cpp.html" title=" " alt="" coords="1549,765,1726,844"/>
+<area shape="poly" id="edge23_Node000018_Node000021" title=" " alt="" coords="1899,576,1835,593,1798,598,1764,599,1704,595,1677,596,1652,602,1627,616,1602,640,1594,654,1590,669,1590,701,1600,734,1615,766,1610,764,1595,736,1585,702,1584,668,1589,652,1598,637,1624,612,1650,597,1676,591,1704,590,1764,593,1797,593,1834,588,1894,577"/>
+<area shape="rect" id="Node000022" href="$Texture2DArray_8h.html" title=" " alt="" coords="1612,639,1788,717"/>
+<area shape="poly" id="edge24_Node000018_Node000022" title=" " alt="" coords="1900,594,1789,643,1788,637,1895,596"/>
+<area shape="rect" id="Node000023" href="$TextureLightProfile_8h.html" title=" " alt="" coords="1812,639,1988,717"/>
+<area shape="poly" id="edge26_Node000018_Node000023" title=" " alt="" coords="1962,602,1933,640,1930,636,1957,604"/>
+<area shape="rect" id="Node000024" href="$VolumeTexture_8h.html" title=" " alt="" coords="2012,639,2188,717"/>
+<area shape="poly" id="edge27_Node000018_Node000024" title=" " alt="" coords="2042,601,2072,639,2067,637,2040,606"/>
+<area shape="rect" id="Node000026" href="$ImportanceSamplingLibrary_8h.html" title=" " alt="" coords="2212,639,2428,717"/>
+<area shape="poly" id="edge29_Node000018_Node000026" title=" " alt="" coords="2103,590,2223,638,2218,638,2103,595"/>
+<area shape="rect" id="Node000027" href="$LightmapVirtualTexture_8h.html" title=" " alt="" coords="2451,639,2704,717"/>
+<area shape="poly" id="edge30_Node000018_Node000027" title=" " alt="" coords="2104,568,2263,598,2441,636,2453,641,2448,641,2440,641,2262,603,2104,573"/>
+<area shape="rect" id="Node000028" href="$MeshPaintVirtualTexture_8h.html" title=" " alt="" coords="2728,639,2944,717"/>
+<area shape="poly" id="edge31_Node000018_Node000028" title=" " alt="" coords="2104,556,2382,582,2550,605,2717,636,2730,642,2725,641,2716,641,2549,611,2382,588,2104,562"/>
+<area shape="rect" id="Node000029" href="$VirtualTexture_8h.html" title=" " alt="" coords="2968,647,3219,709"/>
+<area shape="poly" id="edge32_Node000018_Node000029" title=" " alt="" coords="2103,553,2268,561,2481,576,2718,600,2957,636,2995,647,2990,646,2956,641,2718,606,2480,582,2268,566,2104,559"/>
+<area shape="poly" id="edge25_Node000022_Node000021" title=" " alt="" coords="1676,730,1658,767,1655,763,1672,733"/>
+<area shape="rect" id="Node000025" href="$SparseVolumeTexture_8h.html" title=" " alt="" coords="1986,765,2214,844"/>
+<area shape="poly" id="edge28_Node000024_Node000025" title=" " alt="" coords="2102,731,2102,767,2098,763,2098,735"/>
+<area shape="rect" id="Node000032" href="$MapBuildDataRegistry_8h.html" title=" " alt="" coords="3243,639,3424,717"/>
+<area shape="poly" id="edge35_Node000031_Node000032" title=" " alt="" coords="3463,598,3397,641,3396,636,3458,600"/>
+<area shape="rect" id="Node000033" href="$TextureCubeArray_8h.html" title=" " alt="" coords="3448,639,3624,717"/>
+<area shape="poly" id="edge36_Node000031_Node000033" title=" " alt="" coords="3538,605,3538,640,3534,636,3534,608"/>
+<area shape="rect" id="Node000035" href="$TextureRenderTarget2D_8h.html" title=" " alt="" coords="3648,639,3838,717"/>
+<area shape="poly" id="edge38_Node000034_Node000035" title=" " alt="" coords="3742,604,3744,640,3740,636,3739,608"/>
+<area shape="rect" id="Node000038" href="$TextureRenderTarget2DArray_8h.html" title=" " alt="" coords="3861,639,4083,717"/>
+<area shape="poly" id="edge41_Node000034_Node000038" title=" " alt="" coords="3825,596,3902,639,3897,638,3824,601"/>
+<area shape="rect" id="Node000039" href="$TextureRenderTargetCube_8h.html" title=" " alt="" coords="4107,639,4312,717"/>
+<area shape="poly" id="edge42_Node000034_Node000039" title=" " alt="" coords="3842,589,3914,605,3970,613,4026,621,4095,636,4110,642,4105,642,4094,641,4025,626,3969,618,3913,610,3842,594"/>
+<area shape="rect" id="Node000040" href="$TextureRenderTargetVolume_8h.html" title=" " alt="" coords="4336,639,4558,717"/>
+<area shape="poly" id="edge43_Node000034_Node000040" title=" " alt="" coords="3842,588,3915,602,3977,610,4084,614,4191,617,4253,624,4325,636,4338,641,4333,641,4324,641,4252,629,4191,623,4084,620,3977,615,3914,608,3842,594"/>
+<area shape="rect" id="Node000036" href="$CanvasRenderTarget2D_8h.html" title=" " alt="" coords="3540,765,3730,844"/>
+<area shape="poly" id="edge39_Node000035_Node000036" title=" " alt="" coords="3702,728,3670,767,3667,762,3697,731"/>
+<area shape="rect" id="Node000037" href="$KismetRenderingLibrary_8h.html" title=" " alt="" coords="3753,765,3946,844"/>
+<area shape="poly" id="edge40_Node000035_Node000037" title=" " alt="" coords="3787,727,3819,766,3814,764,3785,732"/>
+<area shape="rect" id="Node000045" href="$SystemTimeTimecodeProvider_8h.html" title=" " alt="" coords="1334,259,1570,337"/>
+<area shape="poly" id="edge48_Node000044_Node000045" title=" " alt="" coords="1284,215,1373,258,1367,258,1284,220"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="FSimulatedRootMotionReplicatedMove" name="FSimulatedRootMotionReplicatedMove">
+<area shape="rect" id="Node000001" title=" " alt="" coords="95,1522,360,1594"/>
+<area shape="rect" id="Node000002" href="$structFRepRootMotionMontage.html" title=" " alt="" coords="127,1175,328,1449"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,1446,230,1506,225,1504,226,1450"/>
+<area shape="rect" id="Node000003" href="$structFVector__NetQuantize100.html" title=" " alt="" coords="5,335,204,519"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,516,91,637,89,783,99,943,111,1024,127,1102,146,1160,141,1160,122,1103,105,1025,94,944,84,783,85,637,95,522"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="90,5,151,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="119,90,111,335,106,335,119,95"/>
+<area shape="rect" id="Node000007" href="$structFVector__NetQuantize10.html" title=" " alt="" coords="143,138,334,300"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="152,87,188,138,182,139,153,93"/>
+<area shape="rect" id="Node000005" href="$structFRootMotionSourceGroup.html" title=" " alt="" coords="363,543,609,1102"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="365,1065,347,1104,315,1162,311,1159,342,1101,362,1070"/>
+<area shape="rect" id="Node000006" href="$structFRootMotionSourceSettings.html" title=" " alt="" coords="378,127,595,311"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="487,308,489,527,484,526,485,314"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="240,299,232,1158,226,1158,235,300"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="250,297,276,424,292,480,309,517,317,525,326,529,336,533,347,541,355,551,350,552,343,545,334,538,324,534,314,530,305,521,287,482,271,426,249,302"/>
+</map>

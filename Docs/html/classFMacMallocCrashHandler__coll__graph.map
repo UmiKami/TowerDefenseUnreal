@@ -1,0 +1,37 @@
+<map id="FMacMallocCrashHandler" name="FMacMallocCrashHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="465,3900,679,4151"/>
+<area shape="rect" id="Node000002" href="$classFMacMallocZone.html" title=" " alt="" coords="480,3561,664,3812"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="574,3825,575,3901,570,3899,571,3830"/>
+<area shape="rect" id="Node000003" href="$classFMalloc.html" title=" " alt="" coords="282,3124,434,3420"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="332,3417,326,3514,327,3618,332,3671,340,3724,354,3776,372,3826,388,3856,408,3885,456,3937,450,3937,403,3888,383,3859,367,3828,348,3778,335,3725,326,3672,321,3618,321,3513,331,3422"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="441,3430,510,3561,505,3562,440,3435"/>
+<area shape="rect" id="Node000004" href="$classFUseSystemMallocForNew.html" title=" " alt="" coords="5,2084,190,2224"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="99,2236,107,2380,124,2564,137,2666,154,2769,177,2872,204,2972,240,3063,284,3149,279,3150,235,3065,199,2974,171,2873,149,2770,132,2666,118,2565,102,2380,99,2241"/>
+<area shape="rect" id="Node000005" href="$classFExec.html" title=" " alt="" coords="214,2073,344,2235"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="287,2247,350,3124,345,3124,284,2252"/>
+<area shape="rect" id="Node000006" href="$classTAtomic.html" title=" " alt="" coords="368,2095,505,2212"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="434,2210,372,3107,367,3107,431,2214"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="344,888,524,994"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="434,1006,439,2096,434,2095,433,1012"/>
+<area shape="rect" id="Node000008" href="$structFMacCrashContext.html" title=" " alt="" coords="708,3547,935,3827"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="721,3825,676,3889,673,3885,717,3828"/>
+<area shape="rect" id="Node000009" href="$structFApplePlatformCrashContext.html" title=" " alt="" coords="753,3046,989,3498"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="844,3510,841,3549,836,3546,841,3515"/>
+<area shape="rect" id="Node000010" href="$structFGenericCrashContext.html" title=" " alt="" coords="909,1335,1159,2973"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="913,2985,906,3047,901,3045,911,2990"/>
+<area shape="rect" id="Node000011" href="$structFGuid.html" title=" " alt="" coords="547,628,765,1254"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="754,1251,906,1735,901,1736,753,1256"/>
+<area shape="rect" id="Node000012" href="$structFProcHandle.html" title=" " alt="" coords="789,793,908,1089"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="871,1086,909,1320,903,1319,870,1091"/>
+<area shape="rect" id="Node000013" href="$structTProcHandle.html" title=" " alt="" coords="773,198,924,354"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="842,367,843,793,838,793,842,372"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="855,367,859,793,853,793,854,372"/>
+<area shape="rect" id="Node000014" href="$structFProcState.html" title=" " alt="" coords="948,5,1106,547"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="947,523,922,620,884,777,879,776,916,619,948,518"/>
+<area shape="rect" id="Node000015" href="$classTArray.html" title=" " alt="" coords="931,628,1141,1254"/>
+<area shape="poly" id="edge16_Node000010_Node000015" title=" " alt="" coords="1036,1251,1038,1319,1033,1318,1035,1256"/>
+<area shape="rect" id="Node000016" href="$classTArray.html" title=" " alt="" coords="1166,628,1387,1254"/>
+<area shape="poly" id="edge17_Node000010_Node000016" title=" " alt="" coords="1215,1251,1165,1513,1159,1512,1213,1256"/>
+<area shape="rect" id="Node000017" href="$classTArray.html" title=" " alt="" coords="1411,620,1621,1262"/>
+<area shape="poly" id="edge18_Node000010_Node000017" title=" " alt="" coords="1413,1227,1401,1263,1283,1561,1167,1842,1163,1839,1278,1559,1397,1261,1410,1232"/>
+</map>

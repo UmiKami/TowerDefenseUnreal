@@ -1,0 +1,26 @@
+var structFAndroidPlatformProperties =
+[
+    [ "AllowsCallStackDumpDuringAssert", "structFAndroidPlatformProperties.html#ad31bb420aa5f8a037416924eef023f96", null ],
+    [ "AllowsFramerateSmoothing", "structFAndroidPlatformProperties.html#a31d5d2be81727a263e37613387342c7b", null ],
+    [ "GetMemoryMappingAlignment", "structFAndroidPlatformProperties.html#a6db752f310673096af0d49a38330e183", null ],
+    [ "GetRuntimeSettingsClassName", "structFAndroidPlatformProperties.html#a6ad700251546e8babfe61a889a1fd1b0", null ],
+    [ "HasEditorOnlyData", "structFAndroidPlatformProperties.html#a6a094ff06558174d32273a7edb9bcae5", null ],
+    [ "HasFixedResolution", "structFAndroidPlatformProperties.html#aef059e347bc6ba5a79c99bd154583abb", null ],
+    [ "IniPlatformName", "structFAndroidPlatformProperties.html#ace23d5180020e860832b79554f633e1e", null ],
+    [ "IsGameOnly", "structFAndroidPlatformProperties.html#a41ee8e3462e8382de75a95a298c919cd", null ],
+    [ "PlatformName", "structFAndroidPlatformProperties.html#a56df1b001cc53ef093509efd744b932d", null ],
+    [ "RequiresCookedData", "structFAndroidPlatformProperties.html#ae5e47e1b901d84ccc15c96895704f600", null ],
+    [ "SupportsAudioStreaming", "structFAndroidPlatformProperties.html#ad29edc943aa4657336fe352fdbede2f5", null ],
+    [ "SupportsAutoSDK", "structFAndroidPlatformProperties.html#a254162c3c2e4313ed4e3457da0f921cd", null ],
+    [ "SupportsBuildTarget", "structFAndroidPlatformProperties.html#a6a5a4cf8e0e8fcff1de6ebdaae72d4f2", null ],
+    [ "SupportsDistanceFieldShadows", "structFAndroidPlatformProperties.html#a9cd3d03b703034fb2ce9e5e4cef67d2c", null ],
+    [ "SupportsHighQualityLightmaps", "structFAndroidPlatformProperties.html#a394e9df7b05c8fe4534947b0ee08e091", null ],
+    [ "SupportsLowQualityLightmaps", "structFAndroidPlatformProperties.html#ab58cceb799988c3f4220d2317e88b697", null ],
+    [ "SupportsMemoryMappedAnimation", "structFAndroidPlatformProperties.html#af7b3bc7bd5dac50b964e90ab90e69482", null ],
+    [ "SupportsMemoryMappedAudio", "structFAndroidPlatformProperties.html#aaec1a5c725f4917feaf29252befd98c8", null ],
+    [ "SupportsMemoryMappedFiles", "structFAndroidPlatformProperties.html#a296d2da9484f64984908f4db0840c632", null ],
+    [ "SupportsMeshLODStreaming", "structFAndroidPlatformProperties.html#afe59eeae5b82b1a8f106eea235d3cf61", null ],
+    [ "SupportsMinimize", "structFAndroidPlatformProperties.html#aa9a6d485c8883e1e30b4d5c3e4ae6155", null ],
+    [ "SupportsQuit", "structFAndroidPlatformProperties.html#aab9e8041c65817c0d106451c54bac28f", null ],
+    [ "SupportsTextureStreaming", "structFAndroidPlatformProperties.html#ac2878b1aa8e8eb6754d5c3fef5e68095", null ]
+];

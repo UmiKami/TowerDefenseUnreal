@@ -1,0 +1,17 @@
+digraph "/opt/unreal-engine/Engine/Source/Runtime/Core/Public/Modules/Boilerplate"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_4f27cd1b88c1c367118ea13258dbaff7 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Modules", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_4f27cd1b88c1c367118ea13258dbaff7.html",tooltip=""]
+  dir_658ad58e195a26544da5bbca84ce7378 [label="Boilerplate", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_658ad58e195a26544da5bbca84ce7378.html",tooltip=""];
+  }
+  dir_509ac1e8e51735b38c49b842a7ee2024 [label="UObject", fillcolor="#edf0f7", color="grey50", style="filled", URL="dir_509ac1e8e51735b38c49b842a7ee2024.html",tooltip=""];
+  dir_a799c59462f51128453c465c7817f555 [label="HAL", fillcolor="#edf0f7", color="red", style="filled,dashed", URL="dir_a799c59462f51128453c465c7817f555.html",tooltip=""];
+  dir_658ad58e195a26544da5bbca84ce7378->dir_509ac1e8e51735b38c49b842a7ee2024 [headlabel="1", labeldistance=1.5 headhref="dir_000017_000134.html" href="dir_000017_000134.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_658ad58e195a26544da5bbca84ce7378->dir_a799c59462f51128453c465c7817f555 [headlabel="1", labeldistance=1.5 headhref="dir_000017_000059.html" href="dir_000017_000059.html" color="steelblue1" fontcolor="steelblue1"];
+}

@@ -1,0 +1,26 @@
+var CpuProfilerTrace_8h =
+[
+    [ "CPUPROFILERTRACE_ENABLED", "CpuProfilerTrace_8h.html#af509c2ac4501873e5d97ad4ff2be296a", null ],
+    [ "TRACE_CPUPROFILER_EVENT_DECLARE", "CpuProfilerTrace_8h.html#a587a846fe3f79e174cd835ea4a6e2e17", null ],
+    [ "TRACE_CPUPROFILER_EVENT_FLUSH", "CpuProfilerTrace_8h.html#a233425a8d2ee33e346d279a2ec5030ed", null ],
+    [ "TRACE_CPUPROFILER_EVENT_MANUAL_END", "CpuProfilerTrace_8h.html#aa153244e1e483e04300c41dbb7cdf7db", null ],
+    [ "TRACE_CPUPROFILER_EVENT_MANUAL_IS_ENABLED", "CpuProfilerTrace_8h.html#a29ea0d268688d6c28cbed6ecaa9a5940", null ],
+    [ "TRACE_CPUPROFILER_EVENT_MANUAL_START", "CpuProfilerTrace_8h.html#a798351d4a7b8e05e8e1320ee8ae4c7e3", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE", "CpuProfilerTrace_8h.html#a7e0870a4fda1d2063a0690a95c6bc92f", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_CONDITIONAL", "CpuProfilerTrace_8h.html#a41a4e9aad59626ea3fa7674a0cfec93f", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_ON_CHANNEL", "CpuProfilerTrace_8h.html#a0f41f0ac52153d2d3216a4bfaf1625bd", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_ON_CHANNEL_CONDITIONAL", "CpuProfilerTrace_8h.html#acc4e6af0702357931ca8580ed40a3011", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_ON_CHANNEL_CONDITIONAL_STR", "CpuProfilerTrace_8h.html#a66031175ab1c925646253815b4abe1d5", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_ON_CHANNEL_STR", "CpuProfilerTrace_8h.html#afdd607a8b53333f5eca4454e1fbf4774", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_ON_CHANNEL_STR_CONDITIONAL", "CpuProfilerTrace_8h.html#a405045b9477b886eb073ee94202e2c65", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_STR", "CpuProfilerTrace_8h.html#ad9b4d437c74512bd8f6728f69ebf3a76", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_STR_CONDITIONAL", "CpuProfilerTrace_8h.html#a671ad76787444900282521c9a380cb04", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_STR_ON_CHANNEL", "CpuProfilerTrace_8h.html#a98abb676464899fda106bf5551b202ba", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_STR_ON_CHANNEL_CONDITIONAL", "CpuProfilerTrace_8h.html#abe1ef09a79636dc2415132fce244cd6c", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_TEXT", "CpuProfilerTrace_8h.html#a899eaac484ac751ca8b8722b0d355c93", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_TEXT_CONDITIONAL", "CpuProfilerTrace_8h.html#a7576bc763f24f7edb92cdb4da98a5d86", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_TEXT_ON_CHANNEL", "CpuProfilerTrace_8h.html#aacb5672948ece102155f0f3da096e506", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_TEXT_ON_CHANNEL_CONDITIONAL", "CpuProfilerTrace_8h.html#a89fb6dcd88ccca8c2c64fbf1b213dc3d", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_USE", "CpuProfilerTrace_8h.html#ade7a0ee2ea9b239f873aa215668638c7", null ],
+    [ "TRACE_CPUPROFILER_EVENT_SCOPE_USE_ON_CHANNEL", "CpuProfilerTrace_8h.html#ab64392f1ddac67e3f74df6e43d445ca7", null ]
+];

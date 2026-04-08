@@ -1,0 +1,29 @@
+<map id="UPhysicsConstraintTemplate" name="UPhysicsConstraintTemplate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="355,2274,580,2693"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="267,1763,330,1836"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="299,1848,311,2008,323,2105,344,2201,368,2275,363,2274,339,2202,318,2106,305,2009,298,1853"/>
+<area shape="rect" id="Node000003" href="$structFConstraintInstance.html" title=" " alt="" coords="354,1397,582,2201"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="469,2199,470,2258,465,2256,467,2204"/>
+<area shape="rect" id="Node000004" href="$structFConstraintInstanceBase.html" title=" " alt="" coords="234,925,476,1243"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="382,1255,407,1398,402,1398,382,1260"/>
+<area shape="rect" id="Node000005" href="$structFConstraintProfileProperties.html" title=" " alt="" coords="500,844,761,1324"/>
+<area shape="poly" id="edge15_Node000001_Node000005" title=" " alt="" coords="629,1322,621,1734,611,1969,597,2201,596,2226,592,2251,588,2262,584,2259,587,2250,591,2226,592,2201,606,1968,615,1734,627,1326"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="504,1322,498,1349,490,1382,485,1380,493,1348,502,1327"/>
+<area shape="rect" id="Node000006" href="$structFLinearConstraint.html" title=" " alt="" coords="5,450,218,628"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="137,625,156,664,177,702,202,738,232,769,272,794,309,803,349,808,398,817,442,824,463,829,489,843,484,845,461,834,441,830,397,822,348,813,308,808,270,799,229,773,198,741,172,705,152,667,138,631"/>
+<area shape="rect" id="Node000007" href="$structFConstraintBaseParams.html" title=" " alt="" coords="277,16,470,178"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="306,193,233,308,156,450,151,449,228,306,308,188"/>
+<area shape="rect" id="Node000008" href="$structFConeConstraint.html" title=" " alt="" coords="243,458,504,620"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="373,190,376,458,371,458,373,196"/>
+<area shape="rect" id="Node000009" href="$structFTwistConstraint.html" title=" " alt="" coords="528,472,734,606"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="440,188,518,306,564,391,604,472,598,472,560,394,514,308,441,193"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="411,617,512,828,507,829,411,622"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="631,603,633,828,628,827,630,608"/>
+<area shape="rect" id="Node000010" href="$structFLinearDriveConstraint.html" title=" " alt="" coords="758,369,946,709"/>
+<area shape="poly" id="edge11_Node000005_Node000010" title=" " alt="" coords="782,711,737,829,732,827,784,706"/>
+<area shape="rect" id="Node000011" href="$structFConstraintDrive.html" title=" " alt="" coords="851,5,1018,189"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="918,186,889,352,884,351,917,192"/>
+<area shape="rect" id="Node000012" href="$structFAngularDriveConstraint.html" title=" " alt="" coords="970,307,1206,771"/>
+<area shape="poly" id="edge14_Node000012_Node000011" title=" " alt="" coords="972,187,984,212,1011,291,1006,291,979,214,972,192"/>
+<area shape="poly" id="edge13_Node000005_Node000012" title=" " alt="" coords="969,757,961,772,917,824,871,874,776,965,772,962,867,871,913,821,956,769,972,753"/>
+</map>

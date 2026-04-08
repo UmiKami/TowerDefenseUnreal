@@ -1,0 +1,7 @@
+<map id="UE::UnifiedError::FDynamicErrorDetails::GetInnerErrorDetails" name="UE::UnifiedError::FDynamicErrorDetails::GetInnerErrorDetails">
+<area shape="rect" id="Node000001" title="GetInnerErrorDetails; Exposes inner error details to FError, if this ErrorDetails allows inner detail..." alt="" coords="311,56,550,101"/>
+<area shape="rect" id="Node000002" href="$classUE_1_1UnifiedError_1_1StreamableManager_1_1FStreamableManagerErrorDetails.html#ab4b0694e98bdee7abcf0092a92a39213" title="GetErrorFormatString; Pass through to the InnerErrorDetails." alt="" coords="5,5,263,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="293,60,263,57,263,52,298,59"/>
+<area shape="rect" id="Node000003" href="$classUE_1_1UnifiedError_1_1StreamableManager_1_1FStreamableManagerErrorDetails.html#a090a3a4db82e550cc4be6a1cdfca2826" title="GetErrorProperties; by default pass through to the InnerErrorDetails. It&#39;s expected FDynamicErrorDeta..." alt="" coords="5,91,263,152"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="293,99,263,106,263,100,298,98"/>
+</map>

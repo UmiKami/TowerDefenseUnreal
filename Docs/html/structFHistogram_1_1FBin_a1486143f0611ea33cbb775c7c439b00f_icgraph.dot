@@ -1,0 +1,16 @@
+digraph "FHistogram::FBin::FBin"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FHistogram::FBin::FBin",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FHistogram::FBin::operator+",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFHistogram_1_1FBin.html#af0d51263bd0fb7b833962ec9d60bfa58",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FHistogram::FBin::operator+=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFHistogram_1_1FBin.html#a0d3fa766c44424d75e994a5f9a198764",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FHistogram::FBin::operator-",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFHistogram_1_1FBin.html#a765d2e091a6f351ab4885fea5b37cd67",tooltip=" "];
+}

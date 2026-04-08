@@ -1,0 +1,11 @@
+<map id="FCustomStatIDGraphTaskBase" name="FCustomStatIDGraphTaskBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="371,5,606,100"/>
+<area shape="rect" id="Node000002" href="$classFDelegateGraphTask.html" title=" " alt="" coords="5,156,259,385"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="355,105,272,150,260,159,256,154,270,146,359,101"/>
+<area shape="rect" id="Node000003" href="$classFNullGraphTask.html" title=" " alt="" coords="283,201,462,340"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="459,111,411,203,407,200,454,115"/>
+<area shape="rect" id="Node000004" href="$classFSimpleDelegateGraphTask.html" title=" " alt="" coords="486,156,726,385"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="521,110,547,158,542,156,519,115"/>
+<area shape="rect" id="Node000005" href="$classTFunctionGraphTaskImpl.html" title=" " alt="" coords="750,148,979,394"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="620,90,681,115,739,146,752,156,747,156,736,150,679,119,620,95"/>
+</map>

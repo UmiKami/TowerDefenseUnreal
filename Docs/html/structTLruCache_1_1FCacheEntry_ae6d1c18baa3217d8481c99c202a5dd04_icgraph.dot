@@ -1,0 +1,26 @@
+digraph "TLruCache::FCacheEntry::FCacheEntry"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TLruCache::FCacheEntry\l::FCacheEntry",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TLruCache::FCacheEntry\l::LinkBefore",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structTLruCache_1_1FCacheEntry.html#aa829c19a492c788f84e0bcb8e5dcebf0",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TLruCache::Add",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTLruCache.html#a28720e8d4e8429b70889a2f3a7cfea56",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TLruCache::AddUninitialized\l_GetRef",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTLruCache.html#a27d37e97737cc1c8cddf6b8801254ce5",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TLruCache::MarkAsRecent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTLruCache.html#a46c14bbed73512576c3197db25dacd2b",tooltip=" "];
+  Node5 -> Node3 [id="edge5_Node000005_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node4 [id="edge6_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node6 [id="edge7_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TLruCache::FindAndTouch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTLruCache.html#aabf04ecc5c20c9242d900471b0192e1f",tooltip=" "];
+  Node5 -> Node7 [id="edge8_Node000005_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TLruCache::FindAndTouchChecked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTLruCache.html#a01b44307aba9cea9c6246c80976d0804",tooltip=" "];
+  Node5 -> Node8 [id="edge9_Node000005_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TLruCache::FindAndTouchRef",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTLruCache.html#a94a324dd5bc17b6f0d1714901c2c7e72",tooltip=" "];
+}

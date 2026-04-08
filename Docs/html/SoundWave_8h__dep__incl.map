@@ -1,0 +1,61 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Sound/SoundWave.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Sound/SoundWave.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1703,5,1879,84"/>
+<area shape="rect" id="Node000002" href="$SoundCue_8h.html" title=" " alt="" coords="99,259,275,337"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1685,53,1438,77,1089,116,893,143,690,176,487,215,289,261,277,265,275,260,288,256,486,210,689,171,892,138,1089,111,1437,71,1690,52"/>
+<area shape="rect" id="Node000003" href="$SoundWaveLoadingBehavior_8cpp.html" title=" " alt="" coords="5,385,244,464"/>
+<area shape="poly" id="edge28_Node000001_Node000003" title=" " alt="" coords="1685,46,1474,51,1185,63,1023,74,856,89,688,109,525,135,454,144,389,147,277,151,227,159,180,178,134,210,89,260,81,274,77,289,78,322,88,354,102,385,97,385,83,356,73,323,72,289,76,272,85,257,131,206,177,173,226,154,276,145,389,141,453,138,524,129,688,104,855,84,1022,69,1184,58,1474,46,1690,45"/>
+<area shape="rect" id="Node000004" href="$SoundNode_8h.html" title=" " alt="" coords="2238,132,2414,211"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1895,67,2240,149,2235,150,1894,73"/>
+<area shape="rect" id="Node000028" href="$SoundWaveProcedural_8h.html" title=" " alt="" coords="3622,132,3806,211"/>
+<area shape="poly" id="edge29_Node000001_Node000028" title=" " alt="" coords="1895,50,3624,163,3620,166,1894,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="163,349,146,386,142,383,159,353"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="2219,175,1783,189,1181,209,616,233,410,247,289,261,277,264,275,259,288,256,410,242,616,228,1181,203,1783,184,2225,175"/>
+<area shape="rect" id="Node000005" href="$SoundNodeAssetReferencer_8h.html" title=" " alt="" coords="4158,259,4376,337"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="2429,171,2792,178,3288,193,3545,205,3784,219,3990,236,4146,256,4160,261,4155,261,4145,261,3990,241,3784,224,3544,210,3288,199,2792,184,2430,177"/>
+<area shape="rect" id="Node000007" href="$SoundNodeAttenuation_8h.html" title=" " alt="" coords="4400,259,4588,337"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="2429,172,3484,204,4056,228,4265,242,4389,256,4403,261,4397,261,4388,261,4265,247,4056,234,3483,209,2430,178"/>
+<area shape="rect" id="Node000008" href="$SoundNodeBranch_8h.html" title=" " alt="" coords="4611,259,4787,337"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="2429,173,3635,211,4275,236,4493,247,4600,256,4613,262,4608,261,4599,261,4493,252,4275,241,3635,216,2429,178"/>
+<area shape="rect" id="Node000009" href="$SoundNodeConcatenator_8h.html" title=" " alt="" coords="300,259,498,337"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="2220,174,1861,183,1366,197,1111,208,872,222,667,240,512,261,500,264,498,259,511,256,666,234,871,217,1110,203,1366,192,1861,177,2225,174"/>
+<area shape="rect" id="Node000010" href="$SoundNodeDelay_8h.html" title=" " alt="" coords="523,259,699,337"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="2219,174,1896,183,1459,198,1235,209,1026,223,847,240,712,261,700,264,699,259,711,256,846,235,1026,218,1235,204,1459,192,1896,178,2225,174"/>
+<area shape="rect" id="Node000011" href="$SoundNodeDialoguePlayer_8h.html" title=" " alt="" coords="723,259,934,337"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="2220,176,1940,189,1572,206,1210,230,1060,245,946,261,934,264,933,259,945,256,1059,239,1209,225,1572,200,1940,183,2225,175"/>
+<area shape="rect" id="Node000012" href="$SoundNodeDistanceCrossFade_8h.html" title=" " alt="" coords="958,259,1193,337"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="2219,174,2031,181,1778,194,1492,220,1347,238,1205,261,1194,263,1193,258,1204,256,1346,233,1491,215,1777,189,2031,176,2225,173"/>
+<area shape="rect" id="Node000014" href="$SoundNodeDoppler_8h.html" title=" " alt="" coords="1216,259,1393,337"/>
+<area shape="poly" id="edge14_Node000004_Node000014" title=" " alt="" coords="2220,174,2063,181,1858,194,1631,220,1517,238,1405,261,1394,264,1392,259,1404,256,1516,233,1631,215,1858,189,2063,176,2225,173"/>
+<area shape="rect" id="Node000015" href="$SoundNodeEnveloper_8h.html" title=" " alt="" coords="1416,259,1593,337"/>
+<area shape="poly" id="edge15_Node000004_Node000015" title=" " alt="" coords="2220,177,2097,188,1942,204,1773,227,1605,261,1594,264,1592,259,1604,256,1772,222,1941,198,2096,183,2225,177"/>
+<area shape="rect" id="Node000016" href="$SoundNodeGroupControl_8h.html" title=" " alt="" coords="1616,259,1814,337"/>
+<area shape="poly" id="edge16_Node000004_Node000016" title=" " alt="" coords="2225,185,2037,217,1931,237,1826,261,1815,264,1814,259,1825,256,1930,232,2036,212,2220,186"/>
+<area shape="rect" id="Node000017" href="$SoundNodeLooping_8h.html" title=" " alt="" coords="1838,259,2014,337"/>
+<area shape="poly" id="edge17_Node000004_Node000017" title=" " alt="" coords="2225,199,2027,261,2015,265,2014,260,2025,256,2220,200"/>
+<area shape="rect" id="Node000018" href="$SoundNodeMature_8h.html" title=" " alt="" coords="2038,259,2214,337"/>
+<area shape="poly" id="edge18_Node000004_Node000018" title=" " alt="" coords="2253,218,2189,261,2187,256,2248,220"/>
+<area shape="rect" id="Node000019" href="$SoundNodeMixer_8h.html" title=" " alt="" coords="2238,259,2414,337"/>
+<area shape="poly" id="edge19_Node000004_Node000019" title=" " alt="" coords="2328,224,2328,260,2324,256,2324,228"/>
+<area shape="rect" id="Node000020" href="$SoundNodeModulator_8h.html" title=" " alt="" coords="2438,259,2616,337"/>
+<area shape="poly" id="edge20_Node000004_Node000020" title=" " alt="" coords="2402,216,2467,259,2462,258,2401,222"/>
+<area shape="rect" id="Node000021" href="$SoundNodeModulatorContinuous_8h.html" title=" " alt="" coords="2639,259,2890,337"/>
+<area shape="poly" id="edge21_Node000004_Node000021" title=" " alt="" coords="2430,199,2642,261,2636,261,2429,205"/>
+<area shape="rect" id="Node000022" href="$SoundNodeOscillator_8h.html" title=" " alt="" coords="2914,259,3090,337"/>
+<area shape="poly" id="edge22_Node000004_Node000022" title=" " alt="" coords="2430,179,2649,206,2776,228,2902,256,2916,262,2911,262,2901,261,2775,233,2648,211,2429,184"/>
+<area shape="rect" id="Node000023" href="$SoundNodeQualityLevel_8h.html" title=" " alt="" coords="3114,259,3308,337"/>
+<area shape="poly" id="edge23_Node000004_Node000023" title=" " alt="" coords="2429,174,2564,183,2733,198,2918,222,3102,256,3117,262,3112,262,3101,261,2917,227,2732,203,2564,188,2429,179"/>
+<area shape="rect" id="Node000024" href="$SoundNodeRandom_8h.html" title=" " alt="" coords="3332,259,3509,337"/>
+<area shape="poly" id="edge24_Node000004_Node000024" title=" " alt="" coords="2429,170,2600,174,2823,186,3072,212,3197,232,3320,256,3335,262,3329,262,3319,261,3196,237,3071,218,2823,192,2600,179,2429,175"/>
+<area shape="rect" id="Node000025" href="$SoundNodeSoundClass_8h.html" title=" " alt="" coords="3533,259,3719,337"/>
+<area shape="poly" id="edge25_Node000004_Node000025" title=" " alt="" coords="2430,174,2677,185,2992,202,3298,226,3425,240,3521,256,3535,262,3529,261,3520,261,3424,246,3298,231,2991,207,2677,190,2430,179"/>
+<area shape="rect" id="Node000026" href="$SoundNodeSwitch_8h.html" title=" " alt="" coords="3743,259,3919,337"/>
+<area shape="poly" id="edge26_Node000004_Node000026" title=" " alt="" coords="2430,172,2717,181,3093,197,3463,221,3616,237,3732,256,3745,262,3740,261,3731,261,3615,243,3462,227,3093,202,2717,186,2430,178"/>
+<area shape="rect" id="Node000027" href="$SoundNodeWaveParam_8h.html" title=" " alt="" coords="3944,259,4134,337"/>
+<area shape="poly" id="edge27_Node000004_Node000027" title=" " alt="" coords="2430,172,2754,179,3188,194,3618,219,3797,236,3932,256,3946,262,3941,261,3931,261,3796,241,3618,225,3187,200,2753,185,2430,177"/>
+<area shape="rect" id="Node000006" href="$SoundNodeWavePlayer_8h.html" title=" " alt="" coords="4172,385,4362,464"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="4269,351,4269,387,4265,383,4265,355"/>
+<area shape="rect" id="Node000013" href="$SoundNodeParamCrossFade_8h.html" title=" " alt="" coords="965,385,1185,464"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="1077,351,1077,387,1073,383,1073,355"/>
+<area shape="rect" id="Node000029" href="$SoundSourceBus_8h.html" title=" " alt="" coords="4811,259,4987,337"/>
+<area shape="poly" id="edge30_Node000028_Node000029" title=" " alt="" coords="3821,175,4048,186,4330,204,4602,227,4714,241,4800,256,4813,262,4808,261,4799,261,4714,246,4601,233,4329,209,4047,191,3821,180"/>
+</map>

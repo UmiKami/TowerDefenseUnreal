@@ -1,0 +1,17 @@
+<map id="FAnimNode_SequencePlayerBase" name="FAnimNode_SequencePlayerBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="378,1475,606,2050"/>
+<area shape="rect" id="Node000002" href="$structFAnimNode__AssetPlayerBase.html" title=" " alt="" coords="247,1022,486,1402"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="414,1414,429,1476,424,1475,413,1419"/>
+<area shape="rect" id="Node000003" href="$structFAnimNode__AssetPlayerRelevancyBase.html" title=" " alt="" coords="5,614,275,949"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="235,960,270,1022,264,1023,235,965"/>
+<area shape="rect" id="Node000004" href="$structFAnimNode__Base.html" title=" " alt="" coords="27,5,253,519"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="140,532,143,615,138,614,140,537"/>
+<area shape="rect" id="Node000005" href="$structFMarkerTickRecord.html" title=" " alt="" coords="300,723,434,840"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="367,837,369,1006,364,1005,366,843"/>
+<area shape="rect" id="Node000006" href="$structFMarkerPair.html" title=" " alt="" coords="308,192,426,332"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="367,329,369,706,364,706,366,334"/>
+<area shape="rect" id="Node000007" href="$structFDeltaTimeRecord.html" title=" " alt="" coords="458,668,615,896"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="531,894,524,948,509,999,496,1029,492,1027,504,997,519,947,530,899"/>
+<area shape="rect" id="Node000008" href="$structFInputScaleBiasClampState.html" title=" " alt="" coords="510,1131,727,1293"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="602,1290,565,1459,560,1457,599,1295"/>
+</map>

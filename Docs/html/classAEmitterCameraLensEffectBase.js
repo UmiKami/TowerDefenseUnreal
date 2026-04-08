@@ -1,0 +1,28 @@
+var classAEmitterCameraLensEffectBase =
+[
+    [ "ActivateLensEffect", "classAEmitterCameraLensEffectBase.html#a5f29d5cc1414187f923f2c331ddf7f9b", null ],
+    [ "AdjustBaseFOV", "classAEmitterCameraLensEffectBase.html#a44322e599d284786a843115d8e360e3b", null ],
+    [ "DeactivateLensEffect", "classAEmitterCameraLensEffectBase.html#a0e0ca0dcf828477732985c406b1412b0", null ],
+    [ "EndPlay", "classAEmitterCameraLensEffectBase.html#a618a54bf7532595d0fb15ebd499e8175", null ],
+    [ "GetAttachedEmitterTransform", "classAEmitterCameraLensEffectBase.html#a37204ba5f17e723156394f2a0236d2bb", null ],
+    [ "GetBaseFOV", "classAEmitterCameraLensEffectBase.html#a8b18299fdb6de1fd35c6f13ed20dabac", null ],
+    [ "GetRelativeTransform", "classAEmitterCameraLensEffectBase.html#a6f617f078dd4838111816663130a6e7f", null ],
+    [ "IsLooping", "classAEmitterCameraLensEffectBase.html#a9afe10e5076fc62a36ff726550726131", null ],
+    [ "NotifyRetriggered", "classAEmitterCameraLensEffectBase.html#a055edf4b9d1c49d60dc09e00285e7aa6", null ],
+    [ "NotifyWillBePooled", "classAEmitterCameraLensEffectBase.html#a677806748900f98f05e17d42184eda1d", null ],
+    [ "PostInitializeComponents", "classAEmitterCameraLensEffectBase.html#a64982b32131eaa8dc1b6d9c28736291c", null ],
+    [ "PostLoad", "classAEmitterCameraLensEffectBase.html#a65d3b364cf719408de88399f1adefab1", null ],
+    [ "RegisterCamera", "classAEmitterCameraLensEffectBase.html#aaca296f84c8cd47a958ced8aaa28a229", null ],
+    [ "ResetWhenTriggered", "classAEmitterCameraLensEffectBase.html#a69864860534fa7587cc4e48b67fe3b86", null ],
+    [ "ShouldAllowMultipleInstances", "classAEmitterCameraLensEffectBase.html#a9640830238b71d00486a69e72a26c715", null ],
+    [ "ShouldTreatEmitterAsSame", "classAEmitterCameraLensEffectBase.html#aacd57a2ee90f5e509a9e0fb64b181d78", null ],
+    [ "UpdateLocation", "classAEmitterCameraLensEffectBase.html#a0af2aed464b9c9d46e36ac16ef589d8e", null ],
+    [ "bAllowMultipleInstances", "classAEmitterCameraLensEffectBase.html#a7eb667d9064c6ada3077e4cc0373d803", null ],
+    [ "BaseCamera", "classAEmitterCameraLensEffectBase.html#ac0d8b3bd02670a6cc53843fd61dca96e", null ],
+    [ "BaseFOV", "classAEmitterCameraLensEffectBase.html#a7e01f69f0ba6c8f291f1f1577b9457b4", null ],
+    [ "bResetWhenRetriggered", "classAEmitterCameraLensEffectBase.html#a8e0e1715774936aa4e95e913e5cf6f56", null ],
+    [ "DistFromCamera_DEPRECATED", "classAEmitterCameraLensEffectBase.html#a6e36ae39385519357d5d19a5b0fc70d3", null ],
+    [ "EmittersToTreatAsSame", "classAEmitterCameraLensEffectBase.html#acd06ea3579d48159caccc88ff526b0dc", null ],
+    [ "PS_CameraEffect", "classAEmitterCameraLensEffectBase.html#a3ed7de8f610ab7ebebd5ccffe37f5047", null ],
+    [ "RelativeTransform", "classAEmitterCameraLensEffectBase.html#aed3be42bc1a25fa4f85e66f7d0f52362", null ]
+];

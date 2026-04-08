@@ -1,0 +1,17 @@
+<map id="FPointDamageEvent" name="FPointDamageEvent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="117,1534,287,1718"/>
+<area shape="rect" id="Node000002" href="$structFDamageEvent.html" title=" " alt="" coords="5,998,153,1227"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,1239,183,1534,178,1535,108,1243"/>
+<area shape="rect" id="Node000003" href="$structFVector__NetQuantizeNormal.html" title=" " alt="" coords="89,294,312,456"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,455,205,1518,199,1518,198,456"/>
+<area shape="rect" id="Node000005" href="$structFHitResult.html" title=" " alt="" coords="334,764,507,1461"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="221,453,261,589,307,739,317,763,332,808,326,808,311,765,302,741,255,590,221,459"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="281,5,342,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="294,95,230,295,225,294,295,90"/>
+<area shape="rect" id="Node000006" href="$structFVector__NetQuantize.html" title=" " alt="" coords="336,294,511,456"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="328,89,399,294,394,295,328,95"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="336,1413,316,1463,283,1522,278,1519,312,1460,333,1418"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="424,453,425,747,419,746,422,459"/>
+<area shape="rect" id="Node000007" href="$structFActorInstanceHandle.html" title=" " alt="" coords="535,127,763,624"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="573,621,515,818,510,816,571,626"/>
+</map>

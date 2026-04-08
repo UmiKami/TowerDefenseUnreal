@@ -1,0 +1,50 @@
+digraph "TaskTrace::SubsequentAdded"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TaskTrace::SubsequentAdded",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Tasks::Private\l::FTaskBase::AddSubsequent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#a9660778d6023efb5aeed28e5fc4ac72f",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Tasks::Private\l::FTaskBase::AddNested",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#a64b82b6ff2338496749288a7e7176aaf",tooltip=" "];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FBaseGraphTask::DontComplete\lUntil",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFBaseGraphTask.html#aa9579dbe2d4a5d38be45d823d2b8015b",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Tasks::Private\l::FTaskBase::AddPrerequisites",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#a2899db75ba9a125939a445d8eb704c8f",tooltip=" "];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::Tasks::Private\l::FTaskBase::AddPrerequisites",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#a9b4ef3f16bb67d870eea42a8fb7d19c7",tooltip=" "];
+  Node6 -> Node7 [id="edge7_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE::Tasks::Private\l::FTaskBase::AddPrerequisites",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#a7f06dacd9a78bc13f29250d10173f91a",tooltip=" "];
+  Node6 -> Node8 [id="edge8_Node000006_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="UE::Tasks::Private\l::FTaskBase::AddPrerequisites",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#ae48bbdeca47a433f3c2315f464565a34",tooltip=" "];
+  Node6 -> Node4 [id="edge9_Node000006_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node9 [id="edge10_Node000006_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FBaseGraphTask::FBaseGraphTask",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFBaseGraphTask.html#a5ffecac194e4bb2360efba314f89a833",tooltip=" "];
+  Node9 -> Node10 [id="edge11_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FBaseGraphTask::Dispatch\lSubsequents",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFBaseGraphTask.html#ab2f851cdb545609e7799294d08f54c82",tooltip=" "];
+  Node9 -> Node11 [id="edge12_Node000009_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FGraphEventImpl::FGraphEventImpl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFGraphEventImpl.html#a25d33d619e27dda363042c1444f15f2c",tooltip=" "];
+  Node9 -> Node12 [id="edge13_Node000009_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="TGraphTask::TGraphTask",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTGraphTask.html#a8b57b3357d1c03c8e3c3d7345833a4fe",tooltip=" "];
+  Node12 -> Node13 [id="edge14_Node000012_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="TGraphTask::FConstructor\l::ConstructAndDispatchWhenReady",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTGraphTask_1_1FConstructor.html#aa24bfa2ce86004e70e9ded339f33f164",tooltip=" "];
+  Node13 -> Node14 [id="edge15_Node000013_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="FDelegateGraphTask\l::CreateAndDispatchWhenReady",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFDelegateGraphTask.html#ac0d36a4893d4304930bebe7ea7f86111",tooltip=" "];
+  Node14 -> Node15 [id="edge16_Node000014_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FDelegateGraphTask\l::CreateAndDispatchWhenReady",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFDelegateGraphTask.html#a1275878d34a88209cb2e59664708fe9b",tooltip=" "];
+  Node13 -> Node16 [id="edge17_Node000013_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="FSimpleDelegateGraphTask\l::CreateAndDispatchWhenReady",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFSimpleDelegateGraphTask.html#a341701cb3401feddac7cfbb6b3fc9e1a",tooltip=" "];
+  Node16 -> Node17 [id="edge18_Node000016_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="FSimpleDelegateGraphTask\l::CreateAndDispatchWhenReady",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFSimpleDelegateGraphTask.html#a636c9be284b7b20a77a263a514a02be0",tooltip=" "];
+  Node12 -> Node18 [id="edge19_Node000012_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="TGraphTask::FConstructor\l::ConstructAndHold",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTGraphTask_1_1FConstructor.html#a34752c1d6ac4e96e698e339f6731640a",tooltip=" "];
+  Node12 -> Node19 [id="edge20_Node000012_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="TGraphTask::FConstructor\l::ConstructAndHoldImpl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTGraphTask_1_1FConstructor.html#a9dc4830620a49e286f88f2e8108461c3",tooltip=" "];
+  Node19 -> Node13 [id="edge21_Node000019_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 -> Node18 [id="edge22_Node000019_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

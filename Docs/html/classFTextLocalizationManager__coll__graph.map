@@ -1,0 +1,41 @@
+<map id="FTextLocalizationManager" name="FTextLocalizationManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="874,3801,1111,4652"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,3340,217,3429"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,3426,110,3500,119,3591,128,3640,142,3687,161,3733,187,3775,220,3817,256,3857,336,3929,424,3992,516,4047,609,4093,700,4132,860,4189,855,4190,698,4136,607,4098,514,4051,421,3996,333,3933,252,3861,215,3821,182,3779,157,3736,137,3689,123,3641,113,3592,105,3501,108,3431"/>
+<area shape="rect" id="Node000003" href="$classUE_1_1FPlatformRWLock.html" title=" " alt="" coords="242,3292,394,3476"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="296,3474,288,3546,285,3623,295,3702,306,3740,322,3776,371,3851,431,3919,499,3979,572,4032,648,4079,723,4118,860,4179,855,4180,720,4123,645,4083,569,4037,495,3983,427,3923,366,3854,317,3778,301,3742,289,3703,280,3623,283,3545,295,3479"/>
+<area shape="rect" id="Node000004" href="$classTMap.html" title=" " alt="" coords="385,2710,597,3039"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="462,3036,448,3186,444,3268,445,3355,450,3444,462,3534,482,3621,510,3705,541,3770,579,3833,622,3892,669,3948,768,4048,864,4130,858,4130,765,4052,665,3952,618,3895,574,3836,536,3772,505,3707,477,3622,457,3534,445,3445,439,3356,439,3268,443,3185,460,3042"/>
+<area shape="rect" id="Node000005" href="$classTSortableMapBase.html" title=" " alt="" coords="374,1519,584,1977"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="482,1989,492,2710,487,2710,481,1994"/>
+<area shape="rect" id="Node000006" href="$classTMapBase.html" title=" " alt="" coords="325,788,574,1469"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="467,1482,471,1519,466,1519,467,1487"/>
+<area shape="rect" id="Node000007" href="$classTSet.html" title=" " alt="" coords="618,5,828,715"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="618,658,579,773,574,771,619,653"/>
+<area shape="rect" id="Node000012" href="$classTMapBase.html" title=" " alt="" coords="872,899,1121,1358"/>
+<area shape="poly" id="edge12_Node000012_Node000007" title=" " alt="" coords="828,653,912,883,907,883,828,658"/>
+<area shape="rect" id="Node000015" href="$classTMapBase.html" title=" " alt="" coords="599,899,848,1358"/>
+<area shape="poly" id="edge16_Node000015_Node000007" title=" " alt="" coords="723,712,726,883,721,882,723,717"/>
+<area shape="rect" id="Node000008" href="$structFTextLocalizationManager_1_1FDisplayStringsByLocalizationTargetId.html" title=" " alt="" coords="885,3309,1100,3460"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="994,3458,995,3785,990,3783,991,3462"/>
+<area shape="rect" id="Node000009" href="$classTArray.html" title=" " alt="" coords="1135,2026,1410,2686"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1284,2683,1273,2778,1251,2871,1216,2960,1193,3002,1166,3041,1153,3051,1140,3055,1127,3057,1114,3065,1076,3118,1046,3177,1024,3237,1010,3294,1005,3291,1019,3235,1041,3174,1071,3115,1111,3061,1125,3052,1139,3049,1151,3047,1163,3038,1189,2999,1211,2958,1246,2870,1268,2777,1282,2688"/>
+<area shape="rect" id="Node000010" href="$classTMap.html" title=" " alt="" coords="874,2225,1110,2487"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="994,2485,995,3293,990,3292,991,2490"/>
+<area shape="rect" id="Node000011" href="$classTSortableMapBase.html" title=" " alt="" coords="869,1608,1119,1888"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="994,1900,995,2225,990,2224,993,1905"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="996,1370,997,1609,992,1608,995,1375"/>
+<area shape="rect" id="Node000013" href="$classTMap.html" title=" " alt="" coords="605,2752,841,2997"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="709,2995,700,3142,696,3320,699,3416,707,3514,719,3611,738,3705,763,3788,794,3870,830,3948,869,4023,864,4022,826,3951,789,3872,757,3789,733,3706,714,3612,701,3514,694,3417,691,3320,695,3142,708,3000"/>
+<area shape="rect" id="Node000014" href="$classTSortableMapBase.html" title=" " alt="" coords="618,1608,828,1888"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="724,1900,726,2752,721,2752,722,1905"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="723,1370,726,1609,721,1608,723,1375"/>
+<area shape="rect" id="Node000016" href="$classTArray.html" title=" " alt="" coords="1125,3063,1335,3706"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="1217,3703,1203,3778,1167,3889,1120,3997,1116,3994,1162,3887,1198,3776,1214,3708"/>
+<area shape="rect" id="Node000017" href="$classTSharedPtr.html" title=" " alt="" coords="1359,3175,1578,3594"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="1434,3591,1408,3688,1370,3778,1316,3868,1254,3954,1188,4033,1124,4103,1121,4099,1184,4030,1250,3951,1312,3866,1365,3776,1403,3686,1431,3596"/>
+<area shape="rect" id="Node000018" href="$classTSharedPtr.html" title=" " alt="" coords="1602,3175,1812,3594"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="1647,3592,1622,3652,1592,3707,1543,3777,1488,3843,1428,3906,1366,3964,1240,4066,1127,4146,1124,4142,1237,4062,1362,3960,1425,3902,1484,3840,1539,3774,1588,3704,1618,3650,1644,3596"/>
+<area shape="rect" id="Node000019" href="$classTRefCountPtr.html" title=" " alt="" coords="1836,3228,2026,3541"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="1904,3538,1874,3627,1853,3669,1827,3707,1750,3793,1664,3871,1571,3941,1476,4004,1380,4059,1288,4106,1128,4178,1126,4173,1286,4102,1377,4054,1473,3999,1568,3937,1661,3867,1746,3789,1822,3704,1848,3666,1869,3625,1901,3542"/>
+</map>

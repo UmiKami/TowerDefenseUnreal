@@ -1,0 +1,88 @@
+<map id="TTextFilter&lt; ItemType &gt;" name="TTextFilter&lt; ItemType &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="419,4389,673,4679"/>
+<area shape="rect" id="Node000002" href="$classIFilter.html" title=" " alt="" coords="76,4043,224,4204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,4216,206,4267,238,4314,279,4358,325,4398,422,4465,417,4467,322,4402,275,4362,234,4318,202,4270,180,4221"/>
+<area shape="rect" id="Node000003" href="$classTSharedFromThis.html" title=" " alt="" coords="248,3978,485,4269"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="437,4280,486,4390,480,4389,435,4284"/>
+<area shape="rect" id="Node000004" href="$structUE_1_1Core_1_1Private_1_1FSharedFromThisBase.html" title=" " alt="" coords="239,3314,395,3403"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="322,3415,360,3979,354,3979,319,3420"/>
+<area shape="rect" id="Node000005" href="$classTWeakPtr.html" title=" " alt="" coords="5,3204,215,3512"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="139,3509,179,3669,203,3753,230,3835,285,3963,279,3963,225,3837,198,3754,174,3670,139,3514"/>
+<area shape="rect" id="Node000006" href="$classTTextFilter_1_1FTextFilterExpressionContext.html" title=" " alt="" coords="607,4023,848,4224"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="686,4222,619,4375,615,4372,682,4225"/>
+<area shape="rect" id="Node000007" href="$classITextFilterExpressionContext.html" title=" " alt="" coords="906,3300,1139,3417"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1012,3429,995,3529,966,3650,926,3781,902,3846,874,3908,841,3968,804,4025,800,4022,837,3965,869,3906,897,3844,921,3779,961,3648,990,3528,1010,3434"/>
+<area shape="rect" id="Node000008" href="$structTRemoveReference.html" title=" " alt="" coords="419,3322,647,3394"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="543,3392,701,4006,695,4006,540,3396"/>
+<area shape="rect" id="Node000009" href="$classTArray.html" title=" " alt="" coords="672,3046,882,3671"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="758,3669,738,4007,733,4005,755,3673"/>
+<area shape="rect" id="Node000010" href="$classFTextFilterExpressionEvaluator.html" title=" " alt="" coords="1890,3931,2138,4316"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1891,4162,690,4496,689,4490,1890,4157"/>
+<area shape="rect" id="Node000011" href="$classFText.html" title=" " alt="" coords="1905,2881,2123,3836"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="2016,3833,2017,3915,2012,3913,2013,3838"/>
+<area shape="rect" id="Node000012" href="$classTRefCountPtr.html" title=" " alt="" coords="2301,2076,2493,2394"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="2349,2392,2286,2571,2246,2659,2210,2726,2175,2793,2138,2882,2131,2901,2127,2898,2133,2880,2170,2790,2205,2723,2241,2657,2281,2569,2346,2396"/>
+<area shape="rect" id="Node000013" href="$classITextData.html" title=" " alt="" coords="2306,1464,2512,1692"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="2408,1690,2403,2060,2398,2058,2406,1695"/>
+<area shape="rect" id="Node000014" href="$classIRefCountedObject.html" title=" " alt="" coords="2324,964,2494,1104"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="2410,1116,2412,1465,2406,1464,2408,1121"/>
+<area shape="rect" id="Node000015" href="$classTArray.html" title=" " alt="" coords="2148,3037,2358,3679"/>
+<area shape="poly" id="edge14_Node000010_Node000015" title=" " alt="" coords="2197,3677,2168,3795,2132,3908,2128,3918,2124,3914,2126,3906,2163,3794,2194,3681"/>
+<area shape="rect" id="Node000016" href="$structTOptional.html" title=" " alt="" coords="2382,3149,2646,3568"/>
+<area shape="poly" id="edge15_Node000010_Node000016" title=" " alt="" coords="2481,3565,2463,3636,2439,3705,2409,3774,2373,3837,2325,3898,2270,3953,2211,4001,2153,4043,2151,4039,2208,3997,2266,3949,2321,3894,2368,3834,2404,3771,2434,3704,2458,3634,2478,3569"/>
+<area shape="rect" id="Node000017" href="$structTOptional.html" title=" " alt="" coords="2670,3157,2889,3559"/>
+<area shape="poly" id="edge16_Node000010_Node000017" title=" " alt="" coords="2770,3557,2757,3631,2735,3704,2703,3774,2660,3837,2607,3891,2547,3939,2482,3979,2414,4013,2346,4042,2278,4066,2155,4100,2154,4094,2277,4061,2344,4037,2412,4009,2480,3974,2544,3934,2604,3887,2656,3834,2699,3772,2730,3702,2752,3630,2767,3561"/>
+<area shape="rect" id="Node000018" href="$classTMap.html" title=" " alt="" coords="2807,2594,3043,2857"/>
+<area shape="poly" id="edge17_Node000010_Node000018" title=" " alt="" coords="2954,2854,2971,2946,2985,3054,2995,3174,2999,3304,2994,3439,2978,3575,2949,3709,2928,3774,2903,3837,2887,3863,2863,3888,2831,3911,2793,3933,2701,3974,2594,4009,2479,4040,2362,4067,2156,4104,2155,4099,2361,4061,2477,4035,2592,4004,2699,3969,2790,3928,2828,3907,2859,3884,2883,3860,2899,3834,2923,3772,2944,3708,2973,3574,2989,3438,2993,3304,2989,3174,2979,3054,2965,2947,2952,2859"/>
+<area shape="rect" id="Node000019" href="$classTSortableMapBase.html" title=" " alt="" coords="2765,1438,2975,1718"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="2879,1730,2921,2595,2916,2593,2876,1735"/>
+<area shape="rect" id="Node000020" href="$classTMapBase.html" title=" " alt="" coords="2591,805,2840,1263"/>
+<area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="2786,1275,2833,1439,2828,1438,2784,1280"/>
+<area shape="rect" id="Node000021" href="$classTSet.html" title=" " alt="" coords="1515,5,1725,715"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="1723,393,1886,453,2087,539,2195,592,2303,651,2409,715,2508,786,2546,818,2583,855,2577,856,2542,822,2505,790,2406,720,2301,655,2193,597,2085,544,1884,457,1725,398"/>
+<area shape="rect" id="Node000026" href="$classTMapBase.html" title=" " alt="" coords="1106,813,1355,1254"/>
+<area shape="poly" id="edge26_Node000026_Node000021" title=" " alt="" coords="1514,545,1366,804,1361,802,1516,540"/>
+<area shape="rect" id="Node000031" href="$classTMapBase.html" title=" " alt="" coords="823,813,1072,1254"/>
+<area shape="poly" id="edge32_Node000031_Node000021" title=" " alt="" coords="1513,432,1421,500,1311,585,1199,683,1096,789,1085,803,1080,800,1092,786,1196,679,1308,581,1418,496,1516,428"/>
+<area shape="rect" id="Node000035" href="$classTMapBase.html" title=" " alt="" coords="1388,788,1654,1280"/>
+<area shape="poly" id="edge37_Node000035_Node000021" title=" " alt="" coords="1568,712,1562,772,1557,770,1567,717"/>
+<area shape="rect" id="Node000038" href="$classTMapBase.html" title=" " alt="" coords="1678,788,2001,1280"/>
+<area shape="poly" id="edge41_Node000038_Node000021" title=" " alt="" coords="1725,679,1757,772,1752,772,1724,684"/>
+<area shape="rect" id="Node000041" href="$classTMapBase.html" title=" " alt="" coords="2024,788,2284,1280"/>
+<area shape="poly" id="edge45_Node000041_Node000021" title=" " alt="" coords="1724,459,1869,609,1945,696,2015,786,2017,790,2012,790,2011,789,1940,700,1865,613,1725,464"/>
+<area shape="rect" id="Node000022" href="$classTTokenDefinitions.html" title=" " alt="" coords="1694,3246,1881,3470"/>
+<area shape="poly" id="edge21_Node000010_Node000022" title=" " alt="" coords="1796,3467,1807,3565,1824,3676,1849,3793,1885,3906,1888,3916,1883,3914,1879,3908,1844,3794,1819,3677,1802,3566,1793,3472"/>
+<area shape="rect" id="Node000023" href="$classFExpressionGrammar.html" title=" " alt="" coords="1163,3244,1420,3472"/>
+<area shape="poly" id="edge22_Node000010_Node000023" title=" " alt="" coords="1300,3470,1316,3558,1340,3654,1357,3702,1378,3749,1404,3793,1434,3834,1480,3882,1532,3925,1588,3963,1647,3996,1766,4049,1877,4088,1871,4088,1764,4054,1645,4001,1586,3967,1529,3929,1476,3886,1430,3837,1399,3796,1374,3751,1352,3704,1335,3655,1310,3559,1298,3475"/>
+<area shape="rect" id="Node000024" href="$classTMap.html" title=" " alt="" coords="934,2112,1170,2358"/>
+<area shape="poly" id="edge23_Node000023_Node000024" title=" " alt="" coords="1079,2355,1267,3227,1261,3227,1076,2360"/>
+<area shape="rect" id="Node000025" href="$classTSortableMapBase.html" title=" " alt="" coords="947,1438,1157,1718"/>
+<area shape="poly" id="edge24_Node000024_Node000025" title=" " alt="" coords="1052,1731,1054,2113,1049,2112,1051,1736"/>
+<area shape="poly" id="edge25_Node000025_Node000026" title=" " alt="" coords="1154,1266,1100,1439,1095,1438,1152,1271"/>
+<area shape="rect" id="Node000027" href="$classTSet.html" title=" " alt="" coords="1193,1900,1403,2570"/>
+<area shape="poly" id="edge27_Node000023_Node000027" title=" " alt="" coords="1298,2568,1295,3228,1290,3227,1295,2572"/>
+<area shape="rect" id="Node000028" href="$classTSparseArray.html" title=" " alt="" coords="1181,1329,1391,1827"/>
+<area shape="poly" id="edge28_Node000027_Node000028" title=" " alt="" coords="1291,1824,1295,1883,1289,1882,1290,1829"/>
+<area shape="rect" id="Node000029" href="$classTMap.html" title=" " alt="" coords="674,2112,910,2358"/>
+<area shape="poly" id="edge29_Node000023_Node000029" title=" " alt="" coords="798,2355,818,2478,833,2544,854,2613,880,2680,914,2745,956,2804,1006,2855,1024,2866,1042,2870,1078,2866,1114,2862,1133,2866,1152,2879,1186,2914,1214,2955,1237,2998,1256,3045,1280,3139,1292,3228,1287,3226,1275,3140,1251,3046,1232,3001,1210,2957,1182,2918,1149,2883,1131,2871,1114,2867,1078,2871,1041,2875,1022,2871,1003,2859,952,2807,910,2747,876,2683,848,2615,828,2546,812,2479,797,2360"/>
+<area shape="rect" id="Node000030" href="$classTSortableMapBase.html" title=" " alt="" coords="705,1438,915,1718"/>
+<area shape="poly" id="edge30_Node000029_Node000030" title=" " alt="" coords="806,1731,798,2113,792,2112,805,1736"/>
+<area shape="poly" id="edge31_Node000030_Node000031" title=" " alt="" coords="889,1266,848,1439,843,1438,888,1272"/>
+<area shape="rect" id="Node000032" href="$structTOperatorJumpTable.html" title=" " alt="" coords="1444,3235,1670,3481"/>
+<area shape="poly" id="edge33_Node000010_Node000032" title=" " alt="" coords="1570,3478,1586,3563,1608,3655,1640,3748,1661,3792,1685,3834,1726,3891,1774,3943,1826,3990,1880,4034,1874,4033,1823,3994,1771,3947,1722,3894,1680,3837,1656,3795,1635,3750,1603,3656,1580,3564,1568,3483"/>
+<area shape="rect" id="Node000033" href="$classTMap.html" title=" " alt="" coords="1427,2078,1663,2392"/>
+<area shape="poly" id="edge34_Node000032_Node000033" title=" " alt="" coords="1548,2389,1558,3219,1553,3218,1545,2394"/>
+<area shape="rect" id="Node000034" href="$classTSortableMapBase.html" title=" " alt="" coords="1415,1421,1675,1735"/>
+<area shape="poly" id="edge35_Node000033_Node000034" title=" " alt="" coords="1546,1747,1548,2079,1542,2078,1544,1752"/>
+<area shape="poly" id="edge36_Node000034_Node000035" title=" " alt="" coords="1533,1293,1541,1422,1536,1421,1532,1298"/>
+<area shape="rect" id="Node000036" href="$classTMap.html" title=" " alt="" coords="1688,2078,2010,2392"/>
+<area shape="poly" id="edge38_Node000032_Node000036" title=" " alt="" coords="1790,2389,1757,2492,1725,2595,1666,2853,1588,3220,1584,3217,1661,2852,1720,2593,1752,2490,1788,2394"/>
+<area shape="rect" id="Node000037" href="$classTSortableMapBase.html" title=" " alt="" coords="1709,1413,1976,1744"/>
+<area shape="poly" id="edge39_Node000036_Node000037" title=" " alt="" coords="1845,1756,1850,2079,1845,2078,1843,1761"/>
+<area shape="poly" id="edge40_Node000037_Node000038" title=" " alt="" coords="1842,1292,1844,1414,1839,1412,1840,1297"/>
+<area shape="rect" id="Node000039" href="$classTMap.html" title=" " alt="" coords="2035,2078,2271,2392"/>
+<area shape="poly" id="edge42_Node000032_Node000039" title=" " alt="" coords="2106,2390,2070,2483,2025,2571,2004,2596,1974,2636,1951,2673,1916,2740,1898,2771,1875,2801,1844,2830,1804,2859,1786,2867,1770,2870,1740,2868,1712,2868,1698,2872,1684,2883,1653,2917,1627,2956,1606,2998,1590,3042,1568,3133,1558,3220,1554,3217,1563,3132,1585,3041,1602,2996,1623,2953,1649,2914,1681,2879,1696,2868,1711,2863,1740,2863,1770,2865,1785,2862,1801,2854,1841,2826,1871,2797,1893,2768,1912,2738,1947,2671,1970,2633,2000,2592,2020,2569,2065,2481,2103,2394"/>
+<area shape="rect" id="Node000040" href="$classTSortableMapBase.html" title=" " alt="" coords="2023,1421,2283,1735"/>
+<area shape="poly" id="edge43_Node000039_Node000040" title=" " alt="" coords="2154,1747,2156,2079,2150,2077,2152,1752"/>
+<area shape="poly" id="edge44_Node000040_Node000041" title=" " alt="" coords="2154,1293,2156,1422,2151,1421,2153,1298"/>
+</map>

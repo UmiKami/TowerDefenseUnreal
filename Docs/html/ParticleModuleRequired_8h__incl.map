@@ -1,0 +1,52 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Particles/ParticleModuleRequired.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Particles/ParticleModuleRequired.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1234,5,1427,84"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="379,309,496,336"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1232,59,1105,82,943,116,767,164,680,193,596,227,538,259,471,302,469,298,536,255,594,222,678,188,765,159,941,111,1104,77,1237,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="1242,309,1420,336"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1333,83,1333,295,1328,292,1329,86"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="2238,309,2423,336"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1421,82,1541,129,1674,174,1924,232,2256,305,2251,305,1923,237,1673,179,1539,134,1421,87"/>
+<area shape="rect" id="Node000005" href="$ParticleModule_8h.html" title=" " alt="" coords="342,225,532,252"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1231,50,1068,60,870,75,683,100,608,116,552,134,524,151,498,171,458,214,455,210,494,168,521,146,550,130,606,110,682,94,869,70,1067,55,1237,49"/>
+<area shape="rect" id="Node000009" href="$ParticleSpriteEmitter_8h.html" title=" " alt="" coords="929,132,1098,177"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="1237,78,1092,129,1091,124,1232,79"/>
+<area shape="rect" id="Node000015" href="$SubUVAnimation_8h.html" title=" " alt="" coords="1408,225,1611,252"/>
+<area shape="poly" id="edge21_Node000001_Node000015" title=" " alt="" coords="1367,82,1489,214,1484,213,1365,87"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="1686,140,1944,168"/>
+<area shape="poly" id="edge30_Node000001_Node000020" title=" " alt="" coords="1428,65,1744,137,1738,137,1427,70"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="439,251,439,295,435,292,435,255"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="533,245,595,250,774,261,913,267,1052,277,1230,298,1262,305,1256,305,1229,303,1051,282,913,272,773,266,594,255,533,250"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="1086,309,1218,336"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="533,245,846,273,1075,298,1097,305,1092,304,1074,303,846,279,533,251"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,309,131,336"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="366,256,143,303,128,307,126,302,142,298,366,250"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="154,309,355,336"/>
+<area shape="poly" id="edge9_Node000005_Node000008" title=" " alt="" coords="411,252,299,305,297,300,405,253"/>
+<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="983,176,909,225,857,255,806,271,761,280,684,286,605,289,560,293,507,303,492,307,491,302,506,298,559,288,605,283,683,281,760,275,804,266,855,250,906,221,977,178"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="1056,175,1295,302,1290,301,1054,180"/>
+<area shape="rect" id="Node000010" href="$ParticleEmitter_8h.html" title=" " alt="" coords="918,225,1108,252"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="1015,175,1015,211,1011,207,1012,179"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="606,225,844,252"/>
+<area shape="poly" id="edge20_Node000009_Node000014" title=" " alt="" coords="940,177,786,223,785,217,934,178"/>
+<area shape="poly" id="edge14_Node000010_Node000002" title=" " alt="" coords="921,251,507,303,491,307,490,301,506,298,915,251"/>
+<area shape="poly" id="edge16_Node000010_Node000003" title=" " alt="" coords="1065,250,1268,305,1263,304,1064,256"/>
+<area shape="poly" id="edge17_Node000010_Node000006" title=" " alt="" coords="1036,250,1119,301,1114,300,1035,255"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="519,309,622,336"/>
+<area shape="poly" id="edge15_Node000010_Node000011" title=" " alt="" coords="920,251,783,273,635,303,622,306,621,301,634,298,782,268,915,251"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="646,309,839,336"/>
+<area shape="poly" id="edge18_Node000010_Node000012" title=" " alt="" coords="972,253,801,307,800,301,967,253"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="862,309,1063,336"/>
+<area shape="poly" id="edge19_Node000010_Node000013" title=" " alt="" coords="1008,252,980,298,977,293,1003,254"/>
+<area shape="poly" id="edge22_Node000015_Node000002" title=" " alt="" coords="1405,243,939,266,689,282,586,292,507,303,489,307,489,302,506,298,585,287,688,277,939,260,1410,243"/>
+<area shape="poly" id="edge23_Node000015_Node000003" title=" " alt="" coords="1483,252,1374,305,1372,299,1478,253"/>
+<area shape="poly" id="edge25_Node000015_Node000004" title=" " alt="" coords="1611,248,1630,250,1798,262,1929,269,2060,278,2227,298,2260,306,2255,305,2226,303,2059,283,1928,274,1797,268,1629,255,1611,253"/>
+<area shape="poly" id="edge24_Node000015_Node000006" title=" " alt="" coords="1447,253,1230,303,1214,307,1213,302,1229,298,1441,253"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1681,309,1820,336"/>
+<area shape="poly" id="edge26_Node000015_Node000016" title=" " alt="" coords="1549,250,1700,304,1695,303,1548,256"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1844,309,2044,336"/>
+<area shape="poly" id="edge27_Node000015_Node000017" title=" " alt="" coords="1579,250,1862,306,1857,305,1579,256"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="2069,300,2214,345"/>
+<area shape="poly" id="edge28_Node000015_Node000018" title=" " alt="" coords="1612,248,2056,300,2051,300,1611,253"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1444,309,1657,336"/>
+<area shape="poly" id="edge29_Node000015_Node000019" title=" " alt="" coords="1517,251,1540,296,1535,294,1515,255"/>
+</map>

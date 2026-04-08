@@ -1,0 +1,35 @@
+<map id="FMallocDoubleFreeFinder" name="FMallocDoubleFreeFinder">
+<area shape="rect" id="Node000001" title=" " alt="" coords="583,3645,784,3829"/>
+<area shape="rect" id="Node000002" href="$classFMallocCallstackHandler.html" title=" " alt="" coords="290,3020,551,3595"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="560,3531,630,3645,625,3645,557,3536"/>
+<area shape="rect" id="Node000003" href="$classFMalloc.html" title=" " alt="" coords="206,2223,358,2519"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="323,2530,374,2691,383,2716,398,2791,408,2868,421,3021,416,3020,403,2869,392,2792,378,2717,369,2693,323,2536"/>
+<area shape="poly" id="edge7_Node000002_Node000003" title=" " alt="" coords="264,2516,259,2625,257,2745,264,2871,283,2995,288,3018,283,3018,278,2997,259,2872,252,2745,254,2624,264,2521"/>
+<area shape="rect" id="Node000004" href="$classFUseSystemMallocForNew.html" title=" " alt="" coords="188,1678,373,1818"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="281,1830,284,2224,279,2223,280,1835"/>
+<area shape="rect" id="Node000005" href="$classFExec.html" title=" " alt="" coords="397,1667,527,1829"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="432,1845,374,2051,325,2224,319,2223,369,2049,434,1840"/>
+<area shape="rect" id="Node000006" href="$classTAtomic.html" title=" " alt="" coords="27,1689,164,1806"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="95,1804,102,1856,112,1913,130,1971,158,2024,167,2032,176,2036,186,2040,196,2048,219,2085,238,2124,264,2207,258,2207,233,2126,214,2087,192,2052,183,2044,174,2041,164,2037,154,2028,125,1973,107,1914,97,1857,95,1809"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,1075,185,1182"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="95,1194,98,1689,93,1689,95,1199"/>
+<area shape="rect" id="Node000008" href="$classUE_1_1FPlatformRWLock.html" title=" " alt="" coords="30,2279,182,2463"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="102,2460,105,2574,114,2709,124,2781,138,2854,157,2926,181,2995,201,3038,226,3080,282,3158,277,3159,221,3082,197,3040,176,2997,152,2928,133,2856,119,2782,109,2710,99,2574,101,2466"/>
+<area shape="rect" id="Node000009" href="$classTMap.html" title=" " alt="" coords="382,2240,618,2502"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="477,2500,462,2607,448,2717,437,2860,429,3003,424,3002,431,2860,443,2716,457,2606,475,2505"/>
+<area shape="rect" id="Node000010" href="$classTSortableMapBase.html" title=" " alt="" coords="550,1608,797,1888"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="632,1899,539,2241,534,2239,630,1904"/>
+<area shape="rect" id="Node000011" href="$classTMapBase.html" title=" " alt="" coords="549,899,798,1358"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="674,1370,676,1609,671,1608,673,1375"/>
+<area shape="rect" id="Node000012" href="$classTSet.html" title=" " alt="" coords="705,5,915,715"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="748,712,720,883,715,882,747,717"/>
+<area shape="rect" id="Node000016" href="$classTMapBase.html" title=" " alt="" coords="823,788,1072,1469"/>
+<area shape="poly" id="edge17_Node000016_Node000012" title=" " alt="" coords="873,712,886,772,881,771,873,717"/>
+<area shape="rect" id="Node000013" href="$classTArray.html" title=" " alt="" coords="642,2050,852,2692"/>
+<area shape="poly" id="edge13_Node000002_Node000013" title=" " alt="" coords="682,2690,680,2717,675,2796,678,2859,675,2921,668,2956,655,2997,637,3038,615,3079,564,3154,559,3151,610,3076,632,3036,650,2995,663,2955,670,2920,673,2859,670,2796,675,2716,681,2695"/>
+<area shape="rect" id="Node000014" href="$classTMap.html" title=" " alt="" coords="829,2716,1065,2996"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="908,2995,718,3630,713,3627,903,2996"/>
+<area shape="rect" id="Node000015" href="$classTSortableMapBase.html" title=" " alt="" coords="842,1519,1052,1977"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="949,1990,950,2717,945,2716,946,1994"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="948,1482,950,1520,945,1519,947,1487"/>
+</map>

@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="UE::Tasks::Private\l::FTaskHandle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Tasks_1_1Private_1_1FTaskHandle.html",tooltip=" "];
+  Node0 -> Node1 [id="edge2546_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="UE::Tasks::TTask\< void \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Tasks_1_1TTask_3_01void_01_4.html",tooltip=" "];
+  Node0 -> Node2 [id="edge2547_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Tasks::FTaskEvent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Tasks_1_1FTaskEvent.html",tooltip=" "];
+  Node0 -> Node3 [id="edge2548_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Tasks::TTask\< Result\lType \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Tasks_1_1TTask.html",tooltip=" "];
+}

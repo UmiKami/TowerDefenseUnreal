@@ -1,0 +1,26 @@
+<map id="LowLevelTasks::Private::TLocalQueueRegistry&lt; NumLocalItems, MaxLocalQueues &gt;" name="LowLevelTasks::Private::TLocalQueueRegistry&lt; NumLocalItems, MaxLocalQueues &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="498,1700,759,1963"/>
+<area shape="rect" id="Node000002" href="$classFAAArrayQueue.html" title=" " alt="" coords="5,330,185,737"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,734,98,940,98,1575,100,1606,108,1634,120,1659,135,1682,177,1722,230,1754,290,1778,355,1797,419,1810,483,1821,478,1822,418,1815,353,1802,288,1783,228,1758,174,1726,131,1686,115,1662,103,1636,95,1607,93,1576,92,940,95,740"/>
+<area shape="rect" id="Node000010" href="$classLowLevelTasks_1_1Private_1_1TLocalQueueRegistry.html" title=" " alt="" coords="546,810,807,1073"/>
+<area shape="poly" id="edge10_Node000010_Node000002" title=" " alt="" coords="184,725,198,735,240,761,279,775,317,781,355,781,436,782,482,789,533,808,528,811,480,795,436,787,355,786,317,786,278,781,238,766,195,739,186,730"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="523,1521,734,1627"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="630,1625,631,1685,626,1682,627,1629"/>
+<area shape="poly" id="edge11_Node000010_Node000003" title=" " alt="" coords="630,1520,663,1092,667,1088,635,1522"/>
+<area shape="rect" id="Node000004" href="$classLowLevelTasks_1_1Private_1_1TLocalQueueRegistry_1_1TLocalQueue.html" title=" " alt="" coords="350,1146,597,1448"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="559,1445,593,1506,588,1506,557,1450"/>
+<area shape="rect" id="Node000005" href="$classLowLevelTasks_1_1LocalQueue__Impl_1_1TWorkStealingQueue2.html" title=" " alt="" coords="133,866,332,1017"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="273,1014,340,1121,348,1132,342,1133,336,1123,273,1020"/>
+<area shape="rect" id="Node000006" href="$classLowLevelTasks_1_1LocalQueue__Impl_1_1TWorkStealingQueueBase2.html" title=" " alt="" coords="209,447,440,620"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="308,632,279,787,258,867,253,866,274,786,307,638"/>
+<area shape="rect" id="Node000007" href="$structLowLevelTasks_1_1LocalQueue__Impl_1_1TWorkStealingQueueBase2_1_1FAlignedElement.html" title=" " alt="" coords="209,151,440,257"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="325,254,327,431,322,430,324,259"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="240,5,409,78"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="325,75,327,134,322,134,324,80"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="357,886,522,998"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="438,995,440,1057,443,1122,444,1130,439,1129,438,1122,434,1057,436,1000"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="603,1071,570,1133,566,1130,600,1075"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="688,498,843,570"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="777,567,804,655,828,761,843,850,847,940,847,1576,841,1618,825,1659,802,1695,773,1729,770,1724,798,1692,821,1656,836,1617,842,1575,842,940,838,851,823,762,799,657,776,572"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="755,567,729,657,701,762,695,794,690,792,696,761,723,655,753,572"/>
+</map>

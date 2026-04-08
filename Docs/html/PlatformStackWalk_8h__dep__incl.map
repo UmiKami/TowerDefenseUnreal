@@ -1,0 +1,33 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Core/Public/HAL/PlatformStackWalk.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Core/Public/HAL/PlatformStackWalk.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="174,5,398,84"/>
+<area shape="rect" id="Node000002" href="$Core_8h.html" title=" " alt="" coords="70,267,246,329"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,57,121,68,83,83,49,105,22,134,11,153,8,170,12,189,22,209,48,241,83,265,78,268,44,245,17,212,7,190,3,171,6,151,18,130,46,101,81,79,119,63,161,53"/>
+<area shape="rect" id="Node000003" href="$GenericPlatformCrashContext_8h.html" title=" " alt="" coords="917,132,1149,211"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="414,65,919,149,915,153,414,70"/>
+<area shape="rect" id="Node000013" href="$PlatformIncludes_8h.html" title=" " alt="" coords="31,140,285,202"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="234,97,191,142,187,138,237,93"/>
+<area shape="rect" id="Node000014" href="$AutomationTest_8h.html" title=" " alt="" coords="309,132,522,211"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="338,92,378,131,373,132,337,98"/>
+<area shape="rect" id="Node000004" href="$AndroidPlatformCrashContext_8h.html" title=" " alt="" coords="1292,259,1499,337"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1160,214,1295,261,1290,261,1160,219"/>
+<area shape="rect" id="Node000005" href="$ApplePlatformCrashContext_8h.html" title=" " alt="" coords="1523,259,1759,337"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="1164,190,1330,219,1511,256,1525,262,1520,261,1510,261,1329,224,1164,195"/>
+<area shape="rect" id="Node000008" href="$MicrosoftPlatformCrashContext_8h.html" title=" " alt="" coords="529,259,771,337"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="905,214,770,261,768,256,900,216"/>
+<area shape="rect" id="Node000010" href="$StallDetector_8h.html" title=" " alt="" coords="796,259,1022,337"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="986,221,949,260,946,256,981,223"/>
+<area shape="rect" id="Node000011" href="$UnixPlatformCrashContext_8h.html" title=" " alt="" coords="1046,259,1268,337"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="1083,219,1121,259,1116,257,1081,225"/>
+<area shape="rect" id="Node000006" href="$IOSPlatformCrashContext_8h.html" title=" " alt="" coords="1419,385,1625,464"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1596,348,1560,387,1558,382,1591,350"/>
+<area shape="rect" id="Node000007" href="$MacPlatformCrashContext_8h.html" title=" " alt="" coords="1650,385,1866,464"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="1689,346,1724,386,1719,384,1687,351"/>
+<area shape="rect" id="Node000009" href="$WindowsPlatformCrashContext_8h.html" title=" " alt="" coords="538,385,762,464"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="652,351,652,386,648,383,649,355"/>
+<area shape="rect" id="Node000012" href="$LinuxPlatformCrashContext_8h.html" title=" " alt="" coords="1041,385,1273,464"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1159,351,1159,387,1155,383,1155,355"/>
+<area shape="poly" id="edge13_Node000013_Node000002" title=" " alt="" coords="159,215,161,268,156,266,157,220"/>
+<area shape="poly" id="edge15_Node000014_Node000002" title=" " alt="" coords="320,220,222,269,219,264,324,216"/>
+<area shape="rect" id="Node000015" href="$CoreSharedPCH_8h.html" title=" " alt="" coords="289,267,505,329"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="409,224,404,268,399,265,406,228"/>
+</map>

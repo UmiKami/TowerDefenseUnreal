@@ -1,0 +1,27 @@
+<map id="UMovementComponent" name="UMovementComponent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="400,2304,654,3136"/>
+<area shape="rect" id="Node000006" href="$classUInterpToMovementComponent.html" title=" " alt="" coords="5,3394,243,4288"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="392,2920,321,3047,287,3116,257,3185,223,3288,195,3395,190,3394,218,3287,253,3183,282,3114,316,3045,393,2915"/>
+<area shape="rect" id="Node000007" href="$classUNavMovementComponent.html" title=" " alt="" coords="268,3536,512,4146"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="475,3149,430,3536,424,3536,474,3154"/>
+<area shape="rect" id="Node000012" href="$classUProjectileMovementComponent.html" title=" " alt="" coords="536,3184,796,4498"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="580,3149,587,3185,582,3185,580,3154"/>
+<area shape="rect" id="Node000013" href="$classURotatingMovementComponent.html" title=" " alt="" coords="819,3782,1040,3900"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="662,2906,744,3040,780,3111,811,3183,839,3265,862,3350,897,3519,918,3670,929,3783,923,3782,913,3670,891,3520,857,3351,834,3267,806,3185,775,3113,739,3042,662,2911"/>
+<area shape="rect" id="Node000002" href="$classUActorComponent.html" title=" " alt="" coords="399,282,655,2256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="527,2268,530,2304,524,2304,527,2273"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="337,84,400,156"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="375,168,402,343,396,343,375,173"/>
+<area shape="rect" id="Node000004" href="$classIInterface__AssetUserData.html" title=" " alt="" coords="424,5,630,234"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="527,246,530,282,524,282,527,251"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="654,84,854,156"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="744,173,658,621,652,620,744,168"/>
+<area shape="rect" id="Node000008" href="$classUPawnMovementComponent.html" title=" " alt="" coords="269,4546,511,5009"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="390,4158,392,4546,387,4546,389,4164"/>
+<area shape="rect" id="Node000009" href="$classUCharacterMovementComponent.html" title=" " alt="" coords="131,5057,387,6543"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="359,5021,357,5058,351,5057,358,5027"/>
+<area shape="rect" id="Node000010" href="$classUFloatingPawnMovement.html" title=" " alt="" coords="411,5675,632,5926"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="423,5021,508,5675,503,5675,420,5026"/>
+<area shape="rect" id="Node000011" href="$classUSpectatorPawnMovement.html" title=" " alt="" coords="428,6591,616,6663"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="524,5939,524,6592,519,6591,519,5941"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="UNavCollisionBase" name="UNavCollisionBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="145,1497,377,1832"/>
+<area shape="poly" id="edge12_Node000001_Node000001" title=" " alt="" coords="377,1627,396,1641,403,1664,400,1680,392,1692,389,1688,396,1678,398,1665,392,1644,376,1632"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,921,68,993"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="34,1006,35,1086,39,1185,53,1294,66,1349,82,1401,111,1463,147,1523,142,1524,106,1466,77,1403,60,1350,48,1295,34,1186,29,1086,33,1011"/>
+<area shape="rect" id="Node000003" href="$structUNavCollisionBase_1_1FDelegateInitializer.html" title=" " alt="" coords="92,912,256,1002"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,999,165,1089,160,1207,165,1339,172,1407,183,1472,185,1481,179,1480,178,1474,167,1408,160,1340,155,1207,159,1089,169,1004"/>
+<area shape="rect" id="Node000004" href="$structFNavCollisionConvex.html" title=" " alt="" coords="280,921,430,993"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="357,991,353,1198,342,1335,322,1473,320,1482,315,1479,317,1473,336,1334,347,1197,355,996"/>
+<area shape="rect" id="Node000005" href="$classTNavStatArray.html" title=" " alt="" coords="46,256,232,328"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="156,325,198,402,250,487,261,499,271,511,293,563,311,616,336,725,350,825,356,904,351,903,345,825,331,726,306,618,288,565,266,514,257,502,246,490,193,405,156,331"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="38,5,225,95"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="133,107,141,256,136,256,133,112"/>
+<area shape="rect" id="Node000007" href="$classTNavStatArray.html" title=" " alt="" coords="271,256,440,328"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="356,325,358,904,353,904,354,330"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="250,5,474,95"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="361,107,359,256,354,256,360,112"/>
+<area shape="rect" id="Node000009" href="$classUBodySetup.html" title=" " alt="" coords="549,513,781,1402"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="550,1304,509,1393,460,1474,428,1517,391,1557,387,1553,423,1514,456,1472,504,1391,547,1308"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="464,256,585,328"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="536,340,574,513,568,513,535,345"/>
+<area shape="rect" id="Node000011" href="$structFWalkableSlopeOverride.html" title=" " alt="" coords="609,144,824,440"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="706,437,703,497,698,496,704,442"/>
+<area shape="rect" id="Node000012" href="$structFBodySetupUVInfo.html" title=" " alt="" coords="848,222,1012,362"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="914,359,875,490,834,594,790,698,785,695,829,592,870,488,911,364"/>
+</map>

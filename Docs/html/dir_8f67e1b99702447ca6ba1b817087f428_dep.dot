@@ -1,0 +1,15 @@
+digraph "/opt/unreal-engine/Engine/Source/Runtime/Core/Public/Sanitizer"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_cd12c867b1fabeb1eaaaf006695459ef {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Public", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_cd12c867b1fabeb1eaaaf006695459ef.html",tooltip=""]
+  dir_c0f438c392ced1ff2162230a0508a519 [label="Misc", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_c0f438c392ced1ff2162230a0508a519.html",tooltip=""];
+  dir_8f67e1b99702447ca6ba1b817087f428 [label="Sanitizer", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_8f67e1b99702447ca6ba1b817087f428.html",tooltip=""];
+  }
+  dir_8f67e1b99702447ca6ba1b817087f428->dir_c0f438c392ced1ff2162230a0508a519 [headlabel="1", labeldistance=1.5 headhref="dir_000111_000088.html" href="dir_000111_000088.html" color="steelblue1" fontcolor="steelblue1"];
+}

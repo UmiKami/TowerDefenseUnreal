@@ -1,0 +1,49 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Particles/Rotation/ParticleModuleMeshRotation_Seeded.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Particles/Rotation/ParticleModuleMeshRotation_Seeded.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1316,5,1587,101"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="295,410,411,438"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1313,63,982,88,574,126,380,151,214,179,145,194,90,210,49,226,25,244,14,260,9,275,9,289,14,302,39,328,77,350,125,369,178,385,282,410,276,411,176,390,123,374,75,355,35,332,10,305,4,290,3,274,9,257,21,240,47,222,88,205,144,189,213,173,379,145,573,121,981,83,1318,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="1294,410,1473,438"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1541,99,1623,152,1662,184,1695,218,1721,253,1734,290,1736,309,1733,327,1726,346,1713,364,1684,378,1629,391,1488,413,1487,407,1628,385,1682,373,1710,360,1721,343,1728,326,1730,309,1729,291,1716,256,1691,221,1658,188,1620,157,1540,104"/>
+<area shape="rect" id="Node000004" href="$ParticleModuleMeshRotation_8h.html" title=" " alt="" coords="791,149,1016,194"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1313,84,1021,148,1020,143,1318,83"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="1803,149,2012,194"/>
+<area shape="poly" id="edge29_Node000001_Node000018" title=" " alt="" coords="1588,86,1810,145,1805,145,1587,92"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="788,187,658,210,513,242,446,261,387,284,342,308,312,336,307,351,310,366,330,400,325,398,305,368,302,350,308,333,338,304,385,279,444,256,512,236,657,205,793,186"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="927,192,1027,273,1094,319,1166,360,1232,385,1299,406,1294,406,1230,390,1164,364,1092,324,1024,277,926,197"/>
+<area shape="rect" id="Node000005" href="$DistributionVector_8h.html" title=" " alt="" coords="577,242,761,286"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="850,193,740,238,738,233,845,195"/>
+<area shape="rect" id="Node000012" href="$ParticleModuleRotationBase_8h.html" title=" " alt="" coords="1210,242,1431,286"/>
+<area shape="poly" id="edge18_Node000004_Node000012" title=" " alt="" coords="1003,192,1208,238,1203,238,1003,197"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="36,250,326,278"/>
+<area shape="poly" id="edge28_Node000004_Node000017" title=" " alt="" coords="790,189,345,244,298,250,297,245,344,239,792,184"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="573,271,502,281,427,294,363,312,340,323,324,336,318,350,319,365,335,399,330,397,314,367,313,349,320,333,337,319,361,307,426,288,502,276,579,270"/>
+<area shape="poly" id="edge8_Node000005_Node000003" title=" " alt="" coords="761,272,905,293,986,310,1064,332,1093,345,1122,360,1208,385,1294,407,1289,406,1207,390,1120,364,1091,350,1062,337,984,315,905,298,761,277"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="344,334,535,362"/>
+<area shape="poly" id="edge9_Node000005_Node000006" title=" " alt="" coords="610,286,491,331,489,326,605,288"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="627,410,743,438"/>
+<area shape="poly" id="edge10_Node000005_Node000007" title=" " alt="" coords="573,272,505,282,433,295,372,313,350,324,335,336,329,348,335,360,352,374,379,386,451,403,534,413,614,421,608,421,533,418,450,408,377,391,349,379,331,364,324,348,331,333,347,319,370,308,432,289,504,277,578,271"/>
+<area shape="rect" id="Node000008" href="$Distribution_8h.html" title=" " alt="" coords="855,334,1051,362"/>
+<area shape="poly" id="edge11_Node000005_Node000008" title=" " alt="" coords="744,284,895,330,890,330,744,290"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="558,334,779,362"/>
+<area shape="poly" id="edge17_Node000005_Node000011" title=" " alt="" coords="670,285,671,320,667,317,667,289"/>
+<area shape="poly" id="edge12_Node000008_Node000002" title=" " alt="" coords="856,363,427,416,426,411,852,360"/>
+<area shape="poly" id="edge13_Node000008_Node000003" title=" " alt="" coords="1030,360,1293,407,1288,407,1030,365"/>
+<area shape="poly" id="edge15_Node000008_Node000007" title=" " alt="" coords="907,362,747,408,746,403,902,363"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1115,410,1246,438"/>
+<area shape="poly" id="edge14_Node000008_Node000009" title=" " alt="" coords="994,360,1128,405,1123,405,993,365"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="863,410,1042,438"/>
+<area shape="poly" id="edge16_Node000008_Node000010" title=" " alt="" coords="955,361,955,396,951,393,951,364"/>
+<area shape="poly" id="edge19_Node000012_Node000002" title=" " alt="" coords="1207,270,1128,280,1035,292,938,311,843,337,818,351,792,364,695,390,596,408,504,418,427,423,426,418,503,413,595,402,694,385,790,360,815,346,841,332,936,306,1034,287,1128,275,1212,270"/>
+<area shape="poly" id="edge20_Node000012_Node000003" title=" " alt="" coords="1432,268,1509,276,1586,288,1651,307,1675,318,1692,333,1699,348,1692,364,1666,377,1616,389,1488,411,1487,406,1615,384,1664,372,1688,360,1693,348,1688,336,1672,323,1649,311,1584,293,1508,281,1432,274"/>
+<area shape="rect" id="Node000013" href="$ParticleModule_8h.html" title=" " alt="" coords="1488,334,1679,362"/>
+<area shape="poly" id="edge21_Node000012_Node000013" title=" " alt="" coords="1391,284,1529,329,1524,329,1390,290"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1177,334,1464,362"/>
+<area shape="poly" id="edge27_Node000012_Node000016" title=" " alt="" coords="1323,285,1323,320,1319,317,1319,289"/>
+<area shape="poly" id="edge22_Node000013_Node000002" title=" " alt="" coords="1491,361,1477,365,1000,392,427,421,426,416,1000,387,1476,359,1485,361"/>
+<area shape="poly" id="edge23_Node000013_Node000003" title=" " alt="" coords="1550,362,1434,407,1433,402,1545,363"/>
+<area shape="poly" id="edge24_Node000013_Node000009" title=" " alt="" coords="1514,362,1262,410,1261,405,1508,363"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1509,410,1634,438"/>
+<area shape="poly" id="edge25_Node000013_Node000014" title=" " alt="" coords="1583,361,1578,397,1574,393,1579,364"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="1658,410,1858,438"/>
+<area shape="poly" id="edge26_Node000013_Node000015" title=" " alt="" coords="1615,360,1716,404,1711,403,1614,365"/>
+</map>

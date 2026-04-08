@@ -1,0 +1,25 @@
+<map id="ULightComponent" name="ULightComponent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="141,4708,396,5636"/>
+<area shape="rect" id="Node000008" href="$classUDirectionalLightComponent.html" title=" " alt="" coords="5,5684,267,6305"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="191,5653,189,5684,183,5683,192,5647"/>
+<area shape="rect" id="Node000009" href="$classULocalLightComponent.html" title=" " alt="" coords="292,5760,509,6229"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="345,5648,366,5760,360,5760,345,5653"/>
+<area shape="rect" id="Node000002" href="$classULightComponentBase.html" title=" " alt="" coords="163,4141,373,4660"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,4673,271,4709,266,4708,268,4678"/>
+<area shape="rect" id="Node000003" href="$classUSceneComponent.html" title=" " alt="" coords="136,2304,400,4093"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="268,4106,271,4141,266,4141,268,4111"/>
+<area shape="rect" id="Node000004" href="$classUActorComponent.html" title=" " alt="" coords="140,282,396,2256"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="268,2268,271,2304,266,2304,268,2273"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="78,84,141,156"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="116,168,143,342,138,343,117,173"/>
+<area shape="rect" id="Node000006" href="$classIInterface__AssetUserData.html" title=" " alt="" coords="165,5,371,234"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="268,246,271,282,266,282,268,251"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="395,84,595,156"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="485,173,399,620,394,620,486,168"/>
+<area shape="rect" id="Node000010" href="$classUPointLightComponent.html" title=" " alt="" coords="164,6397,389,6849"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="352,6241,323,6398,318,6397,351,6246"/>
+<area shape="rect" id="Node000012" href="$classURectLightComponent.html" title=" " alt="" coords="414,6353,632,6894"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="449,6241,473,6353,468,6353,448,6246"/>
+<area shape="rect" id="Node000011" href="$classUSpotLightComponent.html" title=" " alt="" coords="181,6942,372,7282"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="277,6862,279,6943,274,6941,275,6867"/>
+</map>

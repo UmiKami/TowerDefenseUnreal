@@ -1,0 +1,103 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Particles/ParticleModule.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Particles/ParticleModule.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6594,5,6778,84"/>
+<area shape="rect" id="Node000002" href="$ParticleModuleAccelerationBase_8h.html" title=" " alt="" coords="798,132,1086,228"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="6576,47,4820,74,3480,100,2094,135,1536,155,1087,174,1086,169,1536,149,2094,129,3480,95,4819,69,6581,47"/>
+<area shape="rect" id="Node000008" href="$ParticleModuleAttractorBase_8h.html" title=" " alt="" coords="2106,132,2346,228"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="6576,47,6026,56,5136,70,4061,96,3501,113,2952,135,2623,153,2347,172,2347,167,2623,147,2951,129,3501,108,4061,90,5136,65,6026,50,6581,47"/>
+<area shape="rect" id="Node000013" href="$ParticleModuleBeamBase_8h.html" title=" " alt="" coords="3208,140,3455,219"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="6577,47,6152,57,5493,72,4709,98,3904,135,3665,151,3455,169,3455,164,3665,146,3903,129,4709,92,5493,67,6151,52,6582,47"/>
+<area shape="rect" id="Node000014" href="$ParticleModuleBeamModifier_8h.html" title=" " alt="" coords="2635,284,2903,363"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="6576,46,5866,52,4808,64,4270,75,3790,89,3416,109,3285,121,3197,135,3095,165,2996,204,2907,247,2834,286,2833,281,2904,242,2994,200,3093,160,3196,129,3284,116,3416,104,3790,84,4270,69,4808,58,5866,47,6582,46"/>
+<area shape="rect" id="Node000018" href="$ParticleModuleCameraBase_8h.html" title=" " alt="" coords="3915,140,4188,219"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="6576,46,6211,50,5661,60,5344,71,5013,86,4678,107,4350,135,4188,156,4188,151,4350,129,4678,102,5013,81,5344,66,5661,55,6211,44,6581,45"/>
+<area shape="rect" id="Node000020" href="$ParticleModuleCollisionBase_8h.html" title=" " alt="" coords="4362,132,4600,228"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="6577,46,6171,53,5602,65,5307,76,5031,91,4794,110,4615,135,4601,138,4600,132,4614,129,4793,105,5031,85,5307,71,5602,60,6171,47,6582,46"/>
+<area shape="rect" id="Node000023" href="$ParticleModuleColorBase_8h.html" title=" " alt="" coords="4626,140,4864,219"/>
+<area shape="poly" id="edge23_Node000001_Node000023" title=" " alt="" coords="6576,47,6217,55,5724,69,5470,80,5233,95,5030,113,4876,135,4844,143,4843,137,4875,129,5029,107,5233,89,5470,75,5724,64,6217,50,6582,47"/>
+<area shape="rect" id="Node000028" href="$ParticleModuleEventBase_8h.html" title=" " alt="" coords="4888,140,5132,219"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="6576,48,6265,59,5851,75,5442,99,5272,116,5144,135,5112,142,5111,137,5143,129,5271,110,5441,94,5851,69,6265,54,6581,48"/>
+<area shape="rect" id="Node000033" href="$ParticleModuleKillBase_8h.html" title=" " alt="" coords="5156,140,5368,219"/>
+<area shape="poly" id="edge30_Node000001_Node000033" title=" " alt="" coords="6576,49,6310,61,5964,77,5626,101,5487,117,5381,135,5352,143,5352,137,5380,129,5486,112,5626,96,5964,72,6310,55,6582,49"/>
+<area shape="rect" id="Node000036" href="$ParticleModuleLifetimeBase_8h.html" title=" " alt="" coords="5393,132,5627,228"/>
+<area shape="poly" id="edge32_Node000001_Node000036" title=" " alt="" coords="6576,46,6399,52,6164,64,5902,90,5769,110,5640,135,5628,137,5627,132,5639,129,5768,105,5901,85,6164,59,6399,47,6582,45"/>
+<area shape="rect" id="Node000039" href="$ParticleModuleLightBase_8h.html" title=" " alt="" coords="5652,140,5886,219"/>
+<area shape="poly" id="edge33_Node000001_Node000039" title=" " alt="" coords="6581,50,6442,60,6271,75,6084,99,5899,135,5870,142,5869,137,5898,129,6083,94,6270,70,6441,55,6576,50"/>
+<area shape="rect" id="Node000042" href="$ParticleModuleLocationBase_8h.html" title=" " alt="" coords="5911,132,6147,228"/>
+<area shape="poly" id="edge34_Node000001_Node000042" title=" " alt="" coords="6582,57,6383,89,6271,109,6160,135,6148,138,6147,133,6159,129,6270,104,6383,83,6577,58"/>
+<area shape="rect" id="Node000060" href="$ParticleModuleMaterialBase_8h.html" title=" " alt="" coords="6172,132,6406,228"/>
+<area shape="poly" id="edge35_Node000001_Node000060" title=" " alt="" coords="6582,79,6419,135,6407,139,6406,133,6417,129,6577,80"/>
+<area shape="rect" id="Node000062" href="$ParticleModuleOrbitBase_8h.html" title=" " alt="" coords="6430,140,6665,219"/>
+<area shape="poly" id="edge36_Node000001_Node000062" title=" " alt="" coords="6638,93,6589,143,6586,138,6633,96"/>
+<area shape="rect" id="Node000064" href="$ParticleModuleOrientationBase_8h.html" title=" " alt="" coords="6689,132,6961,228"/>
+<area shape="poly" id="edge37_Node000001_Node000064" title=" " alt="" coords="6738,92,6778,133,6773,131,6736,97"/>
+<area shape="rect" id="Node000067" href="$ParticleModuleParameterBase_8h.html" title=" " alt="" coords="6986,132,7248,228"/>
+<area shape="poly" id="edge38_Node000001_Node000067" title=" " alt="" coords="6793,75,6974,129,6988,136,6982,135,6972,135,6792,80"/>
+<area shape="rect" id="Node000068" href="$ParticleModuleParameterDynamic_8h.html" title=" " alt="" coords="7070,276,7332,371"/>
+<area shape="poly" id="edge40_Node000001_Node000068" title=" " alt="" coords="6793,43,6921,48,7060,62,7126,73,7184,88,7230,106,7261,130,7272,147,7277,165,7275,204,7260,242,7239,278,7236,273,7255,240,7270,203,7272,166,7267,149,7258,134,7227,111,7182,93,7125,78,7060,67,6920,54,6793,49"/>
+<area shape="rect" id="Node000070" href="$ParticleModuleRequired_8h.html" title=" " alt="" coords="7322,140,7514,219"/>
+<area shape="poly" id="edge41_Node000001_Node000070" title=" " alt="" coords="6793,50,6901,60,7030,76,7168,99,7304,129,7332,140,7327,140,7303,135,7167,104,7029,81,6900,65,6793,56"/>
+<area shape="rect" id="Node000071" href="$ParticleModuleRotationBase_8h.html" title=" " alt="" coords="7539,132,7775,228"/>
+<area shape="poly" id="edge42_Node000001_Node000071" title=" " alt="" coords="6793,46,6939,53,7123,68,7325,93,7427,109,7527,129,7541,135,7536,135,7526,135,7426,115,7325,98,7123,73,6939,59,6793,51"/>
+<area shape="rect" id="Node000077" href="$ParticleModuleRotationRateBase_8h.html" title=" " alt="" coords="7800,132,8066,228"/>
+<area shape="poly" id="edge43_Node000001_Node000077" title=" " alt="" coords="6793,44,6982,48,7230,61,7509,86,7650,105,7788,129,7802,135,7797,134,7787,135,7649,111,7508,92,7230,66,6981,53,6793,49"/>
+<area shape="rect" id="Node000085" href="$ParticleModuleSizeBase_8h.html" title=" " alt="" coords="8090,140,8314,219"/>
+<area shape="poly" id="edge44_Node000001_Node000085" title=" " alt="" coords="6793,46,7079,55,7450,71,7814,95,7965,111,8079,129,8111,140,8105,140,8078,135,7964,116,7814,101,7450,76,7079,60,6793,51"/>
+<area shape="rect" id="Node000091" href="$ParticleModuleSpawnBase_8h.html" title=" " alt="" coords="8338,140,8594,219"/>
+<area shape="poly" id="edge45_Node000001_Node000091" title=" " alt="" coords="6793,45,7124,53,7567,69,8007,94,8189,110,8327,129,8362,140,8357,140,8326,135,8188,115,8006,99,7567,74,7124,58,6793,51"/>
+<area shape="rect" id="Node000094" href="$ParticleModuleSubUVBase_8h.html" title=" " alt="" coords="8618,140,8874,219"/>
+<area shape="poly" id="edge46_Node000001_Node000094" title=" " alt="" coords="6793,44,7175,50,7699,64,7970,75,8224,89,8442,107,8607,129,8643,140,8637,140,8606,135,8441,112,8223,94,7970,80,7699,69,7175,55,6793,50"/>
+<area shape="rect" id="Node000096" href="$ParticleModuleSubUVMovie_8h.html" title=" " alt="" coords="8898,140,9162,219"/>
+<area shape="poly" id="edge47_Node000001_Node000096" title=" " alt="" coords="6793,44,7224,48,7830,60,8145,71,8440,86,8695,105,8887,129,8924,140,8919,140,8886,135,8694,110,8440,91,8145,76,7829,65,7224,53,6793,49"/>
+<area shape="rect" id="Node000097" href="$ParticleModuleTrailBase_8h.html" title=" " alt="" coords="9186,140,9413,219"/>
+<area shape="poly" id="edge48_Node000001_Node000097" title=" " alt="" coords="6793,45,7320,55,8063,72,8766,98,9023,113,9175,129,9208,140,9203,140,9174,135,9022,118,8765,103,8063,78,7320,60,6793,50"/>
+<area shape="rect" id="Node000099" href="$ParticleModuleTypeDataBase_8h.html" title=" " alt="" coords="9437,132,9685,228"/>
+<area shape="poly" id="edge49_Node000001_Node000099" title=" " alt="" coords="6793,45,7368,54,8189,72,8970,97,9256,112,9425,129,9439,135,9434,134,9424,135,9256,118,8970,102,8189,77,7368,60,6793,50"/>
+<area shape="rect" id="Node000104" href="$ParticleModuleVectorFieldBase_8h.html" title=" " alt="" coords="9709,132,9949,228"/>
+<area shape="poly" id="edge50_Node000001_Node000104" title=" " alt="" coords="6793,44,7418,52,8325,69,8783,80,9192,94,9510,110,9622,120,9697,129,9711,135,9705,134,9696,135,9622,125,9509,116,9192,99,8783,86,8325,74,7418,58,6793,50"/>
+<area shape="rect" id="Node000111" href="$ParticleModuleVelocityBase_8h.html" title=" " alt="" coords="9973,132,10205,228"/>
+<area shape="poly" id="edge51_Node000001_Node000111" title=" " alt="" coords="6793,44,7467,51,8457,66,8959,77,9407,91,9756,109,9879,119,9961,129,9975,135,9969,134,9960,135,9879,124,9755,114,9407,97,8959,82,8457,71,7467,56,6793,49"/>
+<area shape="rect" id="Node000003" href="$ParticleModuleAcceleration_8h.html" title=" " alt="" coords="5,284,306,363"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="780,200,562,234,319,278,285,286,284,281,318,273,561,228,785,199"/>
+<area shape="rect" id="Node000004" href="$ParticleModuleAccelerationConstant_8h.html" title=" " alt="" coords="330,276,618,371"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="786,228,619,281,618,276,781,230"/>
+<area shape="rect" id="Node000005" href="$ParticleModuleAccelerationDrag_8h.html" title=" " alt="" coords="642,276,930,371"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="881,237,839,278,837,273,876,239"/>
+<area shape="rect" id="Node000006" href="$ParticleModuleAccelerationDragScaleOverLife_8h.html" title=" " alt="" coords="954,276,1242,371"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1006,236,1049,276,1044,275,1004,241"/>
+<area shape="rect" id="Node000007" href="$ParticleModuleAccelerationOverLifetime_8h.html" title=" " alt="" coords="1266,276,1554,371"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="1101,226,1268,279,1263,278,1101,232"/>
+<area shape="rect" id="Node000009" href="$ParticleModuleAttractorLine_8h.html" title=" " alt="" coords="1578,276,1818,371"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="2094,209,1965,242,1831,278,1819,282,1818,276,1829,273,1963,237,2088,210"/>
+<area shape="rect" id="Node000010" href="$ParticleModuleAttractorParticle_8h.html" title=" " alt="" coords="1842,276,2082,371"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="2127,235,2051,278,2050,273,2122,236"/>
+<area shape="rect" id="Node000011" href="$ParticleModuleAttractorPoint_8h.html" title=" " alt="" coords="2106,276,2346,371"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="2228,241,2228,277,2224,274,2224,245"/>
+<area shape="rect" id="Node000012" href="$ParticleModuleAttractorPointGravity_8h.html" title=" " alt="" coords="2370,276,2610,371"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="2328,233,2405,276,2399,275,2327,238"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="3196,209,3059,242,2916,278,2888,286,2887,281,2915,273,3058,237,3190,210"/>
+<area shape="rect" id="Node000015" href="$ParticleModuleBeamNoise_8h.html" title=" " alt="" coords="2927,284,3178,363"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="3244,226,3130,286,3128,281,3239,227"/>
+<area shape="rect" id="Node000016" href="$ParticleModuleBeamSource_8h.html" title=" " alt="" coords="3202,284,3461,363"/>
+<area shape="poly" id="edge15_Node000013_Node000016" title=" " alt="" coords="3333,233,3333,286,3330,282,3330,237"/>
+<area shape="rect" id="Node000017" href="$ParticleModuleBeamTarget_8h.html" title=" " alt="" coords="3484,284,3739,363"/>
+<area shape="poly" id="edge16_Node000013_Node000017" title=" " alt="" coords="3422,224,3538,284,3532,283,3421,229"/>
+<area shape="rect" id="Node000019" href="$ParticleModuleCameraOffset_8h.html" title=" " alt="" coords="3763,284,4044,363"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="4003,229,3945,286,3943,281,3998,231"/>
+<area shape="rect" id="Node000021" href="$ParticleModuleCollision_8h.html" title=" " alt="" coords="4068,284,4318,363"/>
+<area shape="poly" id="edge21_Node000020_Node000021" title=" " alt="" coords="4374,234,4272,286,4271,281,4368,236"/>
+<area shape="rect" id="Node000022" href="$ParticleModuleCollisionGPU_8h.html" title=" " alt="" coords="4342,284,4620,363"/>
+<area shape="poly" id="edge22_Node000020_Node000022" title=" " alt="" coords="4483,241,4483,286,4479,282,4479,245"/>
+<area shape="rect" id="Node000024" href="$ParticleModuleColor_8h.html" title=" " alt="" coords="4644,284,4851,363"/>
+<area shape="poly" id="edge24_Node000023_Node000024" title=" " alt="" coords="4748,233,4749,286,4745,282,4744,237"/>
+<area shape="rect" id="Node000026" href="$ParticleModuleColorOverLife_8h.html" title=" " alt="" coords="4874,284,5136,363"/>
+<area shape="poly" id="edge25_Node000023_Node000026" title=" " alt="" coords="4830,224,4936,284,4931,283,4828,229"/>
+<area shape="rect" id="Node000027" href="$ParticleModuleColorScaleOverLife_8h.html" title=" " alt="" coords="5160,276,5420,371"/>
+<area shape="poly" id="edge26_Node000023_Node000027" title=" " alt="" coords="4863,222,4876,225,4952,242,5012,250,5072,257,5148,273,5162,279,5157,278,5147,278,5071,263,5011,255,4951,247,4875,230,4863,227"/>
+<area shape="rect" id="Node000029" href="$ParticleModuleEventGenerator_8h.html" title=" " alt="" coords="5445,284,5722,363"/>
+<area shape="poly" id="edge28_Node000028_Node000029" title=" " alt="" coords="5130,221,5144,225,5225,242,5288,250,5352,257,5433,273,5466,284,5461,283,5432,278,5351,263,5288,255,5224,247,5143,230,5130,227"/>
+<area shape="rect" id="Node000030" href="$ParticleModuleEventReceiverBase_8h.html" title=" " alt="" coords="5747,276,6004,371"/>
+<area shape="poly" id="edge29_Node000028_Node000030" title=" " alt="" coords="5127,221,5144,225,5233,241,5308,248,5439,250,5569,251,5646,258,5735,273,5749,279,5744,278,5734,278,5645,263,5569,256,5439,255,5308,253,5232,246,5143,230,5127,226"/>
+<area shape="rect" id="Node000034" href="$ParticleModuleKillBox_8h.html" title=" " alt="" coords="6029,284,6234,363"/>
+<area shape="poly" id="edge31_Node000033_Node000034" title=" " alt="" coords="5368,222,5381,225,5477,243,5558,250,5631,251,5699,248,5767,246,5840,247,5922,255,6017,273,6047,284,6041,283,6016,278,5921,260,5840,252,5767,251,5699,254,5631,256,5558,255,5476,248,5380,230,5367,227"/>
+<area shape="poly" id="edge39_Node000067_Node000068" title=" " alt="" coords="7154,239,7175,277,7171,274,7151,244"/>
+</map>

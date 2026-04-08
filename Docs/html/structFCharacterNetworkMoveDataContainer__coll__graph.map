@@ -1,0 +1,12 @@
+<map id="FCharacterNetworkMoveDataContainer" name="FCharacterNetworkMoveDataContainer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="94,797,327,1122"/>
+<area shape="rect" id="Node000002" href="$structFCharacterNetworkMoveData.html" title=" " alt="" coords="90,384,331,657"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,655,213,781,208,780,209,659"/>
+<area shape="rect" id="Node000003" href="$structFVector__NetQuantize10.html" title=" " alt="" coords="5,138,196,300"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="130,297,157,367,152,368,130,302"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="178,5,239,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="179,93,152,139,147,137,180,88"/>
+<area shape="rect" id="Node000005" href="$structFVector__NetQuantize100.html" title=" " alt="" coords="220,127,419,311"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="239,88,265,127,260,128,239,93"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="286,313,268,370,263,368,287,308"/>
+</map>

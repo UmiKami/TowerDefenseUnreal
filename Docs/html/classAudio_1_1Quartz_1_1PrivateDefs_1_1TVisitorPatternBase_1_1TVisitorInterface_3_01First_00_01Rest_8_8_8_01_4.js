@@ -1,0 +1,4 @@
+var classAudio_1_1Quartz_1_1PrivateDefs_1_1TVisitorPatternBase_1_1TVisitorInterface_3_01First_00_01Rest_8_8_8_01_4 =
+[
+    [ "Visit", "classAudio_1_1Quartz_1_1PrivateDefs_1_1TVisitorPatternBase_1_1TVisitorInterface_3_01First_00_01Rest_8_8_8_01_4.html#a690d21f132d07cf62953a0545935c10b", null ]
+];

@@ -1,0 +1,13 @@
+<map id="APawn" name="APawn">
+<area shape="rect" id="Node000001" title=" " alt="" coords="154,282,408,1259"/>
+<area shape="rect" id="Node000004" href="$classACharacter.html" title=" " alt="" coords="5,1307,279,2605"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,1271,221,1308,216,1307,222,1277"/>
+<area shape="rect" id="Node000005" href="$classADefaultPawn.html" title=" " alt="" coords="304,1730,538,2182"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="341,1271,397,1730,392,1730,340,1276"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="174,84,228,156"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,168,224,282,218,282,207,173"/>
+<area shape="rect" id="Node000003" href="$classINavAgentInterface.html" title=" " alt="" coords="252,5,470,234"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="346,246,344,282,338,282,345,252"/>
+<area shape="rect" id="Node000006" href="$classASpectatorPawn.html" title=" " alt="" coords="359,2653,483,2770"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="423,2195,424,2653,418,2652,419,2198"/>
+</map>

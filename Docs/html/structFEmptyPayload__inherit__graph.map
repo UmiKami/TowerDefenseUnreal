@@ -1,0 +1,23 @@
+<map id="FEmptyPayload" name="FEmptyPayload">
+<area shape="rect" id="Node000001" title=" " alt="" coords="458,5,570,78"/>
+<area shape="rect" id="Node000002" href="$structFAnimationTrackPayload.html" title=" " alt="" coords="39,226,211,298"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="441,51,392,62,335,76,278,98,225,128,199,150,177,176,144,228,139,225,173,173,196,146,222,123,276,93,334,71,391,57,445,48"/>
+<area shape="rect" id="Node000004" href="$structFAttributePayload.html" title=" " alt="" coords="235,226,361,298"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="443,76,409,99,375,128,355,151,338,177,313,228,309,225,334,175,351,148,371,124,406,95,447,72"/>
+<area shape="rect" id="Node000005" href="$structFBracketPayload.html" title=" " alt="" coords="385,226,505,298"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="500,90,458,228,454,225,497,94"/>
+<area shape="rect" id="Node000006" href="$structFCurvePayload.html" title=" " alt="" coords="529,226,638,298"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="531,89,575,227,570,226,529,94"/>
+<area shape="rect" id="Node000010" href="$structFFrameRateChangedPayload.html" title=" " alt="" coords="662,226,860,298"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="583,76,619,98,652,124,701,175,740,227,735,226,697,178,648,128,616,103,583,81"/>
+<area shape="rect" id="Node000011" href="$structFSequenceLengthChangedPayload.html" title=" " alt="" coords="884,126,1145,399"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="584,45,649,54,723,69,801,91,874,123,887,132,881,132,872,128,799,96,722,74,649,59,586,51"/>
+<area shape="rect" id="Node000003" href="$structFAnimationTrackAddedPayload.html" title=" " alt="" coords="5,447,244,609"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,311,127,448,122,447,123,315"/>
+<area shape="rect" id="Node000007" href="$structFCurveFlagsChangedPayload.html" title=" " alt="" coords="274,492,474,564"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="567,310,547,357,519,401,472,452,423,494,420,490,468,448,515,397,542,354,563,314"/>
+<area shape="rect" id="Node000008" href="$structFCurveRenamedPayload.html" title=" " alt="" coords="498,492,669,564"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="585,311,586,493,581,491,582,315"/>
+<area shape="rect" id="Node000009" href="$structFCurveScaledPayload.html" title=" " alt="" coords="693,480,845,575"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="604,309,626,354,652,397,686,441,723,482,718,480,682,444,648,401,622,356,602,314"/>
+</map>

@@ -1,0 +1,35 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/PhysicsEngine/ShapeElem.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/PhysicsEngine/ShapeElem.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="981,5,1202,84"/>
+<area shape="rect" id="Node000002" href="$BoxElem_8h.html" title=" " alt="" coords="5,132,226,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="963,52,817,62,634,77,435,101,237,135,227,137,224,132,236,129,435,96,634,72,817,57,968,50"/>
+<area shape="rect" id="Node000006" href="$ConvexElem_8h.html" title=" " alt="" coords="249,132,470,211"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="963,59,739,88,609,109,481,135,471,137,468,132,480,129,609,104,738,83,968,57"/>
+<area shape="rect" id="Node000007" href="$LevelSetElem_8h.html" title=" " alt="" coords="493,132,714,211"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="964,74,726,135,715,138,713,133,724,129,969,72"/>
+<area shape="rect" id="Node000008" href="$MLLevelSetElem_8h.html" title=" " alt="" coords="737,132,958,211"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="1005,90,925,134,922,129,1000,93"/>
+<area shape="rect" id="Node000009" href="$SkinnedLevelSetElem_8h.html" title=" " alt="" coords="981,132,1202,211"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="1093,98,1094,133,1089,130,1090,102"/>
+<area shape="rect" id="Node000010" href="$SkinnedTriangleMeshElem_8h.html" title=" " alt="" coords="1225,132,1446,211"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="1181,89,1262,131,1257,131,1180,94"/>
+<area shape="rect" id="Node000011" href="$SphereElem_8h.html" title=" " alt="" coords="1469,132,1690,211"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="1217,70,1459,129,1472,135,1466,135,1457,135,1217,76"/>
+<area shape="rect" id="Node000012" href="$SphylElem_8h.html" title=" " alt="" coords="1713,132,1934,211"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="1217,55,1445,83,1574,104,1703,129,1716,135,1711,135,1702,135,1574,109,1444,88,1218,60"/>
+<area shape="rect" id="Node000013" href="$TaperedCapsuleElem_8h.html" title=" " alt="" coords="1957,132,2178,211"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="1217,48,1366,57,1549,72,1748,96,1947,129,1960,134,1955,134,1946,135,1748,101,1549,77,1366,62,1218,53"/>
+<area shape="rect" id="Node000003" href="$AggregateGeom_8h.html" title=" " alt="" coords="981,259,1202,337"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,209,448,243,652,267,836,282,983,292,978,293,835,287,652,272,448,248,241,214"/>
+<area shape="rect" id="Node000004" href="$BodySetup_8h.html" title=" " alt="" coords="981,385,1202,464"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1093,351,1094,386,1089,383,1090,355"/>
+<area shape="rect" id="Node000005" href="$SkeletalBodySetup_8h.html" title=" " alt="" coords="981,512,1202,591"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1093,478,1094,513,1089,510,1090,482"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="484,209,621,235,755,257,983,286,978,287,755,262,620,241,485,214"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="729,209,984,272,978,274,728,214"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="937,215,1018,258,1013,258,936,221"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="1093,224,1094,260,1089,257,1090,229"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="1249,217,1168,261,1166,256,1244,219"/>
+<area shape="poly" id="edge16_Node000011_Node000003" title=" " alt="" coords="1452,212,1203,276,1201,270,1457,211"/>
+<area shape="poly" id="edge18_Node000012_Node000003" title=" " alt="" coords="1696,212,1563,241,1428,262,1203,289,1202,284,1428,257,1562,235,1701,211"/>
+<area shape="poly" id="edge20_Node000013_Node000003" title=" " alt="" coords="1940,212,1735,248,1531,272,1348,287,1203,295,1202,290,1347,282,1531,267,1735,243,1945,211"/>
+</map>

@@ -1,0 +1,52 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Core/Public/Serialization/CompactBinary.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Core/Public/Serialization/CompactBinary.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1380,5,1563,84"/>
+<area shape="rect" id="Node000002" href="$StructuredLog_8h.html" title=" " alt="" coords="735,267,994,329"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1362,56,1260,69,1147,85,1047,107,1007,120,978,134,944,163,916,199,894,236,878,269,874,265,890,233,912,196,940,160,975,130,1005,115,1045,102,1146,80,1259,64,1367,54"/>
+<area shape="rect" id="Node000016" href="$CompactBinaryContainerSerialization_8h.html" title=" " alt="" coords="1070,259,1351,337"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="1362,61,1330,73,1296,88,1264,108,1238,134,1221,163,1212,195,1208,228,1208,260,1203,257,1203,228,1206,194,1216,160,1233,130,1261,104,1293,84,1328,68,1367,59"/>
+<area shape="rect" id="Node000017" href="$CompactBinaryPackage_8h.html" title=" " alt="" coords="1490,132,1682,211"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="1518,93,1553,132,1548,131,1517,98"/>
+<area shape="rect" id="Node000018" href="$CompactBinarySerialization_8h.html" title=" " alt="" coords="1248,132,1466,211"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="1428,94,1394,134,1391,129,1423,97"/>
+<area shape="rect" id="Node000020" href="$CompactBinaryValidation_8h.html" title=" " alt="" coords="1706,132,1909,211"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="1578,83,1708,132,1703,133,1578,88"/>
+<area shape="rect" id="Node000021" href="$CompactBinaryValue_8h.html" title=" " alt="" coords="1933,132,2116,211"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="1578,59,1741,88,1922,129,1935,135,1930,136,1920,135,1740,93,1579,64"/>
+<area shape="rect" id="Node000022" href="$CompactBinaryWriter_8h.html" title=" " alt="" coords="989,132,1172,211"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="1362,79,1192,135,1174,140,1172,136,1191,129,1367,77"/>
+<area shape="rect" id="Node000023" href="$PackageWriter_8h.html" title=" " alt="" coords="2141,132,2324,211"/>
+<area shape="poly" id="edge27_Node000001_Node000023" title=" " alt="" coords="1578,50,1693,60,1832,76,1981,99,2129,129,2143,135,2138,135,2128,135,1980,104,1831,81,1693,65,1579,55"/>
+<area shape="rect" id="Node000003" href="$UnifiedError_8h.html" title=" " alt="" coords="849,385,1046,464"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="894,340,924,385,919,384,893,345"/>
+<area shape="rect" id="Node000004" href="$IoStatusError_8h.html" title=" " alt="" coords="612,520,801,599"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="867,470,777,522,775,518,862,473"/>
+<area shape="rect" id="Node000005" href="$CoreDelegates_8h.html" title=" " alt="" coords="825,529,1070,591"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="949,477,950,530,945,527,946,481"/>
+<area shape="rect" id="Node000012" href="$StreamableManagerError_8h.html" title=" " alt="" coords="1222,512,1470,608"/>
+<area shape="poly" id="edge12_Node000003_Node000012" title=" " alt="" coords="1061,461,1224,517,1219,517,1061,466"/>
+<area shape="rect" id="Node000006" href="$Core_8h.html" title=" " alt="" coords="957,791,1133,852"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1030,597,1063,622,1087,654,1094,672,1097,690,1093,727,1081,762,1066,792,1063,788,1076,760,1088,726,1091,690,1089,673,1083,657,1059,626,1029,602"/>
+<area shape="rect" id="Node000007" href="$CoreSharedPCH_8h.html" title=" " alt="" coords="1147,664,1364,726"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="1032,595,1189,664,1183,664,1031,600"/>
+<area shape="rect" id="Node000008" href="$CallbackDevice_8h.html" title=" " alt="" coords="823,664,1072,726"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="949,604,950,665,945,662,946,608"/>
+<area shape="rect" id="Node000009" href="$KeyChainUtilities_8h.html" title=" " alt="" coords="5,664,266,726"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="854,597,813,610,733,625,664,633,546,637,427,640,358,646,277,658,240,666,238,661,276,653,358,641,427,635,545,632,663,628,732,620,812,605,859,595"/>
+<area shape="rect" id="Node000010" href="$RuntimeErrors_8h.html" title=" " alt="" coords="290,664,531,726"/>
+<area shape="poly" id="edge10_Node000005_Node000010" title=" " alt="" coords="850,597,813,610,738,627,679,636,619,644,544,658,513,666,511,661,543,653,619,638,678,630,737,622,812,605,855,595"/>
+<area shape="rect" id="Node000011" href="$ApplicationLifecycleComponent_8h.html" title=" " alt="" coords="555,656,798,734"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="875,597,757,658,755,653,870,599"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="982,736,1024,792,1019,790,979,741"/>
+<area shape="rect" id="Node000013" href="$StreamableManager_8h.html" title=" " alt="" coords="1387,656,1564,734"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="1404,617,1440,656,1435,654,1402,622"/>
+<area shape="rect" id="Node000014" href="$AssetManager_8h.html" title=" " alt="" coords="1453,782,1629,861"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="1504,746,1523,783,1518,781,1502,751"/>
+<area shape="rect" id="Node000015" href="$AsyncActionHandleSaveGame_8h.html" title=" " alt="" coords="1189,782,1428,861"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="1414,743,1362,784,1360,779,1409,745"/>
+<area shape="rect" id="Node000019" href="$SoundWaveLoadingBehavior_8cpp.html" title=" " alt="" coords="1375,259,1613,337"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="1411,219,1454,259,1449,258,1410,224"/>
+<area shape="poly" id="edge24_Node000022_Node000002" title=" " alt="" coords="998,220,919,269,916,264,1003,217"/>
+<area shape="poly" id="edge23_Node000022_Node000003" title=" " alt="" coords="1062,223,1038,281,1008,339,978,387,974,383,1004,336,1033,279,1058,227"/>
+<area shape="poly" id="edge25_Node000022_Node000016" title=" " alt="" coords="1132,219,1173,258,1167,258,1131,224"/>
+<area shape="poly" id="edge26_Node000022_Node000019" title=" " alt="" coords="1188,202,1377,260,1372,261,1188,207"/>
+</map>

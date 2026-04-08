@@ -1,0 +1,22 @@
+<map id="UAnimNotify" name="UAnimNotify">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,2275,235,2593"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="78,1274,141,1346"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,1361,122,2276,116,2275,107,1362"/>
+<area shape="rect" id="Node000003" href="$classUSkeletalMeshComponent.html" title=" " alt="" coords="241,419,503,2202"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,1893,162,2259,157,2257,239,1896"/>
+<area shape="rect" id="Node000006" href="$structFSkeletalMeshComponentClothTickFunction.html" title=" " alt="" coords="558,2367,773,2501"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="504,2024,538,2140,574,2250,596,2302,621,2353,616,2351,591,2304,570,2252,533,2141,502,2029"/>
+<area shape="rect" id="Node000008" href="$structFSkeletalMeshComponentEndPhysicsTickFunction.html" title=" " alt="" coords="270,2367,475,2501"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="310,2199,311,2226,311,2251,323,2301,339,2352,334,2351,318,2303,305,2251,305,2226,308,2204"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="53,139,236,212"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="154,224,244,658,239,659,154,229"/>
+<area shape="rect" id="Node000005" href="$classIInterface__CollisionDataProvider.html" title=" " alt="" coords="260,75,485,276"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="373,288,375,419,370,419,372,294"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="656,2366,634,2227,574,1978,507,1738,509,1734,579,1977,639,2225,661,2368"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="786,1274,886,1346"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="849,1359,880,1516,894,1622,904,1740,906,1868,897,1998,876,2128,859,2191,837,2252,821,2285,800,2316,751,2369,748,2365,796,2312,817,2282,833,2250,854,2189,870,2127,892,1998,900,1867,898,1741,889,1622,875,1516,848,1364"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="853,1358,875,1432,898,1529,917,1644,927,1770,928,1835,924,1900,916,1965,902,2028,883,2090,857,2148,824,2203,782,2253,763,2264,736,2270,668,2272,599,2270,570,2272,548,2277,514,2296,483,2318,428,2369,424,2365,479,2314,511,2291,546,2273,569,2267,598,2265,668,2267,735,2265,761,2259,779,2249,819,2200,852,2146,878,2088,897,2027,911,1964,919,1899,922,1834,922,1770,911,1644,892,1530,870,1434,852,1363"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="370,2366,371,2221,374,2217,375,2368"/>
+<area shape="rect" id="Node000009" href="$structFAnimationEvaluationContext.html" title=" " alt="" coords="509,5,771,346"/>
+<area shape="poly" id="edge11_Node000003_Node000009" title=" " alt="" coords="601,343,510,740,505,739,600,348"/>
+</map>

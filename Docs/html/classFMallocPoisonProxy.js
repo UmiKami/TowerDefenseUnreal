@@ -1,0 +1,25 @@
+var classFMallocPoisonProxy =
+[
+    [ "FMallocPoisonProxy", "classFMallocPoisonProxy.html#aa57bcc332965bf2b383709111dbd2f1e", null ],
+    [ "ClearAndDisableTLSCachesOnCurrentThread", "classFMallocPoisonProxy.html#a865d1d097d2579b8ec24404d771f1702", null ],
+    [ "DumpAllocatorStats", "classFMallocPoisonProxy.html#a0935862e7facc5dcfe228a8be70bf292", null ],
+    [ "Free", "classFMallocPoisonProxy.html#a6cc62960ff4058454cfcf7a3c05c120a", null ],
+    [ "GetAllocationSize", "classFMallocPoisonProxy.html#a5c2112a185de598d81139bcd2f700d3d", null ],
+    [ "GetAllocatorStats", "classFMallocPoisonProxy.html#a5f162f3ffd971c76fed2a880331901eb", null ],
+    [ "GetDescriptiveName", "classFMallocPoisonProxy.html#a3508a9e33692350c23fa7d2ef8103794", null ],
+    [ "InitializeStatsMetadata", "classFMallocPoisonProxy.html#a452efbeb111262475739be0288f98735", null ],
+    [ "IsInternallyThreadSafe", "classFMallocPoisonProxy.html#ad40f64d8356ef66ed7f5ecd8b0e78e4c", null ],
+    [ "Malloc", "classFMallocPoisonProxy.html#a6011147243d3998d76886a14c6ac8943", null ],
+    [ "MarkTLSCachesAsUnusedOnCurrentThread", "classFMallocPoisonProxy.html#a41bf2da606e3ccbe6b2b029fc062eb3b", null ],
+    [ "MarkTLSCachesAsUsedOnCurrentThread", "classFMallocPoisonProxy.html#af9914c90f6a5f657a5083999ce7c76cd", null ],
+    [ "OnMallocInitialized", "classFMallocPoisonProxy.html#a65b7f6a860b9465cabcde161266c9e7f", null ],
+    [ "OnPostFork", "classFMallocPoisonProxy.html#af0e3d5b88f90b363f5f01546a6f72d96", null ],
+    [ "OnPreFork", "classFMallocPoisonProxy.html#a37a5b14b83eb7e269be8f95ce13131dd", null ],
+    [ "QuantizeSize", "classFMallocPoisonProxy.html#a2be2ef27917d144780b629f925ee554b", null ],
+    [ "Realloc", "classFMallocPoisonProxy.html#a714ab80873f753295d0af4a4571c77d5", null ],
+    [ "SetupTLSCachesOnCurrentThread", "classFMallocPoisonProxy.html#a6397711c4cf740d447699a085543f5d9", null ],
+    [ "Trim", "classFMallocPoisonProxy.html#ab12c36d7ea35f9dd188d9bda9e574ef8", null ],
+    [ "UpdateStats", "classFMallocPoisonProxy.html#ae92efb4746c3c8b8773ee640c58b8df2", null ],
+    [ "ValidateHeap", "classFMallocPoisonProxy.html#af3ba970cef95bf48b6d42f1d15f2142b", null ],
+    [ "UsedMalloc", "classFMallocPoisonProxy.html#a705734b57cbe75ce96a09534488536f3", null ]
+];

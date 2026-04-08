@@ -1,0 +1,11 @@
+var structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f =
+[
+    [ "TTaskDelegateImpl", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f.html#a89b49e73f261c368624dfa5e2b699542", null ],
+    [ "Call", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f.html#ad9826981de4167a1b0a97b3e520f205a", null ],
+    [ "CallAndMove", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f.html#a5874e1b6f639ac9a7ee1650cee9a4bcd", null ],
+    [ "DelegateSize", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f.html#a8895c5df2304d1588fdb130f7628fb59", null ],
+    [ "Destroy", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f.html#ae3c669ec7f31ca9e9837010e9ffeda2b", null ],
+    [ "IsHeapAllocated", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f.html#a1edf8be83245720d0f5cdc1211a4555b", null ],
+    [ "IsSet", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f.html#a705f60933b9ac54e12bbd8b0ab9f0715", null ],
+    [ "Move", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f.html#a41b83eb536ca681227f480cb7f537ab7", null ]
+];

@@ -1,0 +1,38 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="IModularFeature",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classIModularFeature.html",tooltip=" "];
+  Node0 -> Node1 [id="edge1508_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="IAxisDisplayInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classIAxisDisplayInfo.html",tooltip=" "];
+  Node0 -> Node2 [id="edge1509_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ICameraModularFeature",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classICameraModularFeature.html",tooltip=" "];
+  Node0 -> Node3 [id="edge1510_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ICompressionFormat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structICompressionFormat.html",tooltip=" "];
+  Node0 -> Node10 [id="edge1511_Node000000_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="IConsoleCommandExecutor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classIConsoleCommandExecutor.html",tooltip=" "];
+  Node0 -> Node11 [id="edge1512_Node000000_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="IEngineCrypto",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structIEngineCrypto.html",tooltip=" "];
+  Node0 -> Node12 [id="edge1513_Node000000_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="UE::Anim::DataModel\l::IAnimationDataModels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Anim_1_1DataModel_1_1IAnimationDataModels.html",tooltip=" "];
+  Node0 -> Node13 [id="edge1514_Node000000_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="UE::Virtualization\l::Experimental::IVirtualization\lSourceControlUtilities",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Virtualization_1_1Experimental_1_1IVirtualizationSourceControlUtilities.html",tooltip=" "];
+  Node0 -> Node14 [id="edge1515_Node000000_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="UE::Virtualization\l::Private::IVirtualization\lSystemFactory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Virtualization_1_1Private_1_1IVirtualizationSystemFactory.html",tooltip=" "];
+  Node4 [id="Node000004",label="IModuleInterface",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classIModuleInterface.html",tooltip=" "];
+  Node4 -> Node5 [id="edge1516_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FDefaultModuleImpl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFDefaultModuleImpl.html",tooltip=" "];
+  Node5 -> Node6 [id="edge1517_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FDefaultGameModuleImpl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFDefaultGameModuleImpl.html",tooltip=" "];
+  Node4 -> Node7 [id="edge1518_Node000004_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="IAISystemModule",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classIAISystemModule.html",tooltip=" "];
+  Node4 -> Node3 [id="edge1519_Node000004_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node8 [id="edge1520_Node000004_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="IPlatformChunkInstallModule",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classIPlatformChunkInstallModule.html",tooltip=" "];
+  Node4 -> Node9 [id="edge1521_Node000004_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="IPlatformFileModule",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classIPlatformFileModule.html",tooltip=" "];
+}

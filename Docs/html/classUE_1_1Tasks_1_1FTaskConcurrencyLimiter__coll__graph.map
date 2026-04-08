@@ -1,0 +1,34 @@
+<map id="UE::Tasks::FTaskConcurrencyLimiter" name="UE::Tasks::FTaskConcurrencyLimiter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="199,2155,400,2289"/>
+<area shape="rect" id="Node000002" href="$classTSharedRef.html" title=" " alt="" coords="194,1621,404,2012"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="301,2010,302,2139,297,2137,298,2014"/>
+<area shape="rect" id="Node000003" href="$classUE_1_1Tasks_1_1TaskConcurrencyLimiter__Private_1_1FPimpl.html" title=" " alt="" coords="430,1280,638,1548"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="455,1550,415,1623,411,1620,458,1546"/>
+<area shape="rect" id="Node000006" href="$classTWeakPtr.html" title=" " alt="" coords="429,1683,639,1951"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="535,1545,537,1666,531,1665,533,1550"/>
+<area shape="rect" id="Node000004" href="$classTSharedFromThis.html" title=" " alt="" coords="558,2085,795,2359"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="687,2069,690,1969,686,1855,674,1737,649,1622,636,1585,621,1551,622,1545,641,1583,654,1620,679,1736,692,1855,695,1969,692,2072"/>
+<area shape="rect" id="Node000005" href="$structUE_1_1Core_1_1Private_1_1FSharedFromThisBase.html" title=" " alt="" coords="714,1772,869,1861"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="777,1874,717,2087,713,2084,773,1877"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="552,1948,566,2006,584,2060,587,2070,582,2069,578,2062,561,2007,550,1953"/>
+<area shape="rect" id="Node000007" href="$classUE_1_1Tasks_1_1TaskConcurrencyLimiter__Private_1_1FConcurrencySlots.html" title=" " alt="" coords="5,1042,244,1198"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="227,1196,310,1254,418,1331,413,1333,306,1258,229,1201"/>
+<area shape="rect" id="Node000008" href="$classTLockFreePointerListFIFO.html" title=" " alt="" coords="268,1034,494,1207"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="425,1204,459,1265,454,1265,425,1209"/>
+<area shape="rect" id="Node000009" href="$classFLockFreePointerFIFOBase.html" title=" " alt="" coords="270,682,492,900"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="381,912,383,1034,378,1034,380,917"/>
+<area shape="rect" id="Node000010" href="$structFIndexedPointer.html" title=" " alt="" coords="265,185,496,525"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="381,522,383,665,378,664,380,527"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="303,22,458,95"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="381,91,383,168,378,167,380,97"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="518,1084,673,1156"/>
+<area shape="poly" id="edge12_Node000003_Node000012" title=" " alt="" coords="589,1154,568,1264,563,1263,587,1159"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="697,1084,867,1156"/>
+<area shape="poly" id="edge13_Node000003_Node000013" title=" " alt="" coords="760,1158,733,1206,695,1258,652,1305,648,1302,691,1254,729,1203,763,1154"/>
+<area shape="rect" id="Node000014" href="$classFEvent.html" title=" " alt="" coords="714,620,850,961"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="783,958,785,1068,779,1067,781,963"/>
+<area shape="rect" id="Node000015" href="$classTAtomic.html" title=" " alt="" coords="714,296,850,413"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="783,411,785,604,779,603,781,416"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="692,5,872,112"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="783,124,785,297,779,296,781,130"/>
+</map>

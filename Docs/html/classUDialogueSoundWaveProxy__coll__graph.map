@@ -1,0 +1,30 @@
+<map id="UDialogueSoundWaveProxy" name="UDialogueSoundWaveProxy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="781,2969,974,3259"/>
+<area shape="rect" id="Node000002" href="$classUSoundBase.html" title=" " alt="" coords="858,828,1122,1453"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1006,1465,1013,1780,1006,2151,997,2349,982,2550,960,2750,932,2945,926,2971,922,2967,927,2944,955,2749,976,2549,991,2349,1001,2151,1007,1780,1004,1470"/>
+<area shape="rect" id="Node000008" href="$classUSoundWave.html" title=" " alt="" coords="525,1526,779,2896"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="906,1465,897,1503,781,1856,776,1854,892,1501,904,1470"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="640,560,703,632"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="675,644,690,701,701,728,717,753,732,769,747,779,780,790,813,801,831,810,848,826,861,841,856,842,845,830,828,815,811,805,778,795,745,784,728,773,712,756,696,731,685,703,675,650"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="727,551,918,640"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="840,652,897,828,891,828,840,657"/>
+<area shape="rect" id="Node000005" href="$classIInterface__AssetUserData.html" title=" " alt="" coords="942,481,1148,710"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1033,723,1024,828,1019,827,1032,728"/>
+<area shape="rect" id="Node000006" href="$structFSoundConcurrencySettings.html" title=" " alt="" coords="1172,437,1391,755"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1196,757,1133,880,1128,877,1198,752"/>
+<area shape="rect" id="Node000007" href="$structFSoundTimecodeOffset.html" title=" " alt="" coords="1414,560,1633,632"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="1498,634,1458,692,1404,756,1270,894,1137,1016,1133,1013,1266,890,1401,753,1454,689,1501,629"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="780,2717,840,2953,834,2952,777,2722"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="5,1104,173,1176"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="100,1189,136,1312,160,1383,188,1452,266,1610,354,1764,444,1907,528,2032,522,2033,440,1910,350,1767,262,1612,183,1454,155,1384,131,1313,101,1194"/>
+<area shape="rect" id="Node000010" href="$classIInterface__AsyncCompilation.html" title=" " alt="" coords="197,1104,395,1176"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="313,1188,528,1828,522,1829,311,1193"/>
+<area shape="rect" id="Node000011" href="$structFSoundModulationDefaultRoutingSettings.html" title=" " alt="" coords="418,1042,664,1238"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="550,1235,577,1502,578,1509,573,1509,572,1502,549,1241"/>
+<area shape="rect" id="Node000012" href="$structFSoundModulationDefaultSettings.html" title=" " alt="" coords="357,548,616,643"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="493,655,534,1043,529,1043,492,660"/>
+<area shape="rect" id="Node000013" href="$structFSoundModulationDestinationSettings.html" title=" " alt="" coords="370,5,604,297"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="487,294,489,531,484,531,486,299"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="688,1104,834,1176"/>
+<area shape="poly" id="edge14_Node000008_Node000014" title=" " alt="" coords="758,1173,726,1510,721,1509,757,1179"/>
+</map>

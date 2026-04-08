@@ -1,0 +1,27 @@
+var classFSeamlessTravelHandler =
+[
+    [ "FSeamlessTravelHandler", "classFSeamlessTravelHandler.html#aa0e9365f0f0be5d328a3e1bb537423a5", null ],
+    [ "CancelTravel", "classFSeamlessTravelHandler.html#a2779534a58c7690448a48254efa0c425", null ],
+    [ "CopyWorldData", "classFSeamlessTravelHandler.html#a50290b67afffbe3b0c95becaec0abec0", null ],
+    [ "GetDestinationMapName", "classFSeamlessTravelHandler.html#ac34ca1a5a6b66dddaac3e142d5d6bcbc", null ],
+    [ "GetLoadedWorld", "classFSeamlessTravelHandler.html#a6f3072f1535cbd033a6b6ee6c3a69026", null ],
+    [ "HasSwitchedToDefaultMap", "classFSeamlessTravelHandler.html#a547f98483e7c1e20301ba197546b567a", null ],
+    [ "IsInTransition", "classFSeamlessTravelHandler.html#a39ba82e10c6e735ca051f498e78fb0a5", null ],
+    [ "SeamlessTravelLoadCallback", "classFSeamlessTravelHandler.html#a1858468495ca47eeeeb90ae83d44c878", null ],
+    [ "SetHandlerLoadedData", "classFSeamlessTravelHandler.html#a73daf295fe3d37978f4b40ebcead9a6c", null ],
+    [ "SetPauseAtMidpoint", "classFSeamlessTravelHandler.html#a85f23d0ec8f8f0aae636df2ce646ed0c", null ],
+    [ "StartLoadingDestination", "classFSeamlessTravelHandler.html#a6e9a81a74451b2f4bf3f0a2aabeaa8c9", null ],
+    [ "StartLoadingMap", "classFSeamlessTravelHandler.html#ab4f203167604d5586ee061dcd580b0a2", null ],
+    [ "StartTravel", "classFSeamlessTravelHandler.html#a8ff32c02bc9a82c773f694a798d0b265", null ],
+    [ "Tick", "classFSeamlessTravelHandler.html#addaadb896ee61af4945bb402b8f33b50", null ],
+    [ "bNeedCancelCleanUp", "classFSeamlessTravelHandler.html#a044e8473f74e28819d959c497c253a12", null ],
+    [ "bPauseAtMidpoint", "classFSeamlessTravelHandler.html#aa127b90ec78864a3aed6e9e600c92ec8", null ],
+    [ "bSwitchedToDefaultMap", "classFSeamlessTravelHandler.html#a15917f16046a977545a12ab72dd20622", null ],
+    [ "bTransitionInProgress", "classFSeamlessTravelHandler.html#a6d3e84c62211fa21d71a198d468de40b", null ],
+    [ "CurrentWorld", "classFSeamlessTravelHandler.html#a9f8e28d67b3ed6f9d4e406b27d5e0e74", null ],
+    [ "LoadedPackage", "classFSeamlessTravelHandler.html#ac7025baca7122f84ff3cc4a5fe4132a9", null ],
+    [ "LoadedWorld", "classFSeamlessTravelHandler.html#a46c69854ab6618f411b2064b6a3adaf6", null ],
+    [ "PendingTravelURL", "classFSeamlessTravelHandler.html#a75405bdd1076bc95343ede7e478504af", null ],
+    [ "SeamlessTravelStartTime", "classFSeamlessTravelHandler.html#a49136898e51de1478145e53ad59a5dbf", null ],
+    [ "WorldContextHandle", "classFSeamlessTravelHandler.html#a2916256b4176b5d5f3fb9616f58e8395", null ]
+];

@@ -1,0 +1,20 @@
+<map id="UE::UnifiedError::TErrorDetails&lt; T &gt;" name="UE::UnifiedError::TErrorDetails&lt; T &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="201,1279,417,1591"/>
+<area shape="rect" id="Node000002" href="$classUE_1_1UnifiedError_1_1FDynamicErrorDetails.html" title="FDynamicErrorDetails; base implementation of inner error details, for use by derived classes to reduc..." alt="" coords="130,938,346,1206"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,1217,281,1279,276,1278,266,1222"/>
+<area shape="rect" id="Node000003" href="$classUE_1_1UnifiedError_1_1FRefCountedErrorDetails.html" title="FRefCountedErrorDetails; base implementation of refcounting for IErrorDetails, this is used for heap ..." alt="" coords="253,586,469,809"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="339,821,315,914,306,939,301,937,310,913,337,826"/>
+<area shape="rect" id="Node000004" href="$classUE_1_1UnifiedError_1_1IErrorDetails.html" title=" " alt="" coords="44,211,250,457"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,467,298,585,293,587,227,472"/>
+<area shape="rect" id="Node000008" href="$classTRefCountPtr.html" title=" " alt="" coords="5,530,228,865"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="137,454,135,513,130,513,137,459"/>
+<area shape="rect" id="Node000005" href="$classIRefCountedObject.html" title=" " alt="" coords="62,14,232,153"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="147,166,150,211,145,211,147,171"/>
+<area shape="rect" id="Node000006" href="$classFRefCountBase.html" title=" " alt="" coords="287,220,435,448"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="361,460,363,586,358,586,360,466"/>
+<area shape="rect" id="Node000007" href="$classUE_1_1Private_1_1TTransactionalAtomicRefCount.html" title=" " alt="" coords="267,5,454,162"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="361,174,363,220,358,219,360,179"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="171,862,192,921,187,922,171,867"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="370,1036,389,1108"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="376,1105,361,1206,349,1263,344,1261,355,1205,373,1110"/>
+</map>

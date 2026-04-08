@@ -1,0 +1,17 @@
+<map id="FInputBinding" name="FInputBinding">
+<area shape="rect" id="Node000001" title=" " alt="" coords="587,5,758,100"/>
+<area shape="rect" id="Node000002" href="$structFInputActionBinding.html" title=" " alt="" coords="5,148,177,466"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="570,65,470,80,359,98,259,122,220,135,191,150,179,160,175,156,189,146,218,131,257,117,358,93,469,75,575,63"/>
+<area shape="rect" id="Node000003" href="$structFInputAxisBinding.html" title=" " alt="" coords="202,237,357,377"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="570,67,522,80,469,96,417,119,370,150,350,169,333,191,306,239,302,236,329,188,347,166,367,146,415,115,467,91,521,74,575,65"/>
+<area shape="rect" id="Node000004" href="$structFInputAxisKeyBinding.html" title=" " alt="" coords="380,237,560,377"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="609,109,573,150,540,194,510,239,507,236,536,191,569,146,605,112"/>
+<area shape="rect" id="Node000005" href="$structFInputGestureBinding.html" title=" " alt="" coords="584,237,762,377"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="674,113,675,239,670,236,671,117"/>
+<area shape="rect" id="Node000006" href="$structFInputKeyBinding.html" title=" " alt="" coords="785,237,936,377"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="740,108,776,146,806,191,832,238,827,237,802,194,772,150,739,113"/>
+<area shape="rect" id="Node000007" href="$structFInputTouchBinding.html" title=" " alt="" coords="960,248,1124,366"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="773,68,818,80,864,96,909,118,950,146,973,168,993,194,1023,250,1018,248,989,197,969,172,947,150,907,123,862,101,816,85,773,73"/>
+<area shape="rect" id="Node000008" href="$structFInputVectorAxisBinding.html" title=" " alt="" coords="1148,237,1344,377"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="773,63,872,77,978,95,1072,118,1110,132,1138,146,1162,165,1183,187,1217,239,1212,237,1179,191,1158,169,1135,150,1108,136,1071,123,977,101,871,82,774,68"/>
+</map>

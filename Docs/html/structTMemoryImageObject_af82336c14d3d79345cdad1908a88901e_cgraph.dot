@@ -1,0 +1,23 @@
+digraph "TMemoryImageObject::Freeze"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TMemoryImageObject\l::Freeze",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TMemoryImageObject\l::Destroy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structTMemoryImageObject.html#a87bd9bb76946bf8447cd72ec4e418690",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FMemory::Free",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFMemory.html#a128d6bd210b904d184a2e2c72000ba0b",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="DoGamethreadHook",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$UnrealMemory_8h.html#ad8b6a9055e77cbb50c015482aec14dd5",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FMemory::FreeExternal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFMemory.html#ad40e43c43403a535bbf03ea37d0ba13a",tooltip=" "];
+  Node5 -> Node5 [id="edge5_Node000005_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="InternalDeleteObjectFrom\lLayout",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$MemoryLayout_8h.html#aa382eea487da56f77aa558816ea66678",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FreezeMemoryImageObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$MemoryImage_8h.html#aac99c1f70485b6ede7890031da8aa957",tooltip=" "];
+}

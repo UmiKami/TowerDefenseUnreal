@@ -1,0 +1,26 @@
+var BuiltInAttributeTypes_8h =
+[
+    [ "FFloatAnimationAttribute", "structFFloatAnimationAttribute.html", "structFFloatAnimationAttribute" ],
+    [ "FIntegerAnimationAttribute", "structFIntegerAnimationAttribute.html", "structFIntegerAnimationAttribute" ],
+    [ "FStringAnimationAttribute", "structFStringAnimationAttribute.html", "structFStringAnimationAttribute" ],
+    [ "FTransformAnimationAttribute", "structFTransformAnimationAttribute.html", "structFTransformAnimationAttribute" ],
+    [ "FVectorAnimationAttribute", "structFVectorAnimationAttribute.html", "structFVectorAnimationAttribute" ],
+    [ "FQuaternionAnimationAttribute", "structFQuaternionAnimationAttribute.html", "structFQuaternionAnimationAttribute" ],
+    [ "FNonBlendableQuaternionAnimationAttribute", "structFNonBlendableQuaternionAnimationAttribute.html", null ],
+    [ "FNonBlendableVectorAnimationAttribute", "structFNonBlendableVectorAnimationAttribute.html", null ],
+    [ "FNonBlendableTransformAnimationAttribute", "structFNonBlendableTransformAnimationAttribute.html", null ],
+    [ "FNonBlendableFloatAnimationAttribute", "structFNonBlendableFloatAnimationAttribute.html", null ],
+    [ "FNonBlendableIntegerAnimationAttribute", "structFNonBlendableIntegerAnimationAttribute.html", null ],
+    [ "UE::Anim::TAttributeTypeTraits&lt; FIntegerAnimationAttribute &gt;", "structUE_1_1Anim_1_1TAttributeTypeTraits_3_01FIntegerAnimationAttribute_01_4.html", null ],
+    [ "UE::Anim::TAttributeTypeTraits&lt; FStringAnimationAttribute &gt;", "structUE_1_1Anim_1_1TAttributeTypeTraits_3_01FStringAnimationAttribute_01_4.html", null ],
+    [ "UE::Anim::TAttributeTypeTraits&lt; FTransformAnimationAttribute &gt;", "structUE_1_1Anim_1_1TAttributeTypeTraits_3_01FTransformAnimationAttribute_01_4.html", null ],
+    [ "UE::Anim::TAttributeTypeTraits&lt; FQuaternionAnimationAttribute &gt;", "structUE_1_1Anim_1_1TAttributeTypeTraits_3_01FQuaternionAnimationAttribute_01_4.html", null ],
+    [ "UE::Anim::TAttributeTypeTraits&lt; FNonBlendableQuaternionAnimationAttribute &gt;", "structUE_1_1Anim_1_1TAttributeTypeTraits_3_01FNonBlendableQuaternionAnimationAttribute_01_4.html", null ],
+    [ "UE::Anim::TAttributeTypeTraits&lt; FNonBlendableVectorAnimationAttribute &gt;", "structUE_1_1Anim_1_1TAttributeTypeTraits_3_01FNonBlendableVectorAnimationAttribute_01_4.html", null ],
+    [ "UE::Anim::TAttributeTypeTraits&lt; FNonBlendableTransformAnimationAttribute &gt;", "structUE_1_1Anim_1_1TAttributeTypeTraits_3_01FNonBlendableTransformAnimationAttribute_01_4.html", null ],
+    [ "UE::Anim::TAttributeTypeTraits&lt; FNonBlendableFloatAnimationAttribute &gt;", "structUE_1_1Anim_1_1TAttributeTypeTraits_3_01FNonBlendableFloatAnimationAttribute_01_4.html", null ],
+    [ "UE::Anim::TAttributeTypeTraits&lt; FNonBlendableIntegerAnimationAttribute &gt;", "structUE_1_1Anim_1_1TAttributeTypeTraits_3_01FNonBlendableIntegerAnimationAttribute_01_4.html", null ],
+    [ "UBuiltInAttributesExtensions", "classUBuiltInAttributesExtensions.html", "classUBuiltInAttributesExtensions" ],
+    [ "UE::Anim::AddTypedCustomAttribute", "namespaceUE_1_1Anim.html#af8c903db90a4651d59968002aac06adc", null ],
+    [ "GetTypeHash", "BuiltInAttributeTypes_8h.html#a6a54a3bd70d442b1bf7c9e2cfba04851", null ]
+];

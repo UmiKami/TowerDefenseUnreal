@@ -1,0 +1,31 @@
+<map id="UAnimationAsset" name="UAnimationAsset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="656,282,880,712"/>
+<area shape="rect" id="Node000005" href="$classUAnimBank.html" title=" " alt="" coords="221,1241,475,1872"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="643,586,603,623,561,665,523,711,490,761,463,817,439,876,401,999,376,1122,360,1241,355,1241,371,1121,396,997,434,874,458,815,486,758,518,708,557,661,600,619,646,582"/>
+<area shape="rect" id="Node000006" href="$classUAnimSequenceBase.html" title=" " alt="" coords="500,1241,754,1872"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="738,724,671,1242,666,1241,737,729"/>
+<area shape="rect" id="Node000011" href="$classUBlendSpace.html" title=" " alt="" coords="778,760,1043,2353"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="799,724,806,760,801,760,799,729"/>
+<area shape="rect" id="Node000015" href="$classUPoseAsset.html" title=" " alt="" coords="1067,1165,1384,1947"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="891,580,938,618,982,660,1023,707,1057,758,1105,855,1143,957,1172,1062,1194,1166,1188,1166,1167,1063,1138,959,1100,857,1053,761,1019,711,978,664,934,622,893,585"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="578,84,641,156"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="628,167,656,233,676,282,671,282,651,235,628,172"/>
+<area shape="rect" id="Node000003" href="$classIInterface__AssetUserData.html" title=" " alt="" coords="665,5,871,234"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="768,246,771,283,766,282,768,252"/>
+<area shape="rect" id="Node000004" href="$classIInterface__PreviewMeshProvider.html" title=" " alt="" coords="895,61,1116,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="960,193,882,320,878,318,962,188"/>
+<area shape="rect" id="Node000007" href="$classUAnimCompositeBase.html" title=" " alt="" coords="16,3005,246,3211"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="650,1884,640,2010,629,2073,612,2135,591,2195,563,2252,530,2306,489,2355,460,2376,431,2384,401,2384,372,2379,343,2375,314,2375,286,2383,259,2403,232,2434,208,2468,169,2543,142,2624,125,2707,116,2790,113,2869,120,3005,114,3005,108,2869,111,2789,120,2706,137,2622,164,2541,203,2466,228,2431,256,2399,284,2378,313,2370,343,2370,373,2374,402,2378,430,2379,458,2371,485,2351,525,2303,559,2250,586,2193,607,2133,623,2072,635,2009,649,1889"/>
+<area shape="rect" id="Node000009" href="$classUAnimSequence.html" title=" " alt="" coords="270,2401,530,3815"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="579,1884,506,2401,501,2400,578,1889"/>
+<area shape="rect" id="Node000010" href="$classUAnimStreamable.html" title=" " alt="" coords="555,2711,806,3504"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="639,1884,669,2712,664,2711,637,1889"/>
+<area shape="rect" id="Node000008" href="$classUAnimComposite.html" title=" " alt="" coords="5,3863,256,4176"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="133,3226,133,3863,128,3863,128,3227"/>
+<area shape="rect" id="Node000012" href="$classUAimOffsetBlendSpace.html" title=" " alt="" coords="830,3060,992,3155"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="912,2365,913,3061,908,3060,909,2370"/>
+<area shape="rect" id="Node000013" href="$classUBlendSpace1D.html" title=" " alt="" coords="1017,3052,1221,3164"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="1021,2365,1114,3053,1109,3052,1018,2370"/>
+<area shape="rect" id="Node000014" href="$classUAimOffsetBlendSpace1D.html" title=" " alt="" coords="1028,3972,1209,4067"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1121,3178,1121,3973,1116,3972,1117,3180"/>
+</map>

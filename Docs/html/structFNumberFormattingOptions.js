@@ -1,0 +1,25 @@
+var structFNumberFormattingOptions =
+[
+    [ "FNumberFormattingOptions", "structFNumberFormattingOptions.html#aea4342a06d811c5cab0eb8ed1e4a6a79", null ],
+    [ "DefaultNoGrouping", "structFNumberFormattingOptions.html#a6619564d66249c12e9e91cddd1e0c55d", null ],
+    [ "DefaultWithGrouping", "structFNumberFormattingOptions.html#a4738667542a06a83a3aa26d29fa4bcf8", null ],
+    [ "IsIdentical", "structFNumberFormattingOptions.html#af002998ddcda596cc45de4b8848b7152", null ],
+    [ "SetAlwaysSign", "structFNumberFormattingOptions.html#a3c68f6fdaeb056a370485200d321f84c", null ],
+    [ "SetIndicateNearlyInteger", "structFNumberFormattingOptions.html#aef65814e1b40d35f22edb32c9b61fb6d", null ],
+    [ "SetMaximumFractionalDigits", "structFNumberFormattingOptions.html#a40a045711bdc856dbc7d5da22ad4cfde", null ],
+    [ "SetMaximumIntegralDigits", "structFNumberFormattingOptions.html#a480e36a403d93299ae0c067497686548", null ],
+    [ "SetMinimumFractionalDigits", "structFNumberFormattingOptions.html#a9bfce026e92a9b6209258480ab2452bc", null ],
+    [ "SetMinimumIntegralDigits", "structFNumberFormattingOptions.html#a7d522f321372696744102d33bbbcaf3e", null ],
+    [ "SetRoundingMode", "structFNumberFormattingOptions.html#a16a4898d63fa3e0ca3539dafd3e1b2ed", null ],
+    [ "SetUseGrouping", "structFNumberFormattingOptions.html#a1664a46cfe2a1c3d8ed784eec30ffc85", null ],
+    [ "GetTypeHash", "structFNumberFormattingOptions.html#ad13d75853089270c58a6425c0435ba6b", null ],
+    [ "operator<<", "structFNumberFormattingOptions.html#a756bb3c776fa2d5e3aef2b7a4caa12a2", null ],
+    [ "AlwaysSign", "structFNumberFormattingOptions.html#a47227c62bd50e186273bef8d1fb8874f", null ],
+    [ "IndicateNearlyInteger", "structFNumberFormattingOptions.html#acc5f40c29b05d92f7a35a6384e980655", null ],
+    [ "MaximumFractionalDigits", "structFNumberFormattingOptions.html#a16d4bd12c0772826078409b40cfa2331", null ],
+    [ "MaximumIntegralDigits", "structFNumberFormattingOptions.html#ac51f3d8fb75b65996f408b9ebc9babfa", null ],
+    [ "MinimumFractionalDigits", "structFNumberFormattingOptions.html#a44a1bc169ddf732d217afb43341d0318", null ],
+    [ "MinimumIntegralDigits", "structFNumberFormattingOptions.html#a2a7b036fb8a435f84c95f6265423e903", null ],
+    [ "RoundingMode", "structFNumberFormattingOptions.html#aad681838ca6abe41ef8e1db9f43b5c8e", null ],
+    [ "UseGrouping", "structFNumberFormattingOptions.html#a69e83eaffa09c94c85e4a8e809b64ba4", null ]
+];

@@ -1,0 +1,28 @@
+var classFPersistentStorageManager =
+[
+    [ "FRootDirInfo", "structFPersistentStorageManager_1_1FRootDirInfo.html", "structFPersistentStorageManager_1_1FRootDirInfo" ],
+    [ "FCategoryInfo", "structFPersistentStorageManager_1_1FCategoryInfo.html", "structFPersistentStorageManager_1_1FCategoryInfo" ],
+    [ "FPersistentStorageManager", "classFPersistentStorageManager.html#aad0002a830b14efdbb287fb6e143017e", null ],
+    [ "AddOrUpdateFile", "classFPersistentStorageManager.html#a4af1044982cd8737b96380745852268d", null ],
+    [ "GenerateCategoryStats", "classFPersistentStorageManager.html#a7ce3e3fe06e487109506a7087ee354c2", null ],
+    [ "Get", "classFPersistentStorageManager.html#afdab760f64a90f6b00dc413fb77fa693", null ],
+    [ "GetCategoryStat", "classFPersistentStorageManager.html#ae6d01bde3da839116ebe31f43c8de027", null ],
+    [ "GetPersistentStorageSize", "classFPersistentStorageManager.html#aea46f679d5286b7b6ac5f8e6da971288", null ],
+    [ "GetPersistentStorageUsage", "classFPersistentStorageManager.html#af9006478d27ea732cd920626fc6106d2", null ],
+    [ "GetPersistentStorageUsageByCategory", "classFPersistentStorageManager.html#aa6823c5aa91d84d00c49ed560e8e0f11", null ],
+    [ "GetRootDirectories", "classFPersistentStorageManager.html#ab12fd4c62bee3188a1b1a27853c7cf18", null ],
+    [ "GetTotalUsedSize", "classFPersistentStorageManager.html#a37c9d82f014aec9ec931fbc5226181ce", null ],
+    [ "InitCategories", "classFPersistentStorageManager.html#a18d3ba3e230fa45e90708afe5d66fdd9", null ],
+    [ "Initialize", "classFPersistentStorageManager.html#a94fd1db5a0347546ed8148e12427c7d4", null ],
+    [ "IsCategoryForFileFull", "classFPersistentStorageManager.html#abfe428613e674175174253dd998ab9ca", null ],
+    [ "IsInitialized", "classFPersistentStorageManager.html#a3ecd2540c30231972c41c43e6f3cc4a0", null ],
+    [ "IsReady", "classFPersistentStorageManager.html#a527363dba9783af5823e412ef28a47b2", null ],
+    [ "RemoveFileFromManager", "classFPersistentStorageManager.html#afe9ed51c164e080cb1472b95d1885139", null ],
+    [ "TryManageFile", "classFPersistentStorageManager.html#ad25d75f440803496d8851cb5b67d6838", null ],
+    [ "TryManageFile", "classFPersistentStorageManager.html#a3561165e27580d728da06042436a4760", null ],
+    [ "TryManageFileInternal", "classFPersistentStorageManager.html#a1a467574203dfdd0b0eaf5537353a75f", null ],
+    [ "FManagedStorageScopeFileLock", "classFPersistentStorageManager.html#a9daa933a7860a74583b976f97aaf3fec", null ],
+    [ "bInitialized", "classFPersistentStorageManager.html#a27445efe79bdf501b43dcca6604ed967", null ],
+    [ "Categories", "classFPersistentStorageManager.html#a4130c180df6c79b203fed84dbecb6004", null ],
+    [ "RootDirectories", "classFPersistentStorageManager.html#a34a6457c9576be330d8b5d51e513723c", null ]
+];

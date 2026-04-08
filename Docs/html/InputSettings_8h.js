@@ -1,0 +1,46 @@
+var InputSettings_8h =
+[
+    [ "UInputSettings", "classUInputSettings.html", "classUInputSettings" ],
+    [ "FHardwareDeviceIdentifier", "structFHardwareDeviceIdentifier.html", "structFHardwareDeviceIdentifier" ],
+    [ "UInputPlatformSettings", "classUInputPlatformSettings.html", "classUInputPlatformSettings" ],
+    [ "EHardwareDevicePrimaryType", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05", [
+      [ "Unspecified", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05a6fcdc090caeade09d0efd6253932b6f5", null ],
+      [ "KeyboardAndMouse", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05a474e2724906160c0fd20cfd69d01e922", null ],
+      [ "Gamepad", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05a221f6781b4faa2d321ca0d928f518d6e", null ],
+      [ "Touch", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05af0f31c9700c6b10d8a20dc487b2ae6a8", null ],
+      [ "MotionTracking", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05a919c97d62cab1d1e01260c1105cc15e4", null ],
+      [ "RacingWheel", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05a9ddef4a8df0d3c161374e898efb95152", null ],
+      [ "FlightStick", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05a82bfe87f5051b04e94fcddc085522da8", null ],
+      [ "Camera", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05a967d35e40f3f95b1f538bd248640bf3b", null ],
+      [ "Instrument", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05a4bad3e7b155943ebf27d1da56ae2e258", null ],
+      [ "CustomTypeA", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05a7d350675c0cb8ab98ea201bc72ddd4ec", null ],
+      [ "CustomTypeB", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05aa6becc99102bdc4bc5db4a298e5a783f", null ],
+      [ "CustomTypeC", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05af3d37b107d5f92f844b5d7c17036047f", null ],
+      [ "CustomTypeD", "InputSettings_8h.html#a1773fe3637e872ce941a162a430d6b05ac173b34d351e76548d9909742910b66e", null ]
+    ] ],
+    [ "EHardwareDeviceSupportedFeatures::Type", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89a", [
+      [ "EHardwareDeviceSupportedFeatures::Unspecified", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa3aa6b8abb660f422ae813785d77b84a4", null ],
+      [ "EHardwareDeviceSupportedFeatures::Keypress", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa1a26b30f045ae79e22783597e6b43d3c", null ],
+      [ "EHardwareDeviceSupportedFeatures::Pointer", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa04e01a2be460f8d10b0662236ea96c66", null ],
+      [ "EHardwareDeviceSupportedFeatures::Gamepad", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa55fffdc5e8ec7426fb88dd078de03bfe", null ],
+      [ "EHardwareDeviceSupportedFeatures::Touch", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa9e15c9a15a558e92eaf120437931ccf1", null ],
+      [ "EHardwareDeviceSupportedFeatures::Camera", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aae54da63f98110796314e3fa16e3ee635", null ],
+      [ "EHardwareDeviceSupportedFeatures::MotionTracking", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa54522d5da94b0c64cc00ed5a11036cb2", null ],
+      [ "EHardwareDeviceSupportedFeatures::Lights", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aaed8f210ed94a7be896a04397768eb05b", null ],
+      [ "EHardwareDeviceSupportedFeatures::TriggerHaptics", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa14be3a67d21d9645589826e23463bf60", null ],
+      [ "EHardwareDeviceSupportedFeatures::ForceFeedback", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa0e1635879292efb651e1cd9d6d1eb61f", null ],
+      [ "EHardwareDeviceSupportedFeatures::AudioBasedVibrations", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa1c367a55174478c64dc88be70dedfe4e", null ],
+      [ "EHardwareDeviceSupportedFeatures::Acceleration", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa1e0daf2cd9722be950b4dba3e32b6e40", null ],
+      [ "EHardwareDeviceSupportedFeatures::Virtual", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa2de99dee64decc4ded5cf3ffa68efeb2", null ],
+      [ "EHardwareDeviceSupportedFeatures::Microphone", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aaa33c98bacc83170707d8e94ba062cf0e", null ],
+      [ "EHardwareDeviceSupportedFeatures::Orientation", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa812a9bec876d984565180bda5c224601", null ],
+      [ "EHardwareDeviceSupportedFeatures::Guitar", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa8cd957038575f4c64f3e8192c2edfb63", null ],
+      [ "EHardwareDeviceSupportedFeatures::Drums", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aaea757764c42f78041a4a2fffebd83513", null ],
+      [ "EHardwareDeviceSupportedFeatures::CustomA", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aafb8cad38dee4e48739f73ce22ac7ed85", null ],
+      [ "EHardwareDeviceSupportedFeatures::CustomB", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aafe3e217231810092a9befe444c044fee", null ],
+      [ "EHardwareDeviceSupportedFeatures::CustomC", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa76df72a9570b0c1937f64d6421850516", null ],
+      [ "EHardwareDeviceSupportedFeatures::CustomD", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aab5f5976b8ec68dbf87cf93e3a8eacaca", null ],
+      [ "EHardwareDeviceSupportedFeatures::All", "namespaceEHardwareDeviceSupportedFeatures.html#add2a84ec037d93462b569f96d049c89aa88ed8a3473b10dd513f68fed6f836971", null ]
+    ] ],
+    [ "ENUM_CLASS_FLAGS", "InputSettings_8h.html#abd632c5e8ec8524faa7a9d7b593f50bc", null ]
+];

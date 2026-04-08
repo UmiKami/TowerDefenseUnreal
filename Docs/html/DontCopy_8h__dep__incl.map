@@ -1,0 +1,105 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Core/Public/Templates/DontCopy.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Core/Public/Templates/DontCopy.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="2778,5,2954,84"/>
+<area shape="rect" id="Node000002" href="$Texture_8h.html" title=" " alt="" coords="1867,132,2043,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2760,61,2044,161,2044,155,2765,60"/>
+<area shape="rect" id="Node000030" href="$SoundWave_8h.html" title=" " alt="" coords="3690,132,3866,211"/>
+<area shape="poly" id="edge28_Node000001_Node000030" title=" " alt="" coords="2969,57,3692,158,3687,158,2969,63"/>
+<area shape="rect" id="Node000003" href="$CurveLinearColorAtlas_8h.html" title=" " alt="" coords="939,385,1121,464"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1964,224,1965,256,1961,286,1950,315,1932,339,1912,350,1881,358,1790,370,1672,377,1540,380,1286,381,1190,383,1134,388,1122,391,1121,386,1133,383,1190,378,1286,376,1540,374,1672,371,1790,365,1880,353,1910,345,1928,335,1946,312,1956,285,1960,255,1961,228"/>
+<area shape="rect" id="Node000004" href="$Texture2D_8h.html" title=" " alt="" coords="1992,259,2169,337"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="2006,219,2044,259,2039,257,2004,225"/>
+<area shape="rect" id="Node000016" href="$Texture2DDynamic_8h.html" title=" " alt="" coords="2192,259,2369,337"/>
+<area shape="poly" id="edge16_Node000002_Node000016" title=" " alt="" coords="2058,209,2195,263,2189,263,2058,214"/>
+<area shape="rect" id="Node000017" href="$TextureCube_8h.html" title=" " alt="" coords="3236,259,3413,337"/>
+<area shape="poly" id="edge17_Node000002_Node000017" title=" " alt="" coords="2059,179,3239,288,3233,289,2059,185"/>
+<area shape="rect" id="Node000020" href="$TextureRenderTarget_8h.html" title=" " alt="" coords="503,259,679,337"/>
+<area shape="poly" id="edge20_Node000002_Node000020" title=" " alt="" coords="1851,185,680,291,680,286,1852,179"/>
+<area shape="rect" id="Node000027" href="$PhysicalMaterialMask_8h.html" title=" " alt="" coords="1147,259,1390,337"/>
+<area shape="poly" id="edge25_Node000002_Node000027" title=" " alt="" coords="1849,185,1643,217,1522,237,1402,261,1391,264,1389,259,1401,256,1521,232,1643,212,1854,184"/>
+<area shape="rect" id="Node000028" href="$VirtualTextureAdapter_8h.html" title=" " alt="" coords="1414,259,1654,337"/>
+<area shape="poly" id="edge26_Node000002_Node000028" title=" " alt="" coords="1855,202,1655,264,1653,259,1850,204"/>
+<area shape="rect" id="Node000029" href="$VirtualTextureBuilder_8h.html" title=" " alt="" coords="1678,259,1918,337"/>
+<area shape="poly" id="edge27_Node000002_Node000029" title=" " alt="" coords="1897,219,1848,261,1846,256,1892,222"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="1980,336,1974,340,1848,360,1740,368,1643,368,1554,363,1464,359,1368,359,1260,367,1134,388,1122,391,1121,386,1133,383,1260,362,1368,354,1464,354,1554,358,1644,363,1739,363,1847,355,1973,335,1975,337"/>
+<area shape="rect" id="Node000005" href="$LightMapTexture2D_8h.html" title=" " alt="" coords="1660,385,1837,464"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="1980,337,1851,388,1838,393,1836,388,1849,383,1975,338"/>
+<area shape="rect" id="Node000006" href="$ShadowMapTexture2D_8h.html" title=" " alt="" coords="1861,385,2044,464"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="2032,347,1993,387,1991,382,2028,349"/>
+<area shape="rect" id="Node000007" href="$Texture2DArray_8cpp.html" title=" " alt="" coords="2055,512,2231,591"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="2087,351,2096,407,2108,463,2126,513,2122,510,2103,465,2090,408,2084,355"/>
+<area shape="rect" id="Node000008" href="$Texture2DArray_8h.html" title=" " alt="" coords="2118,385,2294,464"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="2131,346,2169,386,2164,384,2129,351"/>
+<area shape="rect" id="Node000009" href="$TextureLightProfile_8h.html" title=" " alt="" coords="2318,385,2494,464"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="2184,336,2320,390,2315,389,2183,341"/>
+<area shape="rect" id="Node000010" href="$VolumeTexture_8h.html" title=" " alt="" coords="2518,385,2694,464"/>
+<area shape="poly" id="edge11_Node000004_Node000010" title=" " alt="" coords="2184,335,2275,352,2347,359,2418,365,2506,383,2520,389,2515,388,2505,388,2417,370,2346,364,2274,358,2184,341"/>
+<area shape="rect" id="Node000012" href="$ImportanceSamplingLibrary_8h.html" title=" " alt="" coords="2718,385,2934,464"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="2184,335,2263,350,2330,357,2446,361,2562,363,2629,370,2706,383,2720,388,2715,388,2705,388,2628,375,2561,368,2446,366,2330,363,2262,355,2184,340"/>
+<area shape="rect" id="Node000013" href="$LightmapVirtualTexture_8h.html" title=" " alt="" coords="2957,385,3209,464"/>
+<area shape="poly" id="edge13_Node000004_Node000013" title=" " alt="" coords="2184,335,2299,355,2397,364,2484,366,2565,364,2734,362,2832,368,2946,383,2959,387,2954,387,2945,388,2831,373,2734,367,2565,369,2484,371,2397,369,2298,360,2184,340"/>
+<area shape="rect" id="Node000014" href="$MeshPaintVirtualTexture_8h.html" title=" " alt="" coords="1146,385,1362,464"/>
+<area shape="poly" id="edge14_Node000004_Node000014" title=" " alt="" coords="1980,336,1974,340,1884,356,1807,364,1674,366,1542,367,1465,373,1374,388,1363,390,1362,385,1373,383,1464,368,1541,361,1674,360,1806,359,1883,351,1973,335,1975,337"/>
+<area shape="rect" id="Node000015" href="$VirtualTexture_8h.html" title=" " alt="" coords="1386,394,1637,456"/>
+<area shape="poly" id="edge15_Node000004_Node000015" title=" " alt="" coords="1980,336,1974,340,1884,358,1812,366,1740,373,1649,388,1615,396,1614,391,1648,383,1739,367,1811,361,1883,353,1973,335,1975,337"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="2182,477,2164,514,2161,509,2177,479"/>
+<area shape="rect" id="Node000018" href="$MapBuildDataRegistry_8h.html" title=" " alt="" coords="3234,385,3415,464"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="3326,351,3326,387,3323,383,3323,355"/>
+<area shape="rect" id="Node000019" href="$TextureCubeArray_8h.html" title=" " alt="" coords="3439,385,3615,464"/>
+<area shape="poly" id="edge19_Node000017_Node000019" title=" " alt="" coords="3401,343,3467,385,3462,384,3400,348"/>
+<area shape="rect" id="Node000021" href="$TextureRenderTarget2D_8h.html" title=" " alt="" coords="726,385,915,464"/>
+<area shape="poly" id="edge21_Node000020_Node000021" title=" " alt="" coords="676,342,752,385,747,385,675,348"/>
+<area shape="rect" id="Node000024" href="$TextureRenderTarget2DArray_8h.html" title=" " alt="" coords="5,385,228,464"/>
+<area shape="poly" id="edge22_Node000020_Node000024" title=" " alt="" coords="486,325,240,388,229,391,227,386,238,383,489,321"/>
+<area shape="rect" id="Node000025" href="$TextureRenderTargetCube_8h.html" title=" " alt="" coords="252,385,456,464"/>
+<area shape="poly" id="edge23_Node000020_Node000025" title=" " alt="" coords="506,344,429,387,426,382,502,346"/>
+<area shape="rect" id="Node000026" href="$TextureRenderTargetVolume_8h.html" title=" " alt="" coords="480,385,702,464"/>
+<area shape="poly" id="edge24_Node000020_Node000026" title=" " alt="" coords="593,351,593,386,589,383,590,355"/>
+<area shape="rect" id="Node000031" href="$SoundCue_8h.html" title=" " alt="" coords="3690,385,3866,464"/>
+<area shape="poly" id="edge29_Node000030_Node000031" title=" " alt="" coords="3780,225,3780,386,3776,383,3776,228"/>
+<area shape="rect" id="Node000032" href="$SoundWaveLoadingBehavior_8cpp.html" title=" " alt="" coords="3596,512,3834,591"/>
+<area shape="poly" id="edge52_Node000030_Node000032" title=" " alt="" coords="3748,223,3710,300,3693,342,3680,386,3675,425,3680,463,3697,513,3692,510,3675,465,3670,425,3675,385,3688,340,3705,297,3744,225"/>
+<area shape="rect" id="Node000033" href="$SoundNode_8h.html" title=" " alt="" coords="5560,259,5737,337"/>
+<area shape="poly" id="edge31_Node000030_Node000033" title=" " alt="" coords="3882,177,5563,291,5557,291,3881,182"/>
+<area shape="rect" id="Node000057" href="$SoundWaveProcedural_8h.html" title=" " alt="" coords="5761,259,5944,337"/>
+<area shape="poly" id="edge53_Node000030_Node000057" title=" " alt="" coords="3881,170,4271,174,4812,187,5092,198,5354,212,5579,232,5749,256,5763,262,5758,261,5748,261,5578,237,5353,218,5091,203,4811,192,4271,180,3882,176"/>
+<area shape="poly" id="edge30_Node000031_Node000032" title=" " alt="" coords="3754,477,3736,514,3733,509,3749,479"/>
+<area shape="poly" id="edge32_Node000033_Node000031" title=" " alt="" coords="5542,300,5191,308,4709,321,4460,332,4228,347,4029,365,3878,388,3867,391,3866,385,3877,383,4028,360,4228,341,4460,327,4709,316,5191,303,5547,300"/>
+<area shape="rect" id="Node000034" href="$SoundNodeAssetReferencer_8h.html" title=" " alt="" coords="3890,385,4108,464"/>
+<area shape="poly" id="edge33_Node000033_Node000034" title=" " alt="" coords="5542,302,5235,314,4824,330,4417,355,4249,370,4121,388,4109,390,4108,385,4120,383,4248,365,4417,350,4824,325,5235,308,5547,302"/>
+<area shape="rect" id="Node000036" href="$SoundNodeAttenuation_8h.html" title=" " alt="" coords="4132,385,4320,464"/>
+<area shape="poly" id="edge34_Node000033_Node000036" title=" " alt="" coords="5542,302,5274,315,4924,332,4581,356,4439,371,4332,388,4320,391,4319,385,4331,383,4438,366,4580,351,4924,326,5274,309,5547,302"/>
+<area shape="rect" id="Node000037" href="$SoundNodeBranch_8h.html" title=" " alt="" coords="4343,385,4519,464"/>
+<area shape="poly" id="edge35_Node000033_Node000037" title=" " alt="" coords="5542,304,5313,317,5021,335,4738,359,4621,373,4533,388,4520,391,4519,386,4532,383,4621,367,4737,354,5020,330,5312,312,5547,303"/>
+<area shape="rect" id="Node000038" href="$SoundNodeConcatenator_8h.html" title=" " alt="" coords="4544,385,4742,464"/>
+<area shape="poly" id="edge36_Node000033_Node000038" title=" " alt="" coords="5542,302,5390,311,5193,325,4974,350,4863,367,4756,388,4743,391,4743,386,4755,383,4863,362,4973,345,5192,320,5390,306,5547,301"/>
+<area shape="rect" id="Node000039" href="$SoundNodeDelay_8h.html" title=" " alt="" coords="4767,385,4943,464"/>
+<area shape="poly" id="edge37_Node000033_Node000039" title=" " alt="" coords="5547,304,5424,316,5276,332,5115,355,4956,388,4944,391,4943,386,4955,383,5114,350,5275,326,5424,311,5542,305"/>
+<area shape="rect" id="Node000040" href="$SoundNodeDialoguePlayer_8h.html" title=" " alt="" coords="4967,385,5178,464"/>
+<area shape="poly" id="edge38_Node000033_Node000040" title=" " alt="" coords="5548,315,5378,347,5190,388,5178,391,5177,386,5189,383,5377,342,5543,315"/>
+<area shape="rect" id="Node000041" href="$SoundNodeDistanceCrossFade_8h.html" title=" " alt="" coords="5202,385,5437,464"/>
+<area shape="poly" id="edge39_Node000033_Node000041" title=" " alt="" coords="5548,338,5422,387,5421,382,5543,339"/>
+<area shape="rect" id="Node000043" href="$SoundNodeDoppler_8h.html" title=" " alt="" coords="5460,385,5637,464"/>
+<area shape="poly" id="edge40_Node000033_Node000043" title=" " alt="" coords="5610,349,5581,387,5578,382,5605,351"/>
+<area shape="rect" id="Node000044" href="$SoundNodeEnveloper_8h.html" title=" " alt="" coords="5660,385,5837,464"/>
+<area shape="poly" id="edge41_Node000033_Node000044" title=" " alt="" coords="5690,347,5720,386,5715,384,5688,352"/>
+<area shape="rect" id="Node000045" href="$SoundNodeGroupControl_8h.html" title=" " alt="" coords="5860,385,6058,464"/>
+<area shape="poly" id="edge42_Node000033_Node000045" title=" " alt="" coords="5752,338,5865,385,5860,384,5751,343"/>
+<area shape="rect" id="Node000046" href="$SoundNodeLooping_8h.html" title=" " alt="" coords="6082,385,6258,464"/>
+<area shape="poly" id="edge43_Node000033_Node000046" title=" " alt="" coords="5752,335,5842,352,5913,359,5983,365,6070,383,6084,389,6079,388,6069,388,5982,370,5912,364,5841,357,5752,341"/>
+<area shape="rect" id="Node000047" href="$SoundNodeMature_8h.html" title=" " alt="" coords="6282,385,6458,464"/>
+<area shape="poly" id="edge44_Node000033_Node000047" title=" " alt="" coords="5752,335,5830,349,5897,356,6013,358,6127,361,6194,368,6270,383,6284,389,6279,388,6269,388,6193,373,6127,366,6012,364,5897,362,5830,355,5752,340"/>
+<area shape="rect" id="Node000048" href="$SoundNodeMixer_8h.html" title=" " alt="" coords="6482,385,6658,464"/>
+<area shape="poly" id="edge45_Node000033_Node000048" title=" " alt="" coords="5752,335,5860,353,5953,361,6035,361,6112,358,6189,355,6271,356,6363,364,6470,383,6484,388,6479,388,6469,388,6363,369,6271,361,6189,361,6113,363,6035,366,5953,366,5860,358,5751,340"/>
+<area shape="rect" id="Node000049" href="$SoundNodeModulator_8h.html" title=" " alt="" coords="6682,385,6860,464"/>
+<area shape="poly" id="edge46_Node000033_Node000049" title=" " alt="" coords="5752,335,5890,357,6009,365,6114,364,6212,358,6311,353,6416,352,6533,360,6670,383,6685,389,6679,388,6669,388,6533,366,6415,357,6311,358,6213,364,6114,369,6009,370,5890,362,5752,340"/>
+<area shape="rect" id="Node000050" href="$SoundNodeModulatorContinuous_8h.html" title=" " alt="" coords="6883,385,7134,464"/>
+<area shape="poly" id="edge47_Node000033_Node000050" title=" " alt="" coords="5752,335,5921,362,6065,373,6192,373,6312,366,6432,359,6560,356,6704,362,6873,383,6885,387,6880,387,6872,388,6704,368,6560,362,6432,365,6312,372,6193,378,6065,378,5920,367,5752,340"/>
+<area shape="rect" id="Node000051" href="$SoundNodeOscillator_8h.html" title=" " alt="" coords="7158,385,7334,464"/>
+<area shape="poly" id="edge48_Node000033_Node000051" title=" " alt="" coords="5752,335,5862,354,5962,366,6055,373,6141,376,6301,370,6450,358,6600,346,6759,341,6845,343,6938,351,7038,363,7146,383,7160,388,7155,388,7145,388,7037,369,6937,356,6845,349,6759,346,6600,351,6451,363,6301,376,6141,381,6055,379,5961,372,5861,359,5752,340"/>
+<area shape="rect" id="Node000052" href="$SoundNodeQualityLevel_8h.html" title=" " alt="" coords="7358,385,7552,464"/>
+<area shape="poly" id="edge49_Node000033_Node000052" title=" " alt="" coords="5752,335,5877,356,5992,371,6098,379,6197,382,6379,376,6550,362,6720,347,6902,340,7001,342,7107,349,7222,363,7346,383,7361,388,7356,388,7345,388,7221,368,7107,355,7001,348,6902,346,6720,352,6550,367,6379,381,6197,387,6098,384,5992,376,5876,362,5752,340"/>
+<area shape="rect" id="Node000053" href="$SoundNodeRandom_8h.html" title=" " alt="" coords="7576,385,7753,464"/>
+<area shape="poly" id="edge50_Node000033_Node000053" title=" " alt="" coords="5752,335,5837,347,5933,355,6156,363,6405,363,6668,358,6929,353,7175,353,7391,362,7485,370,7565,383,7579,388,7573,388,7564,388,7484,376,7391,367,7175,359,6929,359,6668,363,6405,368,6156,369,5933,361,5836,352,5751,340"/>
+<area shape="rect" id="Node000054" href="$SoundNodeSoundClass_8h.html" title=" " alt="" coords="7777,385,7963,464"/>
+<area shape="poly" id="edge51_Node000033_Node000054" title=" " alt="" coords="5752,335,5846,348,5953,358,6199,366,6476,365,6767,359,7058,354,7331,353,7572,361,7675,370,7765,383,7779,388,7773,388,7764,388,7675,375,7572,366,7331,358,7058,359,6768,365,6476,370,6199,371,5952,363,5845,354,5752,340"/>
+</map>

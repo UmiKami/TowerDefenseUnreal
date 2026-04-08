@@ -1,0 +1,11 @@
+var TaskDelegate_8h =
+[
+    [ "LowLevelTasks::FLowLevelTasksBlockAllocationTag", "structLowLevelTasks_1_1FLowLevelTasksBlockAllocationTag.html", "structLowLevelTasks_1_1FLowLevelTasksBlockAllocationTag" ],
+    [ "LowLevelTasks::TTaskDelegate&lt; ReturnType(ParamTypes...), TotalSize &gt;", "classLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4.html", "classLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4" ],
+    [ "LowLevelTasks::TTaskDelegate&lt; ReturnType(ParamTypes...), TotalSize &gt;::TTaskDelegateBase", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_1TTaskDelegateBase.html", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_1TTaskDelegateBase" ],
+    [ "LowLevelTasks::TTaskDelegate&lt; ReturnType(ParamTypes...), TotalSize &gt;::TTaskDelegateDummy", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_1TTaskDelegateDummy.html", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_1TTaskDelegateDummy" ],
+    [ "LowLevelTasks::TTaskDelegate&lt; ReturnType(ParamTypes...), TotalSize &gt;::TTaskDelegateImpl&lt; TCallableType, false &gt;", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f.html", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f" ],
+    [ "LowLevelTasks::TTaskDelegate&lt; ReturnType(ParamTypes...), TotalSize &gt;::TTaskDelegateImpl&lt; TCallableType, true &gt;", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_ebfca0ca727d882be72a3faf47657acc.html", "structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_ebfca0ca727d882be72a3faf47657acc" ],
+    [ "LowLevelTasks::TTaskDelegate_Impl::MakeDummyValue", "namespaceLowLevelTasks_1_1TTaskDelegate__Impl.html#a954b4ba06e8b28beefd1149207461ec2", null ],
+    [ "LowLevelTasks::TTaskDelegate_Impl::MakeDummyValue< void >", "namespaceLowLevelTasks_1_1TTaskDelegate__Impl.html#ae160cc02893e7114e11ab87fe99dd495", null ]
+];

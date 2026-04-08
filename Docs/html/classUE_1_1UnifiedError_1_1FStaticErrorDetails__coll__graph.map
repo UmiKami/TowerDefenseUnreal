@@ -1,0 +1,16 @@
+<map id="UE::UnifiedError::FStaticErrorDetails" name="UE::UnifiedError::FStaticErrorDetails">
+<area shape="rect" id="Node000001" title="FStaticErrorDetails; static error details and members are statically allocated Every error which uses..." alt="" coords="144,2158,360,2493"/>
+<area shape="rect" id="Node000002" href="$classUE_1_1UnifiedError_1_1IErrorDetails.html" title=" " alt="" coords="5,447,211,692"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,710,73,962,65,1124,62,1301,65,1489,76,1682,99,1874,134,2062,147,2110,166,2158,160,2158,142,2111,128,2063,93,1875,71,1682,59,1489,56,1301,60,1124,68,962,92,705"/>
+<area shape="rect" id="Node000003" href="$classIRefCountedObject.html" title=" " alt="" coords="41,5,211,145"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,157,115,447,110,447,123,162"/>
+<area shape="rect" id="Node000007" href="$classITextData.html" title=" " alt="" coords="148,194,354,423"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="169,155,192,194,187,195,170,160"/>
+<area shape="rect" id="Node000004" href="$classTStringView.html" title=" " alt="" coords="386,1370,572,1800"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="466,1797,456,1881,439,1967,417,2052,388,2135,371,2171,366,2168,383,2133,412,2051,434,1965,451,1880,464,1802"/>
+<area shape="rect" id="Node000005" href="$classFText.html" title=" " alt="" coords="143,1107,361,2062"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="253,2060,255,2141,250,2140,251,2065"/>
+<area shape="rect" id="Node000006" href="$classTRefCountPtr.html" title=" " alt="" coords="155,716,347,1034"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="252,1031,254,1090,249,1090,251,1037"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="251,420,254,699,248,699,251,425"/>
+</map>

@@ -1,0 +1,27 @@
+var classUApplicationLifecycleComponent =
+[
+    [ "ApplicationHasEnteredForegroundDelegate_Handler", "classUApplicationLifecycleComponent.html#a712dd2350495dd6aba70fea7cb15d07e", null ],
+    [ "ApplicationHasReactivatedDelegate_Handler", "classUApplicationLifecycleComponent.html#a2f8e9c70c2af90d8b6a919ed1f87638e", null ],
+    [ "ApplicationReceivedStartupArgumentsDelegate_Handler", "classUApplicationLifecycleComponent.html#abaf8eb08d5b2b4f3182985c649527c12", null ],
+    [ "ApplicationShouldUnloadResourcesDelegate_Handler", "classUApplicationLifecycleComponent.html#a3d1b919859078995466a23f7bbab8d0f", null ],
+    [ "ApplicationWillDeactivateDelegate_Handler", "classUApplicationLifecycleComponent.html#a15e54cb5785f17da94756226e4b7800d", null ],
+    [ "ApplicationWillEnterBackgroundDelegate_Handler", "classUApplicationLifecycleComponent.html#ad17ce3f106a8b99a369f472d4d7739c6", null ],
+    [ "ApplicationWillTerminateDelegate_Handler", "classUApplicationLifecycleComponent.html#a5aff5ee23a9b8fba04a12be4ba3db9cf", null ],
+    [ "DECLARE_DYNAMIC_MULTICAST_DELEGATE", "classUApplicationLifecycleComponent.html#ab01079f1a50fdaa0c3ae2638b04ba34e", null ],
+    [ "DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam", "classUApplicationLifecycleComponent.html#ac613f34e4a74384551a86aadc5050d83", null ],
+    [ "DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam", "classUApplicationLifecycleComponent.html#a57379d14b78b092d4d5291a9b28e09d3", null ],
+    [ "DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam", "classUApplicationLifecycleComponent.html#aa190be9d89952269bef34f61041479bd", null ],
+    [ "OnLowPowerModeDelegate_Handler", "classUApplicationLifecycleComponent.html#a813d747d16e715fd83ec292d5dab23e5", null ],
+    [ "OnRegister", "classUApplicationLifecycleComponent.html#a583d30c3e83d13800b333b2b206b6b0d", null ],
+    [ "OnTemperatureChangeDelegate_Handler", "classUApplicationLifecycleComponent.html#ae0a790f7854010c08ec6207cdd6a8ee4", null ],
+    [ "OnUnregister", "classUApplicationLifecycleComponent.html#ac92e86d8a90d749a5b70c94e72224380", null ],
+    [ "ApplicationHasEnteredForegroundDelegate", "classUApplicationLifecycleComponent.html#a2b3010018ef4145640e7c3ec0efb265a", null ],
+    [ "ApplicationHasReactivatedDelegate", "classUApplicationLifecycleComponent.html#a580c2fa7335d76362f977772fc688679", null ],
+    [ "ApplicationReceivedStartupArgumentsDelegate", "classUApplicationLifecycleComponent.html#a6ccb032a1873a9b981b64a974a91df76", null ],
+    [ "ApplicationShouldUnloadResourcesDelegate", "classUApplicationLifecycleComponent.html#aa2e812eed2c9fa298a4a970d536674a7", null ],
+    [ "ApplicationWillDeactivateDelegate", "classUApplicationLifecycleComponent.html#a5b33ed4613d9e79cea57f123c09202a4", null ],
+    [ "ApplicationWillEnterBackgroundDelegate", "classUApplicationLifecycleComponent.html#ae6d104db87708ced800b770f1d2c2742", null ],
+    [ "ApplicationWillTerminateDelegate", "classUApplicationLifecycleComponent.html#a5969f0d24954bbc1c005c4fdf79b300d", null ],
+    [ "OnLowPowerModeDelegate", "classUApplicationLifecycleComponent.html#a15351382cdd8a589bca421b12edbac16", null ],
+    [ "OnTemperatureChangeDelegate", "classUApplicationLifecycleComponent.html#afa6ac01991dc378bea00acbd728c741a", null ]
+];

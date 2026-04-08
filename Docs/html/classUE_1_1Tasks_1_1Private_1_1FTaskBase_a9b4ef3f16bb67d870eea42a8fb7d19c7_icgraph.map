@@ -1,0 +1,33 @@
+<map id="UE::Tasks::Private::FTaskBase::AddPrerequisites" name="UE::Tasks::Private::FTaskBase::AddPrerequisites">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1698,109,1915,154"/>
+<area shape="rect" id="Node000002" href="$classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#a7f06dacd9a78bc13f29250d10173f91a" title=" " alt="" coords="1420,5,1636,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1742,102,1649,65,1615,53,1615,48,1651,60,1748,103"/>
+<area shape="rect" id="Node000003" href="$classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#ae48bbdeca47a433f3c2315f464565a34" title=" " alt="" coords="1420,75,1636,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1680,116,1636,113,1636,108,1686,116"/>
+<area shape="rect" id="Node000004" href="$classFBaseGraphTask.html#aa9579dbe2d4a5d38be45d823d2b8015b" title=" " alt="" coords="1412,144,1643,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1686,147,1644,155,1644,149,1680,147"/>
+<area shape="rect" id="Node000005" href="$classFBaseGraphTask.html#a5ffecac194e4bb2360efba314f89a833" title=" " alt="" coords="1405,212,1650,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1750,161,1651,204,1610,215,1609,209,1649,198,1745,162"/>
+<area shape="rect" id="Node000006" href="$classFBaseGraphTask.html#ab2f851cdb545609e7799294d08f54c82" title=" " alt="" coords="1132,144,1326,189"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1438,209,1327,189,1327,183,1443,209"/>
+<area shape="rect" id="Node000007" href="$classFGraphEventImpl.html#a25d33d619e27dda363042c1444f15f2c" title=" " alt="" coords="1102,212,1357,240"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="1386,226,1358,229,1358,224,1392,226"/>
+<area shape="rect" id="Node000008" href="$classTGraphTask.html#a8b57b3357d1c03c8e3c3d7345833a4fe" title=" " alt="" coords="1139,264,1320,292"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="1432,243,1313,266,1313,261,1427,244"/>
+<area shape="rect" id="Node000009" href="$classTGraphTask_1_1FConstructor.html#aa24bfa2ce86004e70e9ded339f33f164" title=" " alt="" coords="566,209,817,254"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1144,261,1053,246,932,237,818,233,818,228,933,231,1054,241,1149,261"/>
+<area shape="rect" id="Node000014" href="$classTGraphTask_1_1FConstructor.html#a34752c1d6ac4e96e698e339f6731640a" title=" " alt="" coords="598,291,786,335"/>
+<area shape="poly" id="edge13_Node000008_Node000014" title=" " alt="" coords="1158,296,1054,316,913,323,786,321,786,315,913,317,1053,310,1153,296"/>
+<area shape="rect" id="Node000015" href="$classTGraphTask_1_1FConstructor.html#a9dc4830620a49e286f88f2e8108461c3" title=" " alt="" coords="865,256,1054,301"/>
+<area shape="poly" id="edge14_Node000008_Node000015" title=" " alt="" coords="1121,278,1054,281,1054,276,1126,278"/>
+<area shape="rect" id="Node000010" href="$classFDelegateGraphTask.html#ac0d36a4893d4304930bebe7ea7f86111" title=" " alt="" coords="286,175,518,219"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="548,215,518,214,518,208,553,215"/>
+<area shape="rect" id="Node000012" href="$classFSimpleDelegateGraphTask.html#a341701cb3401feddac7cfbb6b3fc9e1a" title=" " alt="" coords="286,244,518,289"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="548,249,519,255,518,250,553,248"/>
+<area shape="rect" id="Node000011" href="$classFDelegateGraphTask.html#a1275878d34a88209cb2e59664708fe9b" title=" " alt="" coords="5,175,238,219"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="268,198,239,200,238,194,273,196"/>
+<area shape="rect" id="Node000013" href="$classFSimpleDelegateGraphTask.html#a636c9be284b7b20a77a263a514a02be0" title=" " alt="" coords="5,244,238,289"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="268,267,239,269,238,264,273,266"/>
+<area shape="poly" id="edge15_Node000015_Node000009" title=" " alt="" coords="847,259,818,256,818,251,853,259"/>
+<area shape="poly" id="edge16_Node000015_Node000014" title=" " alt="" coords="852,292,786,303,786,298,847,293"/>
+</map>

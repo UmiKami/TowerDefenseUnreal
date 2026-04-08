@@ -1,0 +1,25 @@
+var structFSubsurfaceProfileStruct =
+[
+    [ "FSubsurfaceProfileStruct", "structFSubsurfaceProfileStruct.html#a4693ef1ffa4b25dfec3fb9b28500d101", null ],
+    [ "Invalidate", "structFSubsurfaceProfileStruct.html#a20d0647e8aa01a9a4a172e933380242d", null ],
+    [ "bEnableBurley", "structFSubsurfaceProfileStruct.html#a4d36eb7a3a7722fa37f5daeec8139a45", null ],
+    [ "bEnableMeanFreePath", "structFSubsurfaceProfileStruct.html#aa531fea1502e20fab8f4175a72948c73", null ],
+    [ "BoundaryColorBleed", "structFSubsurfaceProfileStruct.html#a43f5f89970c5b96c5bd09c433f3980ad", null ],
+    [ "ExtinctionScale", "structFSubsurfaceProfileStruct.html#aec58040839a71c4c103fc0b66eee797e", null ],
+    [ "FalloffColor", "structFSubsurfaceProfileStruct.html#a521c625bfc65296cfe42c9949e24d60f", null ],
+    [ "Implementation", "structFSubsurfaceProfileStruct.html#a55dcd0414a48426259eddf1f66663bd3", null ],
+    [ "IOR", "structFSubsurfaceProfileStruct.html#add2635abf9b6ee1a2fffdd1fcb432c28", null ],
+    [ "LobeMix", "structFSubsurfaceProfileStruct.html#af75735324cd190a705041899db312615", null ],
+    [ "MeanFreePathColor", "structFSubsurfaceProfileStruct.html#a64a7218ce2e5361993172471e3f000d5", null ],
+    [ "MeanFreePathDistance", "structFSubsurfaceProfileStruct.html#a3a7c569c8403051774d9425c33113587", null ],
+    [ "NormalScale", "structFSubsurfaceProfileStruct.html#aa52118d572d37a054241c5576381d4e5", null ],
+    [ "Roughness0", "structFSubsurfaceProfileStruct.html#a41a6e106bb2adf02ca8e8da05d3d6c94", null ],
+    [ "Roughness1", "structFSubsurfaceProfileStruct.html#acc5489397244ac970db96b40b9e9700a", null ],
+    [ "ScatteringDistribution", "structFSubsurfaceProfileStruct.html#a391d60631fb65802eb85348a1930010f", null ],
+    [ "ScatterRadius", "structFSubsurfaceProfileStruct.html#a38163e94f6e465fdb52013cd1ccd5483", null ],
+    [ "SubsurfaceColor", "structFSubsurfaceProfileStruct.html#ad81c7420b54d578a6f048a2879b863f7", null ],
+    [ "SurfaceAlbedo", "structFSubsurfaceProfileStruct.html#a0d89afb50d1764c431aae8235195fbc4", null ],
+    [ "Tint", "structFSubsurfaceProfileStruct.html#a09364cdd18bdb2473899c6ac3c37ccf6", null ],
+    [ "TransmissionTintColor", "structFSubsurfaceProfileStruct.html#af1f89dfd7999d8fdff59a8f8cd4cfc97", null ],
+    [ "WorldUnitScale", "structFSubsurfaceProfileStruct.html#a9342f688fd19b6a83095e7e44445e014", null ]
+];

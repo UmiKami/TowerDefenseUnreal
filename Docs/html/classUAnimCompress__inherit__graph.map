@@ -1,0 +1,19 @@
+<map id="UAnimCompress" name="UAnimCompress">
+<area shape="rect" id="Node000001" title=" " alt="" coords="432,313,662,967"/>
+<area shape="rect" id="Node000004" href="$classUAnimCompress__BitwiseCompressOnly.html" title=" " alt="" coords="5,1244,275,1316"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="422,814,289,1016,216,1142,161,1245,156,1243,211,1139,285,1014,424,809"/>
+<area shape="rect" id="Node000006" href="$classUAnimCompress__RemoveEverySecondKey.html" title=" " alt="" coords="299,1213,517,1347"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="474,979,425,1214,420,1213,472,984"/>
+<area shape="rect" id="Node000007" href="$classUAnimCompress__RemoveLinearKeys.html" title=" " alt="" coords="542,1015,830,1546"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="621,979,631,1016,626,1015,620,984"/>
+<area shape="rect" id="Node000009" href="$classUAnimCompress__RemoveTrivialKeys.html" title=" " alt="" coords="853,1211,1105,1350"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="671,783,760,894,844,1014,903,1115,950,1211,945,1211,898,1118,839,1016,756,898,671,789"/>
+<area shape="rect" id="Node000002" href="$classUAnimBoneCompressionCodec.html" title=" " alt="" coords="440,126,653,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="547,277,549,314,544,313,546,283"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="516,5,578,78"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="547,90,549,126,544,126,546,95"/>
+<area shape="rect" id="Node000005" href="$classUAnimCompress__LeastDestructive.html" title=" " alt="" coords="22,1761,258,1834"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="143,1330,143,1761,138,1761,138,1332"/>
+<area shape="rect" id="Node000008" href="$classUAnimCompress__PerTrackCompression.html" title=" " alt="" coords="542,1594,830,2001"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="687,1558,688,1595,683,1592,684,1563"/>
+</map>

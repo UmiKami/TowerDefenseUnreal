@@ -1,0 +1,15 @@
+<map id="UParticleModuleBeamBase" name="UParticleModuleBeamBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="391,838,579,933"/>
+<area shape="rect" id="Node000004" href="$classUParticleModuleBeamModifier.html" title=" " alt="" coords="5,1003,244,1478"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="375,916,315,944,285,962,259,983,237,1005,233,1002,255,979,282,957,313,939,379,912"/>
+<area shape="rect" id="Node000005" href="$classUParticleModuleBeamNoise.html" title=" " alt="" coords="268,1014,461,1466"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="466,945,444,1016,439,1013,463,949"/>
+<area shape="rect" id="Node000006" href="$classUParticleModuleBeamSource.html" title=" " alt="" coords="485,981,724,1500"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="506,944,520,982,514,981,505,950"/>
+<area shape="rect" id="Node000007" href="$classUParticleModuleBeamTarget.html" title=" " alt="" coords="748,992,987,1489"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="593,906,669,934,706,954,739,979,752,993,746,992,735,983,703,959,667,939,594,911"/>
+<area shape="rect" id="Node000002" href="$classUParticleModule.html" title=" " alt="" coords="377,126,593,790"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="486,803,487,839,482,838,484,808"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="454,5,516,78"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="485,90,487,126,482,125,484,95"/>
+</map>

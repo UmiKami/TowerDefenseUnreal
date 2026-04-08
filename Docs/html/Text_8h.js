@@ -1,0 +1,135 @@
+var Text_8h =
+[
+    [ "FNumberFormattingOptions", "structFNumberFormattingOptions.html", "structFNumberFormattingOptions" ],
+    [ "FNumberParsingOptions", "structFNumberParsingOptions.html", "structFNumberParsingOptions" ],
+    [ "FTextFormat", "classFTextFormat.html", "classFTextFormat" ],
+    [ "FText", "classFText.html", "classFText" ],
+    [ "FText::FSortPredicate", "classFText_1_1FSortPredicate.html", "classFText_1_1FSortPredicate" ],
+    [ "FFormatArgumentValue", "classFFormatArgumentValue.html", "classFFormatArgumentValue" ],
+    [ "FFormatArgumentData", "structFFormatArgumentData.html", "structFFormatArgumentData" ],
+    [ "FHistoricTextFormatData", "classFHistoricTextFormatData.html", "classFHistoricTextFormatData" ],
+    [ "FHistoricTextNumericData", "classFHistoricTextNumericData.html", "classFHistoricTextNumericData" ],
+    [ "FTextSnapshot", "classFTextSnapshot.html", "classFTextSnapshot" ],
+    [ "FTextInspector", "classFTextInspector.html", "classFTextInspector" ],
+    [ "FTextStringHelper", "classFTextStringHelper.html", "classFTextStringHelper" ],
+    [ "FTextBuilder", "classFTextBuilder.html", "classFTextBuilder" ],
+    [ "FUnicodeChar", "structFUnicodeChar.html", "structFUnicodeChar" ],
+    [ "TextBiDi::FTextDirectionInfo", "structTextBiDi_1_1FTextDirectionInfo.html", "structTextBiDi_1_1FTextDirectionInfo" ],
+    [ "TextBiDi::ITextBiDi", "classTextBiDi_1_1ITextBiDi.html", "classTextBiDi_1_1ITextBiDi" ],
+    [ "FFormatNamedArguments", "Text_8h.html#aa184c7173670016034c3d4eb384bf9d9", null ],
+    [ "FFormatOrderedArguments", "Text_8h.html#a622f9599703c7b9289afcad22dac9946", null ],
+    [ "FTextFormatPatternDefinitionConstPtr", "Text_8h.html#ae7263b2d2194ac06e37ae10ddc941503", null ],
+    [ "FTextFormatPatternDefinitionConstRef", "Text_8h.html#a60f39e71406b7a39029a2ccbd32143bd", null ],
+    [ "FTextFormatPatternDefinitionPtr", "Text_8h.html#a38db01f188734eecb9a7bcd73b941f1a", null ],
+    [ "FTextFormatPatternDefinitionRef", "Text_8h.html#ab1265f4cbca2acdae224b1517f496c35", null ],
+    [ "EMemoryUnitStandard", "Text_8h.html#abbfd0422910a9a0c9117bbd79d160de2", [
+      [ "IEC", "Text_8h.html#abbfd0422910a9a0c9117bbd79d160de2a5a9f86cc64eeb3584365a9a431e1e7de", null ],
+      [ "SI", "Text_8h.html#abbfd0422910a9a0c9117bbd79d160de2a6cbe5ff42f143903e1c67abf94613791", null ]
+    ] ],
+    [ "ERoundingMode", "Text_8h.html#a5e7872dd397798ee0e07e7e8d18af97e", [
+      [ "HalfToEven", "Text_8h.html#a5e7872dd397798ee0e07e7e8d18af97ead49f0f3956069e7e7882bc3499b3788e", null ],
+      [ "HalfFromZero", "Text_8h.html#a5e7872dd397798ee0e07e7e8d18af97ea2f3000b3feabc1acef0dc040649531a8", null ],
+      [ "HalfToZero", "Text_8h.html#a5e7872dd397798ee0e07e7e8d18af97ea73666039f8c47c9037c5a9ea053cb2dc", null ],
+      [ "FromZero", "Text_8h.html#a5e7872dd397798ee0e07e7e8d18af97ea4ee07ca6913ef7e8db0d9de81b444cc4", null ],
+      [ "ToZero", "Text_8h.html#a5e7872dd397798ee0e07e7e8d18af97ea9d94b4ae5232c92073cee81ac40a3789", null ],
+      [ "ToNegativeInfinity", "Text_8h.html#a5e7872dd397798ee0e07e7e8d18af97ea0e5f8cab8f18ce354a63c22b96c5f2ec", null ],
+      [ "ToPositiveInfinity", "Text_8h.html#a5e7872dd397798ee0e07e7e8d18af97ea8eec821d85b0e9c3dafb2bbbbd1ddacd", null ]
+    ] ],
+    [ "TextBiDi::ETextDirection", "namespaceTextBiDi.html#ad83ac80c1a436059e1ba131fc6f1cba5", [
+      [ "TextBiDi::ETextDirection::LeftToRight", "namespaceTextBiDi.html#ad83ac80c1a436059e1ba131fc6f1cba5ad1e80c506f4c89e3c4fb1c1b4867a03c", null ],
+      [ "TextBiDi::ETextDirection::RightToLeft", "namespaceTextBiDi.html#ad83ac80c1a436059e1ba131fc6f1cba5ab7b0ea3028791689ea070674776855e2", null ],
+      [ "TextBiDi::ETextDirection::Mixed", "namespaceTextBiDi.html#ad83ac80c1a436059e1ba131fc6f1cba5a699b4f79215d191584653efebf156e52", null ]
+    ] ],
+    [ "ETextFormatFlags", "Text_8h.html#a35b8e7913802a557bbad15f4edfcbce5", [
+      [ "None", "Text_8h.html#a35b8e7913802a557bbad15f4edfcbce5a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "EvaluateArgumentModifiers", "Text_8h.html#a35b8e7913802a557bbad15f4edfcbce5a602c9f788d5e3d0327820ae845055e86", null ],
+      [ "Default", "Text_8h.html#a35b8e7913802a557bbad15f4edfcbce5a7a1920d61156abc05a60135aefe8bc67", null ]
+    ] ],
+    [ "ETextGender", "Text_8h.html#a6de2ef09ec0c5a6e10fa09e98ec0aaa9", [
+      [ "Masculine", "Text_8h.html#a6de2ef09ec0c5a6e10fa09e98ec0aaa9add64146388e07d6961d404a59370ab89", null ],
+      [ "Feminine", "Text_8h.html#a6de2ef09ec0c5a6e10fa09e98ec0aaa9ae38355f981137ae9da23ae635f95f91a", null ],
+      [ "Neuter", "Text_8h.html#a6de2ef09ec0c5a6e10fa09e98ec0aaa9a3cfb2c929bca10dfdbe83d7c2277b957", null ],
+      [ "Masculine", "Text_8h.html#a6de2ef09ec0c5a6e10fa09e98ec0aaa9add64146388e07d6961d404a59370ab89", null ],
+      [ "Feminine", "Text_8h.html#a6de2ef09ec0c5a6e10fa09e98ec0aaa9ae38355f981137ae9da23ae635f95f91a", null ],
+      [ "Neuter", "Text_8h.html#a6de2ef09ec0c5a6e10fa09e98ec0aaa9a3cfb2c929bca10dfdbe83d7c2277b957", null ]
+    ] ],
+    [ "ETextIdenticalModeFlags", "Text_8h.html#af64f6c73cb1f8e22a08ae6f83807e40c", [
+      [ "None", "Text_8h.html#af64f6c73cb1f8e22a08ae6f83807e40ca6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "DeepCompare", "Text_8h.html#af64f6c73cb1f8e22a08ae6f83807e40ca252de886bc46e64c9cdf28fe73200ccd", null ],
+      [ "LexicalCompareInvariants", "Text_8h.html#af64f6c73cb1f8e22a08ae6f83807e40cab41d507ee35961ddb1d2ef948022afaa", null ]
+    ] ],
+    [ "ETextPluralForm", "Text_8h.html#a49a3fb01687e2383008ea10d0176913b", [
+      [ "Zero", "Text_8h.html#a49a3fb01687e2383008ea10d0176913bad7ed4ee1df437474d005188535f74875", null ],
+      [ "One", "Text_8h.html#a49a3fb01687e2383008ea10d0176913ba06c2cea18679d64399783748fa367bdd", null ],
+      [ "Two", "Text_8h.html#a49a3fb01687e2383008ea10d0176913baaada29daee1d64ed0fe907043855cb7e", null ],
+      [ "Few", "Text_8h.html#a49a3fb01687e2383008ea10d0176913ba8ecfbf4cc4349add09296102925c898c", null ],
+      [ "Many", "Text_8h.html#a49a3fb01687e2383008ea10d0176913ba5ae7fb3197b6fd8c723c7766a5680e2e", null ],
+      [ "Other", "Text_8h.html#a49a3fb01687e2383008ea10d0176913ba6311ae17c1ee52b36e68aaf4ad066387", null ],
+      [ "Count", "Text_8h.html#a49a3fb01687e2383008ea10d0176913bae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
+    [ "ETextPluralType", "Text_8h.html#a24d688de79484e4d1937743a067589f1", [
+      [ "Cardinal", "Text_8h.html#a24d688de79484e4d1937743a067589f1a6d16b8d48f82d9158ce26311d462cbba", null ],
+      [ "Ordinal", "Text_8h.html#a24d688de79484e4d1937743a067589f1ac9d539922221d77591558b5841d36fd1", null ]
+    ] ],
+    [ "EDateTimeStyle::Type", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333", [
+      [ "EDateTimeStyle::Default", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333a81ce612cdcabeba3a0bf6435cb938ecd", null ],
+      [ "EDateTimeStyle::Short", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333ae14384e57f46255700614f740a5707b6", null ],
+      [ "EDateTimeStyle::Medium", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333a0b6b7607b3fff3c4213c80519a8df50c", null ],
+      [ "EDateTimeStyle::Long", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333a5f83e0dd9f7915b579e7ec0b0b306eff", null ],
+      [ "EDateTimeStyle::Full", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333a2c8c055a21fcf0d001714377a0d22b7c", null ],
+      [ "EDateTimeStyle::UMETA", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333ab23bb587f81528bb28622bcc187b8cdb", null ],
+      [ "EDateTimeStyle::Default", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333a81ce612cdcabeba3a0bf6435cb938ecd", null ],
+      [ "EDateTimeStyle::Short", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333ae14384e57f46255700614f740a5707b6", null ],
+      [ "EDateTimeStyle::Medium", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333a0b6b7607b3fff3c4213c80519a8df50c", null ],
+      [ "EDateTimeStyle::Long", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333a5f83e0dd9f7915b579e7ec0b0b306eff", null ],
+      [ "EDateTimeStyle::Full", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333a2c8c055a21fcf0d001714377a0d22b7c", null ],
+      [ "EDateTimeStyle::Custom", "namespaceEDateTimeStyle.html#a8ae16dc89f4aedecc45c9d09e8fb6333ac91840e811d37cd331355748ea9b1a5b", null ]
+    ] ],
+    [ "EFormatArgumentType::Type", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0", [
+      [ "EFormatArgumentType::Int", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0ad32717daa56ff3ed03389bc53751d91f", null ],
+      [ "EFormatArgumentType::UInt", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0ae0e1ae24ca5d1cbbe901bbcb256fad5d", null ],
+      [ "EFormatArgumentType::Float", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0abc55aa0966dba132f5b5b0628415844a", null ],
+      [ "EFormatArgumentType::Double", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0a1f2b7f2e9dabbe01b539e9ed938eb6f6", null ],
+      [ "EFormatArgumentType::Text", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0aeeca15a0d3623f80133549e1d337c742", null ],
+      [ "EFormatArgumentType::Gender", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0ad092a8998303755ad12f4169b3bca95f", null ],
+      [ "EFormatArgumentType::Int", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0ad32717daa56ff3ed03389bc53751d91f", null ],
+      [ "EFormatArgumentType::UInt", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0ae0e1ae24ca5d1cbbe901bbcb256fad5d", null ],
+      [ "EFormatArgumentType::Float", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0abc55aa0966dba132f5b5b0628415844a", null ],
+      [ "EFormatArgumentType::Double", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0a1f2b7f2e9dabbe01b539e9ed938eb6f6", null ],
+      [ "EFormatArgumentType::Text", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0aeeca15a0d3623f80133549e1d337c742", null ],
+      [ "EFormatArgumentType::Gender", "namespaceEFormatArgumentType.html#a8c756ef5365f62a34b082e862344cdc0ad092a8998303755ad12f4169b3bca95f", null ]
+    ] ],
+    [ "ETextFlag::Type", "namespaceETextFlag.html#a650441d0e02b9538684e5a5cbc5d63ac", [
+      [ "ETextFlag::Transient", "namespaceETextFlag.html#a650441d0e02b9538684e5a5cbc5d63aca42dd0d1e57cb0d3f8bb515164a31b231", null ],
+      [ "ETextFlag::CultureInvariant", "namespaceETextFlag.html#a650441d0e02b9538684e5a5cbc5d63aca48cf7a1d858fdb442b9d474cc4534477", null ],
+      [ "ETextFlag::ConvertedProperty", "namespaceETextFlag.html#a650441d0e02b9538684e5a5cbc5d63aca6d3db3f79bf6a8728a3de4948c4764a5", null ],
+      [ "ETextFlag::Immutable", "namespaceETextFlag.html#a650441d0e02b9538684e5a5cbc5d63aca8a5f26b284a3e347e982050441489541", null ],
+      [ "ETextFlag::InitializedFromString", "namespaceETextFlag.html#a650441d0e02b9538684e5a5cbc5d63aca3f4ed04b0365523b05a0f8ee1cd4e9da", null ]
+    ] ],
+    [ "TextBiDi::ComputeBaseDirection", "namespaceTextBiDi.html#a17c60e01592e094b5bceabaddcc4bdd4", null ],
+    [ "TextBiDi::ComputeBaseDirection", "namespaceTextBiDi.html#a48489caf817929c708f53c9b460c35d3", null ],
+    [ "TextBiDi::ComputeBaseDirection", "namespaceTextBiDi.html#a4ed4b47d6b7a66dc4322d2aeeb769370", null ],
+    [ "TextBiDi::ComputeTextDirection", "namespaceTextBiDi.html#aa43fec61f305c8ec24ccc22df27ae19a", null ],
+    [ "TextBiDi::ComputeTextDirection", "namespaceTextBiDi.html#acaea1eb8c143f0203f7f5ffdbf2e82f2", null ],
+    [ "TextBiDi::ComputeTextDirection", "namespaceTextBiDi.html#a2a950ae86d9433f2387a1f22645d97c1", null ],
+    [ "TextBiDi::ComputeTextDirection", "namespaceTextBiDi.html#a77c0c658f05868a915dc0428c4afd9f1", null ],
+    [ "TextBiDi::ComputeTextDirection", "namespaceTextBiDi.html#a7adbd42da1c8f9670bfeebd58d0af71f", null ],
+    [ "TextBiDi::ComputeTextDirection", "namespaceTextBiDi.html#a0b3ec5538b64fc837f9daba96979edd5", null ],
+    [ "TextBiDi::CreateTextBiDi", "namespaceTextBiDi.html#a4580abc033613f8cd4afb5159a6fff7f", null ],
+    [ "ENUM_CLASS_FLAGS", "Text_8h.html#a67d147f1f10f5336ba9dd7c5017724ae", null ],
+    [ "ENUM_CLASS_FLAGS", "Text_8h.html#a2277bfd4d8d9d186c1216b16fdbfbcef", null ],
+    [ "TextFormatUtil::FormatNamed", "namespaceTextFormatUtil.html#adbe950646cf684cb2c493c0fda477507", null ],
+    [ "TextFormatUtil::FormatNamed", "namespaceTextFormatUtil.html#abefd8eb8744a5d9e746f4fdac7f44fdc", null ],
+    [ "TextFormatUtil::FormatOrdered", "namespaceTextFormatUtil.html#a2bd37586c715e309d4de657a01544681", null ],
+    [ "TextFormatUtil::FormatOrdered", "namespaceTextFormatUtil.html#a7bd231ae67f92786d9a6f83662ae8664", null ],
+    [ "TextBiDi::IsControlCharacter", "namespaceTextBiDi.html#a98397fc0ea8e7d83cc2e0d6456c8d1e6", null ],
+    [ "LexFromString", "Text_8h.html#a95798ac3f3e9daf41d768754d1197b7e", null ],
+    [ "LexFromString", "Text_8h.html#acde0f35601f3461da57e0886b2acc17f", null ],
+    [ "LexFromString", "Text_8h.html#a3ffa23eb917916a71df3564d4bad8c86", null ],
+    [ "LexToString", "Text_8h.html#ad77fe428a9b017b2e4dd3d10e869dcf6", null ],
+    [ "LexToString", "Text_8h.html#a5cb1d52e038993db24583f12908cddde", null ],
+    [ "LexToString", "Text_8h.html#a860e2df5536d723f69fea49b4afc8b6e", null ],
+    [ "LexTryParseString", "Text_8h.html#af52300f01b41ce5c8d4472439cbf9de1", null ],
+    [ "LexTryParseString", "Text_8h.html#a350082682499dceee252a8802b2cedf3", null ],
+    [ "LexTryParseString", "Text_8h.html#a745cdb68c880bf9319029d4d919748c1", null ]
+];

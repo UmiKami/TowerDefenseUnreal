@@ -1,0 +1,24 @@
+<map id="UParticleModuleLight_Seeded" name="UParticleModuleLight_Seeded">
+<area shape="rect" id="Node000001" title=" " alt="" coords="468,2133,638,2244"/>
+<area shape="rect" id="Node000002" href="$classUParticleModuleLight.html" title=" " alt="" coords="324,1524,540,2060"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="520,2072,539,2134,534,2132,517,2076"/>
+<area shape="rect" id="Node000003" href="$classUParticleModuleLightBase.html" title=" " alt="" coords="22,1177,204,1250"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,1260,218,1405,327,1601,322,1602,214,1407,139,1266"/>
+<area shape="rect" id="Node000004" href="$classUParticleModule.html" title=" " alt="" coords="5,307,221,972"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,984,116,1177,111,1177,113,989"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="82,84,145,156"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="113,168,116,307,111,307,113,174"/>
+<area shape="rect" id="Node000006" href="$structFRawDistributionVector.html" title=" " alt="" coords="228,1021,420,1406"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="333,1403,348,1499,350,1508,344,1507,343,1500,332,1409"/>
+<area shape="rect" id="Node000007" href="$structFRawDistribution.html" title=" " alt="" coords="369,603,492,676"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="422,688,362,1022,357,1021,421,693"/>
+<area shape="rect" id="Node000009" href="$structFRawDistributionFloat.html" title=" " alt="" coords="443,1066,634,1361"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="441,687,514,1066,508,1066,439,693"/>
+<area shape="rect" id="Node000008" href="$structFDistributionLookupTable.html" title=" " alt="" coords="343,5,518,234"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="431,231,433,586,428,586,430,236"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="513,1359,487,1508,482,1506,510,1364"/>
+<area shape="rect" id="Node000010" href="$structFLightingChannels.html" title=" " alt="" coords="659,1155,816,1272"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="734,1270,727,1327,710,1388,683,1449,664,1477,642,1502,619,1514,597,1515,575,1515,553,1526,554,1526,550,1522,551,1521,574,1510,596,1510,617,1509,638,1498,660,1474,678,1447,705,1387,722,1326,732,1274"/>
+<area shape="rect" id="Node000011" href="$structFParticleRandomSeedInfo.html" title=" " alt="" coords="564,1688,785,1895"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="646,1893,577,2118,573,2115,641,1896"/>
+</map>

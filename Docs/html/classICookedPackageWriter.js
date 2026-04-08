@@ -1,0 +1,38 @@
+var classICookedPackageWriter =
+[
+    [ "FCookCapabilities", "structICookedPackageWriter_1_1FCookCapabilities.html", "structICookedPackageWriter_1_1FCookCapabilities" ],
+    [ "FCookInfo", "structICookedPackageWriter_1_1FCookInfo.html", "structICookedPackageWriter_1_1FCookInfo" ],
+    [ "FDeleteByFree", "structICookedPackageWriter_1_1FDeleteByFree.html", "structICookedPackageWriter_1_1FDeleteByFree" ],
+    [ "FPreviousCookedBytesData", "structICookedPackageWriter_1_1FPreviousCookedBytesData.html", "structICookedPackageWriter_1_1FPreviousCookedBytesData" ],
+    [ "FBeginCacheForCookedPlatformDataInfo", "structICookedPackageWriter_1_1FBeginCacheForCookedPlatformDataInfo.html", "structICookedPackageWriter_1_1FBeginCacheForCookedPlatformDataInfo" ],
+    [ "FBeginCacheCallback", "classICookedPackageWriter.html#a1663a2cde5cd69ebca131a876623faba", null ],
+    [ "FRegisterDeterminismHelperCallback", "classICookedPackageWriter.html#af72dd5922e017626cddcc4551d9d19c4", null ],
+    [ "EPackageHeaderFormat", "classICookedPackageWriter.html#a5124200feb777ee9e925a5c5e782d400", [
+      [ "PackageFileSummary", "classICookedPackageWriter.html#a5124200feb777ee9e925a5c5e782d400a578e2ab97872be2b57eecdc7caec1f20", null ],
+      [ "ZenPackageSummary", "classICookedPackageWriter.html#a5124200feb777ee9e925a5c5e782d400a7ee2db7092a7e72d70355728a5450a97", null ]
+    ] ],
+    [ "~ICookedPackageWriter", "classICookedPackageWriter.html#a1e7aadaab78d752e906a7ff899c9514f", null ],
+    [ "AsCookedPackageWriter", "classICookedPackageWriter.html#a1e4edaf919ad76e26d09e2b20aa30e6a", null ],
+    [ "AsPackageStoreWriter", "classICookedPackageWriter.html#aa0d983f8b0a3fcb566f91ca2c456f769", null ],
+    [ "BeginCacheForCookedPlatformData", "classICookedPackageWriter.html#ac230f5f33b4a5b32e1a3f46570d9531f", null ],
+    [ "BeginCook", "classICookedPackageWriter.html#a2c6e41fbeab56439cddc2a519378cd50", null ],
+    [ "CompleteExportsArchiveForDiff", "classICookedPackageWriter.html#a44104bed1a25bc1a13dd20dd352018c6", null ],
+    [ "EndCook", "classICookedPackageWriter.html#ac041817f9c34a9923c47a9645899e7ca", null ],
+    [ "GetCommitStatus", "classICookedPackageWriter.html#a545c9669fda6273169c6b68788a682bc", null ],
+    [ "GetCookCapabilities", "classICookedPackageWriter.html#a29f60627d099166fd1c4b2586fd84479", null ],
+    [ "GetOplogAttachment", "classICookedPackageWriter.html#aaeec3d58c1412845af1cafffcebb3efe", null ],
+    [ "GetOplogAttachments", "classICookedPackageWriter.html#a2d96cfafebf9ed4b80792571c808718c", null ],
+    [ "GetPackageHashes", "classICookedPackageWriter.html#a7a092e6a76819a3997018d3731c410de", null ],
+    [ "GetPreviousCookedBytes", "classICookedPackageWriter.html#ac8e906a6149e458e48ce663a827b4e7a", null ],
+    [ "GetPreviousCookTime", "classICookedPackageWriter.html#a32c2649624b2b1f3015f5934480a722d", null ],
+    [ "Initialize", "classICookedPackageWriter.html#ae0bec2fbc9ee8a4fae48bc154fe2393e", null ],
+    [ "IsAnotherSaveNeeded", "classICookedPackageWriter.html#aa67010922b3bf25a0aa31c44cbb3d88e", null ],
+    [ "LoadPreviousAssetRegistry", "classICookedPackageWriter.html#adb3db924ec939fa1c315bf43be0616d9", null ],
+    [ "MarkPackagesUpToDate", "classICookedPackageWriter.html#ab46ca8049c630134cc1966f80955c35f", null ],
+    [ "RemoveCookedPackages", "classICookedPackageWriter.html#a079b9d66b871cb1d8f365e1a9d157c17", null ],
+    [ "RemoveCookedPackages", "classICookedPackageWriter.html#a2ed3270a39fcb86308f50799eb5eda79", null ],
+    [ "TryReadMPCookMessageForPackage", "classICookedPackageWriter.html#af60bc87f95cf0f8f36f1dc7bdb6371dc", null ],
+    [ "UpdatePackageModificationStatus", "classICookedPackageWriter.html#a539bcaef26254fdff2f4ce8842877cb7", null ],
+    [ "UpdateSaveArguments", "classICookedPackageWriter.html#a1b7f5e0955758728119254105638a672", null ],
+    [ "WriteMPCookMessageForPackage", "classICookedPackageWriter.html#a465a21b9090ab7cdb837625e78bc19f8", null ]
+];

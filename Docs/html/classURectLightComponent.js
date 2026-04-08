@@ -1,0 +1,26 @@
+var classURectLightComponent =
+[
+    [ "BeginDestroy", "classURectLightComponent.html#a79a8bda1dfb3b567ab94dd2485e07fc9", null ],
+    [ "CanEditChange", "classURectLightComponent.html#a1fea3f725ccfeb67d9b64fad6c3a17f3", null ],
+    [ "ComputeLightBrightness", "classURectLightComponent.html#a2de652500850bd68febea2b0099464ff", null ],
+    [ "CreateSceneProxy", "classURectLightComponent.html#af132fd308a441a8b54881375fc240de0", null ],
+    [ "GetLightType", "classURectLightComponent.html#a3d9bcc7e6fc35273364180eef0202f7e", null ],
+    [ "GetUniformPenumbraSize", "classURectLightComponent.html#a5d0950ac4debd6e573784285e29c4c01", null ],
+    [ "PostEditChangeProperty", "classURectLightComponent.html#afbdfbaf681358ab5ab42306add61454c", null ],
+    [ "Serialize", "classURectLightComponent.html#a7f68218fe3c5e7a0fc028893e2795310", null ],
+    [ "SetBarnDoorAngle", "classURectLightComponent.html#addbb4620506dfbbf9bab48285869d5a7", null ],
+    [ "SetBarnDoorLength", "classURectLightComponent.html#adb73db670a0534ff815183518c77d114", null ],
+    [ "SetLightBrightness", "classURectLightComponent.html#a07b825fb4d57fb21e1cd77226359d02f", null ],
+    [ "SetSourceHeight", "classURectLightComponent.html#a68210c4ead8b7e184f8998f7419b78c9", null ],
+    [ "SetSourceTexture", "classURectLightComponent.html#aa741b53dad722de18b5684bf13a5b4da", null ],
+    [ "SetSourceWidth", "classURectLightComponent.html#a102ea12fa42e065732ac5445e975e782", null ],
+    [ "BarnDoorAngle", "classURectLightComponent.html#a9d62437a0b26b671abd29159c9826ad8", null ],
+    [ "BarnDoorLength", "classURectLightComponent.html#a6d54855758349814d1ec5ed14b517487", null ],
+    [ "bLightRequiresBrokenEVMath", "classURectLightComponent.html#a20880cb89c26082a4efffe590c3994c3", null ],
+    [ "LightFunctionConeAngle", "classURectLightComponent.html#ae6764e96ca1fe438aebf109f767452b6", null ],
+    [ "SourceHeight", "classURectLightComponent.html#a692ac47fab15b65f15e753b9b1a5efa7", null ],
+    [ "SourceTexture", "classURectLightComponent.html#ae6c2da1c9eea67538b8c575cd2ddb2e5", null ],
+    [ "SourceTextureOffset", "classURectLightComponent.html#a0b3f698b74cdee75c9cfcd82788231c8", null ],
+    [ "SourceTextureScale", "classURectLightComponent.html#ab13e13d95a6864169303ed9e9a8fb939", null ],
+    [ "SourceWidth", "classURectLightComponent.html#af7e0267535a14600ab6599c3765ac5d0", null ]
+];

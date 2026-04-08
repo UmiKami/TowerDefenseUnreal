@@ -1,0 +1,34 @@
+digraph "StringConv::IsHighSurrogate"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="StringConv::IsHighSurrogate",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TUTF16ToUTF32_Convert\l::CodepointFromUtf16",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF16ToUTF32__Convert.html#a0bc69aeee3faeaf14f875661f5fb05a9",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TUTF16ToUTF32_Convert\l::Convert_Impl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF16ToUTF32__Convert.html#a6cafd2b90d78ed35d85659994d33fbce",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TUTF16ToUTF32_Convert\l::Convert",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF16ToUTF32__Convert.html#ab0c07e4b4a3f1924428d1c9ba669b579",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TUTF16ToUTF32_Convert\l::ConvertedLength",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF16ToUTF32__Convert.html#ad1379878d4a0469a6eeff0017cb5a802",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="StringConv::InlineCombine\lSurrogates_Buffer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespaceStringConv.html#a778129b0d044da7cb2b96713795dd77a",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="StringConv::InlineCombine\lSurrogates_Array",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespaceStringConv.html#afb172e1080c1387549bc100b0c0bdbb1",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TUTF32ToUTF16_Convert\l::Utf16FromCodepoint",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF32ToUTF16__Convert.html#a71eece60222499e39c338b857313c95e",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TUTF32ToUTF16_Convert\l::WriteCodepointToBuffer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF32ToUTF16__Convert.html#ab02d0ebde86f2de52bde60145ce2f40e",tooltip=" "];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TUTF32ToUTF16_Convert\l::Convert_Impl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF32ToUTF16__Convert.html#aac9b4981d53a6d332066020da8b3762c",tooltip=" "];
+  Node10 -> Node11 [id="edge10_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="TUTF32ToUTF16_Convert\l::Convert",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF32ToUTF16__Convert.html#ac55ac1377c3313b3c1783680658e3cb3",tooltip=" "];
+  Node10 -> Node12 [id="edge11_Node000010_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="TUTF32ToUTF16_Convert\l::ConvertedLength",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF32ToUTF16__Convert.html#a003bfeba2deb396580e8e4bedeb0f456",tooltip=" "];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="UE::Core::Private::\lFTCHARToUTF8_Convert\l::Utf8FromCodepoint",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classUE_1_1Core_1_1Private_1_1FTCHARToUTF8__Convert.html#a8f23155664f4e04384af5df0eb7e41eb",tooltip=" "];
+}

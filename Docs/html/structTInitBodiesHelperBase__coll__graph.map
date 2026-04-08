@@ -1,0 +1,34 @@
+<map id="TInitBodiesHelperBase&lt; InAllocatorType &gt;" name="TInitBodiesHelperBase&lt; InAllocatorType &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="556,2275,794,2828"/>
+<area shape="rect" id="Node000002" href="$structChaos_1_1Private_1_1FInitBodiesHelperBaseInternal.html" title=" " alt="" coords="290,1238,536,1383"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="420,1395,438,1550,464,1751,501,1976,524,2090,550,2201,571,2276,566,2275,545,2203,519,2091,495,1977,459,1752,433,1551,420,1401"/>
+<area shape="rect" id="Node000003" href="$classUBodySetup.html" title=" " alt="" coords="559,866,791,1755"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="677,1752,678,2258,673,2257,674,1756"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="423,139,544,212"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="498,223,525,314,550,418,591,643,625,866,619,866,586,643,545,419,520,316,498,228"/>
+<area shape="rect" id="Node000005" href="$structFWalkableSlopeOverride.html" title=" " alt="" coords="568,28,783,323"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="676,321,678,850,673,849,675,326"/>
+<area shape="rect" id="Node000006" href="$structFBodySetupUVInfo.html" title=" " alt="" coords="807,106,970,245"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="890,242,889,282,881,322,868,361,848,396,837,406,825,409,815,412,805,420,776,468,750,519,728,572,710,626,682,737,666,849,661,848,677,736,705,624,723,570,745,517,771,466,801,417,812,407,824,404,834,401,844,393,863,358,876,320,884,281,889,248"/>
+<area shape="rect" id="Node000007" href="$classIPhysicsBodyInstanceOwner.html" title=" " alt="" coords="815,1179,1061,1442"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="928,1439,912,1597,887,1788,852,1996,806,2203,789,2261,785,2258,801,2201,846,1995,882,1787,907,1596,926,1444"/>
+<area shape="rect" id="Node000008" href="$classUSkeletalMeshComponent.html" title=" " alt="" coords="1204,419,1466,2202"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1206,1923,1148,2069,1113,2138,1075,2203,1017,2281,949,2351,878,2413,809,2466,807,2462,875,2409,946,2347,1013,2277,1070,2201,1109,2135,1143,2067,1203,1927"/>
+<area shape="rect" id="Node000011" href="$structFSkeletalMeshComponentClothTickFunction.html" title=" " alt="" coords="1228,2484,1443,2618"/>
+<area shape="poly" id="edge12_Node000011_Node000008" title=" " alt="" coords="1268,2200,1274,2251,1292,2365,1315,2469,1310,2467,1287,2366,1268,2251,1265,2204"/>
+<area shape="rect" id="Node000013" href="$structFSkeletalMeshComponentEndPhysicsTickFunction.html" title=" " alt="" coords="1488,2484,1692,2618"/>
+<area shape="poly" id="edge15_Node000013_Node000008" title=" " alt="" coords="1468,2115,1499,2250,1531,2365,1564,2470,1559,2468,1525,2366,1494,2252,1465,2120"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1016,139,1199,212"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1118,224,1207,659,1202,658,1117,229"/>
+<area shape="rect" id="Node000010" href="$classIInterface__CollisionDataProvider.html" title=" " alt="" coords="1223,75,1448,276"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="1336,288,1338,420,1333,418,1335,294"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="1333,2484,1334,2221,1337,2217,1338,2486"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1751,1274,1850,1346"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1818,1358,1840,1433,1862,1530,1881,1645,1891,1770,1891,1836,1887,1901,1879,1966,1865,2029,1846,2090,1819,2149,1786,2203,1744,2253,1722,2265,1690,2271,1612,2269,1532,2266,1500,2269,1477,2277,1452,2297,1430,2321,1394,2375,1369,2432,1351,2486,1347,2483,1364,2430,1390,2372,1426,2317,1448,2293,1474,2273,1499,2264,1532,2261,1612,2264,1690,2265,1720,2260,1740,2249,1781,2200,1815,2146,1841,2089,1860,2028,1874,1965,1882,1900,1886,1835,1885,1771,1875,1645,1857,1531,1834,1434,1816,1363"/>
+<area shape="poly" id="edge14_Node000013_Node000012" title=" " alt="" coords="1812,1359,1837,1514,1848,1619,1855,1737,1857,1864,1850,1995,1832,2126,1818,2190,1801,2252,1773,2319,1736,2382,1695,2439,1655,2487,1652,2482,1691,2435,1732,2379,1768,2316,1795,2250,1813,2188,1826,2125,1844,1994,1851,1864,1850,1738,1843,1620,1832,1515,1810,1364"/>
+<area shape="poly" id="edge13_Node000008_Node000013" title=" " alt="" coords="1585,2483,1575,2364,1558,2226,1517,2013,1469,1803,1472,1798,1522,2012,1563,2226,1581,2364,1589,2486"/>
+<area shape="rect" id="Node000014" href="$structFAnimationEvaluationContext.html" title=" " alt="" coords="1472,5,1734,346"/>
+<area shape="poly" id="edge16_Node000008_Node000014" title=" " alt="" coords="1565,343,1473,740,1468,738,1562,348"/>
+<area shape="rect" id="Node000015" href="$structFInitBodySpawnParams.html" title=" " alt="" coords="5,1241,265,1380"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="131,1377,133,1535,137,1636,148,1746,166,1862,193,1979,230,2093,254,2148,280,2201,306,2242,335,2281,402,2353,474,2415,545,2469,540,2470,470,2419,398,2357,331,2284,301,2245,276,2203,249,2150,225,2095,187,1980,160,1863,142,1747,132,1636,127,1535,131,1382"/>
+</map>

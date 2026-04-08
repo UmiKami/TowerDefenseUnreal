@@ -1,0 +1,49 @@
+<map id="FArchive::IsError" name="FArchive::IsError">
+<area shape="rect" id="Node000001" title=" " alt="" coords="523,468,650,496"/>
+<area shape="rect" id="Node000002" href="$structFBitReader.html#ae507e65a9c00bf07970870e0aab84435" title=" " alt="" coords="309,5,448,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="579,452,566,361,543,239,512,123,493,78,473,48,449,32,448,26,477,44,498,75,517,121,548,238,571,360,584,453"/>
+<area shape="rect" id="Node000003" href="$classFArchive.html#ab079f5fc46927684a0b3178abe667928" title=" " alt="" coords="318,57,439,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="584,452,580,381,566,285,552,235,533,185,507,139,473,98,457,87,440,80,439,75,460,82,477,95,511,136,537,183,557,233,571,284,586,380,589,453"/>
+<area shape="rect" id="Node000004" href="$classFBufferReaderBase.html#a584f5fbdf032bcd9c4998e2da96273f7" title=" " alt="" coords="301,109,456,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="581,452,573,394,555,318,541,277,523,238,500,201,473,168,457,154,456,149,477,164,505,198,527,235,546,275,560,316,578,393,586,453"/>
+<area shape="rect" id="Node000006" href="$classFBufferWriter.html#a9b5bdf60f7ace783f2af9d82fb04dd80" title=" " alt="" coords="302,177,455,205"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="579,452,569,403,549,340,518,275,498,246,473,220,456,208,455,203,477,216,502,242,523,272,554,338,574,402,584,454"/>
+<area shape="rect" id="Node000008" href="$structFBitWriter.html#a7ad1b3b1181b5f81c56dff70995be891" title=" " alt="" coords="299,229,458,257"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="576,452,563,412,542,363,512,314,494,291,473,272,455,260,454,255,477,268,498,288,517,311,546,361,568,411,581,453"/>
+<area shape="rect" id="Node000009" href="$structFBitWriter.html#a64b582a06a5014f604dabf02887bb7b6" title=" " alt="" coords="304,281,453,309"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="571,454,534,389,506,354,473,324,453,312,451,307,477,320,510,350,538,386,576,454"/>
+<area shape="rect" id="Node000010" href="$structFBitWriter.html#a27b3e13781e17ac2c1c0fb1a11836b26" title=" " alt="" coords="304,333,453,361"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="563,456,524,415,500,394,474,376,448,364,447,359,476,372,503,390,528,412,568,455"/>
+<area shape="rect" id="Node000011" href="$structFBitWriterMark.html#a50f246a3d65dad830e623ae40a4a2a9a" title=" " alt="" coords="304,385,453,413"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="545,461,474,428,439,416,438,411,476,423,550,459"/>
+<area shape="rect" id="Node000012" href="$structFBitReader.html#a4a2888c8cb504bbefd3db0ce61fbeb5a" title=" " alt="" coords="302,437,454,465"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="505,471,456,465,454,460,510,469"/>
+<area shape="rect" id="Node000013" href="$NetSerialization_8h.html#ac3ceb3137c315f85899352782783e3a7" title=" " alt="" coords="292,489,464,534"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="505,494,466,501,464,497,510,492"/>
+<area shape="rect" id="Node000014" href="$NetSerialization_8h.html#a9b155efcbaddddd84a5e3bbf63fc75df" title=" " alt="" coords="292,558,464,603"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="548,506,476,548,449,560,446,555,474,543,552,503"/>
+<area shape="rect" id="Node000015" href="$classFArrayReader.html#aca13ecb3f69fdbefadcf387137b52329" title=" " alt="" coords="292,627,465,654"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="572,507,534,565,507,593,476,617,454,628,452,624,474,613,503,589,529,562,568,511"/>
+<area shape="rect" id="Node000016" href="$classFMemoryReader.html#abccca3eb3f48700f9a285cf02d1c6d79" title=" " alt="" coords="282,679,475,706"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="577,509,564,547,542,590,513,632,477,668,455,680,452,676,473,664,509,629,537,587,559,545,574,513"/>
+<area shape="rect" id="Node000017" href="$classFMemoryReaderView.html#a8591f6437bdd7615187c59f2c35663c5" title=" " alt="" coords="294,730,463,775"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="581,509,570,557,549,612,518,670,499,696,477,720,460,732,457,728,473,716,495,693,514,667,544,610,564,555,578,513"/>
+<area shape="rect" id="Node000018" href="$classFStaticMemoryReader.html#aa52e29ed098f290186f8646d32efb7b7" title=" " alt="" coords="295,800,462,844"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="584,509,577,569,558,643,544,682,526,721,504,757,477,789,461,801,459,797,473,785,500,754,522,718,539,680,553,642,572,568,581,514"/>
+<area shape="rect" id="Node000019" href="$structTArrayPrivateFriend.html#a1ec2b2386f6c912204e8ebb81d10426d" title=" " alt="" coords="303,869,454,914"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="587,509,583,581,567,673,553,723,534,771,509,817,477,858,455,875,453,870,473,855,504,814,529,769,548,721,562,672,578,581,584,514"/>
+<area shape="rect" id="Node000021" href="$structFBitReader.html#a626fd9c3211924ac017ed6a924fa85e3" title=" " alt="" coords="287,937,470,965"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="583,509,572,605,549,730,535,792,518,849,498,896,477,928,462,939,460,934,473,924,494,893,513,847,529,791,544,729,566,604,580,513"/>
+<area shape="rect" id="Node000023" href="$structFBitReader.html#a61880b804e74d33738e6767039489059" title=" " alt="" coords="291,989,466,1017"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="584,509,574,615,552,754,538,825,520,889,500,942,477,978,460,991,458,986,473,975,496,940,515,887,533,824,547,753,569,614,581,513"/>
+<area shape="rect" id="Node000005" href="$classFBufferReader.html#a34c4c22394a19cdbfc8fba0e3b4e342f" title=" " alt="" coords="5,117,234,145"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="283,133,236,133,233,129,287,129"/>
+<area shape="rect" id="Node000007" href="$classFBufferWriter.html#af7339e77fe909f14a1a1c4f2494487d4" title=" " alt="" coords="11,177,228,205"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="284,193,230,193,227,189,288,189"/>
+<area shape="rect" id="Node000020" href="$Array_8h.html#a5f5b773e6f2da9854fd4e39ec9c59030" title=" " alt="" coords="70,877,169,905"/>
+<area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="285,893,170,894,169,889,290,890"/>
+<area shape="rect" id="Node000022" href="$structFBitReader.html#ac8875ac205987eb2900e4b8cc2a65b56" title=" " alt="" coords="41,937,198,965"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="269,952,199,954,198,949,274,951"/>
+<area shape="rect" id="Node000024" href="$structFBitReader.html#a196ede767b9b0aa8188e5cd7b6dd0614" title=" " alt="" coords="44,989,195,1017"/>
+<area shape="poly" id="edge23_Node000023_Node000024" title=" " alt="" coords="273,1003,196,1006,196,1001,278,1003"/>
+</map>

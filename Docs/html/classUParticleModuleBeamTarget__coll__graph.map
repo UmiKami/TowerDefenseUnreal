@@ -1,0 +1,18 @@
+<map id="UParticleModuleBeamTarget" name="UParticleModuleBeamTarget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="207,1501,446,1931"/>
+<area shape="rect" id="Node000002" href="$classUParticleModuleBeamBase.html" title=" " alt="" coords="20,1166,207,1261"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,1272,238,1501,233,1502,138,1277"/>
+<area shape="rect" id="Node000003" href="$classUParticleModule.html" title=" " alt="" coords="5,307,221,972"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,984,116,1166,111,1166,113,989"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="82,84,145,156"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,168,116,307,111,307,113,174"/>
+<area shape="rect" id="Node000005" href="$structFRawDistributionVector.html" title=" " alt="" coords="231,1021,422,1406"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="328,1403,329,1485,324,1484,326,1408"/>
+<area shape="rect" id="Node000006" href="$structFRawDistribution.html" title=" " alt="" coords="372,603,495,676"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="425,688,365,1022,360,1021,423,693"/>
+<area shape="rect" id="Node000008" href="$structFRawDistributionFloat.html" title=" " alt="" coords="446,1066,637,1361"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="444,687,516,1066,511,1066,442,693"/>
+<area shape="rect" id="Node000007" href="$structFDistributionLookupTable.html" title=" " alt="" coords="346,5,521,234"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="434,231,436,586,431,586,433,236"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="485,1359,437,1478,433,1487,429,1484,432,1476,482,1363"/>
+</map>

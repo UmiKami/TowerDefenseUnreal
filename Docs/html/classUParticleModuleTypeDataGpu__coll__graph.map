@@ -1,0 +1,27 @@
+<map id="UParticleModuleTypeDataGpu" name="UParticleModuleTypeDataGpu">
+<area shape="rect" id="Node000001" title=" " alt="" coords="404,1668,614,1896"/>
+<area shape="rect" id="Node000002" href="$classUParticleModuleTypeDataBase.html" title=" " alt="" coords="113,1260,353,1595"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="363,1591,424,1668,419,1668,362,1596"/>
+<area shape="rect" id="Node000003" href="$classUParticleModule.html" title=" " alt="" coords="5,500,221,1164"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="184,1177,202,1260,197,1260,183,1182"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="82,307,145,379"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,392,116,500,111,500,113,397"/>
+<area shape="rect" id="Node000005" href="$structFGPUSpriteEmitterInfo.html" title=" " alt="" coords="417,1279,601,1575"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="511,1573,512,1652,507,1650,508,1577"/>
+<area shape="rect" id="Node000006" href="$structFGPUSpriteLocalVectorFieldInfo.html" title=" " alt="" coords="245,664,462,1000"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="337,997,339,1057,343,1117,352,1177,368,1235,386,1275,410,1314,405,1314,381,1277,363,1237,347,1178,338,1118,333,1057,335,1002"/>
+<area shape="rect" id="Node000007" href="$structFFloatDistribution.html" title=" " alt="" coords="495,403,622,476"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="531,478,524,500,511,563,502,645,495,848,497,1067,503,1263,498,1262,491,1067,489,848,497,645,506,562,519,499,533,473"/>
+<area shape="rect" id="Node000008" href="$structFDistributionLookupTable.html" title=" " alt="" coords="538,5,713,234"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="602,231,572,388,567,386,601,236"/>
+<area shape="rect" id="Node000010" href="$structFRawDistribution.html" title=" " alt="" coords="732,307,855,379"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="711,231,759,293,754,294,711,236"/>
+<area shape="rect" id="Node000009" href="$structFRawDistributionVector.html" title=" " alt="" coords="698,640,889,1024"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="738,1022,712,1096,681,1166,650,1215,616,1261,612,1267,608,1264,611,1258,646,1212,676,1163,707,1094,736,1026"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="794,392,796,640,791,639,792,397"/>
+<area shape="rect" id="Node000011" href="$structFRawDistributionFloat.html" title=" " alt="" coords="912,684,1104,980"/>
+<area shape="poly" id="edge12_Node000011_Node000010" title=" " alt="" coords="831,388,870,440,904,498,943,591,974,685,968,684,938,593,899,501,865,443,831,394"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="981,978,951,1075,929,1122,904,1166,885,1192,867,1210,846,1224,817,1238,787,1248,760,1250,712,1246,666,1243,642,1249,615,1262,603,1270,599,1266,612,1257,640,1244,665,1238,712,1240,760,1245,786,1242,815,1233,843,1220,864,1206,881,1188,899,1163,925,1120,946,1073,978,982"/>
+<area shape="rect" id="Node000012" href="$structFGPUSpriteResourceData.html" title=" " alt="" coords="625,1279,868,1575"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="650,1573,597,1656,593,1652,646,1576"/>
+</map>

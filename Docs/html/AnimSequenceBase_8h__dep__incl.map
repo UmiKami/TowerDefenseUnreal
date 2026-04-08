@@ -1,0 +1,39 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Animation/AnimSequenceBase.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Animation/AnimSequenceBase.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1611,5,1805,84"/>
+<area shape="rect" id="Node000002" href="$AnimCompositeBase_8h.html" title=" " alt="" coords="294,132,488,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1595,59,489,163,488,158,1596,54"/>
+<area shape="rect" id="Node000007" href="$AnimNode__SequencePlayer_8h.html" title=" " alt="" coords="1370,132,1587,211"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1626,91,1551,134,1549,129,1621,93"/>
+<area shape="rect" id="Node000008" href="$AnimSequence_8h.html" title=" " alt="" coords="1611,132,1805,211"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1710,98,1710,133,1706,130,1706,102"/>
+<area shape="rect" id="Node000016" href="$AnimStreamable_8h.html" title=" " alt="" coords="1852,385,2046,464"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="1780,91,1819,130,1862,196,1897,265,1923,331,1941,386,1936,383,1918,333,1892,267,1858,198,1815,134,1778,96"/>
+<area shape="rect" id="Node000017" href="$BuiltInAttributeTypes_8h.html" title=" " alt="" coords="1903,132,2097,211"/>
+<area shape="poly" id="edge20_Node000001_Node000017" title=" " alt="" coords="1813,88,1912,132,1907,131,1812,93"/>
+<area shape="rect" id="Node000003" href="$AnimComposite_8h.html" title=" " alt="" coords="75,259,269,337"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="308,221,242,260,238,256,311,217"/>
+<area shape="rect" id="Node000004" href="$AnimMontage_8h.html" title=" " alt="" coords="294,259,488,337"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="392,224,393,259,388,257,389,229"/>
+<area shape="rect" id="Node000005" href="$AnimMontageEvaluationState_8h.html" title=" " alt="" coords="275,385,506,464"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="392,351,393,386,388,384,389,355"/>
+<area shape="rect" id="Node000006" href="$CharacterMovementComponent_8h.html" title=" " alt="" coords="5,385,251,464"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="293,346,211,387,208,383,297,343"/>
+<area shape="rect" id="Node000009" href="$AnimCompress_8h.html" title=" " alt="" coords="1236,259,1430,337"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1598,211,1432,268,1430,263,1593,212"/>
+<area shape="rect" id="Node000013" href="$AnimCompress__RemoveLinearKeys_8h.html" title=" " alt="" coords="1508,385,1777,464"/>
+<area shape="poly" id="edge18_Node000008_Node000013" title=" " alt="" coords="1696,224,1655,387,1651,383,1692,228"/>
+<area shape="rect" id="Node000014" href="$AnimCompress__PerTrackCompression_8h.html" title=" " alt="" coords="1586,512,1870,591"/>
+<area shape="poly" id="edge17_Node000008_Node000014" title=" " alt="" coords="1735,222,1768,298,1782,341,1792,385,1798,425,1792,465,1780,490,1764,514,1762,509,1776,488,1787,463,1793,425,1787,386,1776,343,1763,300,1733,227"/>
+<area shape="rect" id="Node000010" href="$AnimCompress__BitwiseCompressOnly_8h.html" title=" " alt="" coords="822,385,1106,464"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1224,336,1080,387,1078,382,1219,338"/>
+<area shape="rect" id="Node000011" href="$AnimCompress__LeastDestructive_8h.html" title=" " alt="" coords="928,512,1181,591"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="1229,344,1198,366,1171,387,1154,406,1144,424,1121,465,1086,514,1083,509,1116,463,1139,421,1150,403,1168,383,1195,362,1224,346"/>
+<area shape="rect" id="Node000012" href="$AnimCompress__RemoveEverySecondKey_8h.html" title=" " alt="" coords="1182,385,1485,464"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="1335,351,1335,386,1331,383,1332,355"/>
+<area shape="poly" id="edge13_Node000009_Node000013" title=" " alt="" coords="1444,341,1549,385,1544,385,1443,346"/>
+<area shape="rect" id="Node000015" href="$AnimCompress__RemoveTrivialKeys_8h.html" title=" " alt="" coords="530,385,798,464"/>
+<area shape="poly" id="edge15_Node000009_Node000015" title=" " alt="" coords="1219,315,1029,347,810,388,799,390,798,385,809,383,1028,342,1224,314"/>
+<area shape="poly" id="edge16_Node000009_Node000016" title=" " alt="" coords="1446,316,1790,383,1854,400,1849,399,1789,388,1446,322"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1002,474,1029,512,1024,510,1000,479"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="1679,475,1704,513,1699,510,1677,480"/>
+</map>

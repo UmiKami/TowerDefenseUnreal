@@ -1,0 +1,86 @@
+var QuartzQuantizationUtilities_8h =
+[
+    [ "FQuartzPulseOverrideStep", "structFQuartzPulseOverrideStep.html", "structFQuartzPulseOverrideStep" ],
+    [ "FQuartzTimeSignature", "structFQuartzTimeSignature.html", "structFQuartzTimeSignature" ],
+    [ "FQuartzTransportTimeStamp", "structFQuartzTransportTimeStamp.html", "structFQuartzTransportTimeStamp" ],
+    [ "FQuartzClockSettings", "structFQuartzClockSettings.html", "structFQuartzClockSettings" ],
+    [ "FQuartLatencyTracker", "classFQuartLatencyTracker.html", "classFQuartLatencyTracker" ],
+    [ "Audio::FQuartzClockTickRate", "structAudio_1_1FQuartzClockTickRate.html", "structAudio_1_1FQuartzClockTickRate" ],
+    [ "Audio::FQuartzLatencyTimer", "classAudio_1_1FQuartzLatencyTimer.html", "classAudio_1_1FQuartzLatencyTimer" ],
+    [ "Audio::FQuartzCrossThreadMessage", "classAudio_1_1FQuartzCrossThreadMessage.html", "classAudio_1_1FQuartzCrossThreadMessage" ],
+    [ "Audio::FQuartzOffset", "structAudio_1_1FQuartzOffset.html", "structAudio_1_1FQuartzOffset" ],
+    [ "Audio::FQuartzGameThreadSubscriber", "structAudio_1_1FQuartzGameThreadSubscriber.html", "structAudio_1_1FQuartzGameThreadSubscriber" ],
+    [ "FQuartzQuantizationBoundary", "structFQuartzQuantizationBoundary.html", "structFQuartzQuantizationBoundary" ],
+    [ "Audio::FQuartzQuantizedRequestData", "structAudio_1_1FQuartzQuantizedRequestData.html", "structAudio_1_1FQuartzQuantizedRequestData" ],
+    [ "Audio::FQuartzQuantizedCommandInitInfo", "structAudio_1_1FQuartzQuantizedCommandInitInfo.html", "structAudio_1_1FQuartzQuantizedCommandInitInfo" ],
+    [ "Audio::IQuartzQuantizedCommand", "classAudio_1_1IQuartzQuantizedCommand.html", "classAudio_1_1IQuartzQuantizedCommand" ],
+    [ "Audio::FQuartzQuantizedCommandHandle", "structAudio_1_1FQuartzQuantizedCommandHandle.html", "structAudio_1_1FQuartzQuantizedCommandHandle" ],
+    [ "FAudioComponentCommandInfo", "structFAudioComponentCommandInfo.html", "structFAudioComponentCommandInfo" ],
+    [ "Audio::Quartz::FQuartzGameThreadCommandQueuePtr", "namespaceAudio_1_1Quartz.html#a5a75ba356c66462ded493c4a306c95bd", null ],
+    [ "Audio::Quartz::FQuartzSubscriberCommandQueue", "namespaceAudio_1_1Quartz.html#afe70ed817b861b1d9cdc4fea19b2ae17", null ],
+    [ "EQuartzCommandDelegateSubType", "QuartzQuantizationUtilities_8h.html#afbad81680b351c8ffaf504f9e971ee68", [
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afbad81680b351c8ffaf504f9e971ee68aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afbad81680b351c8ffaf504f9e971ee68aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afbad81680b351c8ffaf504f9e971ee68aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afbad81680b351c8ffaf504f9e971ee68aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afbad81680b351c8ffaf504f9e971ee68aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afbad81680b351c8ffaf504f9e971ee68aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ]
+    ] ],
+    [ "EQuartzCommandQuantization", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bb", [
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a82bd41f22db40a0703d11b593c51f5bbaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ]
+    ] ],
+    [ "EQuartzCommandType", "QuartzQuantizationUtilities_8h.html#a7dd1163162d4351b6fd07afa79fa08c9", [
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a7dd1163162d4351b6fd07afa79fa08c9aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a7dd1163162d4351b6fd07afa79fa08c9aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a7dd1163162d4351b6fd07afa79fa08c9aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a7dd1163162d4351b6fd07afa79fa08c9aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a7dd1163162d4351b6fd07afa79fa08c9aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a7dd1163162d4351b6fd07afa79fa08c9aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a7dd1163162d4351b6fd07afa79fa08c9aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a7dd1163162d4351b6fd07afa79fa08c9aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ]
+    ] ],
+    [ "EQuartzDelegateType", "QuartzQuantizationUtilities_8h.html#adee12ced41602ec4482a16af7a4d28dd", [
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#adee12ced41602ec4482a16af7a4d28ddaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#adee12ced41602ec4482a16af7a4d28ddaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#adee12ced41602ec4482a16af7a4d28ddaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ]
+    ] ],
+    [ "EQuartzTimeSignatureQuantization", "QuartzQuantizationUtilities_8h.html#afe91742d50764e082167e1ed4bc6c400", [
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afe91742d50764e082167e1ed4bc6c400aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afe91742d50764e082167e1ed4bc6c400aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afe91742d50764e082167e1ed4bc6c400aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afe91742d50764e082167e1ed4bc6c400aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afe91742d50764e082167e1ed4bc6c400aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#afe91742d50764e082167e1ed4bc6c400aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ]
+    ] ],
+    [ "EQuarztQuantizationReference", "QuartzQuantizationUtilities_8h.html#a44cf18957407387c50317520ecbba08c", [
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a44cf18957407387c50317520ecbba08caa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a44cf18957407387c50317520ecbba08caa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a44cf18957407387c50317520ecbba08caa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "QuartzQuantizationUtilities_8h.html#a44cf18957407387c50317520ecbba08caa3f80d8f0f1b4ffa8c475f5d60ea5635", null ]
+    ] ],
+    [ "DECLARE_DYNAMIC_DELEGATE_FiveParams", "QuartzQuantizationUtilities_8h.html#a48aa81f5ca0db857b9392b1ccb12caa5", null ],
+    [ "DECLARE_DYNAMIC_DELEGATE_TwoParams", "QuartzQuantizationUtilities_8h.html#a03ea9e4a531601c94f5d686042296ed3", null ],
+    [ "DECLARE_DYNAMIC_MULTICAST_DELEGATE_FiveParams", "QuartzQuantizationUtilities_8h.html#a14eed3928b80defe6d94094e91646bbd", null ],
+    [ "DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams", "QuartzQuantizationUtilities_8h.html#a39f228963abf3a6e823c8fac9b9404cd", null ],
+    [ "DECLARE_LOG_CATEGORY_EXTERN", "QuartzQuantizationUtilities_8h.html#aac891b42351eb3f1b6cfc00c9347272e", null ],
+    [ "TimeSignatureQuantizationToCommandQuantization", "QuartzQuantizationUtilities_8h.html#a88951c2597de0d5ce5bb87f994182492", null ]
+];

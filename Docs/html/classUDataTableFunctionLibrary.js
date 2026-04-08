@@ -1,0 +1,25 @@
+var classUDataTableFunctionLibrary =
+[
+    [ "AddDataTableRow", "classUDataTableFunctionLibrary.html#af0331996e1c2eef87539d03d4ae8445e", null ],
+    [ "DECLARE_FUNCTION", "classUDataTableFunctionLibrary.html#ac4e82926d143f7d23b5a2e0deeab07cf", null ],
+    [ "DECLARE_FUNCTION", "classUDataTableFunctionLibrary.html#abae075b42cd8f0ef5c3b0456d91902c7", null ],
+    [ "DoesDataTableRowExist", "classUDataTableFunctionLibrary.html#a305d62c4af4804e9a47bb768a25084fe", null ],
+    [ "EvaluateCurveTableRow", "classUDataTableFunctionLibrary.html#a82b4b7cd07a6914e2896228a78c81e26", null ],
+    [ "ExportDataTableToCSVFile", "classUDataTableFunctionLibrary.html#a71912cc7855009a43db570a5caf09ad1", null ],
+    [ "ExportDataTableToCSVString", "classUDataTableFunctionLibrary.html#a02df67ad67cb8763cd9c52b5651d9124", null ],
+    [ "ExportDataTableToJSONFile", "classUDataTableFunctionLibrary.html#acf0315cf5eb8113fc553693ff1dc1c66", null ],
+    [ "ExportDataTableToJSONString", "classUDataTableFunctionLibrary.html#a38424b6b1a8c10e8f112b3d7bfc6c427", null ],
+    [ "FillDataTableFromCSVFile", "classUDataTableFunctionLibrary.html#ac4f7b1924b35b5878038c7b53a73441a", null ],
+    [ "FillDataTableFromCSVString", "classUDataTableFunctionLibrary.html#a3a498e6b4e6b93da2f1a31a15c02f3ec", null ],
+    [ "FillDataTableFromJSONFile", "classUDataTableFunctionLibrary.html#a2a5e85cef75d7832430784c50dec5803", null ],
+    [ "FillDataTableFromJSONString", "classUDataTableFunctionLibrary.html#ad726d5172802465a845708c04b49b517", null ],
+    [ "Generic_GetDataTableRowFromName", "classUDataTableFunctionLibrary.html#a0c6e77cbbb3c5740fffa73fcc7a365d4", null ],
+    [ "GetDataTableColumnAsString", "classUDataTableFunctionLibrary.html#a84a6cae9555f0330d375dfea18e10d6d", null ],
+    [ "GetDataTableColumnExportNames", "classUDataTableFunctionLibrary.html#a9d67e1b119e379fbc2751d7c9b470ca3", null ],
+    [ "GetDataTableColumnNameFromExportName", "classUDataTableFunctionLibrary.html#a22d4d93380b2662cba77059bae842f5e", null ],
+    [ "GetDataTableColumnNames", "classUDataTableFunctionLibrary.html#af04915cde37399d7069183d6f472cf57", null ],
+    [ "GetDataTableRowFromName", "classUDataTableFunctionLibrary.html#a8dc6f9a5e0d5d0fbf24c1b7ac06f9d1d", null ],
+    [ "GetDataTableRowNames", "classUDataTableFunctionLibrary.html#a8ecd3419600a973fc9430c25dc4d1acc", null ],
+    [ "GetDataTableRowStruct", "classUDataTableFunctionLibrary.html#a58d4d9be39cf4b1ec2033568cf352afc", null ],
+    [ "RemoveDataTableRow", "classUDataTableFunctionLibrary.html#aa5380d116cbe00428be4ba74e5199241", null ]
+];

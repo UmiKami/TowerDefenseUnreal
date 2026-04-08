@@ -1,0 +1,57 @@
+<map id="IInterface_AsyncCompilation" name="IInterface_AsyncCompilation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="571,5,769,78"/>
+<area shape="rect" id="Node000002" href="$classUAnimBank.html" title=" " alt="" coords="135,495,389,1126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="555,53,516,63,474,78,436,99,403,128,372,166,345,209,322,254,304,301,277,398,261,496,256,495,271,397,299,299,317,251,340,206,367,163,399,124,433,95,472,73,514,58,558,49"/>
+<area shape="rect" id="Node000003" href="$classUSkinnedAsset.html" title=" " alt="" coords="413,288,655,1333"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="662,89,629,289,624,288,661,95"/>
+<area shape="rect" id="Node000004" href="$classUSoundWave.html" title=" " alt="" coords="679,126,933,1495"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="679,90,688,126,682,126,679,95"/>
+<area shape="rect" id="Node000007" href="$classUTexture.html" title=" " alt="" coords="1628,274,1882,1347"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="782,64,866,88,946,123,1047,183,1146,249,1242,321,1334,395,1499,541,1631,672,1626,673,1495,545,1330,399,1239,325,1143,254,1044,187,944,128,864,93,785,68"/>
+<area shape="rect" id="Node000005" href="$classUSoundSourceBus.html" title=" " alt="" coords="422,1635,650,2094"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="676,1464,670,1496,625,1637,620,1635,665,1495,675,1469"/>
+<area shape="rect" id="Node000006" href="$classUSoundWaveProcedural.html" title=" " alt="" coords="674,1616,939,2113"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="807,1508,809,1617,804,1616,806,1513"/>
+<area shape="rect" id="Node000008" href="$classUTexture2D.html" title=" " alt="" coords="963,1583,1191,2146"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1622,1011,1455,1267,1275,1545,1193,1676,1189,1673,1271,1542,1451,1264,1619,1015"/>
+<area shape="rect" id="Node000017" href="$classUTexture2DArray.html" title=" " alt="" coords="1285,1661,1447,2068"/>
+<area shape="poly" id="edge16_Node000007_Node000017" title=" " alt="" coords="1624,1118,1542,1329,1462,1544,1424,1662,1420,1660,1457,1542,1537,1327,1621,1122"/>
+<area shape="rect" id="Node000018" href="$classUTexture2DDynamic.html" title=" " alt="" coords="1471,1661,1642,2068"/>
+<area shape="poly" id="edge17_Node000007_Node000018" title=" " alt="" coords="1653,1359,1597,1662,1593,1660,1650,1364"/>
+<area shape="rect" id="Node000019" href="$classUTextureCube.html" title=" " alt="" coords="1666,1694,1845,2035"/>
+<area shape="poly" id="edge18_Node000007_Node000019" title=" " alt="" coords="1757,1360,1758,1695,1753,1693,1754,1364"/>
+<area shape="rect" id="Node000020" href="$classUTextureCubeArray.html" title=" " alt="" coords="1869,1694,2031,2035"/>
+<area shape="poly" id="edge19_Node000007_Node000020" title=" " alt="" coords="1858,1359,1921,1695,1916,1694,1856,1364"/>
+<area shape="rect" id="Node000021" href="$classUTextureRenderTarget.html" title=" " alt="" coords="2055,1543,2296,2186"/>
+<area shape="poly" id="edge20_Node000007_Node000021" title=" " alt="" coords="1889,1141,2058,1562,2052,1561,1887,1146"/>
+<area shape="rect" id="Node000027" href="$classUVirtualTextureAdapter.html" title=" " alt="" coords="2320,1694,2527,2035"/>
+<area shape="poly" id="edge26_Node000007_Node000027" title=" " alt="" coords="1892,962,1994,1083,2104,1224,2213,1380,2263,1461,2310,1542,2346,1617,2376,1695,2370,1694,2341,1619,2305,1545,2259,1464,2208,1383,2099,1228,1990,1086,1892,967"/>
+<area shape="rect" id="Node000028" href="$classUVolumeTexture.html" title=" " alt="" coords="2552,1661,2805,2068"/>
+<area shape="poly" id="edge27_Node000007_Node000028" title=" " alt="" coords="1894,910,2043,1027,2214,1177,2301,1261,2387,1351,2468,1445,2542,1542,2577,1599,2608,1662,2603,1660,2573,1602,2537,1545,2464,1448,2383,1355,2298,1265,2210,1181,2040,1031,1895,915"/>
+<area shape="rect" id="Node000009" href="$classUCurveLinearColorAtlas.html" title=" " alt="" coords="5,2332,260,2672"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="979,2160,952,2188,925,2202,892,2213,811,2222,716,2221,613,2215,510,2208,415,2207,334,2214,301,2223,274,2236,249,2256,227,2279,191,2333,186,2331,223,2276,245,2252,271,2231,299,2218,333,2209,415,2201,511,2203,613,2209,716,2216,811,2217,891,2207,923,2198,949,2183,983,2156"/>
+<area shape="rect" id="Node000010" href="$classULightMapTexture2D.html" title=" " alt="" coords="285,2454,432,2549"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="979,2160,952,2188,932,2199,907,2207,845,2215,773,2215,696,2211,619,2208,547,2208,487,2217,464,2225,445,2236,423,2258,405,2284,390,2312,380,2342,366,2402,361,2455,356,2454,361,2402,374,2341,386,2310,400,2281,419,2254,442,2232,462,2220,486,2211,547,2203,619,2203,696,2206,773,2209,845,2209,905,2202,929,2194,949,2184,982,2156"/>
+<area shape="rect" id="Node000011" href="$classULightMapVirtualTexture2D.html" title=" " alt="" coords="455,2432,645,2571"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="977,2160,952,2188,913,2211,876,2219,839,2218,803,2212,768,2207,732,2206,696,2214,658,2236,638,2255,620,2278,592,2329,573,2383,561,2433,556,2431,568,2381,587,2327,615,2275,634,2252,655,2232,694,2209,731,2200,768,2201,804,2207,840,2213,875,2214,911,2206,949,2184,981,2156"/>
+<area shape="rect" id="Node000012" href="$classUMeshPaintVirtualTexture.html" title=" " alt="" coords="669,2376,900,2628"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="966,2157,952,2187,933,2212,914,2235,874,2305,839,2377,834,2374,869,2303,909,2232,929,2208,948,2184,963,2161"/>
+<area shape="rect" id="Node000013" href="$classURuntimeVirtualTextureStreamingProxy.html" title=" " alt="" coords="924,2457,1158,2546"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="1061,2159,1046,2458,1041,2456,1059,2163"/>
+<area shape="rect" id="Node000014" href="$classUShadowMapTexture2D.html" title=" " alt="" coords="1182,2466,1348,2538"/>
+<area shape="poly" id="edge13_Node000008_Node000014" title=" " alt="" coords="1165,2158,1257,2466,1252,2465,1163,2163"/>
+<area shape="rect" id="Node000015" href="$classUTextureLightProfile.html" title=" " alt="" coords="1372,2454,1560,2549"/>
+<area shape="poly" id="edge14_Node000008_Node000015" title=" " alt="" coords="1200,2096,1236,2143,1275,2184,1297,2199,1318,2206,1339,2214,1361,2232,1399,2286,1428,2346,1448,2404,1460,2456,1455,2454,1443,2406,1423,2348,1395,2289,1358,2235,1337,2219,1316,2211,1295,2204,1271,2188,1232,2146,1199,2101"/>
+<area shape="rect" id="Node000016" href="$classUVirtualTexture2D.html" title=" " alt="" coords="1585,2364,1828,2639"/>
+<area shape="poly" id="edge15_Node000008_Node000016" title=" " alt="" coords="1200,2115,1236,2153,1274,2183,1314,2203,1352,2211,1388,2210,1424,2205,1459,2201,1496,2200,1534,2209,1574,2231,1605,2259,1631,2291,1652,2327,1670,2365,1665,2364,1648,2330,1627,2295,1601,2263,1571,2236,1532,2214,1496,2206,1460,2206,1424,2211,1389,2215,1352,2216,1313,2209,1271,2188,1232,2156,1200,2120"/>
+<area shape="rect" id="Node000022" href="$classUTextureRenderTarget2D.html" title=" " alt="" coords="1852,2234,2083,2770"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="2068,2198,2057,2235,2053,2232,2064,2202"/>
+<area shape="rect" id="Node000024" href="$classUTextureRenderTarget2DArray.html" title=" " alt="" coords="2107,2276,2316,2728"/>
+<area shape="poly" id="edge23_Node000021_Node000024" title=" " alt="" coords="2196,2198,2201,2277,2196,2274,2193,2203"/>
+<area shape="rect" id="Node000025" href="$classUTextureRenderTargetCube.html" title=" " alt="" coords="2340,2264,2549,2739"/>
+<area shape="poly" id="edge24_Node000021_Node000025" title=" " alt="" coords="2303,2170,2310,2185,2344,2266,2339,2264,2305,2187,2301,2175"/>
+<area shape="rect" id="Node000026" href="$classUTextureRenderTargetVolume.html" title=" " alt="" coords="2574,2276,2783,2728"/>
+<area shape="poly" id="edge25_Node000021_Node000026" title=" " alt="" coords="2308,2182,2344,2200,2376,2208,2407,2208,2437,2206,2468,2203,2499,2204,2530,2212,2562,2232,2584,2252,2604,2277,2598,2276,2580,2255,2559,2236,2528,2217,2498,2209,2468,2208,2438,2211,2407,2214,2375,2213,2342,2205,2308,2188"/>
+<area shape="rect" id="Node000023" href="$classUCanvasRenderTarget2D.html" title=" " alt="" coords="1852,2818,2084,3321"/>
+<area shape="poly" id="edge22_Node000022_Node000023" title=" " alt="" coords="1969,2782,1970,2819,1965,2816,1966,2787"/>
+</map>

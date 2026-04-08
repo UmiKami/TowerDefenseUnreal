@@ -1,0 +1,17 @@
+<map id="UE::UnifiedError::FDynamicErrorDetails" name="UE::UnifiedError::FDynamicErrorDetails">
+<area shape="rect" id="Node000001" title="FDynamicErrorDetails; base implementation of inner error details, for use by derived classes to reduc..." alt="" coords="154,775,370,1065"/>
+<area shape="rect" id="Node000007" href="$classUE_1_1UnifiedError_1_1StreamableManager_1_1FStreamableManagerErrorDetails.html" title=" " alt="" coords="5,1160,259,1401"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="206,1077,178,1162,173,1160,203,1081"/>
+<area shape="rect" id="Node000008" href="$classUE_1_1UnifiedError_1_1TErrorDetails.html" title=" " alt="" coords="283,1113,499,1448"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="319,1076,334,1114,328,1113,318,1082"/>
+<area shape="rect" id="Node000002" href="$classUE_1_1UnifiedError_1_1FRefCountedErrorDetails.html" title="FRefCountedErrorDetails; base implementation of refcounting for IErrorDetails, this is used for heap ..." alt="" coords="154,503,370,727"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="262,739,264,775,259,775,261,744"/>
+<area shape="rect" id="Node000003" href="$classUE_1_1UnifiedError_1_1IErrorDetails.html" title=" " alt="" coords="59,210,265,455"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="210,467,225,503,220,504,210,472"/>
+<area shape="rect" id="Node000004" href="$classIRefCountedObject.html" title=" " alt="" coords="77,14,247,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="162,165,164,210,159,210,161,170"/>
+<area shape="rect" id="Node000005" href="$classFRefCountBase.html" title=" " alt="" coords="289,218,437,447"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="316,463,304,504,299,503,318,458"/>
+<area shape="rect" id="Node000006" href="$classUE_1_1Private_1_1TTransactionalAtomicRefCount.html" title=" " alt="" coords="270,5,458,162"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="364,174,366,219,361,218,363,179"/>
+</map>

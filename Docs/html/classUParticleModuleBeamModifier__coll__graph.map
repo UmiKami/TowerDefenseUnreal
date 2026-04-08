@@ -1,0 +1,20 @@
+<map id="UParticleModuleBeamModifier" name="UParticleModuleBeamModifier">
+<area shape="rect" id="Node000001" title=" " alt="" coords="296,1524,536,1864"/>
+<area shape="rect" id="Node000002" href="$classUParticleModuleBeamBase.html" title=" " alt="" coords="20,1166,207,1261"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,1272,222,1405,299,1523,294,1524,218,1407,144,1277"/>
+<area shape="rect" id="Node000003" href="$classUParticleModule.html" title=" " alt="" coords="5,307,221,972"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,984,116,1166,111,1166,113,989"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="82,84,145,156"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,168,116,307,111,307,113,174"/>
+<area shape="rect" id="Node000005" href="$structFBeamModifierOptions.html" title=" " alt="" coords="232,1155,419,1272"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="330,1269,343,1378,362,1499,363,1508,358,1507,357,1500,337,1378,328,1274"/>
+<area shape="rect" id="Node000006" href="$structFRawDistributionVector.html" title=" " alt="" coords="443,1021,634,1406"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="502,1404,480,1500,477,1509,473,1506,475,1499,499,1408"/>
+<area shape="rect" id="Node000007" href="$structFRawDistribution.html" title=" " alt="" coords="584,603,707,676"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="637,688,577,1022,572,1020,635,692"/>
+<area shape="rect" id="Node000009" href="$structFRawDistributionFloat.html" title=" " alt="" coords="658,1066,849,1361"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="656,688,728,1066,723,1066,654,692"/>
+<area shape="rect" id="Node000008" href="$structFDistributionLookupTable.html" title=" " alt="" coords="558,5,733,234"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="646,231,648,587,643,586,645,236"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="677,1359,649,1408,548,1543,544,1539,644,1404,673,1363"/>
+</map>

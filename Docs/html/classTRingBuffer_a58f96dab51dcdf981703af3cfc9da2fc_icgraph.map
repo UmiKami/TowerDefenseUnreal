@@ -1,0 +1,63 @@
+<map id="TRingBuffer::NormalizeCapacity" name="TRingBuffer::NormalizeCapacity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1553,165,1784,193"/>
+<area shape="rect" id="Node000002" href="$classTRingBuffer.html#aea0fa9d59080cf35c96efe1a7639dd41" title=" " alt="" coords="1126,87,1274,114"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1612,160,1562,145,1505,131,1384,114,1275,105,1274,100,1384,108,1506,126,1563,140,1618,160"/>
+<area shape="rect" id="Node000006" href="$classTRingBuffer.html#a40faf3a6ccf66edf23df3483f309d523" title=" " alt="" coords="1330,140,1505,168"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1535,166,1506,165,1506,160,1540,166"/>
+<area shape="rect" id="Node000008" href="$classTRingBuffer.html#ad5afdf357d92063d22eeae51e6a0b66d" title=" " alt="" coords="1120,191,1280,218"/>
+<area shape="poly" id="edge31_Node000001_Node000008" title=" " alt="" coords="1535,187,1280,203,1280,197,1541,186"/>
+<area shape="rect" id="Node000029" href="$classTRingBuffer.html#a1a0957509e32c91acad0fab35186a08c" title=" " alt="" coords="1132,243,1268,270"/>
+<area shape="poly" id="edge32_Node000001_Node000029" title=" " alt="" coords="1563,197,1268,248,1267,243,1568,195"/>
+<area shape="rect" id="Node000003" href="$classTRingBuffer.html#a35cace7ac1b3500689a37f4493c9879f" title=" " alt="" coords="17,31,189,58"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1158,79,1117,62,1069,47,947,27,821,14,696,9,574,9,354,19,191,35,188,31,353,14,573,3,696,4,822,9,948,21,1070,42,1119,57,1163,79"/>
+<area shape="rect" id="Node000004" href="$classTRingBuffer.html#a872b655d884ee9797e2f85d2386505a2" title=" " alt="" coords="867,56,1040,84"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1108,90,1041,83,1040,78,1113,89"/>
+<area shape="rect" id="Node000005" href="$classTRingBuffer.html#a284a9631a8cf6d2386c356dac04ef45d" title=" " alt="" coords="856,108,1051,136"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1108,109,1052,116,1050,111,1113,107"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="1341,136,1260,117,1259,112,1346,135"/>
+<area shape="rect" id="Node000007" href="$classTRingBuffer.html#a5013bf0f45ef7bc6fbd87388d4124a3e" title=" " alt="" coords="1118,139,1282,166"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1312,154,1283,156,1282,150,1317,153"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="1338,172,1263,193,1262,187,1343,171"/>
+<area shape="poly" id="edge30_Node000006_Node000029" title=" " alt="" coords="1384,175,1336,205,1283,232,1251,244,1249,239,1281,227,1334,201,1379,177"/>
+<area shape="rect" id="Node000009" href="$classTRingBuffer.html#aab531adcc3b46e2524b492a937e9a4ce" title=" " alt="" coords="863,159,1044,204"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="1102,196,1044,193,1044,187,1107,195"/>
+<area shape="rect" id="Node000027" href="$classTRingBuffer.html#a6ce3d2676691979c26d4de4e8fb7966f" title=" " alt="" coords="837,228,1070,256"/>
+<area shape="poly" id="edge28_Node000008_Node000027" title=" " alt="" coords="1102,219,1050,230,1048,225,1107,218"/>
+<area shape="rect" id="Node000028" href="$classTRingBuffer.html#a63ad3b7ca3109de65a9100cf35b2be64" title=" " alt="" coords="862,280,1045,308"/>
+<area shape="poly" id="edge29_Node000008_Node000028" title=" " alt="" coords="1135,223,1119,233,1095,252,1071,269,1037,282,1035,277,1068,265,1092,247,1116,229,1130,225"/>
+<area shape="rect" id="Node000010" href="$classTRingBuffer.html#a7b34a885ae96c31e27fda8137157d6fa" title=" " alt="" coords="543,440,789,468"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="852,208,839,219,808,244,780,273,732,337,697,397,675,441,672,437,692,395,728,334,776,270,804,240,836,214,847,210"/>
+<area shape="rect" id="Node000018" href="$classTRingBuffer.html#a5e16df156354a762285ba0f69c6e3260" title=" " alt="" coords="560,164,773,192"/>
+<area shape="poly" id="edge18_Node000009_Node000018" title=" " alt="" coords="845,181,774,182,773,177,850,180"/>
+<area shape="rect" id="Node000011" href="$classTRingBuffer.html#a8086ab33643565a997b4197e18c46ce9" title=" " alt="" coords="290,523,454,550"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="613,473,496,512,446,525,444,519,494,507,608,474"/>
+<area shape="rect" id="Node000012" href="$classTRingBuffer.html#afecab01b944e8105ee3ef8aac0ff5b89" title=" " alt="" coords="290,575,454,602"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="638,476,574,523,536,545,496,564,455,577,454,572,494,559,533,540,571,518,632,478"/>
+<area shape="rect" id="Node000013" href="$classTRingBuffer.html#ab28fb406a54c1f35d925a31a7ad1121b" title=" " alt="" coords="290,402,454,447"/>
+<area shape="poly" id="edge13_Node000010_Node000013" title=" " alt="" coords="525,440,455,435,454,430,530,439"/>
+<area shape="rect" id="Node000014" href="$classTRingBuffer.html#ae8809d98b80a74938610c202aeba4b72" title=" " alt="" coords="249,333,495,377"/>
+<area shape="poly" id="edge14_Node000010_Node000014" title=" " alt="" coords="613,434,494,392,457,381,457,375,496,387,618,433"/>
+<area shape="rect" id="Node000017" href="$classTRingBuffer.html#a88b7c3a3dc2274de08b169345385f45c" title=" " alt="" coords="274,471,470,498"/>
+<area shape="poly" id="edge17_Node000010_Node000017" title=" " alt="" coords="525,469,470,477,470,472,530,468"/>
+<area shape="rect" id="Node000015" href="$classTRingBuffer.html#afc9361e3cb4ea129c868321fa05f8bfe" title=" " alt="" coords="21,402,185,447"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="265,384,187,406,184,401,269,380"/>
+<area shape="rect" id="Node000016" href="$classTRingBuffer.html#acc11437d19240f16ca049e997ddcf597" title=" " alt="" coords="5,333,201,377"/>
+<area shape="poly" id="edge16_Node000014_Node000016" title=" " alt="" coords="231,356,202,358,200,353,235,354"/>
+<area shape="rect" id="Node000019" href="$classTRingBuffer.html#af9f2d32099ca5bab1c35d9f812981da9" title=" " alt="" coords="306,212,438,240"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="560,196,439,218,437,213,564,193"/>
+<area shape="rect" id="Node000020" href="$classTRingBuffer.html#afc0d4af47b8bdcdc564de8a0f981ca0e" title=" " alt="" coords="306,108,438,136"/>
+<area shape="poly" id="edge20_Node000018_Node000020" title=" " alt="" coords="572,161,438,137,437,132,577,159"/>
+<area shape="rect" id="Node000022" href="$classTRingBuffer.html#a5ce01bd04b93fb065134be55c6cfabdc" title=" " alt="" coords="280,56,464,84"/>
+<area shape="poly" id="edge23_Node000018_Node000022" title=" " alt="" coords="624,157,564,128,494,99,453,87,451,82,496,94,567,123,629,156"/>
+<area shape="rect" id="Node000023" href="$classTRingBuffer.html#ac8249882650821399ee833926d6ab83b" title=" " alt="" coords="265,263,478,308"/>
+<area shape="poly" id="edge24_Node000018_Node000023" title=" " alt="" coords="619,200,496,254,460,265,458,260,494,249,623,197"/>
+<area shape="rect" id="Node000026" href="$classTRingBuffer.html#af5be7ea54c110bfd8cd1b98962706923" title=" " alt="" coords="291,160,453,188"/>
+<area shape="poly" id="edge27_Node000018_Node000026" title=" " alt="" coords="541,177,454,177,453,172,546,175"/>
+<area shape="poly" id="edge21_Node000020_Node000003" title=" " alt="" coords="289,107,248,98,142,61,141,56,249,92,293,105"/>
+<area shape="rect" id="Node000021" href="$classTRingBuffer.html#ac279053205766cda6f80127a896e8591" title=" " alt="" coords="11,108,195,136"/>
+<area shape="poly" id="edge22_Node000020_Node000021" title=" " alt="" coords="288,123,196,124,194,119,293,120"/>
+<area shape="rect" id="Node000024" href="$classTRingBuffer.html#a9ec58736bd2b2145a5f7b85d6d24c30d" title=" " alt="" coords="11,212,195,240"/>
+<area shape="poly" id="edge25_Node000023_Node000024" title=" " alt="" coords="252,261,169,243,168,238,256,258"/>
+<area shape="rect" id="Node000025" href="$classTRingBuffer.html#aa4cef7a05257a7d5078a9b347ab7497a" title=" " alt="" coords="22,263,184,308"/>
+<area shape="poly" id="edge26_Node000023_Node000025" title=" " alt="" coords="247,287,186,288,183,283,252,284"/>
+</map>

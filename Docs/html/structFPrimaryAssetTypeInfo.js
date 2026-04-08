@@ -1,0 +1,27 @@
+var structFPrimaryAssetTypeInfo =
+[
+    [ "FPrimaryAssetTypeInfo", "structFPrimaryAssetTypeInfo.html#ac2407c2296f23bb1e3874ce4bf7416e0", null ],
+    [ "FPrimaryAssetTypeInfo", "structFPrimaryAssetTypeInfo.html#aa9e731d43d8f0d7cf79cfdcc9dae7eca", null ],
+    [ "FPrimaryAssetTypeInfo", "structFPrimaryAssetTypeInfo.html#a0a06f5921f71b77ce709a522bcede228", null ],
+    [ "CanModifyConfigData", "structFPrimaryAssetTypeInfo.html#a16d74085bd9050e24781c7885afcc386", null ],
+    [ "FillRuntimeData", "structFPrimaryAssetTypeInfo.html#a686da9fd0b0c1c3574ee7fb90a56e807", null ],
+    [ "GetAssetBaseClass", "structFPrimaryAssetTypeInfo.html#acdbbd3b181db900e9bb9fe2069853449", null ],
+    [ "GetDirectories", "structFPrimaryAssetTypeInfo.html#a1fd0911e77a49efbd11cc45e7247fc47", null ],
+    [ "GetDirectories", "structFPrimaryAssetTypeInfo.html#ac20addedd830fe8f658b3d2a70034e48", null ],
+    [ "GetSpecificAssets", "structFPrimaryAssetTypeInfo.html#aaf853ca6a6354b9b466d007084ec2509", null ],
+    [ "GetSpecificAssets", "structFPrimaryAssetTypeInfo.html#a38a08b0fd8923506743e0913ac9cdac4", null ],
+    [ "HasValidConfigData", "structFPrimaryAssetTypeInfo.html#a670f4ca54c4daca4f8593a733f8c676c", null ],
+    [ "HasValidRuntimeData", "structFPrimaryAssetTypeInfo.html#a3e4a0e449c20dbdec3a0620a84ff94dc", null ],
+    [ "SetAssetBaseClass", "structFPrimaryAssetTypeInfo.html#a844bcbdadbfb09c7967905f438c856d5", null ],
+    [ "AssetBaseClass", "structFPrimaryAssetTypeInfo.html#a2c2938205715429cde5fae507e2770cc", null ],
+    [ "AssetBaseClassLoaded", "structFPrimaryAssetTypeInfo.html#a82d72dd2823c8225c10699260c924220", null ],
+    [ "AssetScanPaths", "structFPrimaryAssetTypeInfo.html#a4a31bb7695f611a61a40644bc881f508", null ],
+    [ "bHasBlueprintClasses", "structFPrimaryAssetTypeInfo.html#af76ff4298e52570713e69f0f405ee82f", null ],
+    [ "bIsDynamicAsset", "structFPrimaryAssetTypeInfo.html#ad2b653d091ba7cfb8bc900a38cb42509", null ],
+    [ "bIsEditorOnly", "structFPrimaryAssetTypeInfo.html#a6b3e50b7b276f50eb28680a8f448cd56", null ],
+    [ "Directories", "structFPrimaryAssetTypeInfo.html#af34c3ec45ef5b4a9b44c0f4febecb996", null ],
+    [ "NumberOfAssets", "structFPrimaryAssetTypeInfo.html#a63fa63da63adc55a7e2b9c9f2d26f428", null ],
+    [ "PrimaryAssetType", "structFPrimaryAssetTypeInfo.html#aa832f12209032f6fb600a8a5edc59784", null ],
+    [ "Rules", "structFPrimaryAssetTypeInfo.html#ae5d23f0fa6d046c3f9e1d7ffdaceeb91", null ],
+    [ "SpecificAssets", "structFPrimaryAssetTypeInfo.html#ab0a9806eabc2f53cabab8ea00d778859", null ]
+];

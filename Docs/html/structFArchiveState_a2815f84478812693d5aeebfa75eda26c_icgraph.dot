@@ -1,0 +1,33 @@
+digraph "FArchiveState::FArchiveState"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FArchiveState::FArchiveState",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FArchiveState::CopyTrivial\lFArchiveStatusMembers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFArchiveState.html#a67725297fcf4aaa45a691b707254b1d1",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FArchiveState::FArchiveState",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFArchiveState.html#a8653cc661e69f5d325357b5feee6a649",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FArchive::GetArchiveState",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFArchive.html#a4d611d38acc67d01c5cdac95b27f24d8",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FStructuredArchive\l::GetArchiveState",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFStructuredArchive.html#ab634165f29042cb4c612d437182aa25c",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FArchive::GetArchiveState",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFArchive.html#a43f1153fde12d077fad34a7bf5a470d3",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FArchiveState::GetInnermost\lState",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFArchiveState.html#a1f2b0e1f4882411427549c4265469809",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FArchiveState::LinkProxy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFArchiveState.html#a9c9148b14dcdf61faaeea1187e10ad2f",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FArchive::~FArchive",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFArchive.html#ae8acc39f0ac826f8fa39458a74aff48a",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FArchiveState::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFArchiveState.html#a0503c3b611df65e83fb36c31222e220a",tooltip=" "];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FArchiveState::SetArchive\lState",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFArchiveState.html#abe1d4c36fd390fba3cde31a09624d139",tooltip=" "];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FArchiveState::UnlinkProxy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFArchiveState.html#a89beb58bddcaa6d738b111704259c03a",tooltip=" "];
+  Node12 -> Node9 [id="edge12_Node000012_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

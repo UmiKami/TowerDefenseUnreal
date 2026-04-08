@@ -1,0 +1,12 @@
+digraph "FHistogramBuilder::~FHistogramBuilder"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FHistogramBuilder::\l~FHistogramBuilder",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FHistogramBuilder::\lFinishBins",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structFHistogramBuilder.html#a700c300efbfc0f705b1961f48441dd0b",tooltip=" "];
+}

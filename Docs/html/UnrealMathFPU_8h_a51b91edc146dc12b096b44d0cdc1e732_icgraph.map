@@ -1,0 +1,59 @@
+<map id="VectorSetFloat1" name="VectorSetFloat1">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1328,468,1453,496"/>
+<area shape="rect" id="Node000002" href="$classFOctreeNodeContext.html#a1185662f38eb6b1db47776cc98525d18" title=" " alt="" coords="835,198,992,243"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1383,451,1373,405,1354,347,1324,290,1303,265,1278,244,1246,225,1210,212,1172,203,1134,199,1059,198,994,206,992,201,1059,193,1135,193,1173,198,1211,207,1248,221,1282,240,1307,261,1328,287,1359,345,1378,404,1388,454"/>
+<area shape="rect" id="Node000016" href="$classFOctreeNodeContext.html#a70f217e91f150b67537849366a0ac811" title=" " alt="" coords="835,276,992,320"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="1367,455,1329,417,1305,397,1279,380,1207,349,1130,328,1057,313,993,305,992,300,1058,308,1132,322,1208,344,1281,375,1308,393,1333,413,1372,457"/>
+<area shape="rect" id="Node000017" href="$classFOctreeNodeContext.html#a331029ecc748bd9268ffe0bf2ab88975" title=" " alt="" coords="835,361,992,406"/>
+<area shape="poly" id="edge21_Node000001_Node000017" title=" " alt="" coords="1358,458,1322,435,1279,415,1205,396,1129,386,1056,381,993,381,992,376,1056,376,1129,380,1206,391,1281,410,1325,431,1363,459"/>
+<area shape="rect" id="Node000018" href="$classFOctreeNodeContext.html#a8dff350b3e5a4aea9085732eeb50b71b" title=" " alt="" coords="1095,254,1252,299"/>
+<area shape="poly" id="edge22_Node000001_Node000018" title=" " alt="" coords="1375,453,1337,388,1310,352,1278,320,1250,302,1250,297,1282,316,1314,348,1342,385,1380,455"/>
+<area shape="rect" id="Node000019" href="$structUE_1_1Math_1_1TQuat.html#ac813e60c43261440a92791119e8f0b40" title=" " alt="" coords="1081,425,1267,470"/>
+<area shape="poly" id="edge26_Node000001_Node000019" title=" " alt="" coords="1310,470,1268,465,1268,459,1315,469"/>
+<area shape="rect" id="Node000020" href="$structUE_1_1Math_1_1TQuat.html#adcbf4d16b5833a4b8b9bdaf1be6f4f89" title=" " alt="" coords="1081,494,1267,539"/>
+<area shape="poly" id="edge27_Node000001_Node000020" title=" " alt="" coords="1310,495,1268,504,1267,499,1315,494"/>
+<area shape="rect" id="Node000021" href="$structUE_1_1Math_1_1TQuat.html#affc47ee0a175813c3fcaf8a062d227f8" title=" " alt="" coords="1081,564,1267,608"/>
+<area shape="poly" id="edge28_Node000001_Node000021" title=" " alt="" coords="1360,504,1323,531,1281,554,1252,566,1251,560,1279,549,1320,526,1355,506"/>
+<area shape="rect" id="Node000022" href="$structUE_1_1Math_1_1TQuat.html#ad9889833c270a63069ea5037a7dc838a" title=" " alt="" coords="1081,633,1267,678"/>
+<area shape="poly" id="edge29_Node000001_Node000022" title=" " alt="" coords="1377,508,1338,567,1312,597,1282,623,1261,635,1259,630,1278,618,1308,593,1334,564,1372,511"/>
+<area shape="rect" id="Node000023" href="$structUE_1_1Math_1_1TBox.html#a4da40700812895d22e4b067ef716f82e" title=" " alt="" coords="1068,701,1280,729"/>
+<area shape="poly" id="edge30_Node000001_Node000023" title=" " alt="" coords="1384,509,1372,552,1351,601,1321,650,1303,673,1282,692,1262,703,1261,698,1278,688,1299,669,1317,647,1346,599,1367,550,1380,512"/>
+<area shape="rect" id="Node000025" href="$UnrealMathVectorCommon_8h_8inl.html#a268c62255097d5ff58a27ce458c8ab11" title=" " alt="" coords="1105,753,1243,781"/>
+<area shape="poly" id="edge32_Node000001_Node000025" title=" " alt="" coords="1387,509,1378,562,1359,624,1327,688,1307,717,1282,743,1264,754,1244,762,1243,757,1262,749,1278,738,1302,714,1323,685,1354,622,1373,560,1384,513"/>
+<area shape="rect" id="Node000003" href="$classTOctree2.html#a5110dbbe8a7f5325c1924565400d3596" title=" " alt="" coords="528,29,745,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="884,186,831,127,796,96,758,71,734,60,733,55,761,66,800,92,835,123,890,186"/>
+<area shape="rect" id="Node000006" href="$classTOctree2.html#ac54ebc520b5bef71709ae2ce22c09684" title=" " alt="" coords="534,105,739,150"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="839,192,758,164,722,153,721,147,760,159,844,191"/>
+<area shape="rect" id="Node000008" href="$classTOctree2.html#a90bf025db87e9bf861bff6f39a7695af" title=" " alt="" coords="538,198,734,243"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="816,221,735,223,734,218,821,220"/>
+<area shape="rect" id="Node000010" href="$classTOctree2.html#a45503122961c2f78eb00f821735fb9a2" title=" " alt="" coords="525,292,747,336"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="828,250,706,293,704,289,833,247"/>
+<area shape="rect" id="Node000012" href="$classTOctree2.html#aabbb6a5388e07fe1c672d079a4fc307d" title=" " alt="" coords="513,389,759,434"/>
+<area shape="poly" id="edge15_Node000002_Node000012" title=" " alt="" coords="827,249,809,265,793,286,785,306,778,328,761,350,732,373,700,391,697,386,729,369,757,347,773,325,780,304,788,283,805,261,823,252"/>
+<area shape="poly" id="edge5_Node000003_Node000003" title=" " alt="" coords="682,15,667,10,636,8,607,10,591,15,587,20,594,29,589,29,582,20,588,11,606,5,636,3,668,5,688,13"/>
+<area shape="rect" id="Node000004" href="$classTOctree2.html#a4cd446fa10b1491a7a8ba1b813eb62e8" title=" " alt="" coords="258,29,426,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="510,45,427,46,425,41,514,42"/>
+<area shape="rect" id="Node000005" href="$classTOctree2.html#aee8b7946ce5fbf327e1eb0adfaab2579" title=" " alt="" coords="5,29,171,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="240,45,173,45,170,41,244,41"/>
+<area shape="poly" id="edge8_Node000006_Node000006" title=" " alt="" coords="680,90,665,86,636,83,610,85,594,90,587,96,589,105,584,104,582,95,591,86,609,80,636,78,666,81,685,89"/>
+<area shape="rect" id="Node000007" href="$classTOctree2.html#a274bf3de3fa6c809fd192e3401df0d8f" title=" " alt="" coords="239,105,444,150"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="516,129,446,130,444,125,520,126"/>
+<area shape="poly" id="edge11_Node000008_Node000008" title=" " alt="" coords="680,183,665,179,636,177,610,179,594,184,587,190,589,198,584,197,582,188,591,179,609,173,636,172,666,174,685,182"/>
+<area shape="rect" id="Node000009" href="$classTOctree2.html#a1f37533fc9ff36dbf89a2dbdddbf72d6" title=" " alt="" coords="244,198,440,243"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="521,222,441,223,439,218,525,219"/>
+<area shape="poly" id="edge14_Node000010_Node000010" title=" " alt="" coords="680,277,665,272,636,270,610,272,594,277,587,283,589,292,584,290,582,281,591,272,609,267,636,265,666,267,685,276"/>
+<area shape="rect" id="Node000011" href="$classTOctree2.html#a21dc1e8f07892cae81acd4720a955cf0" title=" " alt="" coords="231,295,453,322"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="507,313,454,313,453,308,512,310"/>
+<area shape="poly" id="edge19_Node000012_Node000012" title=" " alt="" coords="680,374,665,370,636,367,610,369,594,374,587,380,589,389,584,387,582,379,591,370,609,364,636,362,666,365,685,373"/>
+<area shape="rect" id="Node000013" href="$classTOctree2.html#ac2aac03e0f3807685077d35a10485bc0" title=" " alt="" coords="262,347,422,374"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="495,388,423,377,422,372,500,386"/>
+<area shape="rect" id="Node000014" href="$classTOctree2.html#a9ff5ce5fcebd43fb089329d9037e89cf" title=" " alt="" coords="239,398,444,443"/>
+<area shape="poly" id="edge17_Node000012_Node000014" title=" " alt="" coords="495,417,446,420,444,415,500,415"/>
+<area shape="rect" id="Node000015" href="$classTOctree2.html#aaa038a1cb2788ae010fa5e1957367d16" title=" " alt="" coords="219,467,465,494"/>
+<area shape="poly" id="edge18_Node000012_Node000015" title=" " alt="" coords="532,439,466,458,416,469,414,464,464,453,537,437"/>
+<area shape="poly" id="edge23_Node000018_Node000002" title=" " alt="" coords="1078,257,993,240,993,235,1083,256"/>
+<area shape="poly" id="edge24_Node000018_Node000016" title=" " alt="" coords="1077,285,993,294,992,289,1082,283"/>
+<area shape="poly" id="edge25_Node000018_Node000017" title=" " alt="" coords="1101,306,971,363,969,358,1106,304"/>
+<area shape="rect" id="Node000024" href="$structUE_1_1Math_1_1TBox.html#a728154f69fc0a6ba2b4f40f891951f13" title=" " alt="" coords="807,701,1020,729"/>
+<area shape="poly" id="edge31_Node000023_Node000024" title=" " alt="" coords="1050,715,1020,718,1020,713,1055,715"/>
+</map>

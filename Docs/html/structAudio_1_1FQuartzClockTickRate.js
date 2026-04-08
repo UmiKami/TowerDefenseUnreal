@@ -1,0 +1,27 @@
+var structAudio_1_1FQuartzClockTickRate =
+[
+    [ "FQuartzClockTickRate", "structAudio_1_1FQuartzClockTickRate.html#a26f8339aea1cc0567f988086f27f5c75", null ],
+    [ "GetBeatsPerMinute", "structAudio_1_1FQuartzClockTickRate.html#abb25f46a91a8f5419fac563b20ffb7bb", null ],
+    [ "GetFramesPerDuration", "structAudio_1_1FQuartzClockTickRate.html#aae1eb6ae796e28706b1d4900b338ed3d", null ],
+    [ "GetFramesPerDuration", "structAudio_1_1FQuartzClockTickRate.html#a863063688111f012b773e3e8413bfd27", null ],
+    [ "GetFramesPerTick", "structAudio_1_1FQuartzClockTickRate.html#a7a04afcba8bb6e4924acb554e7127cd5", null ],
+    [ "GetMillisecondsPerTick", "structAudio_1_1FQuartzClockTickRate.html#a259f70b1e96728cc14bb8c9ce5a9b75b", null ],
+    [ "GetSampleRate", "structAudio_1_1FQuartzClockTickRate.html#a5f7adc32cedf20eb4e476382339b65bc", null ],
+    [ "GetSecondsPerTick", "structAudio_1_1FQuartzClockTickRate.html#a83bc911e8e28ea93c4e0964e986f283a", null ],
+    [ "GetThirtySecondNotesPerMinute", "structAudio_1_1FQuartzClockTickRate.html#a16675a08c44cf421efbf1ff051a3ce5c", null ],
+    [ "IsSameTickRate", "structAudio_1_1FQuartzClockTickRate.html#aec271da7075db6d12ae7aaa6e208f76b", null ],
+    [ "IsValid", "structAudio_1_1FQuartzClockTickRate.html#a8db91074a85a92d4167c63ffda6988b5", null ],
+    [ "RecalculateDurationsBasedOnFramesPerTick", "structAudio_1_1FQuartzClockTickRate.html#a820a159b382d41d1abf476b2c08106d4", null ],
+    [ "SetBeatsPerMinute", "structAudio_1_1FQuartzClockTickRate.html#a3a7b64ff5f9338bca13cec545d0bc2a7", null ],
+    [ "SetFramesPerTick", "structAudio_1_1FQuartzClockTickRate.html#a10442e9801c449079951ac01030beaf8", null ],
+    [ "SetMillisecondsPerTick", "structAudio_1_1FQuartzClockTickRate.html#ab8443f202a2e5765f8f1d9eb907539f5", null ],
+    [ "SetSampleRate", "structAudio_1_1FQuartzClockTickRate.html#aa29daef6afc65b5459be223233e4f1b6", null ],
+    [ "SetSecondsPerTick", "structAudio_1_1FQuartzClockTickRate.html#adab974ae1b56366d3c5ddc1be4da9129", null ],
+    [ "SetThirtySecondNotesPerMinute", "structAudio_1_1FQuartzClockTickRate.html#a143819b964c34fc4d05506c5b4c486d8", null ],
+    [ "BeatsPerMinute", "structAudio_1_1FQuartzClockTickRate.html#a124f08d4e53f0b08b90a96a50211ba20", null ],
+    [ "FramesPerTick", "structAudio_1_1FQuartzClockTickRate.html#a52eb13663ca3a25e21f8e8d2b6771cf7", null ],
+    [ "MillisecondsPerTick", "structAudio_1_1FQuartzClockTickRate.html#a7441f3fc4ee16efa2c7c94f811dba0a4", null ],
+    [ "SampleRate", "structAudio_1_1FQuartzClockTickRate.html#aec01d217848452ed318c0626721e94e2", null ],
+    [ "SecondsPerTick", "structAudio_1_1FQuartzClockTickRate.html#a3571d142ac9e8a960f600ca3d7345a6d", null ],
+    [ "ThirtySecondNotesPerMinute", "structAudio_1_1FQuartzClockTickRate.html#a239723e38334e5c9bf6609f024cd52b9", null ]
+];

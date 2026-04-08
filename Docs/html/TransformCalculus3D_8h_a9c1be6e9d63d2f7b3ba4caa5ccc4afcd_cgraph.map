@@ -1,0 +1,36 @@
+<map id="Inverse" name="Inverse">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,327,75,354"/>
+<area shape="rect" id="Node000002" href="$structUE_1_1Math_1_1TQuat.html#a5f62c037d5926db970919041cb427bd5" title=" " alt="" coords="123,327,306,354"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,338,109,339,105,342,76,343"/>
+<area shape="rect" id="Node000003" href="$structUE_1_1Math_1_1TQuat.html#a8afe58150193c5361c2f8fa3800dc88c" title=" " alt="" coords="354,188,575,216"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,324,422,224,427,223,243,329"/>
+<area shape="rect" id="Node000009" href="$UnrealMathFPU_8h.html#a50d6614d62a81f173e926fe880c5f48a" title=" " alt="" coords="659,315,803,342"/>
+<area shape="poly" id="edge15_Node000002_Node000009" title=" " alt="" coords="306,336,645,328,642,333,307,341"/>
+<area shape="rect" id="Node000014" href="$structUE_1_1Math_1_1TQuat.html#aa00eaeaefa4ce44b9e1abec419496faa" title=" " alt="" coords="378,352,552,380"/>
+<area shape="poly" id="edge14_Node000002_Node000014" title=" " alt="" coords="306,347,364,355,359,356,307,352"/>
+<area shape="rect" id="Node000015" href="$UnrealMathVectorCommon_8h_8inl.html#a1b5b534810d165491c96e7f7e57824eb" title=" " alt="" coords="373,404,556,432"/>
+<area shape="poly" id="edge16_Node000002_Node000015" title=" " alt="" coords="252,352,355,389,387,400,381,399,353,394,251,358"/>
+<area shape="rect" id="Node000004" href="$structUE_1_1Math_1_1TQuat.html#a2f728c9c7397eecfa7c11a31e70839f4" title=" " alt="" coords="623,109,839,137"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="506,185,623,147,657,140,652,142,624,152,507,190"/>
+<area shape="rect" id="Node000005" href="$UnrealMathFPU_8h.html#ab9814b1f1bffd9aed9cf20196375c8ba" title=" " alt="" coords="687,161,775,189"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="575,188,675,180,670,182,576,193"/>
+<area shape="rect" id="Node000006" href="$UnrealMathFPU_8h.html#a41e2a97036d7ebcb0763f1ea919e7767" title=" " alt="" coords="646,213,816,241"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="576,210,634,217,629,218,576,215"/>
+<area shape="rect" id="Node000007" href="$UnrealMathFPU_8h.html#a877edf6e53beeb294a026e406611f57d" title=" " alt="" coords="901,264,995,292"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="502,214,559,233,624,250,693,261,763,268,887,277,882,278,763,274,692,266,623,255,558,238,502,219"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="486,213,547,253,624,294,660,310,655,309,622,299,545,258,486,219"/>
+<area shape="rect" id="Node000011" href="$UnrealMathVectorCommon_8h_8inl.html#aea35687e46e414dd15396cc9ad7b486a" title=" " alt="" coords="686,5,776,33"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="474,186,531,117,574,77,622,43,674,27,669,29,625,48,577,82,535,121,478,190"/>
+<area shape="rect" id="Node000013" href="$UnrealMathFPU_8h.html#a9d54d08ff950ce0c68c873cd0a050e71" title=" " alt="" coords="672,57,790,85"/>
+<area shape="poly" id="edge13_Node000003_Node000013" title=" " alt="" coords="482,185,542,141,581,117,622,95,660,85,655,87,624,100,583,121,545,146,485,190"/>
+<area shape="rect" id="Node000008" href="$UnrealMathFPU_8h.html#a0455131f2d8e67175bd5edfbd9f5acc9" title=" " alt="" coords="1057,291,1242,318"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="995,281,1044,290,1039,290,995,287"/>
+<area shape="rect" id="Node000010" href="$UnrealMathFPU_8h.html#a7b647256a2fdfa30b641b9fc152408d0" title=" " alt="" coords="901,316,995,344"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="803,326,887,329,882,330,803,332"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="995,321,1039,318,1044,318,996,327"/>
+<area shape="rect" id="Node000012" href="$UnrealMathFPU_8h.html#ac421c62eba3a6f6ef77a4c8b342c4987" title=" " alt="" coords="887,5,1009,33"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="776,17,873,18,868,20,777,22"/>
+<area shape="rect" id="Node000016" href="$UnrealMathVectorCommon_8h_8inl.html#a1e1701f5fbc8ac1e0744ba9e9cb1c93a" title=" " alt="" coords="673,404,789,432"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="557,415,660,418,654,418,557,420"/>
+<area shape="poly" id="edge18_Node000016_Node000016" title=" " alt="" coords="694,402,688,395,693,385,707,379,731,377,757,380,772,389,767,388,755,385,731,383,708,385,696,389,693,395,698,405"/>
+</map>

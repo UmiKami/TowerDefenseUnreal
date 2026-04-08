@@ -1,0 +1,22 @@
+digraph "StringConv::EncodeSurrogate"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="StringConv::EncodeSurrogate",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TUTF16ToUTF32_Convert\l::CodepointFromUtf16",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF16ToUTF32__Convert.html#a0bc69aeee3faeaf14f875661f5fb05a9",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TUTF16ToUTF32_Convert\l::Convert_Impl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF16ToUTF32__Convert.html#a6cafd2b90d78ed35d85659994d33fbce",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TUTF16ToUTF32_Convert\l::Convert",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF16ToUTF32__Convert.html#ab0c07e4b4a3f1924428d1c9ba669b579",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TUTF16ToUTF32_Convert\l::ConvertedLength",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTUTF16ToUTF32__Convert.html#ad1379878d4a0469a6eeff0017cb5a802",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="StringConv::InlineCombine\lSurrogates_Buffer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespaceStringConv.html#a778129b0d044da7cb2b96713795dd77a",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="StringConv::InlineCombine\lSurrogates_Array",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespaceStringConv.html#afb172e1080c1387549bc100b0c0bdbb1",tooltip=" "];
+}

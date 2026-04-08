@@ -1,0 +1,4 @@
+var structConcatenateRules_3_01UE_1_1Math_1_1TMatrix_3_01T_01_4_00_01UE_1_1Math_1_1TRotator_3_01T_01_4_01_4 =
+[
+    [ "ResultType", "structConcatenateRules_3_01UE_1_1Math_1_1TMatrix_3_01T_01_4_00_01UE_1_1Math_1_1TRotator_3_01T_01_4_01_4.html#aff61b17b7bddf0966ca536b6c784d910", null ]
+];

@@ -1,0 +1,17 @@
+<map id="UPlayer" name="UPlayer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="160,126,362,332"/>
+<area shape="rect" id="Node000004" href="$classULocalPlayer.html" title=" " alt="" coords="5,648,242,1469"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="241,350,194,649,189,648,242,344"/>
+<area shape="rect" id="Node000005" href="$classUNetConnection.html" title=" " alt="" coords="266,380,533,1737"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="281,344,289,380,284,380,281,350"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="190,5,252,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,90,242,126,236,126,232,95"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="276,5,326,78"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="290,95,286,126,281,125,291,90"/>
+<area shape="rect" id="Node000006" href="$classUChildConnection.html" title=" " alt="" coords="26,1807,250,2125"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="263,1714,257,1738,227,1809,223,1807,252,1736,261,1719"/>
+<area shape="rect" id="Node000007" href="$classUDemoNetConnection.html" title=" " alt="" coords="274,1785,525,2148"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="401,1749,402,1786,397,1784,399,1754"/>
+<area shape="rect" id="Node000008" href="$classUSimulatedClientNetConnection.html" title=" " alt="" coords="549,1841,773,2092"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="539,1534,628,1841,623,1841,536,1538"/>
+</map>

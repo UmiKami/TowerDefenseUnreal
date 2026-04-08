@@ -1,0 +1,28 @@
+var structFPacketSimulationSettings =
+[
+    [ "ApplySettings", "structFPacketSimulationSettings.html#ad3698ea6c370411b7de1c9203a3ef166", null ],
+    [ "ConfigHelperBool", "structFPacketSimulationSettings.html#a44b9f06233de500ed0d94fb6fc1ef100", null ],
+    [ "ConfigHelperInt", "structFPacketSimulationSettings.html#a9eb748c3e33671d018af96cb16cba8f9", null ],
+    [ "LoadConfig", "structFPacketSimulationSettings.html#a91052af853dfd7abdaae2c0ef7eae11d", null ],
+    [ "LoadEmulationProfile", "structFPacketSimulationSettings.html#a814eb19d396d0418515500f5c1fb3172", null ],
+    [ "ParseHelper", "structFPacketSimulationSettings.html#a987ffcd379ba2939e4654519f3a80c3a", null ],
+    [ "ParseSettings", "structFPacketSimulationSettings.html#a508a813aa8ad93ad642bd98221bd976f", null ],
+    [ "ResetSettings", "structFPacketSimulationSettings.html#a23290d759dbe5392b351d4088bc10fb9", null ],
+    [ "ShouldDropPacketOfSize", "structFPacketSimulationSettings.html#a00772fdd45a971e3ec746ec0a6d1be45", null ],
+    [ "ValidateSettings", "structFPacketSimulationSettings.html#a398d981c21972c48f3307fba2058e626", null ],
+    [ "PktDup", "structFPacketSimulationSettings.html#a5bce0e8dea688f70332bc4ea5a895819", null ],
+    [ "PktFrameDelay", "structFPacketSimulationSettings.html#a449f74e5a19c31061358c1eac69b91e9", null ],
+    [ "PktIncomingFrameDelay", "structFPacketSimulationSettings.html#aa5dcb8410fa45d7eec7e2683e667fc0f", null ],
+    [ "PktIncomingLagMax", "structFPacketSimulationSettings.html#a7d300129d70dfccacbcb43a0e65b1044", null ],
+    [ "PktIncomingLagMin", "structFPacketSimulationSettings.html#a19903358d232bb1bad4626313f523bbd", null ],
+    [ "PktIncomingLoss", "structFPacketSimulationSettings.html#af82536ef3b8bcd0d0d9075a753c658d8", null ],
+    [ "PktJitter", "structFPacketSimulationSettings.html#a91c07620e9e45e52661d66c5f84c6bc5", null ],
+    [ "PktLag", "structFPacketSimulationSettings.html#afb5ebbd4ced02d9887bb013350348699", null ],
+    [ "PktLagMax", "structFPacketSimulationSettings.html#a546172f901142eb2c151207b85358811", null ],
+    [ "PktLagMin", "structFPacketSimulationSettings.html#a10fc338fa14a18708c2ef415a36d5fb5", null ],
+    [ "PktLagVariance", "structFPacketSimulationSettings.html#aa30fa2eb3d223998f9eebd058ca91b4f", null ],
+    [ "PktLoss", "structFPacketSimulationSettings.html#ad9cfac20284ae4c80c096bed07da86c4", null ],
+    [ "PktLossMaxSize", "structFPacketSimulationSettings.html#a8e48e80eaf69639073b75aba9a724897", null ],
+    [ "PktLossMinSize", "structFPacketSimulationSettings.html#af73c526d15315d6b17f37a5f34c4ecd8", null ],
+    [ "PktOrder", "structFPacketSimulationSettings.html#a6264f3a07e63b380262e5e6b4ff36dec", null ]
+];

@@ -1,0 +1,20 @@
+<map id="UParticleModuleLight" name="UParticleModuleLight">
+<area shape="rect" id="Node000001" title=" " alt="" coords="324,1524,540,2060"/>
+<area shape="rect" id="Node000002" href="$classUParticleModuleLightBase.html" title=" " alt="" coords="22,1177,204,1250"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,1260,218,1405,327,1601,322,1602,214,1407,139,1266"/>
+<area shape="rect" id="Node000003" href="$classUParticleModule.html" title=" " alt="" coords="5,307,221,972"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,984,116,1177,111,1177,113,989"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="82,84,145,156"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,168,116,307,111,307,113,174"/>
+<area shape="rect" id="Node000005" href="$structFRawDistributionVector.html" title=" " alt="" coords="228,1021,420,1406"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="334,1403,348,1499,350,1508,344,1507,343,1500,332,1409"/>
+<area shape="rect" id="Node000006" href="$structFRawDistribution.html" title=" " alt="" coords="369,603,492,676"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="422,688,362,1022,357,1021,421,693"/>
+<area shape="rect" id="Node000008" href="$structFRawDistributionFloat.html" title=" " alt="" coords="443,1066,634,1361"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="441,687,514,1066,508,1066,439,693"/>
+<area shape="rect" id="Node000007" href="$structFDistributionLookupTable.html" title=" " alt="" coords="343,5,518,234"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="431,231,433,586,428,586,430,236"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="513,1359,487,1508,482,1506,510,1363"/>
+<area shape="rect" id="Node000009" href="$structFLightingChannels.html" title=" " alt="" coords="659,1155,816,1272"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="725,1270,693,1381,670,1442,642,1501,599,1575,551,1646,547,1642,595,1572,638,1498,665,1440,688,1379,722,1274"/>
+</map>

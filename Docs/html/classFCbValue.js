@@ -1,0 +1,28 @@
+var classFCbValue =
+[
+    [ "FCbValue", "classFCbValue.html#a464111c2fde4ce60f50a4498116783db", null ],
+    [ "AsArrayView", "classFCbValue.html#ab7887732a539b09ae567d430a9a50327", null ],
+    [ "AsAttachment", "classFCbValue.html#a3bd2f5733d844b0f5b9c8063a573d69b", null ],
+    [ "AsBinary", "classFCbValue.html#a1a1528180d54778f5bed72cc289db8a1", null ],
+    [ "AsBinaryAttachment", "classFCbValue.html#a019c4ab275d7ac291d57bad011138f1b", null ],
+    [ "AsBool", "classFCbValue.html#a62ae308f4496e749c02ca8688086526b", null ],
+    [ "AsCustomById", "classFCbValue.html#ac35d1b5b2fda09d2452a558a401e4f1f", null ],
+    [ "AsCustomByName", "classFCbValue.html#a2ed273b883f6ac57974bc3282ff6aa69", null ],
+    [ "AsDateTimeTicks", "classFCbValue.html#ab8f6a6afc60e73241ded34a8c1cc3f76", null ],
+    [ "AsFloat32", "classFCbValue.html#a57c0de07121abd841666458325a80679", null ],
+    [ "AsFloat64", "classFCbValue.html#a942f597ae06234fff9a47f568489e7dc", null ],
+    [ "AsHash", "classFCbValue.html#ad5a7e045c6ffe2c2272763f51db70efb", null ],
+    [ "AsInteger", "classFCbValue.html#a4f54cdb9f894e7f9906e04fb6f8229af", null ],
+    [ "AsIntegerNegative", "classFCbValue.html#ab00688cd5497bdbfca294419d87d9ef4", null ],
+    [ "AsIntegerPositive", "classFCbValue.html#a741627866080642c68bfd4248022f46a", null ],
+    [ "AsObjectAttachment", "classFCbValue.html#a6314f9f9adee2d3688d49d37d56e2ba2", null ],
+    [ "AsObjectId", "classFCbValue.html#ad6baafb94a464cae459287df8a99f55c", null ],
+    [ "AsObjectView", "classFCbValue.html#a56ae4cd546122eec39b66b25ca6a50f2", null ],
+    [ "AsString", "classFCbValue.html#a3f8cbe8d17a8229afcd359c46d22229d", null ],
+    [ "AsTimeSpanTicks", "classFCbValue.html#a9f1192e8b8367b33ab41afab2c909cbf", null ],
+    [ "AsUuid", "classFCbValue.html#ab527a6b4b056ae16a787c602ebf55382", null ],
+    [ "GetData", "classFCbValue.html#a277ab2572a93216c44d1e0e56e622ae1", null ],
+    [ "GetType", "classFCbValue.html#a61509aa5619e6d68d5d83b5b044c8dbf", null ],
+    [ "Data", "classFCbValue.html#a4a1ffe31d552c6c12b9044a8aaba760d", null ],
+    [ "Type", "classFCbValue.html#a151757c837496fb596cfc1750761711c", null ]
+];

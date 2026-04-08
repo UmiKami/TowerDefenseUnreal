@@ -1,0 +1,4 @@
+var structConcatenateRules_3_01TransformType_00_01std_1_1enable__if__t_3_9TransformCalculusHelper_1_25054ef7a1c714261aa3d271ab9c604e =
+[
+    [ "ResultType", "structConcatenateRules_3_01TransformType_00_01std_1_1enable__if__t_3_9TransformCalculusHelper_1_25054ef7a1c714261aa3d271ab9c604e.html#a452ecf5e84bf5d8f4f3c84260146d2cd", null ]
+];

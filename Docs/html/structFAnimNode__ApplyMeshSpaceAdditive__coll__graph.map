@@ -1,0 +1,18 @@
+<map id="FAnimNode_ApplyMeshSpaceAdditive" name="FAnimNode_ApplyMeshSpaceAdditive">
+<area shape="rect" id="Node000001" title=" " alt="" coords="252,1396,472,1771"/>
+<area shape="rect" id="Node000002" href="$structFAnimNode__Base.html" title=" " alt="" coords="5,5,231,519"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,536,69,709,67,805,70,905,79,1006,93,1106,115,1205,145,1300,166,1347,193,1392,256,1475,250,1476,188,1395,161,1350,140,1302,110,1206,88,1107,73,1006,65,905,62,805,63,709,78,531"/>
+<area shape="rect" id="Node000004" href="$structFPoseLinkBase.html" title=" " alt="" coords="134,592,311,843"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="177,516,193,576,187,576,177,522"/>
+<area shape="rect" id="Node000003" href="$structFPoseLink.html" title=" " alt="" coords="154,1084,248,1156"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,1153,262,1300,287,1371,289,1380,284,1380,281,1373,257,1302,212,1158"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="216,855,205,1084,200,1084,214,860"/>
+<area shape="rect" id="Node000005" href="$structFInputAlphaBoolBlend.html" title=" " alt="" coords="272,1005,453,1234"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="364,1231,365,1380,360,1379,361,1236"/>
+<area shape="rect" id="Node000006" href="$structFInputScaleBias.html" title=" " alt="" coords="478,1050,628,1189"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="543,1187,523,1278,491,1373,482,1395,477,1392,487,1371,518,1277,540,1191"/>
+<area shape="rect" id="Node000007" href="$structFInputScaleBiasClamp.html" title=" " alt="" coords="652,938,835,1301"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="677,1299,657,1339,632,1374,600,1411,563,1446,487,1507,484,1503,560,1442,596,1408,628,1371,652,1337,674,1303"/>
+<area shape="rect" id="Node000008" href="$structFInputRange.html" title=" " alt="" coords="684,626,803,810"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="745,807,746,922,741,920,743,812"/>
+</map>

@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="TIsTMap\< const TMap\l\< KeyType, ValueType,\l SetAllocator, KeyFuncs \> \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structTIsTMap_3_01const_01TMap_3_01KeyType_00_01ValueType_00_01SetAllocator_00_01KeyFuncs_01_4_01_4.html",tooltip=" "];
+}

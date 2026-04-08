@@ -1,0 +1,16 @@
+digraph "FAndroidTLS::AllocTlsSlot"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FAndroidTLS::AllocTlsSlot",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FHazardPointerCollection\l::FHazardPointerCollection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classFHazardPointerCollection.html#af584a031cc9af7d4904ee186c9c49deb",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TMallocBinnedCommon\l::SetupTLSCachesOnCurrentThread",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTMallocBinnedCommon.html#a13ce65c6b744491d3aca4c85588c48f2",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TLockFreeFixedSizeAllocator\l_TLSCacheBase::TLockFreeFixedSize\lAllocator_TLSCacheBase",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classTLockFreeFixedSizeAllocator__TLSCacheBase.html#af626c2a5228c64b5c0559cf4e78c6e60",tooltip=" "];
+}

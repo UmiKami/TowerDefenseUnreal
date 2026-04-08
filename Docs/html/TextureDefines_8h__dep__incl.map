@@ -1,0 +1,70 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Engine/TextureDefines.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Engine/TextureDefines.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="3564,5,3740,84"/>
+<area shape="rect" id="Node000002" href="$RuntimeVirtualTextureComponent_8h.html" title=" " alt="" coords="1126,132,1384,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3546,47,3110,55,2487,69,2162,80,1857,95,1595,113,1397,135,1385,137,1384,131,1396,129,1594,107,1857,89,2162,75,2487,64,3110,50,3551,47"/>
+<area shape="rect" id="Node000003" href="$Texture_8h.html" title=" " alt="" coords="1408,132,1584,211"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="3548,54,1585,168,1585,162,3550,49"/>
+<area shape="rect" id="Node000012" href="$SparseVolumeTexture_8h.html" title=" " alt="" coords="3217,512,3444,591"/>
+<area shape="poly" id="edge34_Node000001_Node000012" title=" " alt="" coords="3658,98,3663,191,3663,299,3653,398,3643,438,3629,466,3600,487,3555,505,3445,533,3444,528,3554,500,3598,482,3625,462,3638,436,3648,398,3658,299,3658,191,3655,102"/>
+<area shape="rect" id="Node000031" href="$TextureLODSettings_8h.html" title=" " alt="" coords="3689,132,3866,211"/>
+<area shape="poly" id="edge32_Node000001_Node000031" title=" " alt="" coords="3703,93,3741,132,3736,131,3701,98"/>
+<area shape="rect" id="Node000033" href="$RuntimeVirtualTexture_8h.html" title=" " alt="" coords="3890,132,4137,211"/>
+<area shape="poly" id="edge35_Node000001_Node000033" title=" " alt="" coords="3755,79,3904,132,3898,131,3755,84"/>
+<area shape="rect" id="Node000004" href="$CurveLinearColorAtlas_8h.html" title=" " alt="" coords="1344,385,1526,464"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1600,175,1644,185,1689,200,1729,224,1762,257,1774,278,1779,298,1775,319,1762,339,1738,363,1713,376,1688,382,1662,383,1605,380,1574,381,1539,388,1527,392,1526,386,1538,383,1573,376,1605,374,1662,378,1688,377,1712,371,1735,359,1758,336,1770,317,1773,298,1769,280,1758,260,1726,228,1687,205,1643,190,1600,181"/>
+<area shape="rect" id="Node000005" href="$Texture2D_8h.html" title=" " alt="" coords="2333,259,2510,337"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="1600,184,2335,284,2330,285,1600,189"/>
+<area shape="rect" id="Node000017" href="$Texture2DDynamic_8h.html" title=" " alt="" coords="136,259,312,337"/>
+<area shape="poly" id="edge18_Node000003_Node000017" title=" " alt="" coords="1390,212,1232,239,1094,247,971,245,857,237,742,229,621,227,484,236,325,261,314,264,311,259,324,256,483,230,620,221,742,224,857,231,972,239,1094,242,1232,233,1395,210"/>
+<area shape="rect" id="Node000018" href="$TextureCube_8h.html" title=" " alt="" coords="336,259,512,337"/>
+<area shape="poly" id="edge19_Node000003_Node000018" title=" " alt="" coords="1390,212,1299,232,1218,243,1080,250,941,251,766,261,513,289,512,283,765,256,941,246,1080,245,1218,237,1298,227,1395,210"/>
+<area shape="rect" id="Node000021" href="$TextureRenderTarget_8h.html" title=" " alt="" coords="777,259,954,337"/>
+<area shape="poly" id="edge22_Node000003_Node000021" title=" " alt="" coords="1390,212,1329,226,1273,233,1178,237,1083,241,1029,248,966,261,955,264,953,259,965,256,1028,243,1083,236,1177,232,1273,228,1328,221,1395,211"/>
+<area shape="rect" id="Node000028" href="$PhysicalMaterialMask_8h.html" title=" " alt="" coords="978,259,1220,337"/>
+<area shape="poly" id="edge29_Node000003_Node000028" title=" " alt="" coords="1396,211,1221,265,1220,259,1391,212"/>
+<area shape="rect" id="Node000029" href="$VirtualTextureAdapter_8h.html" title=" " alt="" coords="1244,259,1484,337"/>
+<area shape="poly" id="edge30_Node000003_Node000029" title=" " alt="" coords="1446,220,1406,260,1404,256,1442,223"/>
+<area shape="rect" id="Node000030" href="$VirtualTextureBuilder_8h.html" title=" " alt="" coords="1508,259,1748,337"/>
+<area shape="poly" id="edge31_Node000003_Node000030" title=" " alt="" coords="1549,219,1590,259,1585,257,1548,224"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="2316,301,2165,310,1970,324,1754,349,1646,366,1539,388,1527,391,1526,386,1538,383,1645,361,1754,344,1970,319,2165,305,2321,301"/>
+<area shape="rect" id="Node000006" href="$LightMapTexture2D_8h.html" title=" " alt="" coords="2065,385,2242,464"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="2327,344,2238,387,2236,382,2322,345"/>
+<area shape="rect" id="Node000007" href="$ShadowMapTexture2D_8h.html" title=" " alt="" coords="2266,385,2449,464"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="2397,350,2379,387,2376,383,2392,353"/>
+<area shape="rect" id="Node000008" href="$Texture2DArray_8cpp.html" title=" " alt="" coords="2460,512,2636,591"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="2449,349,2531,513,2526,510,2446,354"/>
+<area shape="rect" id="Node000009" href="$Texture2DArray_8h.html" title=" " alt="" coords="2523,385,2699,464"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="2494,344,2555,385,2549,384,2492,349"/>
+<area shape="rect" id="Node000010" href="$TextureLightProfile_8h.html" title=" " alt="" coords="2723,385,2899,464"/>
+<area shape="poly" id="edge11_Node000005_Node000010" title=" " alt="" coords="2525,325,2712,383,2725,390,2719,389,2710,388,2524,331"/>
+<area shape="rect" id="Node000011" href="$VolumeTexture_8h.html" title=" " alt="" coords="2923,385,3099,464"/>
+<area shape="poly" id="edge12_Node000005_Node000011" title=" " alt="" coords="2525,309,2707,337,2810,358,2912,383,2925,389,2920,388,2910,388,2809,363,2706,343,2525,314"/>
+<area shape="rect" id="Node000013" href="$ImportanceSamplingLibrary_8h.html" title=" " alt="" coords="3123,385,3338,464"/>
+<area shape="poly" id="edge14_Node000005_Node000013" title=" " alt="" coords="2525,304,2792,330,2952,353,3111,383,3126,388,3120,388,3110,388,2951,358,2792,336,2525,309"/>
+<area shape="rect" id="Node000014" href="$LightmapVirtualTexture_8h.html" title=" " alt="" coords="3362,385,3614,464"/>
+<area shape="poly" id="edge15_Node000005_Node000014" title=" " alt="" coords="2525,300,2685,309,2892,324,3121,348,3351,383,3364,388,3359,387,3350,388,3121,353,2891,329,2685,314,2525,306"/>
+<area shape="rect" id="Node000015" href="$MeshPaintVirtualTexture_8h.html" title=" " alt="" coords="1551,385,1767,464"/>
+<area shape="poly" id="edge16_Node000005_Node000015" title=" " alt="" coords="2315,308,2071,338,1925,360,1779,388,1768,391,1767,385,1778,383,1924,354,2070,332,2320,307"/>
+<area shape="rect" id="Node000016" href="$VirtualTexture_8h.html" title=" " alt="" coords="1790,394,2042,456"/>
+<area shape="poly" id="edge17_Node000005_Node000016" title=" " alt="" coords="2321,322,2054,388,2024,396,2023,391,2053,383,2315,323"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="2587,477,2569,514,2566,509,2582,479"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="3114,463,3234,512,3229,511,3113,468"/>
+<area shape="rect" id="Node000019" href="$MapBuildDataRegistry_8h.html" title=" " alt="" coords="206,385,387,464"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="376,347,338,387,334,383,371,350"/>
+<area shape="rect" id="Node000020" href="$TextureCubeArray_8h.html" title=" " alt="" coords="5,385,182,464"/>
+<area shape="poly" id="edge21_Node000018_Node000020" title=" " alt="" coords="320,340,194,388,183,392,180,387,193,383,323,336"/>
+<area shape="rect" id="Node000022" href="$TextureRenderTarget2D_8h.html" title=" " alt="" coords="656,385,846,464"/>
+<area shape="poly" id="edge23_Node000021_Node000022" title=" " alt="" coords="822,348,788,387,785,383,817,350"/>
+<area shape="rect" id="Node000025" href="$TextureRenderTarget2DArray_8h.html" title=" " alt="" coords="869,385,1091,464"/>
+<area shape="poly" id="edge26_Node000021_Node000025" title=" " alt="" coords="912,347,947,385,942,384,911,352"/>
+<area shape="rect" id="Node000026" href="$TextureRenderTargetCube_8h.html" title=" " alt="" coords="1115,385,1320,464"/>
+<area shape="poly" id="edge27_Node000021_Node000026" title=" " alt="" coords="969,336,1118,389,1112,389,968,341"/>
+<area shape="rect" id="Node000027" href="$TextureRenderTargetVolume_8h.html" title=" " alt="" coords="411,385,632,464"/>
+<area shape="poly" id="edge28_Node000021_Node000027" title=" " alt="" coords="765,335,629,387,627,382,760,337"/>
+<area shape="rect" id="Node000023" href="$CanvasRenderTarget2D_8h.html" title=" " alt="" coords="548,512,738,591"/>
+<area shape="poly" id="edge24_Node000022_Node000023" title=" " alt="" coords="710,475,678,514,675,509,705,477"/>
+<area shape="rect" id="Node000024" href="$KismetRenderingLibrary_8h.html" title=" " alt="" coords="761,512,954,591"/>
+<area shape="poly" id="edge25_Node000022_Node000024" title=" " alt="" coords="795,474,827,512,822,511,793,479"/>
+<area shape="rect" id="Node000032" href="$DeviceProfile_8h.html" title=" " alt="" coords="3690,259,3911,337"/>
+<area shape="poly" id="edge33_Node000031_Node000032" title=" " alt="" coords="3789,224,3795,260,3791,257,3786,228"/>
+</map>

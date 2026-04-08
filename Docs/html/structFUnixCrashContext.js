@@ -1,0 +1,25 @@
+var structFUnixCrashContext =
+[
+    [ "FUnixCrashContext", "structFUnixCrashContext.html#a2f1bd212205a32ea0a474c1dd6db0b96", null ],
+    [ "~FUnixCrashContext", "structFUnixCrashContext.html#a6e712b5a6939c41cc7ac9515b3094b3c", null ],
+    [ "AddPlatformSpecificProperties", "structFUnixCrashContext.html#a5d681b51ff0d1c33f91ac421793d10f5", null ],
+    [ "CaptureStackTrace", "structFUnixCrashContext.html#ac2f6418091e2872b3d64f62f0f66036f", null ],
+    [ "CaptureThreadStackTrace", "structFUnixCrashContext.html#a024e6bb8edd4f5207935ebd079af637c", null ],
+    [ "GenerateCrashInfoAndLaunchReporter", "structFUnixCrashContext.html#a2c3cd555a65eecebd9bdad48cb7fa3bc", null ],
+    [ "GenerateReport", "structFUnixCrashContext.html#a86ae76121c494f74e9cc8fefc5004d9e", null ],
+    [ "GetPortableCallStack", "structFUnixCrashContext.html#af91b73599e1948f8987e06ee7db41051", null ],
+    [ "InitFromDiagnostics", "structFUnixCrashContext.html#af7419de23b9bf5cd42db5fbb371063db", null ],
+    [ "InitFromSignal", "structFUnixCrashContext.html#a50095dcd38ba1df6c4b21800c2ab01ea", null ],
+    [ "SetFirstCrashHandlerFrame", "structFUnixCrashContext.html#ad44400ba040f08c45a8392272b87e617", null ],
+    [ "SetType", "structFUnixCrashContext.html#ae730c18722c4fae9755d18a1145dac77", null ],
+    [ "BacktraceSymbols", "structFUnixCrashContext.html#adfa104a37fbb68d32beef21d36919f89", null ],
+    [ "bCapturedBacktrace", "structFUnixCrashContext.html#a96584a25700593436c7153ae9cec1b1f", null ],
+    [ "Context", "structFUnixCrashContext.html#afbec9763ddd7cb57162277ee7e2caa17", null ],
+    [ "ErrorFrame", "structFUnixCrashContext.html#a407692614457f0d44ca7ea2bbaef083c", null ],
+    [ "FakeSiginfoForDiagnostics", "structFUnixCrashContext.html#a2e1748743a68bb864b439c2bd1c5c27a", null ],
+    [ "FirstCrashHandlerFrame", "structFUnixCrashContext.html#ac028e04d21a39702872e581c6de547da", null ],
+    [ "Info", "structFUnixCrashContext.html#ac3385fe443262cd4d5bc3ac2f2f5ab68", null ],
+    [ "MinidumpCallstackInfo", "structFUnixCrashContext.html#a87040655ea928c26c6089131052079d7", null ],
+    [ "Signal", "structFUnixCrashContext.html#adc6bbc269d68fd41df46c59c52010447", null ],
+    [ "SignalDescription", "structFUnixCrashContext.html#a25583665eb85267b3f5a1f9271c98ded", null ]
+];

@@ -1,0 +1,25 @@
+var structFSharedCrashContext =
+[
+    [ "CrashFilesDirectory", "structFSharedCrashContext.html#a4b56a48e475b71e0906b670194555011", null ],
+    [ "CrashingThreadId", "structFSharedCrashContext.html#a813358c927cae5f49c897fc5d37fdbd4", null ],
+    [ "CrashType", "structFSharedCrashContext.html#abace5097fbc94864cfe261063071902b", null ],
+    [ "DynamicData", "structFSharedCrashContext.html#a4ddf844e2e7bda6c37403128d468cb86", null ],
+    [ "EnabledPluginsNum", "structFSharedCrashContext.html#a53d3ea003acadaf7b10601b5e011a5b8", null ],
+    [ "EnabledPluginsOffset", "structFSharedCrashContext.html#a57ab51ab261ce5568b00321215dea958", null ],
+    [ "EngineDataNum", "structFSharedCrashContext.html#a5925ddb3201518b09d68f1ceb95d5288", null ],
+    [ "EngineDataOffset", "structFSharedCrashContext.html#a05996139126caf74a9faaee1fed259b1", null ],
+    [ "ErrorMessage", "structFSharedCrashContext.html#a42e6ce4111d3d5f0e30be360ebcd50dd", null ],
+    [ "ErrorProgramCounter", "structFSharedCrashContext.html#abd77e10acfb56f8bb8f65df14c4ebf90", null ],
+    [ "ExceptionProgramCounter", "structFSharedCrashContext.html#a0205a8c3f47e570b4ed581ac4888fe5a", null ],
+    [ "FilePathsNum", "structFSharedCrashContext.html#a7daae3910a11415c7d3f0729f01e301a", null ],
+    [ "FilePathsOffset", "structFSharedCrashContext.html#acf4d977895c88ef0fc112fe4b47dba96", null ],
+    [ "GameDataNum", "structFSharedCrashContext.html#a893cec624f5119dea5278a7cf8050cd9", null ],
+    [ "GameDataOffset", "structFSharedCrashContext.html#a35d0fc705a17a538feff499abee18361", null ],
+    [ "GPUBreadcrumbs", "structFSharedCrashContext.html#a488d5c673347e92c89a13807b0fb011c", null ],
+    [ "NumThreads", "structFSharedCrashContext.html#aa255fd9f7c666c35a952144b9fcd5d9c", null ],
+    [ "PlatformCrashContext", "structFSharedCrashContext.html#afa02e9e78faa1d4a1901fd3d6cd01b9f", null ],
+    [ "SessionContext", "structFSharedCrashContext.html#a420305d85b4b0fef4635bacfd8eb60fc", null ],
+    [ "ThreadIds", "structFSharedCrashContext.html#afa37781f6239b95adeadbdc2e0af85eb", null ],
+    [ "ThreadNames", "structFSharedCrashContext.html#afc38a7b429a713c3e742a8aeff15d5fa", null ],
+    [ "UserSettings", "structFSharedCrashContext.html#af91e78b88493e0e1a31a604702c01736", null ]
+];

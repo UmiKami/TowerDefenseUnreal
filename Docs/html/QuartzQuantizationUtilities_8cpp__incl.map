@@ -1,0 +1,49 @@
+<map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Sound/QuartzQuantizationUtilities.cpp" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Sound/QuartzQuantizationUtilities.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1216,5,1445,84"/>
+<area shape="rect" id="Node000002" href="$QuartzQuantizationUtilities_8h.html" title=" " alt="" coords="941,140,1132,185"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1235,84,1106,137,1105,132,1230,85"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="1157,149,1309,177"/>
+<area shape="poly" id="edge23_Node000001_Node000020" title=" " alt="" coords="1300,83,1255,139,1252,135,1295,86"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="1334,149,1524,177"/>
+<area shape="poly" id="edge24_Node000001_Node000021" title=" " alt="" coords="1364,82,1411,138,1406,137,1362,87"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="1548,132,1803,194"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="1445,82,1574,127,1569,127,1445,87"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,343,122,370"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="938,167,819,176,669,189,504,211,341,244,274,265,209,290,104,338,101,333,207,285,273,260,340,239,504,205,668,183,819,170,943,166"/>
+<area shape="rect" id="Node000004" href="$QuartzCommandQueue_8h.html" title=" " alt="" coords="944,250,1130,278"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1039,184,1039,236,1035,233,1035,188"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="146,343,325,370"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="938,166,835,174,709,186,572,209,505,225,439,244,390,264,342,288,266,336,264,332,340,284,387,259,437,239,503,220,571,204,708,181,835,168,943,165"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="348,343,480,370"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="938,168,821,178,686,191,565,213,517,227,482,244,462,262,446,284,424,330,420,326,441,281,458,258,479,239,515,222,563,208,686,186,820,172,943,167"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1153,250,1278,278"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="1077,183,1181,243,1176,242,1076,188"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1301,250,1436,278"/>
+<area shape="poly" id="edge13_Node000002_Node000013" title=" " alt="" coords="1110,183,1313,245,1307,245,1109,188"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1461,250,1610,278"/>
+<area shape="poly" id="edge14_Node000002_Node000014" title=" " alt="" coords="1112,183,1145,191,1230,207,1297,216,1364,224,1449,239,1473,246,1467,246,1448,244,1363,230,1296,221,1229,212,1144,196,1111,188"/>
+<area shape="rect" id="Node000015" href="$BlueprintFunctionLibrary_8h.html" title=" " alt="" coords="492,242,678,286"/>
+<area shape="poly" id="edge15_Node000002_Node000015" title=" " alt="" coords="938,186,693,242,692,237,944,184"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1634,250,1914,278"/>
+<area shape="poly" id="edge22_Node000002_Node000019" title=" " alt="" coords="1110,183,1145,191,1278,211,1383,220,1488,226,1622,239,1670,247,1665,247,1622,244,1488,232,1383,225,1278,217,1144,196,1110,188"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="1570,427,1661,455"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1097,276,1141,284,1186,287,1242,288,1374,289,1441,291,1503,298,1554,311,1575,321,1592,332,1606,350,1614,370,1619,413,1615,410,1609,372,1601,352,1588,336,1572,325,1552,316,1502,304,1441,297,1374,294,1242,294,1185,293,1140,289,1097,281"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="1173,334,1386,379"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1073,276,1210,329,1204,328,1072,281"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="1410,343,1578,370"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="1101,276,1141,284,1399,332,1424,339,1418,339,1398,337,1140,289,1101,281"/>
+<area shape="rect" id="Node000008" href="$QuartzCompileTimeVisitor_8h.html" title=" " alt="" coords="1653,343,1858,370"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="1097,276,1141,284,1279,301,1388,309,1496,316,1635,332,1673,340,1667,340,1634,337,1495,322,1387,314,1279,306,1140,289,1097,281"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="1736,370,1652,421,1650,416,1730,372"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1685,427,1844,455"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1759,369,1764,413,1760,410,1755,373"/>
+<area shape="poly" id="edge16_Node000015_Node000003" title=" " alt="" coords="489,277,325,302,135,337,120,341,117,336,134,332,324,296,494,275"/>
+<area shape="poly" id="edge17_Node000015_Node000010" title=" " alt="" coords="499,288,302,341,300,336,504,286"/>
+<area shape="poly" id="edge18_Node000015_Node000011" title=" " alt="" coords="546,286,453,338,451,333,541,288"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="504,343,666,370"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="587,285,587,329,583,326,583,289"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="690,343,864,370"/>
+<area shape="poly" id="edge20_Node000015_Node000017" title=" " alt="" coords="631,284,738,336,733,336,630,290"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="888,343,1148,370"/>
+<area shape="poly" id="edge21_Node000015_Node000018" title=" " alt="" coords="678,282,943,339,937,340,678,287"/>
+</map>

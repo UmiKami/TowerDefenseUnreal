@@ -1,0 +1,16 @@
+digraph "TCString::Strncmp"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TCString::Strncmp",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TCString::Strfind",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structTCString.html#a981b1d32bf46ab5e6d8015d874764f4c",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TCString::Strnstr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structTCString.html#adfb97034b89d53a7f27f671f07409ff8",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TCString\< TCHAR \>::\lStrnstr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structTCString.html#ae1db3ccd6b0463af62537cdeb7dd2a26",tooltip=" "];
+}
