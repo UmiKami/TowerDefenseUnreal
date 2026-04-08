@@ -1,0 +1,911 @@
+{
+	"folders": [
+		{
+			"name": "Tower",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "/opt/unreal-engine"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off",
+		"terminal.integrated.env.linux": {
+			"PATH": "/opt/unreal-engine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64:${env:PATH}",
+			"DOTNET_ROOT": "/opt/unreal-engine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64",
+			"DOTNET_HOST_PATH": "/opt/unreal-engine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64/dotnet",
+			"DOTNET_MULTILEVEL_LOOKUP": "0",
+			"DOTNET_ROLL_FORWARD": "LatestMajor"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "Tower Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Debug",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Debug",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Tower Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Debug",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"DebugGame",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"DebugGame",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Tower Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"DebugGame",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Development",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Development",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Tower Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Development",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Test",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Test",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Tower Linux Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Test",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Shipping",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Shipping",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Tower Linux Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower Linux Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"Linux",
+					"Shipping",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Debug",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Debug",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Tower LinuxArm64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Debug",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Tower LinuxArm64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Development",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Development",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Tower LinuxArm64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Development",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Test",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Test",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Tower LinuxArm64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Test",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Shipping",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Shipping",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Tower LinuxArm64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "Tower LinuxArm64 Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Tower",
+					"LinuxArm64",
+					"Shipping",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "TowerEditor Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"TowerEditor",
+					"Linux",
+					"Debug",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "TowerEditor Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"TowerEditor",
+					"Linux",
+					"Debug",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"TowerEditor Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "TowerEditor Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"TowerEditor",
+					"Linux",
+					"Debug",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "TowerEditor Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"TowerEditor",
+					"Linux",
+					"DebugGame",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "TowerEditor Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"TowerEditor",
+					"Linux",
+					"DebugGame",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"TowerEditor Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "TowerEditor Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"TowerEditor",
+					"Linux",
+					"DebugGame",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "TowerEditor Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"TowerEditor",
+					"Linux",
+					"Development",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "TowerEditor Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"TowerEditor",
+					"Linux",
+					"Development",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"TowerEditor Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			},
+			{
+				"label": "TowerEditor Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"TowerEditor",
+					"Linux",
+					"Development",
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/opt/unreal-engine"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch Tower (Debug)",
+				"request": "launch",
+				"program": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Binaries/Linux/UnrealGame-Linux-Debug",
+				"preLaunchTask": "Tower Linux Debug Build",
+				"args": [
+				],
+				"cwd": "/opt/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Tower": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower",
+					"/UEVFS/Root": "/opt/unreal-engine"
+				}
+			},
+			{
+				"name": "Launch Tower (DebugGame)",
+				"request": "launch",
+				"program": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Binaries/Linux/UnrealGame-Linux-DebugGame",
+				"preLaunchTask": "Tower Linux DebugGame Build",
+				"args": [
+				],
+				"cwd": "/opt/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Tower": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower",
+					"/UEVFS/Root": "/opt/unreal-engine"
+				}
+			},
+			{
+				"name": "Launch Tower (Development)",
+				"request": "launch",
+				"program": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Binaries/Linux/UnrealGame",
+				"preLaunchTask": "Tower Linux Development Build",
+				"args": [
+				],
+				"cwd": "/opt/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Tower": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower",
+					"/UEVFS/Root": "/opt/unreal-engine"
+				}
+			},
+			{
+				"name": "Launch Tower (Test)",
+				"request": "launch",
+				"program": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Binaries/Linux/UnrealGame-Linux-Test",
+				"preLaunchTask": "Tower Linux Test Build",
+				"args": [
+				],
+				"cwd": "/opt/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Tower": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower",
+					"/UEVFS/Root": "/opt/unreal-engine"
+				}
+			},
+			{
+				"name": "Launch Tower (Shipping)",
+				"request": "launch",
+				"program": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Binaries/Linux/UnrealGame-Linux-Shipping",
+				"preLaunchTask": "Tower Linux Shipping Build",
+				"args": [
+				],
+				"cwd": "/opt/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Tower": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower",
+					"/UEVFS/Root": "/opt/unreal-engine"
+				}
+			},
+			{
+				"name": "Launch TowerEditor (Debug)",
+				"request": "launch",
+				"program": "/opt/unreal-engine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+				"preLaunchTask": "TowerEditor Linux Debug Build",
+				"args": [
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject"
+				],
+				"cwd": "/opt/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Tower": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower",
+					"/UEVFS/Root": "/opt/unreal-engine"
+				}
+			},
+			{
+				"name": "Launch TowerEditor (DebugGame)",
+				"request": "launch",
+				"program": "/opt/unreal-engine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+				"preLaunchTask": "TowerEditor Linux DebugGame Build",
+				"args": [
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject"
+				],
+				"cwd": "/opt/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Tower": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower",
+					"/UEVFS/Root": "/opt/unreal-engine"
+				}
+			},
+			{
+				"name": "Launch TowerEditor (Development)",
+				"request": "launch",
+				"program": "/opt/unreal-engine/Engine/Binaries/Linux/UnrealEditor",
+				"preLaunchTask": "TowerEditor Linux Development Build",
+				"args": [
+					"/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject"
+				],
+				"cwd": "/opt/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Tower": "/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower",
+					"/UEVFS/Root": "/opt/unreal-engine"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Linux Development Build",
+				"program": "/opt/unreal-engine/Engine/Build/BatchFiles/RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=/home/ernestog/Documents/GameDev/Projects/Unreal Projects/Tower/Tower.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"env": {
+					"PATH": "/opt/unreal-engine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64:${env:PATH}",
+					"DOTNET_ROOT": "/opt/unreal-engine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64",
+					"DOTNET_HOST_PATH": "/opt/unreal-engine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64/dotnet",
+					"DOTNET_MULTILEVEL_LOOKUP": "0",
+					"DOTNET_ROLL_FORWARD": "LatestMajor"
+				},
+				"console": "internalConsole",
+				"internalConsoleOptions": "openOnSessionStart",
+				"stopAtEntry": false,
+				"cwd": "/opt/unreal-engine"
+			}
+		]
+	}
+}
