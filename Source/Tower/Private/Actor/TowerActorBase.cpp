@@ -32,7 +32,7 @@ void ATowerActorBase::BeginPlay()
 	USkeletalMesh* SkeletalMeshComponent = *TowerClasDefaultInfo->SkeletalMeshComponentPerLevel.Find(Level);
 	
 	TowerMesh->SetSkeletalMesh(SkeletalMeshComponent);
-	Damage = TowerClasDefaultInfo->DamageCurve->Eval(Level);
+	Damage = TowerClasDefaultInfo->DamageCurve.Eval(Level);
 	
 	TowerRangeDiskMesh->OnComponentBeginOverlap.AddDynamic(this, &ThisClass::OnActorOverlap);
 }
