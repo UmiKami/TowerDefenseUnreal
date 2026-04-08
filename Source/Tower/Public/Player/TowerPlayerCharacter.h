@@ -69,5 +69,9 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
 private:
+	/**
+	 * @brief Moves the pawn using SimplePawnMovementComponent added on blueprint
+	 * @param Value 
+	 */
 	void Move(const FInputActionValue& Value);
 };

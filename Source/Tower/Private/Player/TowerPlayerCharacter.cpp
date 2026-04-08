@@ -43,6 +43,8 @@ void ATowerPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 
 void ATowerPlayerCharacter::Move(const FInputActionValue& Value)
 {
-	AddMovementInput(Value.Get<FVector>());
+	const FVector WorldDirection = Value.Get<FVector>();
+	
+	AddMovementInput(WorldDirection, 200);
 }
 
