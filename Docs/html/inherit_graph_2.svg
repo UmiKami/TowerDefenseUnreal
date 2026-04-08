@@ -27,9 +27,9 @@
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
-<g id="edge740_Node000000_Node000001" class="edge">
+<g id="edge741_Node000000_Node000001" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<g id="a_edge740_Node000000_Node000001"><a xlink:title=" ">
+<g id="a_edge741_Node000000_Node000001"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M113.05,-37.28C120.97,-38.31 129.14,-39.36 137.18,-40.4"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="113.51,-33.82 103.15,-36.01 112.62,-40.76 113.51,-33.82"/>
 </a>
@@ -38,16 +38,16 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="classATowerPlayerController.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="classATowerPlayerController.html" target="_top" xlink:title="Custom player controller for input setup.">
 <polygon fill="white" stroke="#666666" points="272.38,-20.75 143.12,-20.75 143.12,0 272.38,0 272.38,-20.75"/>
 <text xml:space="preserve" text-anchor="middle" x="207.75" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerPlayerController</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node2 -->
-<g id="edge741_Node000000_Node000002" class="edge">
+<g id="edge742_Node000000_Node000002" class="edge">
 <title>Node0&#45;&gt;Node2</title>
-<g id="a_edge741_Node000000_Node000002"><a xlink:title=" ">
+<g id="a_edge742_Node000000_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M112.94,-21.87C122.75,-20.67 132.91,-19.43 142.78,-18.22"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="112.65,-18.38 103.15,-23.07 113.5,-25.33 112.65,-18.38"/>
 </a>

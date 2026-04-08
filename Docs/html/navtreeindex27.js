@@ -1,5 +1,8 @@
 var NAVTREEINDEX27 =
 {
+"classAPlayerCameraManager.html#a52d88e958712123e8bed4ada0fdb8787":[4,0,59,40],
+"classAPlayerCameraManager.html#a53cd138b14c6ffbe38375d285df0cc3e":[4,0,59,36],
+"classAPlayerCameraManager.html#a53d125b41d0d5079eb54da85a7ed9c3c":[4,0,59,139],
 "classAPlayerCameraManager.html#a56215bbbbcac206c0b729e6dbba5025c":[4,0,59,135],
 "classAPlayerCameraManager.html#a564534b8941a954ce45ccd8624f85857":[4,0,59,117],
 "classAPlayerCameraManager.html#a5a5d6c2a3ff90380d8d5ad092da17c9e":[4,0,59,143],
@@ -246,8 +249,5 @@ var NAVTREEINDEX27 =
 "classASceneCapture2D.html#abf0cf29c2008cbe8a350571ffa4e5374":[4,0,70,2],
 "classASceneCaptureCube.html":[4,0,71],
 "classASceneCaptureCube.html#a598f944a3a5350bfbf01a4757a6700c2":[4,0,71,0],
-"classASceneCaptureCube.html#a694243dc2ad160eed4d993c17dc0a30c":[4,0,71,2],
-"classASceneCaptureCube.html#abaa719ffce9f8597a65b054f3661b0b1":[4,0,71,1],
-"classAServerStatReplicator.html":[4,0,72],
-"classAServerStatReplicator.html#a0110c45f8dd047f672dbdf57bba1b430":[4,0,72,15]
+"classASceneCaptureCube.html#a694243dc2ad160eed4d993c17dc0a30c":[4,0,71,2]
 };

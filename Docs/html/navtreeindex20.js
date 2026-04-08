@@ -24,9 +24,12 @@ var NAVTREEINDEX20 =
 "TowerGameState_8cpp.html":[5,0,1,0,0,0,1],
 "TowerGameState_8h.html":[5,0,1,0,1,0,1],
 "TowerGameState_8h_source.html":[5,0,1,0,1,0,1],
-"TowerPlayerController_8cpp.html":[5,0,1,0,0,1,0],
-"TowerPlayerController_8h.html":[5,0,1,0,1,1,0],
-"TowerPlayerController_8h_source.html":[5,0,1,0,1,1,0],
+"TowerPlayerCharacter_8cpp.html":[5,0,1,0,0,1,0],
+"TowerPlayerCharacter_8h.html":[5,0,1,0,1,1,0],
+"TowerPlayerCharacter_8h_source.html":[5,0,1,0,1,1,0],
+"TowerPlayerController_8cpp.html":[5,0,1,0,0,1,1],
+"TowerPlayerController_8h.html":[5,0,1,0,1,1,1],
+"TowerPlayerController_8h_source.html":[5,0,1,0,1,1,1],
 "TowerUserWidget_8cpp.html":[5,0,1,0,0,2,0],
 "TowerUserWidget_8h.html":[5,0,1,0,1,2,0],
 "TowerUserWidget_8h_source.html":[5,0,1,0,1,2,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX20 =
 "classABlockingVolume.html":[4,0,8],
 "classABlockingVolume.html#a0ffd8ccb32e36054c00a9187db1abc47":[4,0,8,0],
 "classABlockingVolume.html#ad5d65e083f7af906ae1643aa17749fe5":[4,0,8,1],
-"classABoxReflectionCapture.html":[4,0,9],
-"classABrush.html":[4,0,10],
-"classABrush.html#a002776529f7ffe6a85c5a6f2e1c9fd68":[4,0,10,49],
-"classABrush.html#a00a345b8fff1d0538ff53e56c04d5d8a":[4,0,10,41]
+"classABoxReflectionCapture.html":[4,0,9]
 };

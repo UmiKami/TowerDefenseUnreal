@@ -75,7 +75,8 @@ var hierarchy =
         [ "ACharacter", "classACharacter.html", null ],
         [ "ADefaultPawn", "classADefaultPawn.html", [
           [ "ASpectatorPawn", "classASpectatorPawn.html", null ]
-        ] ]
+        ] ],
+        [ "ATowerPlayerCharacter", "classATowerPlayerCharacter.html", null ]
       ] ],
       [ "APlayerCameraManager", "classAPlayerCameraManager.html", null ],
       [ "AReflectionCapture", "classAReflectionCapture.html", [

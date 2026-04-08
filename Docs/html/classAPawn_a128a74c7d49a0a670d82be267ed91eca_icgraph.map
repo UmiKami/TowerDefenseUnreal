@@ -1,4 +1,6 @@
 <map id="APawn::AddMovementInput" name="APawn::AddMovementInput">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,207,57"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="139,14,128,10,106,8,85,10,74,15,71,20,76,29,71,28,66,20,70,11,84,5,106,3,130,5,144,14"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="225,29,426,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="364,14,352,10,325,8,301,10,287,15,284,20,290,30,285,28,279,20,284,11,300,5,325,3,353,5,369,14"/>
+<area shape="rect" id="Node000002" href="$classATowerPlayerCharacter.html#ad0504590de985bb01c6aab29a2929dfb" title="Moves the pawn using SimplePawnMovementComponent added on blueprint." alt="" coords="5,21,177,66"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="206,43,177,46,177,41,212,43"/>
 </map>
