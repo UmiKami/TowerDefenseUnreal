@@ -6,7 +6,7 @@
 #include "GameFramework/PlayerController.h"
 #include "TowerPlayerController.generated.h"
 
-class UInputMappingContext
+class UInputMappingContext;
 
 /**
  * @brief Custom player controller for input setup
