@@ -1,0 +1,22 @@
+/**
+ * @defgroup Tower Tower Game Classes
+ * @brief All classes belonging to the Tower game project.
+ */
+
+/**
+ * @defgroup TowerGame Game Framework
+ * @ingroup Tower
+ * @brief Game mode, game state and core game logic.
+ */
+
+/**
+ * @defgroup TowerPlayer Player
+ * @ingroup Tower
+ * @brief Player controller, pawn and player-related classes.
+ */
+
+/**
+ * @defgroup TowerUI User Interface
+ * @ingroup Tower
+ * @brief HUD and widget classes.
+ */
