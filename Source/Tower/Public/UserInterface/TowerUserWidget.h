@@ -7,7 +7,7 @@
 #include "TowerUserWidget.generated.h"
 
 /**
- * 
+ * @ingroup Tower
  */
 UCLASS()
 class TOWER_API UTowerUserWidget : public UUserWidget

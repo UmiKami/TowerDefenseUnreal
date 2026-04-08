@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['utoweruserwidget_0',['UTowerUserWidget',['../classUTowerUserWidget.html',1,'']]]
+  ['debugitem_0',['DebugItem',['../structFNodeDebugData_1_1DebugItem.html',1,'FNodeDebugData']]]
 ];

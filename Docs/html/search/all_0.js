@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['atowergamemode_0',['ATowerGameMode',['../classATowerGameMode.html',1,'']]],
-  ['atowergamestate_1',['ATowerGameState',['../classATowerGameState.html',1,'']]],
-  ['atowerplayercontroller_2',['ATowerPlayerController',['../classATowerPlayerController.html',1,'']]]
+  ['0_20then_20there_20is_20no_20distance_20tessellation_0',['Tessellation Points = TruncToInt((Distance Between Spawned Particles) / DistanceTessellationStepSize)). If 0 then there is no distance tessellation.',['../classUParticleModuleTypeDataAnimTrail.html#autotoc_md0',1,'']]]
 ];

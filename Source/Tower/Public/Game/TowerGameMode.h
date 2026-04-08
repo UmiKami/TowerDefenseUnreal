@@ -7,7 +7,7 @@
 #include "TowerGameMode.generated.h"
 
 /**
- * 
+ * @ingroup Tower
  */
 UCLASS()
 class TOWER_API ATowerGameMode : public AGameMode
