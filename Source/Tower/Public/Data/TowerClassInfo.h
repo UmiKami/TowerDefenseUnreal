@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
+#include "Curves/RealCurve.h"
 #include "TowerClassInfo.generated.h"
 
 UENUM(BlueprintType)
@@ -25,7 +26,7 @@ struct FTowerClasDefaultInfo
 	TMap<int32,TObjectPtr<USkeletalMesh>> SkeletalMeshComponentPerLevel;
 	
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
-	TObjectPtr<FRealCurve> DamageCurve;
+	FRealCurve DamageCurve;
 };
 
 /**
