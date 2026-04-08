@@ -71,7 +71,7 @@ public:
 private:
 	/**
 	 * @brief Moves the pawn using SimplePawnMovementComponent added on blueprint
-	 * @param Value 
+	 * @param Value FVector2D type value in his case.
 	 */
 	void Move(const FInputActionValue& Value);
 };
