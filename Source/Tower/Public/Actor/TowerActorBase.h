@@ -6,6 +6,7 @@
 #include "Data/TowerClassInfo.h"
 #include "GameFramework/Actor.h"
 #include "Interaction/TowerEnemyInterface.h"
+#include "Interaction/TowerHighlightInterface.h"
 #include "TowerActorBase.generated.h"
 
 
@@ -18,7 +19,7 @@ class UTowerClassInfo;
  * @ingroup Tower
  */
 UCLASS()
-class TOWER_API ATowerActorBase : public AActor
+class TOWER_API ATowerActorBase : public AActor, public ITowerHighlightInterface
 {
 	GENERATED_BODY()
 
@@ -34,6 +35,9 @@ public:
 	 * @param InTowerClass Type of tower to be spawn. @see ETowerClass
 	 */
 	void SetTowerClass(const ETowerClass& InTowerClass); 
+	
+	virtual void ActorSelected() override;
+	virtual void ActorDeselected() override;
 
 protected:
 	virtual void BeginPlay() override;

@@ -68,3 +68,13 @@ void ATowerActorBase::OnActorOverlap(UPrimitiveComponent* OverlappedComponent, A
 		Projectile->TryLaunchAtTarget(StartLocation, EndLocation, Damage, 2000.f, 2000.f);
 	}
 }
+
+void ATowerActorBase::ActorSelected()
+{
+	TowerRangeDiskMesh->SetVisibility(true);
+}
+
+void ATowerActorBase::ActorDeselected()
+{
+	TowerRangeDiskMesh->SetVisibility(false);
+}
