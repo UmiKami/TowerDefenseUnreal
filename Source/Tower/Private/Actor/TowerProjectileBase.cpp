@@ -58,7 +58,7 @@ void ATowerProjectileBase::TryLaunchAtTarget(FVector StartLocation, FVector EndL
 
 void ATowerProjectileBase::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, float InitSpeed, float InMaxSpeed, bool bHasArch, float ArcHeight)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Projectile %s Launched from %s."), *GetName(), StartLocation.ToString());
+	UE_LOG(LogTemp, Warning, TEXT("Projectile %s Launched from %s."), *GetName(), *StartLocation.ToString());
 	
 
 }
