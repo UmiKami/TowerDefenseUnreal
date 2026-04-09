@@ -11,6 +11,9 @@ class UCapsuleComponent;
 class ATowerEnemyPathActor;
 class USplineComponent;
 
+/**
+ * @ingroup Tower
+ */
 UCLASS()
 class TOWER_API ATowerEnemyPawn : public APawn
 {

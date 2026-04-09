@@ -14,7 +14,7 @@ class UTowerEnemyInterface : public UInterface
 };
 
 /**
- * 
+ * @ingroup Tower
  */
 class TOWER_API ITowerEnemyInterface
 {

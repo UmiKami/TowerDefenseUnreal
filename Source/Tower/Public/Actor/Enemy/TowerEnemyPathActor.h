@@ -8,6 +8,9 @@
 
 class USplineComponent;
 
+/**
+ * @ingroup Tower
+ */
 UCLASS()
 class TOWER_API ATowerEnemyPathActor : public AActor
 {

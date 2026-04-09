@@ -10,6 +10,11 @@ class UCapsuleComponent;
 class USphereComponent;
 class UProjectileMovementComponent;
 
+/**
+ * @brief Determines behavior of each projectile.
+ * 
+ * @ingroup Tower
+ */
 UCLASS()
 class TOWER_API ATowerProjectileBase : public AActor
 {
