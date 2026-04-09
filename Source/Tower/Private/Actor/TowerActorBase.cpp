@@ -34,6 +34,8 @@ void ATowerActorBase::BeginPlay()
 	TowerMesh->SetSkeletalMesh(SkeletalMeshComponent);
 	Damage = TowerClasDefaultInfo->DamageCurve.Eval(Level);
 	
+	TowerRangeDiskMesh->SetRelativeScale3D({TowerAttackRange, TowerAttackRange, .2f});
+	
 	TowerRangeDiskMesh->OnComponentBeginOverlap.AddDynamic(this, &ThisClass::OnActorOverlap);
 }
 
