@@ -28,7 +28,7 @@ void ATowerActorBase::BeginPlay()
 	
 	checkf(TowerClassInfo, TEXT("TowerClassInfo DataAsset MUST be set in tower actor BEFORE spawn."))
 	
-	FTowerClasDefaultInfo* TowerClasDefaultInfo = TowerClassInfo->TowerClassInformation.Find(TowerClass);
+	TowerClasDefaultInfo = TowerClassInfo->TowerClassInformation.Find(TowerClass);
 	USkeletalMesh* SkeletalMeshComponent = *TowerClasDefaultInfo->SkeletalMeshComponentPerLevel.Find(Level);
 	
 	TowerMesh->SetSkeletalMesh(SkeletalMeshComponent);
