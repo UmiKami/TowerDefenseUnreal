@@ -48,6 +48,9 @@ struct FTowerClasDefaultInfo
 	/** @brief Contains amount of damage per level. */
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
 	FRealCurve DamageCurve;
+	
+	UPROPERTY(EditDefaultsOnly, Category="Class Defaults", meta = (DisplayName=ProjectileType))
+	TSubclassOf<ATowerProjectileBase> ProjectileClass;
 };
 
 /**
