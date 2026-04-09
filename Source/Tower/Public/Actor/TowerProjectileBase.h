@@ -22,9 +22,6 @@ class TOWER_API ATowerProjectileBase : public AActor
 
 public:
 	ATowerProjectileBase();
-
-protected:
-	virtual void BeginPlay() override;
 	
 	/**
 	 * @brief Validates parameters and checks if projectile can be launch, if it can be launch then it we will call @see LaunchAtTarget() method.
@@ -38,6 +35,10 @@ protected:
 	 */
 	UFUNCTION()
 	void TryLaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, float InitSpeed, float InMaxSpeed, bool bHasArch = false, float ArcHeight = 500.f);
+protected:
+	virtual void BeginPlay() override;
+	
+
 	
 	/**
 	 * @brief Launches the projectile toward a target with the option of using ballistic arc.
