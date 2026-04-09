@@ -18,7 +18,7 @@ class UTowerClassInfo;
  * @ingroup Tower
  */
 UCLASS()
-class TOWER_API ATowerActorBase : public AActor, public ITowerEnemyInterface
+class TOWER_API ATowerActorBase : public AActor
 {
 	GENERATED_BODY()
 

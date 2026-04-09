@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Interaction/TowerEnemyInterface.h"
 #include "TowerEnemyPawn.generated.h"
 
 class AAIController;
@@ -15,7 +16,7 @@ class USplineComponent;
  * @ingroup Tower
  */
 UCLASS()
-class TOWER_API ATowerEnemyPawn : public APawn
+class TOWER_API ATowerEnemyPawn : public APawn, public ITowerEnemyInterface
 {
 	GENERATED_BODY()
 
