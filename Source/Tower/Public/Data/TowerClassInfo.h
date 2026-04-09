@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
-#include "Curves/RealCurve.h"
 #include "Actor/TowerProjectileBase.h"
 #include "TowerClassInfo.generated.h"
 /**
@@ -47,7 +46,7 @@ struct FTowerClasDefaultInfo
 	
 	/** @brief Contains amount of damage per level. */
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
-	FRealCurve DamageCurve;
+	FCurveTableRowHandle DamageCurve;
 	
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults", meta = (DisplayName=ProjectileType))
 	TSubclassOf<ATowerProjectileBase> ProjectileClass;
