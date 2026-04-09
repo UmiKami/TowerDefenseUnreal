@@ -12,7 +12,11 @@
 enum class ETowerClass : uint8;
 class UTowerClassInfo;
 
-
+/**
+ * @brief The actual tower actor player will be spawning in the world.
+ * 
+ * @ingroup Tower
+ */
 UCLASS()
 class TOWER_API ATowerActorBase : public AActor, public ITowerEnemyInterface
 {
