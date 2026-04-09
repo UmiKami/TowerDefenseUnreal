@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 883;
+var viewWidth = 1011;
 var viewHeight = 2085;
 var sectionId = 'dynsection-0';
 </script>
@@ -355,16 +355,16 @@ var sectionId = 'dynsection-0';
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="classAPlayerStart.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="none" points="273.12,-637.38 182.38,-637.38 182.38,-583.12 273.12,-583.12 273.12,-637.38"/>
-<text xml:space="preserve" text-anchor="start" x="197.38" y="-623.62" font-family="Helvetica,sans-Serif" font-size="10.00">APlayerStart</text>
-<text xml:space="preserve" text-anchor="start" x="186.38" y="-606.88" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="198.62" y="-606.88" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStartTag</text>
-<text xml:space="preserve" text-anchor="start" x="186.38" y="-590.12" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="198.62" y="-590.12" font-family="Helvetica,sans-Serif" font-size="10.00">APlayerStart()</text>
-<polygon fill="#666666" stroke="#666666" points="182.38,-618.62 182.38,-618.62 273.12,-618.62 273.12,-618.62 182.38,-618.62"/>
-<polygon fill="#666666" stroke="#666666" points="182.38,-601.88 182.38,-601.88 196.62,-601.88 196.62,-601.88 182.38,-601.88"/>
-<polygon fill="#666666" stroke="#666666" points="196.62,-601.88 196.62,-601.88 273.12,-601.88 273.12,-601.88 196.62,-601.88"/>
-<polygon fill="none" stroke="#666666" points="182.38,-583.12 182.38,-637.38 273.12,-637.38 273.12,-583.12 182.38,-583.12"/>
+<polygon fill="white" stroke="none" points="228.12,-637.38 137.38,-637.38 137.38,-583.12 228.12,-583.12 228.12,-637.38"/>
+<text xml:space="preserve" text-anchor="start" x="152.38" y="-623.62" font-family="Helvetica,sans-Serif" font-size="10.00">APlayerStart</text>
+<text xml:space="preserve" text-anchor="start" x="141.38" y="-606.88" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="153.62" y="-606.88" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStartTag</text>
+<text xml:space="preserve" text-anchor="start" x="141.38" y="-590.12" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="153.62" y="-590.12" font-family="Helvetica,sans-Serif" font-size="10.00">APlayerStart()</text>
+<polygon fill="#666666" stroke="#666666" points="137.38,-618.62 137.38,-618.62 228.12,-618.62 228.12,-618.62 137.38,-618.62"/>
+<polygon fill="#666666" stroke="#666666" points="137.38,-601.88 137.38,-601.88 151.62,-601.88 151.62,-601.88 137.38,-601.88"/>
+<polygon fill="#666666" stroke="#666666" points="151.62,-601.88 151.62,-601.88 228.12,-601.88 228.12,-601.88 151.62,-601.88"/>
+<polygon fill="none" stroke="#666666" points="137.38,-583.12 137.38,-637.38 228.12,-637.38 228.12,-583.12 137.38,-583.12"/>
 </a>
 </g>
 </g>
@@ -372,8 +372,8 @@ var sectionId = 'dynsection-0';
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M265.75,-1345.64C254.4,-1126.33 234.42,-740.06 229.09,-637.08"/>
-<polygon fill="none" stroke="#63b8ff" points="262.24,-1345.61 266.26,-1355.41 269.23,-1345.24 262.24,-1345.61"/>
+<path fill="none" stroke="#63b8ff" d="M257.92,-1345.64C235.47,-1126.33 195.94,-740.06 185.39,-637.08"/>
+<polygon fill="none" stroke="#63b8ff" points="254.42,-1345.83 258.92,-1355.42 261.39,-1345.11 254.42,-1345.83"/>
 </a>
 </g>
 </g>
@@ -381,13 +381,13 @@ var sectionId = 'dynsection-0';
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="classAPlayerStartPIE.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="none" points="269.62,-71 185.88,-71 185.88,-16.75 269.62,-16.75 269.62,-71"/>
-<text xml:space="preserve" text-anchor="start" x="189.88" y="-57.25" font-family="Helvetica,sans-Serif" font-size="10.00">APlayerStartPIE</text>
-<text xml:space="preserve" text-anchor="start" x="224.75" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<text xml:space="preserve" text-anchor="start" x="224.75" y="-23.75" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#666666" stroke="#666666" points="185.88,-52.25 185.88,-52.25 269.62,-52.25 269.62,-52.25 185.88,-52.25"/>
-<polygon fill="#666666" stroke="#666666" points="185.88,-35.5 185.88,-35.5 269.62,-35.5 269.62,-35.5 185.88,-35.5"/>
-<polygon fill="none" stroke="#666666" points="185.88,-16.75 185.88,-71 269.62,-71 269.62,-16.75 185.88,-16.75"/>
+<polygon fill="white" stroke="none" points="224.62,-71 140.88,-71 140.88,-16.75 224.62,-16.75 224.62,-71"/>
+<text xml:space="preserve" text-anchor="start" x="144.88" y="-57.25" font-family="Helvetica,sans-Serif" font-size="10.00">APlayerStartPIE</text>
+<text xml:space="preserve" text-anchor="start" x="179.75" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text xml:space="preserve" text-anchor="start" x="179.75" y="-23.75" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polygon fill="#666666" stroke="#666666" points="140.88,-52.25 140.88,-52.25 224.62,-52.25 224.62,-52.25 140.88,-52.25"/>
+<polygon fill="#666666" stroke="#666666" points="140.88,-35.5 140.88,-35.5 224.62,-35.5 224.62,-35.5 140.88,-35.5"/>
+<polygon fill="none" stroke="#666666" points="140.88,-16.75 140.88,-71 224.62,-71 224.62,-16.75 140.88,-16.75"/>
 </a>
 </g>
 </g>
@@ -395,8 +395,8 @@ var sectionId = 'dynsection-0';
 <g id="edge4_Node000004_Node000005" class="edge">
 <title>Node4&#45;&gt;Node5</title>
 <g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M227.75,-571.71C227.75,-464.92 227.75,-161.27 227.75,-70.69"/>
-<polygon fill="none" stroke="#63b8ff" points="224.25,-571.65 227.75,-581.65 231.25,-571.65 224.25,-571.65"/>
+<path fill="none" stroke="#63b8ff" d="M182.75,-571.71C182.75,-464.92 182.75,-161.27 182.75,-70.69"/>
+<polygon fill="none" stroke="#63b8ff" points="179.25,-571.65 182.75,-581.65 186.25,-571.65 179.25,-571.65"/>
 </a>
 </g>
 </g>
@@ -404,119 +404,119 @@ var sectionId = 'dynsection-0';
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:href="classACharacter.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="none" points="496.5,-1096.75 291,-1096.75 291,-123.75 496.5,-123.75 496.5,-1096.75"/>
-<text xml:space="preserve" text-anchor="start" x="366.75" y="-1083" font-family="Helvetica,sans-Serif" font-size="10.00">ACharacter</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-1066.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-1066.25" font-family="Helvetica,sans-Serif" font-size="10.00">InAccel</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-1049.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-1049.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientLoc</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-1032.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-1032.75" font-family="Helvetica,sans-Serif" font-size="10.00">CompressedMoveFlags</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-1016" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-1016" font-family="Helvetica,sans-Serif" font-size="10.00">ClientRoll</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-999.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-999.25" font-family="Helvetica,sans-Serif" font-size="10.00">View</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-982.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-982.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMovementBase</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-965.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-965.75" font-family="Helvetica,sans-Serif" font-size="10.00">ClientBaseBoneName</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-949" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-949" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMovementMode</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-932.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-932.25" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMovementMode</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-915.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-915.5" font-family="Helvetica,sans-Serif" font-size="10.00">InAccel0</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-898.75" font-family="Helvetica,sans-Serif" font-size="10.00">and 74 more...</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-882" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-882" font-family="Helvetica,sans-Serif" font-size="10.00">MeshComponentName</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-865.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-865.25" font-family="Helvetica,sans-Serif" font-size="10.00">CharacterMovementComponentName</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-848.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-848.5" font-family="Helvetica,sans-Serif" font-size="10.00">CapsuleComponentName</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-831.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-831.75" font-family="Helvetica,sans-Serif" font-size="10.00">BasedMovement</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-815" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-815" font-family="Helvetica,sans-Serif" font-size="10.00">ReplicatedBasedMovement</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-798.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-798.25" font-family="Helvetica,sans-Serif" font-size="10.00">ReplicatedServerLastTransform</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-785.5" font-family="Helvetica,sans-Serif" font-size="10.00">UpdateTimeStamp</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-768.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-768.75" font-family="Helvetica,sans-Serif" font-size="10.00">ReplayLastTransformUpdate</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-756" font-family="Helvetica,sans-Serif" font-size="10.00">TimeStamp</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-739.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-739.25" font-family="Helvetica,sans-Serif" font-size="10.00">BaseRotationOffset</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-722.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-722.5" font-family="Helvetica,sans-Serif" font-size="10.00">BaseTranslationOffset</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-705.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-705.75" font-family="Helvetica,sans-Serif" font-size="10.00">ReplicatedGravityDirection</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-689" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-689" font-family="Helvetica,sans-Serif" font-size="10.00">PreNetReceivedGravityDirection</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">AnimRootMotionTranslation</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-659.5" font-family="Helvetica,sans-Serif" font-size="10.00">Scale</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-642.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-642.75" font-family="Helvetica,sans-Serif" font-size="10.00">bInBaseReplication</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-626" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-626" font-family="Helvetica,sans-Serif" font-size="10.00">ReplicatedMovementMode</text>
-<text xml:space="preserve" text-anchor="start" x="297.25" y="-609.25" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-609.25" font-family="Helvetica,sans-Serif" font-size="10.00">Mesh</text>
-<text xml:space="preserve" text-anchor="start" x="297.25" y="-592.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-592.5" font-family="Helvetica,sans-Serif" font-size="10.00">CharacterMovement</text>
-<text xml:space="preserve" text-anchor="start" x="297.25" y="-575.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-575.75" font-family="Helvetica,sans-Serif" font-size="10.00">CapsuleComponent</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-559" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-559" font-family="Helvetica,sans-Serif" font-size="10.00">ACharacter()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-542.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-542.25" font-family="Helvetica,sans-Serif" font-size="10.00">GetLifetimeReplicatedProps()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-525.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-525.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetReplicatedCustomCondition</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-512.75" font-family="Helvetica,sans-Serif" font-size="10.00">State()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-496" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-496" font-family="Helvetica,sans-Serif" font-size="10.00">ServerMovePacked()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-479.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-479.25" font-family="Helvetica,sans-Serif" font-size="10.00">ServerMovePacked_Implementation()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">ServerMovePacked_Validate()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-445.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-445.75" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMoveResponsePacked()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-429" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-429" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMoveResponsePacked</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-416.25" font-family="Helvetica,sans-Serif" font-size="10.00">_Implementation()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMoveResponsePacked</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-386.75" font-family="Helvetica,sans-Serif" font-size="10.00">_Validate()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-370" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-370" font-family="Helvetica,sans-Serif" font-size="10.00">UE_DEPRECATED_FORGAME()</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-353.25" font-family="Helvetica,sans-Serif" font-size="10.00">and 144 more...</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-336.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-336.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetReplicatedBasedMovement</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-323.75" font-family="Helvetica,sans-Serif" font-size="10.00">_Mutable()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-307" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-307" font-family="Helvetica,sans-Serif" font-size="10.00">SetReplicatedBasedMovement()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-290.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-290.25" font-family="Helvetica,sans-Serif" font-size="10.00">ShouldReplicateAcceleration()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">BaseChange()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-256.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-256.75" font-family="Helvetica,sans-Serif" font-size="10.00">SetReplicatedServerLastTransform</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">UpdateTimeStamp()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-227.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-227.25" font-family="Helvetica,sans-Serif" font-size="10.00">SetReplayLastTransformUpdate</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">TimeStamp()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-197.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-197.75" font-family="Helvetica,sans-Serif" font-size="10.00">SetReplicatedGravityDirection()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00">SetReplicatedMovementMode()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-164.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-164.25" font-family="Helvetica,sans-Serif" font-size="10.00">CanJumpInternal()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">CanJumpInternal_Implementation()</text>
-<text xml:space="preserve" text-anchor="start" x="295" y="-130.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="307.25" y="-130.75" font-family="Helvetica,sans-Serif" font-size="10.00">JumpIsAllowedInternal()</text>
-<polygon fill="#666666" stroke="#666666" points="291,-1078 291,-1078 496.5,-1078 496.5,-1078 291,-1078"/>
-<polygon fill="#666666" stroke="#666666" points="291,-570.75 291,-570.75 305.25,-570.75 305.25,-570.75 291,-570.75"/>
-<polygon fill="#666666" stroke="#666666" points="305.25,-570.75 305.25,-570.75 496.5,-570.75 496.5,-570.75 305.25,-570.75"/>
-<polygon fill="none" stroke="#666666" points="291,-123.75 291,-1096.75 496.5,-1096.75 496.5,-123.75 291,-123.75"/>
+<polygon fill="white" stroke="none" points="451.5,-1096.75 246,-1096.75 246,-123.75 451.5,-123.75 451.5,-1096.75"/>
+<text xml:space="preserve" text-anchor="start" x="321.75" y="-1083" font-family="Helvetica,sans-Serif" font-size="10.00">ACharacter</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-1066.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-1066.25" font-family="Helvetica,sans-Serif" font-size="10.00">InAccel</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-1049.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-1049.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientLoc</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-1032.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-1032.75" font-family="Helvetica,sans-Serif" font-size="10.00">CompressedMoveFlags</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-1016" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-1016" font-family="Helvetica,sans-Serif" font-size="10.00">ClientRoll</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-999.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-999.25" font-family="Helvetica,sans-Serif" font-size="10.00">View</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-982.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-982.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMovementBase</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-965.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-965.75" font-family="Helvetica,sans-Serif" font-size="10.00">ClientBaseBoneName</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-949" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-949" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMovementMode</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-932.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-932.25" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMovementMode</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-915.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-915.5" font-family="Helvetica,sans-Serif" font-size="10.00">InAccel0</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-898.75" font-family="Helvetica,sans-Serif" font-size="10.00">and 74 more...</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-882" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-882" font-family="Helvetica,sans-Serif" font-size="10.00">MeshComponentName</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-865.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-865.25" font-family="Helvetica,sans-Serif" font-size="10.00">CharacterMovementComponentName</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-848.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-848.5" font-family="Helvetica,sans-Serif" font-size="10.00">CapsuleComponentName</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-831.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-831.75" font-family="Helvetica,sans-Serif" font-size="10.00">BasedMovement</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-815" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-815" font-family="Helvetica,sans-Serif" font-size="10.00">ReplicatedBasedMovement</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-798.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-798.25" font-family="Helvetica,sans-Serif" font-size="10.00">ReplicatedServerLastTransform</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-785.5" font-family="Helvetica,sans-Serif" font-size="10.00">UpdateTimeStamp</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-768.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-768.75" font-family="Helvetica,sans-Serif" font-size="10.00">ReplayLastTransformUpdate</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-756" font-family="Helvetica,sans-Serif" font-size="10.00">TimeStamp</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-739.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-739.25" font-family="Helvetica,sans-Serif" font-size="10.00">BaseRotationOffset</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-722.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-722.5" font-family="Helvetica,sans-Serif" font-size="10.00">BaseTranslationOffset</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-705.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-705.75" font-family="Helvetica,sans-Serif" font-size="10.00">ReplicatedGravityDirection</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-689" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-689" font-family="Helvetica,sans-Serif" font-size="10.00">PreNetReceivedGravityDirection</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">AnimRootMotionTranslation</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-659.5" font-family="Helvetica,sans-Serif" font-size="10.00">Scale</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-642.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-642.75" font-family="Helvetica,sans-Serif" font-size="10.00">bInBaseReplication</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-626" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-626" font-family="Helvetica,sans-Serif" font-size="10.00">ReplicatedMovementMode</text>
+<text xml:space="preserve" text-anchor="start" x="252.25" y="-609.25" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-609.25" font-family="Helvetica,sans-Serif" font-size="10.00">Mesh</text>
+<text xml:space="preserve" text-anchor="start" x="252.25" y="-592.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-592.5" font-family="Helvetica,sans-Serif" font-size="10.00">CharacterMovement</text>
+<text xml:space="preserve" text-anchor="start" x="252.25" y="-575.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-575.75" font-family="Helvetica,sans-Serif" font-size="10.00">CapsuleComponent</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-559" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-559" font-family="Helvetica,sans-Serif" font-size="10.00">ACharacter()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-542.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-542.25" font-family="Helvetica,sans-Serif" font-size="10.00">GetLifetimeReplicatedProps()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-525.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-525.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetReplicatedCustomCondition</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-512.75" font-family="Helvetica,sans-Serif" font-size="10.00">State()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-496" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-496" font-family="Helvetica,sans-Serif" font-size="10.00">ServerMovePacked()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-479.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-479.25" font-family="Helvetica,sans-Serif" font-size="10.00">ServerMovePacked_Implementation()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">ServerMovePacked_Validate()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-445.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-445.75" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMoveResponsePacked()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-429" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-429" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMoveResponsePacked</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-416.25" font-family="Helvetica,sans-Serif" font-size="10.00">_Implementation()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientMoveResponsePacked</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-386.75" font-family="Helvetica,sans-Serif" font-size="10.00">_Validate()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-370" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-370" font-family="Helvetica,sans-Serif" font-size="10.00">UE_DEPRECATED_FORGAME()</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-353.25" font-family="Helvetica,sans-Serif" font-size="10.00">and 144 more...</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-336.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-336.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetReplicatedBasedMovement</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-323.75" font-family="Helvetica,sans-Serif" font-size="10.00">_Mutable()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-307" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-307" font-family="Helvetica,sans-Serif" font-size="10.00">SetReplicatedBasedMovement()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-290.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-290.25" font-family="Helvetica,sans-Serif" font-size="10.00">ShouldReplicateAcceleration()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">BaseChange()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-256.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-256.75" font-family="Helvetica,sans-Serif" font-size="10.00">SetReplicatedServerLastTransform</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">UpdateTimeStamp()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-227.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-227.25" font-family="Helvetica,sans-Serif" font-size="10.00">SetReplayLastTransformUpdate</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">TimeStamp()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-197.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-197.75" font-family="Helvetica,sans-Serif" font-size="10.00">SetReplicatedGravityDirection()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00">SetReplicatedMovementMode()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-164.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-164.25" font-family="Helvetica,sans-Serif" font-size="10.00">CanJumpInternal()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">CanJumpInternal_Implementation()</text>
+<text xml:space="preserve" text-anchor="start" x="250" y="-130.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="262.25" y="-130.75" font-family="Helvetica,sans-Serif" font-size="10.00">JumpIsAllowedInternal()</text>
+<polygon fill="#666666" stroke="#666666" points="246,-1078 246,-1078 451.5,-1078 451.5,-1078 246,-1078"/>
+<polygon fill="#666666" stroke="#666666" points="246,-570.75 246,-570.75 260.25,-570.75 260.25,-570.75 246,-570.75"/>
+<polygon fill="#666666" stroke="#666666" points="260.25,-570.75 260.25,-570.75 451.5,-570.75 451.5,-570.75 260.25,-570.75"/>
+<polygon fill="none" stroke="#666666" points="246,-123.75 246,-1096.75 451.5,-1096.75 451.5,-123.75 246,-123.75"/>
 </a>
 </g>
 </g>
@@ -524,8 +524,8 @@ var sectionId = 'dynsection-0';
 <g id="edge6_Node000006_Node000007" class="edge">
 <title>Node6&#45;&gt;Node7</title>
 <g id="a_edge6_Node000006_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M488.3,-1123.78C486.63,-1114.73 484.95,-1105.63 483.27,-1096.52"/>
-<polygon fill="none" stroke="#63b8ff" points="484.8,-1124.12 490.06,-1133.32 491.69,-1122.85 484.8,-1124.12"/>
+<path fill="none" stroke="#63b8ff" d="M467.13,-1123.78C464.98,-1114.68 462.85,-1105.66 460.75,-1096.75 457.68,-1083.7 454.56,-1070.45 451.43,-1057.07"/>
+<polygon fill="none" stroke="#63b8ff" points="463.71,-1124.52 469.42,-1133.44 470.52,-1122.91 463.71,-1124.52"/>
 </a>
 </g>
 </g>
@@ -533,50 +533,50 @@ var sectionId = 'dynsection-0';
 <g id="Node000008" class="node">
 <title>Node8</title>
 <g id="a_Node000008"><a xlink:href="classADefaultPawn.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="none" points="690.5,-779.75 515,-779.75 515,-440.75 690.5,-440.75 690.5,-779.75"/>
-<text xml:space="preserve" text-anchor="start" x="568.25" y="-766" font-family="Helvetica,sans-Serif" font-size="10.00">ADefaultPawn</text>
-<text xml:space="preserve" text-anchor="start" x="519" y="-749.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-749.25" font-family="Helvetica,sans-Serif" font-size="10.00">bAddDefaultMovementBindings</text>
-<text xml:space="preserve" text-anchor="start" x="519" y="-732.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-732.5" font-family="Helvetica,sans-Serif" font-size="10.00">MovementComponentName</text>
-<text xml:space="preserve" text-anchor="start" x="519" y="-715.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-715.75" font-family="Helvetica,sans-Serif" font-size="10.00">CollisionComponentName</text>
-<text xml:space="preserve" text-anchor="start" x="519" y="-699" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-699" font-family="Helvetica,sans-Serif" font-size="10.00">MeshComponentName</text>
-<text xml:space="preserve" text-anchor="start" x="519" y="-682.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-682.25" font-family="Helvetica,sans-Serif" font-size="10.00">MovementComponent</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-665.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-665.5" font-family="Helvetica,sans-Serif" font-size="10.00">BaseTurnRate</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-648.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-648.75" font-family="Helvetica,sans-Serif" font-size="10.00">BaseLookUpRate</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-632" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-632" font-family="Helvetica,sans-Serif" font-size="10.00">CollisionComponent</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-615.25" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-615.25" font-family="Helvetica,sans-Serif" font-size="10.00">MeshComponent</text>
-<text xml:space="preserve" text-anchor="start" x="519" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetCollisionComponent()</text>
-<text xml:space="preserve" text-anchor="start" x="519" y="-581.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-581.75" font-family="Helvetica,sans-Serif" font-size="10.00">GetMeshComponent()</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">GetMovementComponent()</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-548.25" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-548.25" font-family="Helvetica,sans-Serif" font-size="10.00">SetupPlayerInputComponent()</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">UpdateNavigationRelevance()</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-514.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-514.75" font-family="Helvetica,sans-Serif" font-size="10.00">MoveForward()</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-498" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-498" font-family="Helvetica,sans-Serif" font-size="10.00">MoveRight()</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-481.25" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-481.25" font-family="Helvetica,sans-Serif" font-size="10.00">MoveUp_World()</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">TurnAtRate()</text>
-<text xml:space="preserve" text-anchor="start" x="521.25" y="-447.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="531.25" y="-447.75" font-family="Helvetica,sans-Serif" font-size="10.00">LookUpAtRate()</text>
-<polygon fill="#666666" stroke="#666666" points="515,-761 515,-761 690.5,-761 690.5,-761 515,-761"/>
-<polygon fill="#666666" stroke="#666666" points="515,-610.25 515,-610.25 529.25,-610.25 529.25,-610.25 515,-610.25"/>
-<polygon fill="#666666" stroke="#666666" points="529.25,-610.25 529.25,-610.25 690.5,-610.25 690.5,-610.25 529.25,-610.25"/>
-<polygon fill="none" stroke="#666666" points="515,-440.75 515,-779.75 690.5,-779.75 690.5,-440.75 515,-440.75"/>
+<polygon fill="white" stroke="none" points="645.5,-779.75 470,-779.75 470,-440.75 645.5,-440.75 645.5,-779.75"/>
+<text xml:space="preserve" text-anchor="start" x="523.25" y="-766" font-family="Helvetica,sans-Serif" font-size="10.00">ADefaultPawn</text>
+<text xml:space="preserve" text-anchor="start" x="474" y="-749.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-749.25" font-family="Helvetica,sans-Serif" font-size="10.00">bAddDefaultMovementBindings</text>
+<text xml:space="preserve" text-anchor="start" x="474" y="-732.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-732.5" font-family="Helvetica,sans-Serif" font-size="10.00">MovementComponentName</text>
+<text xml:space="preserve" text-anchor="start" x="474" y="-715.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-715.75" font-family="Helvetica,sans-Serif" font-size="10.00">CollisionComponentName</text>
+<text xml:space="preserve" text-anchor="start" x="474" y="-699" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-699" font-family="Helvetica,sans-Serif" font-size="10.00">MeshComponentName</text>
+<text xml:space="preserve" text-anchor="start" x="474" y="-682.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-682.25" font-family="Helvetica,sans-Serif" font-size="10.00">MovementComponent</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-665.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-665.5" font-family="Helvetica,sans-Serif" font-size="10.00">BaseTurnRate</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-648.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-648.75" font-family="Helvetica,sans-Serif" font-size="10.00">BaseLookUpRate</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-632" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-632" font-family="Helvetica,sans-Serif" font-size="10.00">CollisionComponent</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-615.25" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-615.25" font-family="Helvetica,sans-Serif" font-size="10.00">MeshComponent</text>
+<text xml:space="preserve" text-anchor="start" x="474" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetCollisionComponent()</text>
+<text xml:space="preserve" text-anchor="start" x="474" y="-581.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-581.75" font-family="Helvetica,sans-Serif" font-size="10.00">GetMeshComponent()</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">GetMovementComponent()</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-548.25" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-548.25" font-family="Helvetica,sans-Serif" font-size="10.00">SetupPlayerInputComponent()</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">UpdateNavigationRelevance()</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-514.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-514.75" font-family="Helvetica,sans-Serif" font-size="10.00">MoveForward()</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-498" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-498" font-family="Helvetica,sans-Serif" font-size="10.00">MoveRight()</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-481.25" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-481.25" font-family="Helvetica,sans-Serif" font-size="10.00">MoveUp_World()</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">TurnAtRate()</text>
+<text xml:space="preserve" text-anchor="start" x="476.25" y="-447.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="486.25" y="-447.75" font-family="Helvetica,sans-Serif" font-size="10.00">LookUpAtRate()</text>
+<polygon fill="#666666" stroke="#666666" points="470,-761 470,-761 645.5,-761 645.5,-761 470,-761"/>
+<polygon fill="#666666" stroke="#666666" points="470,-610.25 470,-610.25 484.25,-610.25 484.25,-610.25 470,-610.25"/>
+<polygon fill="#666666" stroke="#666666" points="484.25,-610.25 484.25,-610.25 645.5,-610.25 645.5,-610.25 484.25,-610.25"/>
+<polygon fill="none" stroke="#666666" points="470,-440.75 470,-779.75 645.5,-779.75 645.5,-440.75 470,-440.75"/>
 </a>
 </g>
 </g>
@@ -584,39 +584,43 @@ var sectionId = 'dynsection-0';
 <g id="edge7_Node000006_Node000008" class="edge">
 <title>Node6&#45;&gt;Node8</title>
 <g id="a_edge7_Node000006_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M576.82,-1123.6C582.89,-1003.68 589.3,-877 594.23,-779.61"/>
-<polygon fill="none" stroke="#63b8ff" points="573.33,-1123.14 576.32,-1133.3 580.33,-1123.49 573.33,-1123.14"/>
+<path fill="none" stroke="#63b8ff" d="M557.75,-1123.6C557.75,-1003.68 557.75,-877 557.75,-779.61"/>
+<polygon fill="none" stroke="#63b8ff" points="554.25,-1123.3 557.75,-1133.3 561.25,-1123.3 554.25,-1123.3"/>
 </a>
 </g>
 </g>
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="classATowerPlayerCharacter.html" target="_top" xlink:title="Representation of the player character in the world.">
-<polygon fill="white" stroke="none" points="875.38,-696 708.12,-696 708.12,-524.5 875.38,-524.5 875.38,-696"/>
-<text xml:space="preserve" text-anchor="start" x="735.5" y="-682.25" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerPlayerCharacter</text>
-<text xml:space="preserve" text-anchor="start" x="712.12" y="-665.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="724.38" y="-665.5" font-family="Helvetica,sans-Serif" font-size="10.00">SphereCollision</text>
-<text xml:space="preserve" text-anchor="start" x="712.12" y="-648.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="724.38" y="-648.75" font-family="Helvetica,sans-Serif" font-size="10.00">SpringArm</text>
-<text xml:space="preserve" text-anchor="start" x="712.12" y="-632" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="724.38" y="-632" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerCamera</text>
-<text xml:space="preserve" text-anchor="start" x="712.12" y="-615.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="724.38" y="-615.25" font-family="Helvetica,sans-Serif" font-size="10.00">MoveAction</text>
-<text xml:space="preserve" text-anchor="start" x="712.12" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="724.38" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">LeftClickAction</text>
-<text xml:space="preserve" text-anchor="start" x="712.12" y="-581.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="724.38" y="-581.75" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerPlayerCharacter()</text>
-<text xml:space="preserve" text-anchor="start" x="712.12" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="724.38" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">SetupPlayerInputComponent()</text>
-<text xml:space="preserve" text-anchor="start" x="712.12" y="-548.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="724.38" y="-548.25" font-family="Helvetica,sans-Serif" font-size="10.00">BeginPlay()</text>
-<text xml:space="preserve" text-anchor="start" x="714.38" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="724.38" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">Move()</text>
-<polygon fill="#666666" stroke="#666666" points="708.12,-677.25 708.12,-677.25 875.38,-677.25 875.38,-677.25 708.12,-677.25"/>
-<polygon fill="#666666" stroke="#666666" points="708.12,-593.5 708.12,-593.5 722.38,-593.5 722.38,-593.5 708.12,-593.5"/>
-<polygon fill="#666666" stroke="#666666" points="722.38,-593.5 722.38,-593.5 875.38,-593.5 875.38,-593.5 722.38,-593.5"/>
-<polygon fill="none" stroke="#666666" points="708.12,-524.5 708.12,-696 875.38,-696 875.38,-524.5 708.12,-524.5"/>
+<g id="a_Node000010"><a xlink:href="classATowerEnemyPawn.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="none" points="818.38,-712.75 663.12,-712.75 663.12,-507.75 818.38,-507.75 818.38,-712.75"/>
+<text xml:space="preserve" text-anchor="start" x="693.5" y="-699" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerEnemyPawn</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-682.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-682.25" font-family="Helvetica,sans-Serif" font-size="10.00">PawnSkeletalMesh</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-665.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-665.5" font-family="Helvetica,sans-Serif" font-size="10.00">CapsuleCollision</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-648.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-648.75" font-family="Helvetica,sans-Serif" font-size="10.00">PawnMovementComponent</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-632" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-632" font-family="Helvetica,sans-Serif" font-size="10.00">PathToFollow</text>
+<text xml:space="preserve" text-anchor="start" x="669.38" y="-615.25" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-615.25" font-family="Helvetica,sans-Serif" font-size="10.00">IsMoving</text>
+<text xml:space="preserve" text-anchor="start" x="669.38" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">PawnAIController</text>
+<text xml:space="preserve" text-anchor="start" x="669.38" y="-581.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-581.75" font-family="Helvetica,sans-Serif" font-size="10.00">CurrentSplineProgress</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerEnemyPawn()</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-548.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-548.25" font-family="Helvetica,sans-Serif" font-size="10.00">Tick()</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">BeginPlay()</text>
+<text xml:space="preserve" text-anchor="start" x="669.38" y="-514.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-514.75" font-family="Helvetica,sans-Serif" font-size="10.00">MoveActorAlongSpline()</text>
+<polygon fill="#666666" stroke="#666666" points="663.12,-694 663.12,-694 818.38,-694 818.38,-694 663.12,-694"/>
+<polygon fill="#666666" stroke="#666666" points="663.12,-576.75 663.12,-576.75 677.38,-576.75 677.38,-576.75 663.12,-576.75"/>
+<polygon fill="#666666" stroke="#666666" points="677.38,-576.75 677.38,-576.75 818.38,-576.75 818.38,-576.75 677.38,-576.75"/>
+<polygon fill="none" stroke="#666666" points="663.12,-507.75 663.12,-712.75 818.38,-712.75 818.38,-507.75 663.12,-507.75"/>
 </a>
 </g>
 </g>
@@ -624,8 +628,48 @@ var sectionId = 'dynsection-0';
 <g id="edge9_Node000006_Node000010" class="edge">
 <title>Node6&#45;&gt;Node10</title>
 <g id="a_edge9_Node000006_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M656.97,-1236.52C672.51,-1190.31 687.47,-1142.41 699.75,-1096.75 737.03,-958.2 764.87,-793.46 779.69,-695.89"/>
-<polygon fill="none" stroke="#63b8ff" points="653.7,-1235.26 653.81,-1245.85 660.33,-1237.5 653.7,-1235.26"/>
+<path fill="none" stroke="#63b8ff" d="M649.03,-1123.73C650.98,-1114.65 652.89,-1105.65 654.75,-1096.75 682.32,-964.56 708.57,-810.93 724.65,-712.48"/>
+<polygon fill="none" stroke="#63b8ff" points="645.64,-1122.84 646.95,-1133.35 652.49,-1124.32 645.64,-1122.84"/>
+</a>
+</g>
+</g>
+<!-- Node11 -->
+<g id="Node000011" class="node">
+<title>Node11</title>
+<g id="a_Node000011"><a xlink:href="classATowerPlayerCharacter.html" target="_top" xlink:title="Representation of the player character in the world.">
+<polygon fill="white" stroke="none" points="1003.38,-696 836.12,-696 836.12,-524.5 1003.38,-524.5 1003.38,-696"/>
+<text xml:space="preserve" text-anchor="start" x="863.5" y="-682.25" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerPlayerCharacter</text>
+<text xml:space="preserve" text-anchor="start" x="840.12" y="-665.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="852.38" y="-665.5" font-family="Helvetica,sans-Serif" font-size="10.00">SphereCollision</text>
+<text xml:space="preserve" text-anchor="start" x="840.12" y="-648.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="852.38" y="-648.75" font-family="Helvetica,sans-Serif" font-size="10.00">SpringArm</text>
+<text xml:space="preserve" text-anchor="start" x="840.12" y="-632" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="852.38" y="-632" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerCamera</text>
+<text xml:space="preserve" text-anchor="start" x="840.12" y="-615.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="852.38" y="-615.25" font-family="Helvetica,sans-Serif" font-size="10.00">MoveAction</text>
+<text xml:space="preserve" text-anchor="start" x="840.12" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="852.38" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">LeftClickAction</text>
+<text xml:space="preserve" text-anchor="start" x="840.12" y="-581.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="852.38" y="-581.75" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerPlayerCharacter()</text>
+<text xml:space="preserve" text-anchor="start" x="840.12" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="852.38" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">SetupPlayerInputComponent()</text>
+<text xml:space="preserve" text-anchor="start" x="840.12" y="-548.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="852.38" y="-548.25" font-family="Helvetica,sans-Serif" font-size="10.00">BeginPlay()</text>
+<text xml:space="preserve" text-anchor="start" x="842.38" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="852.38" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">Move()</text>
+<polygon fill="#666666" stroke="#666666" points="836.12,-677.25 836.12,-677.25 1003.38,-677.25 1003.38,-677.25 836.12,-677.25"/>
+<polygon fill="#666666" stroke="#666666" points="836.12,-593.5 836.12,-593.5 850.38,-593.5 850.38,-593.5 836.12,-593.5"/>
+<polygon fill="#666666" stroke="#666666" points="850.38,-593.5 850.38,-593.5 1003.38,-593.5 1003.38,-593.5 850.38,-593.5"/>
+<polygon fill="none" stroke="#666666" points="836.12,-524.5 836.12,-696 1003.38,-696 1003.38,-524.5 836.12,-524.5"/>
+</a>
+</g>
+</g>
+<!-- Node6&#45;&gt;Node11 -->
+<g id="edge10_Node000006_Node000011" class="edge">
+<title>Node6&#45;&gt;Node11</title>
+<g id="a_edge10_Node000006_Node000011"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M659.76,-1376.49C717.53,-1300.23 786.32,-1197.96 827.75,-1096.75 882.51,-962.97 905.04,-794.96 914.04,-695.75"/>
+<polygon fill="none" stroke="#63b8ff" points="657.32,-1373.91 654.04,-1383.98 662.89,-1378.15 657.32,-1373.91"/>
 </a>
 </g>
 </g>
@@ -633,18 +677,18 @@ var sectionId = 'dynsection-0';
 <g id="Node000009" class="node">
 <title>Node9</title>
 <g id="a_Node000009"><a xlink:href="classASpectatorPawn.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="none" points="649.25,-87.75 556.25,-87.75 556.25,0 649.25,0 649.25,-87.75"/>
-<text xml:space="preserve" text-anchor="start" x="563" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00">ASpectatorPawn</text>
-<text xml:space="preserve" text-anchor="start" x="599.75" y="-57.25" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<text xml:space="preserve" text-anchor="start" x="560.25" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="568" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">PossessedBy()</text>
-<text xml:space="preserve" text-anchor="start" x="560.25" y="-23.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="568" y="-23.75" font-family="Helvetica,sans-Serif" font-size="10.00">TurnAtRate()</text>
-<text xml:space="preserve" text-anchor="start" x="560.25" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="568" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">LookUpAtRate()</text>
-<polygon fill="#666666" stroke="#666666" points="556.25,-69 556.25,-69 649.25,-69 649.25,-69 556.25,-69"/>
-<polygon fill="#666666" stroke="#666666" points="556.25,-52.25 556.25,-52.25 649.25,-52.25 649.25,-52.25 556.25,-52.25"/>
-<polygon fill="none" stroke="#666666" points="556.25,0 556.25,-87.75 649.25,-87.75 649.25,0 556.25,0"/>
+<polygon fill="white" stroke="none" points="604.25,-87.75 511.25,-87.75 511.25,0 604.25,0 604.25,-87.75"/>
+<text xml:space="preserve" text-anchor="start" x="518" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00">ASpectatorPawn</text>
+<text xml:space="preserve" text-anchor="start" x="554.75" y="-57.25" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text xml:space="preserve" text-anchor="start" x="515.25" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="523" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">PossessedBy()</text>
+<text xml:space="preserve" text-anchor="start" x="515.25" y="-23.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="523" y="-23.75" font-family="Helvetica,sans-Serif" font-size="10.00">TurnAtRate()</text>
+<text xml:space="preserve" text-anchor="start" x="515.25" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="523" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">LookUpAtRate()</text>
+<polygon fill="#666666" stroke="#666666" points="511.25,-69 511.25,-69 604.25,-69 604.25,-69 511.25,-69"/>
+<polygon fill="#666666" stroke="#666666" points="511.25,-52.25 511.25,-52.25 604.25,-52.25 604.25,-52.25 511.25,-52.25"/>
+<polygon fill="none" stroke="#666666" points="511.25,0 511.25,-87.75 604.25,-87.75 604.25,0 511.25,0"/>
 </a>
 </g>
 </g>
@@ -652,8 +696,8 @@ var sectionId = 'dynsection-0';
 <g id="edge8_Node000008_Node000009" class="edge">
 <title>Node8&#45;&gt;Node9</title>
 <g id="a_edge8_Node000008_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M602.75,-429.87C602.75,-309.34 602.75,-159.84 602.75,-87.73"/>
-<polygon fill="none" stroke="#63b8ff" points="599.25,-429.55 602.75,-439.55 606.25,-429.55 599.25,-429.55"/>
+<path fill="none" stroke="#63b8ff" d="M557.75,-429.87C557.75,-309.34 557.75,-159.84 557.75,-87.73"/>
+<polygon fill="none" stroke="#63b8ff" points="554.25,-429.55 557.75,-439.55 561.25,-429.55 554.25,-429.55"/>
 </a>
 </g>
 </g>

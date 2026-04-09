@@ -6,16 +6,18 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="371,246,373,581,368,581,370,251"/>
 <area shape="rect" id="Node000006" href="$classAPawn.html" title=" " alt="" coords="622,285,876,1262"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="466,244,493,281,561,395,624,512,619,513,556,398,488,283,467,249"/>
-<area shape="rect" id="Node000004" href="$classAPlayerStart.html" title=" " alt="" coords="248,1925,370,1998"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="362,979,313,1926,308,1925,357,982"/>
-<area shape="rect" id="Node000005" href="$classAPlayerStartPIE.html" title=" " alt="" coords="253,2680,365,2753"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="312,2012,312,2681,306,2680,306,2013"/>
-<area shape="rect" id="Node000007" href="$classACharacter.html" title=" " alt="" coords="393,1313,667,2610"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="657,1274,652,1314,647,1312,656,1279"/>
-<area shape="rect" id="Node000008" href="$classADefaultPawn.html" title=" " alt="" coords="692,1735,926,2187"/>
-<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="776,1274,800,1736,795,1735,773,1279"/>
-<area shape="rect" id="Node000010" href="$classATowerPlayerCharacter.html" title="Representation of the player character in the world." alt="" coords="950,1847,1172,2076"/>
-<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="882,1124,941,1312,976,1455,1005,1600,1048,1848,1042,1847,1000,1601,971,1456,936,1313,881,1129"/>
-<area shape="rect" id="Node000009" href="$classASpectatorPawn.html" title=" " alt="" coords="747,2658,871,2775"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="811,2200,812,2659,806,2657,807,2203"/>
+<area shape="rect" id="Node000004" href="$classAPlayerStart.html" title=" " alt="" coords="188,1925,310,1998"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="352,980,255,1926,250,1925,347,982"/>
+<area shape="rect" id="Node000005" href="$classAPlayerStartPIE.html" title=" " alt="" coords="193,2680,305,2753"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="252,2012,252,2681,246,2681,246,2013"/>
+<area shape="rect" id="Node000007" href="$classACharacter.html" title=" " alt="" coords="333,1313,607,2610"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="629,1274,622,1313,610,1366,605,1365,617,1312,627,1279"/>
+<area shape="rect" id="Node000008" href="$classADefaultPawn.html" title=" " alt="" coords="632,1735,866,2187"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="750,1274,752,1736,746,1735,748,1279"/>
+<area shape="rect" id="Node000010" href="$classATowerEnemyPawn.html" title=" " alt="" coords="890,1825,1096,2098"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="871,1274,881,1312,933,1585,974,1826,969,1825,928,1586,876,1313,870,1279"/>
+<area shape="rect" id="Node000011" href="$classATowerPlayerCharacter.html" title="Representation of the player character in the world." alt="" coords="1120,1847,1343,2076"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="885,937,947,1020,1007,1112,1064,1211,1111,1312,1137,1381,1159,1452,1192,1597,1214,1733,1227,1848,1222,1846,1209,1733,1187,1598,1154,1454,1132,1382,1107,1314,1059,1213,1003,1115,943,1023,885,942"/>
+<area shape="rect" id="Node000009" href="$classASpectatorPawn.html" title=" " alt="" coords="687,2658,811,2775"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="751,2200,752,2659,746,2657,747,2203"/>
 </map>

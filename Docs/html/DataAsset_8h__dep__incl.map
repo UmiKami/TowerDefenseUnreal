@@ -1,13 +1,22 @@
 <map id="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Engine/DataAsset.h" name="/opt/unreal&#45;engine/Engine/Source/Runtime/Engine/Classes/Engine/DataAsset.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="433,5,610,84"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="540,5,716,84"/>
 <area shape="rect" id="Node000002" href="$PreviewMeshCollection_8h.html" title=" " alt="" coords="5,132,195,211"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="417,75,207,135,196,138,194,133,206,129,419,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="522,64,374,95,207,135,197,138,194,133,206,129,373,89,526,62"/>
 <area shape="rect" id="Node000003" href="$PrimaryAssetLabel_8h.html" title=" " alt="" coords="218,132,395,211"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="444,91,374,134,372,129,439,93"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="523,87,396,138,394,133,528,84"/>
 <area shape="rect" id="Node000004" href="$SkeletalMeshLODSettings_8h.html" title=" " alt="" coords="419,132,624,211"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="523,98,523,133,519,130,520,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="587,94,556,134,553,129,583,98"/>
 <area shape="rect" id="Node000005" href="$TextureCollection_8h.html" title=" " alt="" coords="648,132,824,211"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="602,89,672,132,667,131,600,95"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="672,94,705,132,700,131,671,99"/>
 <area shape="rect" id="Node000006" href="$TireType_8h.html" title=" " alt="" coords="849,132,1031,211"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="625,69,837,129,851,136,846,136,835,135,624,75"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="731,84,851,133,846,134,730,89"/>
+<area shape="rect" id="Node000007" href="$TowerClassInfo_8h.html" title=" " alt="" coords="1055,149,1225,194"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="732,60,880,89,1043,129,1092,149,1087,148,1042,135,879,94,732,65"/>
+<area shape="rect" id="Node000008" href="$TowerActorBase_8cpp.html" title=" " alt="" coords="1080,351,1274,396"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1091,202,1064,226,1042,250,1032,276,1033,289,1038,302,1064,329,1098,351,1093,350,1061,333,1034,305,1028,290,1027,275,1038,247,1060,222,1087,204"/>
+<area shape="rect" id="Node000009" href="$TowerClassInfo_8cpp.html" title=" " alt="" coords="1047,259,1233,303"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="1142,208,1142,260,1138,256,1138,211"/>
+<area shape="rect" id="Node000010" href="$TowerActorBase_8h.html" title=" " alt="" coords="1257,259,1436,303"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="1196,199,1308,258,1302,258,1194,204"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="1295,310,1218,354,1217,348,1290,312"/>
 </map>

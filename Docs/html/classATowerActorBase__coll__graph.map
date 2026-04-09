@@ -1,0 +1,20 @@
+<map id="ATowerActorBase" name="ATowerActorBase">
+<area shape="rect" id="Node000001" title="The actual tower actor player will be spawning in the world." alt="" coords="76,1535,246,1808"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,1370,59,1442"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,1453,98,1535,92,1536,55,1458"/>
+<area shape="rect" id="Node000003" href="$classITowerEnemyInterface.html" title=" " alt="" coords="84,1370,239,1442"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,1455,164,1536,159,1535,161,1460"/>
+<area shape="rect" id="Node000004" href="$structFTowerClasDefaultInfo.html" title="This struct contains information about each class including the amount of damage per level,..." alt="" coords="263,1350,473,1462"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="327,1460,259,1551,255,1547,324,1464"/>
+<area shape="rect" id="Node000005" href="$structFRealCurve.html" title=" " alt="" coords="284,937,452,1277"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="369,1275,371,1334,366,1333,367,1280"/>
+<area shape="poly" id="edge10_Node000005_Node000005" title=" " alt="" coords="451,1070,472,1084,479,1107,476,1122,469,1134,465,1131,471,1121,474,1107,467,1087,452,1076"/>
+<area shape="rect" id="Node000006" href="$structFIndexedCurve.html" title=" " alt="" coords="447,396,678,888"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="455,899,441,939,437,937,453,904"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="678,595,698,613,705,642,702,662,694,677,689,674,697,660,700,642,693,616,679,601"/>
+<area shape="rect" id="Node000007" href="$structFKeyHandle.html" title=" " alt="" coords="282,61,406,268"/>
+<area shape="poly" id="edge9_Node000005_Node000007" title=" " alt="" coords="323,265,307,397,295,535,289,643,292,750,307,887,313,921,308,920,302,888,287,750,284,642,290,534,302,396,323,270"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="391,264,446,381,441,381,391,270"/>
+<area shape="rect" id="Node000008" href="$structFKeyHandleMap.html" title=" " alt="" coords="481,5,645,323"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="563,321,565,380,560,379,562,326"/>
+</map>

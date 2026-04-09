@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 1031;
+var viewWidth = 1142;
 var viewHeight = 491;
 var sectionId = 'dynsection-1';
 </script>
@@ -59,11 +59,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="527.88,-483 348.38,-483 348.38,-424 527.88,-424 527.88,-483"/>
-<text xml:space="preserve" text-anchor="start" x="356.38" y="-469.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="356.38" y="-456.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="356.38" y="-444" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="438.12" y="-431.25" font-family="Helvetica,sans-Serif" font-size="10.00">/Pawn.h</text>
+<polygon fill="#999999" stroke="#666666" points="626.88,-483 447.38,-483 447.38,-424 626.88,-424 626.88,-483"/>
+<text xml:space="preserve" text-anchor="start" x="455.38" y="-469.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="455.38" y="-456.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="455.38" y="-444" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="537.12" y="-431.25" font-family="Helvetica,sans-Serif" font-size="10.00">/Pawn.h</text>
 </a>
 </g>
 </g>
@@ -83,8 +83,8 @@ var sectionId = 'dynsection-1';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M336.91,-434.41C279.03,-423.1 205.4,-407.07 141.12,-388 138.32,-387.17 135.47,-386.28 132.6,-385.35"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="335.92,-437.79 346.41,-436.25 337.25,-430.91 335.92,-437.79"/>
+<path fill="none" stroke="#63b8ff" d="M436.02,-441.74C355.29,-431.78 239.75,-414.48 141.12,-388 138.3,-387.24 135.43,-386.42 132.55,-385.54"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="435.32,-445.18 445.67,-442.91 436.17,-438.23 435.32,-445.18"/>
 </a>
 </g>
 </g>
@@ -104,8 +104,8 @@ var sectionId = 'dynsection-1';
 <g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
 <g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M366.32,-418.77C345.13,-408.82 322.13,-398.02 301.65,-388.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="364.65,-421.86 375.19,-422.94 367.63,-415.52 364.65,-421.86"/>
+<path fill="none" stroke="#63b8ff" d="M436.65,-421.04C402.18,-410.24 363.84,-398.24 330.25,-387.72"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="435.18,-424.24 445.76,-423.89 437.27,-417.56 435.18,-424.24"/>
 </a>
 </g>
 </g>
@@ -125,8 +125,8 @@ var sectionId = 'dynsection-1';
 <g id="edge3_Node000001_Node000004" class="edge">
 <title>Node1&#45;&gt;Node4</title>
 <g id="a_edge3_Node000001_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M438.12,-412.16C438.12,-404.16 438.12,-395.92 438.12,-388.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="434.63,-412.07 438.13,-422.07 441.63,-412.07 434.63,-412.07"/>
+<path fill="none" stroke="#63b8ff" d="M498.02,-415.76C488.34,-406.67 478.11,-397.06 468.89,-388.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="495.56,-418.25 505.24,-422.55 500.35,-413.15 495.56,-418.25"/>
 </a>
 </g>
 </g>
@@ -146,18 +146,18 @@ var sectionId = 'dynsection-1';
 <g id="edge5_Node000001_Node000006" class="edge">
 <title>Node1&#45;&gt;Node6</title>
 <g id="a_edge5_Node000001_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M509.93,-418.77C531.12,-408.82 554.12,-398.02 574.6,-388.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="508.62,-415.52 501.06,-422.94 511.6,-421.86 508.62,-415.52"/>
+<path fill="none" stroke="#63b8ff" d="M576.23,-415.76C585.91,-406.67 596.14,-397.06 605.36,-388.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="573.9,-413.15 569.01,-422.55 578.69,-418.25 573.9,-413.15"/>
 </a>
 </g>
 </g>
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_Node000014"><a xlink:href="TowerPlayerCharacter_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1014.25,-375.25 846,-375.25 846,-341.75 1014.25,-341.75 1014.25,-375.25"/>
-<text xml:space="preserve" text-anchor="start" x="854" y="-361.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
-<text xml:space="preserve" text-anchor="middle" x="930.12" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00">/Player/TowerPlayerCharacter.h</text>
+<g id="a_Node000014"><a xlink:href="TowerEnemyPawn_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="929,-375.25 747.25,-375.25 747.25,-341.75 929,-341.75 929,-375.25"/>
+<text xml:space="preserve" text-anchor="start" x="755.25" y="-361.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
+<text xml:space="preserve" text-anchor="middle" x="838.12" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/Enemy/TowerEnemyPawn.h</text>
 </a>
 </g>
 </g>
@@ -165,8 +165,27 @@ var sectionId = 'dynsection-1';
 <g id="edge13_Node000001_Node000014" class="edge">
 <title>Node1&#45;&gt;Node14</title>
 <g id="a_edge13_Node000001_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M539.47,-433.34C629.95,-416.24 760.92,-391.48 845.8,-375.44"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="539.03,-429.86 529.85,-435.16 540.33,-436.74 539.03,-429.86"/>
+<path fill="none" stroke="#63b8ff" d="M637.8,-421.39C687.39,-406.07 745.1,-388.24 785.81,-375.66"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="636.99,-417.98 628.47,-424.28 639.06,-424.67 636.99,-417.98"/>
+</a>
+</g>
+</g>
+<!-- Node16 -->
+<g id="Node000016" class="node">
+<title>Node16</title>
+<g id="a_Node000016"><a xlink:href="TowerPlayerCharacter_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1123.25,-375.25 955,-375.25 955,-341.75 1123.25,-341.75 1123.25,-375.25"/>
+<text xml:space="preserve" text-anchor="start" x="963" y="-361.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
+<text xml:space="preserve" text-anchor="middle" x="1039.12" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00">/Player/TowerPlayerCharacter.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge15_Node000001_Node000016" class="edge">
+<title>Node1&#45;&gt;Node16</title>
+<g id="a_edge15_Node000001_Node000016"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M638.52,-439.49C719.96,-428.26 837.02,-410.32 938.12,-388 953.78,-384.54 970.61,-380.1 985.95,-375.75"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="638.2,-436 628.77,-440.83 639.15,-442.94 638.2,-436"/>
 </a>
 </g>
 </g>
@@ -174,11 +193,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="SpectatorPawn_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="428.88,-293 249.38,-293 249.38,-234 428.88,-234 428.88,-293"/>
-<text xml:space="preserve" text-anchor="start" x="257.38" y="-279.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="257.38" y="-266.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="257.38" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="339.12" y="-241.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SpectatorPawn.h</text>
+<polygon fill="white" stroke="#666666" points="329.88,-293 150.38,-293 150.38,-234 329.88,-234 329.88,-293"/>
+<text xml:space="preserve" text-anchor="start" x="158.38" y="-279.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="158.38" y="-266.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="158.38" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="240.12" y="-241.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SpectatorPawn.h</text>
 </a>
 </g>
 </g>
@@ -186,8 +205,8 @@ var sectionId = 'dynsection-1';
 <g id="edge4_Node000004_Node000005" class="edge">
 <title>Node4&#45;&gt;Node5</title>
 <g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M399.02,-320.76C389.34,-311.67 379.11,-302.06 369.89,-293.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="396.56,-323.25 406.24,-327.55 401.35,-318.15 396.56,-323.25"/>
+<path fill="none" stroke="#63b8ff" d="M366.32,-323.77C345.13,-313.82 322.13,-303.02 301.65,-293.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="364.65,-326.86 375.19,-327.94 367.63,-320.52 364.65,-326.86"/>
 </a>
 </g>
 </g>
@@ -195,11 +214,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:href="GameMode_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="626.88,-293 447.38,-293 447.38,-234 626.88,-234 626.88,-293"/>
-<text xml:space="preserve" text-anchor="start" x="455.38" y="-279.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="455.38" y="-266.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="455.38" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="537.12" y="-241.25" font-family="Helvetica,sans-Serif" font-size="10.00">/GameMode.h</text>
+<polygon fill="white" stroke="#666666" points="527.88,-293 348.38,-293 348.38,-234 527.88,-234 527.88,-293"/>
+<text xml:space="preserve" text-anchor="start" x="356.38" y="-279.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="356.38" y="-266.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="356.38" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="438.12" y="-241.25" font-family="Helvetica,sans-Serif" font-size="10.00">/GameMode.h</text>
 </a>
 </g>
 </g>
@@ -207,8 +226,8 @@ var sectionId = 'dynsection-1';
 <g id="edge6_Node000006_Node000007" class="edge">
 <title>Node6&#45;&gt;Node7</title>
 <g id="a_edge6_Node000006_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M597.02,-320.76C587.34,-311.67 577.11,-302.06 567.89,-293.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="594.56,-323.25 604.24,-327.55 599.35,-318.15 594.56,-323.25"/>
+<path fill="none" stroke="#63b8ff" d="M564.32,-323.77C543.13,-313.82 520.13,-303.02 499.65,-293.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="562.65,-326.86 573.19,-327.94 565.63,-320.52 562.65,-326.86"/>
 </a>
 </g>
 </g>
@@ -216,11 +235,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:href="GameStateBase_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="824.88,-293 645.38,-293 645.38,-234 824.88,-234 824.88,-293"/>
-<text xml:space="preserve" text-anchor="start" x="653.38" y="-279.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="653.38" y="-266.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="653.38" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="735.12" y="-241.25" font-family="Helvetica,sans-Serif" font-size="10.00">/GameStateBase.h</text>
+<polygon fill="white" stroke="#666666" points="725.88,-293 546.38,-293 546.38,-234 725.88,-234 725.88,-293"/>
+<text xml:space="preserve" text-anchor="start" x="554.38" y="-279.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="554.38" y="-266.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="554.38" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="636.12" y="-241.25" font-family="Helvetica,sans-Serif" font-size="10.00">/GameStateBase.h</text>
 </a>
 </g>
 </g>
@@ -228,8 +247,8 @@ var sectionId = 'dynsection-1';
 <g id="edge9_Node000006_Node000010" class="edge">
 <title>Node6&#45;&gt;Node10</title>
 <g id="a_edge9_Node000006_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M675.23,-320.76C684.91,-311.67 695.14,-302.06 704.36,-293.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="672.9,-318.15 668.01,-327.55 677.69,-323.25 672.9,-318.15"/>
+<path fill="none" stroke="#63b8ff" d="M636.12,-317.16C636.12,-309.16 636.12,-300.92 636.12,-293.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="632.63,-317.07 636.13,-327.07 639.63,-317.07 632.63,-317.07"/>
 </a>
 </g>
 </g>
@@ -237,9 +256,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000008" class="node">
 <title>Node8</title>
 <g id="a_Node000008"><a xlink:href="TowerGameMode_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="609.62,-185.25 464.62,-185.25 464.62,-151.75 609.62,-151.75 609.62,-185.25"/>
-<text xml:space="preserve" text-anchor="start" x="472.62" y="-171.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
-<text xml:space="preserve" text-anchor="middle" x="537.12" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00">/Game/TowerGameMode.h</text>
+<polygon fill="white" stroke="#666666" points="510.62,-185.25 365.62,-185.25 365.62,-151.75 510.62,-151.75 510.62,-185.25"/>
+<text xml:space="preserve" text-anchor="start" x="373.62" y="-171.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
+<text xml:space="preserve" text-anchor="middle" x="438.12" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00">/Game/TowerGameMode.h</text>
 </a>
 </g>
 </g>
@@ -247,8 +266,8 @@ var sectionId = 'dynsection-1';
 <g id="edge7_Node000007_Node000008" class="edge">
 <title>Node7&#45;&gt;Node8</title>
 <g id="a_edge7_Node000007_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M537.12,-222.08C537.12,-209.23 537.12,-195.76 537.12,-185.67"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="533.63,-222.07 537.13,-232.07 540.63,-222.07 533.63,-222.07"/>
+<path fill="none" stroke="#63b8ff" d="M438.12,-222.08C438.12,-209.23 438.12,-195.76 438.12,-185.67"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="434.63,-222.07 438.13,-232.07 441.63,-222.07 434.63,-222.07"/>
 </a>
 </g>
 </g>
@@ -256,9 +275,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000009" class="node">
 <title>Node9</title>
 <g id="a_Node000009"><a xlink:href="TowerGameMode_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="615.25,-103 459,-103 459,-69.5 615.25,-69.5 615.25,-103"/>
-<text xml:space="preserve" text-anchor="start" x="467" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
-<text xml:space="preserve" text-anchor="middle" x="537.12" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Game/TowerGameMode.cpp</text>
+<polygon fill="white" stroke="#666666" points="516.25,-103 360,-103 360,-69.5 516.25,-69.5 516.25,-103"/>
+<text xml:space="preserve" text-anchor="start" x="368" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
+<text xml:space="preserve" text-anchor="middle" x="438.12" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Game/TowerGameMode.cpp</text>
 </a>
 </g>
 </g>
@@ -266,8 +285,8 @@ var sectionId = 'dynsection-1';
 <g id="edge8_Node000008_Node000009" class="edge">
 <title>Node8&#45;&gt;Node9</title>
 <g id="a_edge8_Node000008_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M537.12,-139.88C537.12,-127.74 537.12,-113.9 537.12,-103.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="533.63,-139.75 537.13,-149.75 540.63,-139.75 533.63,-139.75"/>
+<path fill="none" stroke="#63b8ff" d="M438.12,-139.88C438.12,-127.74 438.12,-113.9 438.12,-103.47"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="434.63,-139.75 438.13,-149.75 441.63,-139.75 434.63,-139.75"/>
 </a>
 </g>
 </g>
@@ -275,11 +294,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000011" class="node">
 <title>Node11</title>
 <g id="a_Node000011"><a xlink:href="GameState_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="824.88,-198 645.38,-198 645.38,-139 824.88,-139 824.88,-198"/>
-<text xml:space="preserve" text-anchor="start" x="653.38" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="653.38" y="-171.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="653.38" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="735.12" y="-146.25" font-family="Helvetica,sans-Serif" font-size="10.00">/GameState.h</text>
+<polygon fill="white" stroke="#666666" points="725.88,-198 546.38,-198 546.38,-139 725.88,-139 725.88,-198"/>
+<text xml:space="preserve" text-anchor="start" x="554.38" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="554.38" y="-171.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="554.38" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="636.12" y="-146.25" font-family="Helvetica,sans-Serif" font-size="10.00">/GameState.h</text>
 </a>
 </g>
 </g>
@@ -287,8 +306,8 @@ var sectionId = 'dynsection-1';
 <g id="edge10_Node000010_Node000011" class="edge">
 <title>Node10&#45;&gt;Node11</title>
 <g id="a_edge10_Node000010_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M735.12,-222.16C735.12,-214.16 735.12,-205.92 735.12,-198.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="731.63,-222.07 735.13,-232.07 738.63,-222.07 731.63,-222.07"/>
+<path fill="none" stroke="#63b8ff" d="M636.12,-222.16C636.12,-214.16 636.12,-205.92 636.12,-198.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="632.63,-222.07 636.13,-232.07 639.63,-222.07 632.63,-222.07"/>
 </a>
 </g>
 </g>
@@ -296,9 +315,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000012" class="node">
 <title>Node12</title>
 <g id="a_Node000012"><a xlink:href="TowerGameState_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="806.88,-103 663.38,-103 663.38,-69.5 806.88,-69.5 806.88,-103"/>
-<text xml:space="preserve" text-anchor="start" x="671.38" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
-<text xml:space="preserve" text-anchor="middle" x="735.12" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Game/TowerGameState.h</text>
+<polygon fill="white" stroke="#666666" points="707.88,-103 564.38,-103 564.38,-69.5 707.88,-69.5 707.88,-103"/>
+<text xml:space="preserve" text-anchor="start" x="572.38" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
+<text xml:space="preserve" text-anchor="middle" x="636.12" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Game/TowerGameState.h</text>
 </a>
 </g>
 </g>
@@ -306,8 +325,8 @@ var sectionId = 'dynsection-1';
 <g id="edge11_Node000011_Node000012" class="edge">
 <title>Node11&#45;&gt;Node12</title>
 <g id="a_edge11_Node000011_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M735.12,-127.14C735.12,-118.7 735.12,-110.27 735.12,-103.35"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="731.63,-127.01 735.13,-137.01 738.63,-127.01 731.63,-127.01"/>
+<path fill="none" stroke="#63b8ff" d="M636.12,-127.14C636.12,-118.7 636.12,-110.27 636.12,-103.35"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="632.63,-127.01 636.13,-137.01 639.63,-127.01 632.63,-127.01"/>
 </a>
 </g>
 </g>
@@ -315,9 +334,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000013" class="node">
 <title>Node13</title>
 <g id="a_Node000013"><a xlink:href="TowerGameState_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="812.5,-33.5 657.75,-33.5 657.75,0 812.5,0 812.5,-33.5"/>
-<text xml:space="preserve" text-anchor="start" x="665.75" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
-<text xml:space="preserve" text-anchor="middle" x="735.12" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/Game/TowerGameState.cpp</text>
+<polygon fill="white" stroke="#666666" points="713.5,-33.5 558.75,-33.5 558.75,0 713.5,0 713.5,-33.5"/>
+<text xml:space="preserve" text-anchor="start" x="566.75" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
+<text xml:space="preserve" text-anchor="middle" x="636.12" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/Game/TowerGameState.cpp</text>
 </a>
 </g>
 </g>
@@ -325,18 +344,18 @@ var sectionId = 'dynsection-1';
 <g id="edge12_Node000012_Node000013" class="edge">
 <title>Node12&#45;&gt;Node13</title>
 <g id="a_edge12_Node000012_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M735.12,-57.81C735.12,-49.59 735.12,-40.84 735.12,-33.63"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="731.63,-57.74 735.13,-67.74 738.63,-57.74 731.63,-57.74"/>
+<path fill="none" stroke="#63b8ff" d="M636.12,-57.81C636.12,-49.59 636.12,-40.84 636.12,-33.63"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="632.63,-57.74 636.13,-67.74 639.63,-57.74 632.63,-57.74"/>
 </a>
 </g>
 </g>
 <!-- Node15 -->
 <g id="Node000015" class="node">
 <title>Node15</title>
-<g id="a_Node000015"><a xlink:href="TowerPlayerCharacter_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1022.88,-280.25 843.38,-280.25 843.38,-246.75 1022.88,-246.75 1022.88,-280.25"/>
-<text xml:space="preserve" text-anchor="start" x="851.38" y="-266.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
-<text xml:space="preserve" text-anchor="middle" x="933.12" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">/Player/TowerPlayerCharacter.cpp</text>
+<g id="a_Node000015"><a xlink:href="TowerEnemyPawn_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="936.62,-280.25 743.62,-280.25 743.62,-246.75 936.62,-246.75 936.62,-280.25"/>
+<text xml:space="preserve" text-anchor="start" x="751.62" y="-266.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
+<text xml:space="preserve" text-anchor="middle" x="840.12" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/Enemy/TowerEnemyPawn.cpp</text>
 </a>
 </g>
 </g>
@@ -344,8 +363,27 @@ var sectionId = 'dynsection-1';
 <g id="edge14_Node000014_Node000015" class="edge">
 <title>Node14&#45;&gt;Node15</title>
 <g id="a_edge14_Node000014_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M931.02,-329.87C931.54,-313.78 932.17,-294.06 932.61,-280.51"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="927.52,-329.68 930.7,-339.79 934.52,-329.91 927.52,-329.68"/>
+<path fill="none" stroke="#63b8ff" d="M838.72,-329.87C839.07,-313.78 839.49,-294.06 839.78,-280.51"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="835.22,-329.71 838.51,-339.79 842.22,-329.87 835.22,-329.71"/>
+</a>
+</g>
+</g>
+<!-- Node17 -->
+<g id="Node000017" class="node">
+<title>Node17</title>
+<g id="a_Node000017"><a xlink:href="TowerPlayerCharacter_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1133.88,-280.25 954.38,-280.25 954.38,-246.75 1133.88,-246.75 1133.88,-280.25"/>
+<text xml:space="preserve" text-anchor="start" x="962.38" y="-266.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
+<text xml:space="preserve" text-anchor="middle" x="1044.12" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">/Player/TowerPlayerCharacter.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node16&#45;&gt;Node17 -->
+<g id="edge16_Node000016_Node000017" class="edge">
+<title>Node16&#45;&gt;Node17</title>
+<g id="a_edge16_Node000016_Node000017"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1040.61,-329.87C1041.48,-313.78 1042.54,-294.06 1043.26,-280.51"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1037.12,-329.62 1040.08,-339.79 1044.11,-329.99 1037.12,-329.62"/>
 </a>
 </g>
 </g>

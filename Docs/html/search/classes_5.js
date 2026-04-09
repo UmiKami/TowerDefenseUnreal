@@ -57,5 +57,6 @@ var searchData=
   ['ispatialaccelerationcollection_54',['ISpatialAccelerationCollection',['../classChaos_1_1ISpatialAccelerationCollection.html',1,'Chaos']]],
   ['istaticmeshcomponent_55',['IStaticMeshComponent',['../classIStaticMeshComponent.html',1,'']]],
   ['itexturestreamingcontainer_56',['ITextureStreamingContainer',['../structITextureStreamingContainer.html',1,'']]],
-  ['ivisitorbase_57',['IVisitorBase',['../classAudio_1_1Quartz_1_1PrivateDefs_1_1TVisitorPatternBase_1_1IVisitorBase.html',1,'Audio::Quartz::PrivateDefs::TVisitorPatternBase']]]
+  ['itowerenemyinterface_57',['ITowerEnemyInterface',['../classITowerEnemyInterface.html',1,'']]],
+  ['ivisitorbase_58',['IVisitorBase',['../classAudio_1_1Quartz_1_1PrivateDefs_1_1TVisitorPatternBase_1_1IVisitorBase.html',1,'Audio::Quartz::PrivateDefs::TVisitorPatternBase']]]
 ];

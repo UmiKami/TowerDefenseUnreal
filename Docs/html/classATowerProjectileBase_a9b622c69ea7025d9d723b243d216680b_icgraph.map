@@ -1,0 +1,5 @@
+<map id="ATowerProjectileBase::LaunchAtTarget" name="ATowerProjectileBase::LaunchAtTarget">
+<area shape="rect" id="Node000001" title="Launches the projectile toward a target with the option of using ballistic arc." alt="" coords="214,5,374,50"/>
+<area shape="rect" id="Node000002" href="$classATowerProjectileBase.html#ac6fedce8bb3d8edd208e55e4aece578a" title="Validates parameters and checks if projectile can be launch, if it can be launch then it we will call..." alt="" coords="5,5,166,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,28,166,30,166,25,201,27"/>
+</map>
