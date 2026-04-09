@@ -38,6 +38,8 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
+	UPROPERTY(EditDefaultsOnly)
+	TObjectPtr<USceneComponent> SceneComponent;
 	/**
 	 * @brief Cosmetic mesh that is mostly invisible and allows to check for collision overlaps within @see TowerAttackRange.
 	 * 
@@ -53,7 +55,7 @@ protected:
 	 * @brief Determines how far the tower can shoot from and detect enemies.
 	 */
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-	float TowerAttackRange = 1.2f;
+	float TowerAttackRange = 20.f;
 	
 	/**
 	 * @brief Tower level is used to determine damage and display mesh among other things.
@@ -63,7 +65,7 @@ protected:
 	
 	/**
 	 * @brief Amount of damage tower projectile will deal. Based on a curve.
-	 */
+	 */ 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	float Damage = 10.f;
 	
