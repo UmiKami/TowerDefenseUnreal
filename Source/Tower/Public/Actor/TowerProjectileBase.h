@@ -22,15 +22,30 @@ protected:
 	virtual void BeginPlay() override;
 	
 	/**
-	 * @brief Launches the projectile toward a target with the option of using ballistic arc.
+	 * @brief Validates parameters and checks if projectile can be launch, if it can be launch then it we will call @see LaunchAtTarget() method.
 	 * @param StartLocation Where the projectile spawns.
 	 * @param EndLocation   Where it should land.
 	 * @param Damage		Amount of Damage that it should do on hit
+	 * @param InitSpeed		Initial velocity of projectile on Spawn
+	 * @param InMaxSpeed	Maximum possible velocity.
 	 * @param ArcHeight     How high the arc peaks above the midpoint. 
 	 *                      Higher = floatier, lower = flatter.
 	 */
 	UFUNCTION()
-	virtual void LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage,bool bHasArch = false, float ArcHeight = 500.f);
+	void TryLaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, float InitSpeed, float InMaxSpeed, bool bHasArch = false, float ArcHeight = 500.f);
+	
+	/**
+	 * @brief Launches the projectile toward a target with the option of using ballistic arc.
+	 * @param StartLocation Where the projectile spawns.
+	 * @param EndLocation   Where it should land.
+	 * @param Damage		Amount of Damage that it should do on hit
+	 * @param InitSpeed		Initial velocity of projectile on Spawn
+	 * @param InMaxSpeed	Maximum possible velocity.
+	 * @param ArcHeight     How high the arc peaks above the midpoint. 
+	 *                      Higher = floatier, lower = flatter.
+	 */
+	UFUNCTION()
+	virtual void LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, float InitSpeed, float InMaxSpeed, bool bHasArch = false, float ArcHeight = 500.f);
 	
 	/**
 	 * @brief Called when the projectile hits something.

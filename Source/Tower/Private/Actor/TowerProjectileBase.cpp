@@ -39,9 +39,28 @@ void ATowerProjectileBase::BeginPlay()
 	SetLifeSpan(10.f);
 }
 
-void ATowerProjectileBase::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, bool bHasArch, float ArcHeight)
+void ATowerProjectileBase::TryLaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, float InitSpeed, float InMaxSpeed, bool bHasArch, float ArcHeight)
+{
+	if (Damage <= 0)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Damage cannot be 0 or less."))
+		return;
+	}
+	
+	if (InMaxSpeed <= 0 || InitSpeed <= 0)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Speed values cannot 0 or less."))
+		return;
+	}
+	
+	LaunchAtTarget(StartLocation, EndLocation, Damage, InitSpeed, InMaxSpeed, bHasArch, ArcHeight);
+}
+
+void ATowerProjectileBase::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, float InitSpeed, float InMaxSpeed, bool bHasArch, float ArcHeight)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Projectile %s Launched from %s."), *GetName(), StartLocation.ToString());
+	
+
 }
 
 void ATowerProjectileBase::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
