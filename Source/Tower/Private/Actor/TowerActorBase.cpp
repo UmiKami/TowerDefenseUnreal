@@ -3,6 +3,7 @@
 
 #include "Actor/TowerActorBase.h"
 
+#include "Actor/Projectile/TowerLinearProjectile.h"
 #include "Data/TowerClassInfo.h"
 
 ATowerActorBase::ATowerActorBase()
@@ -10,11 +11,14 @@ ATowerActorBase::ATowerActorBase()
 	PrimaryActorTick.bCanEverTick = false;;
 	DisableComponentsSimulatePhysics();
 	
-	TowerRangeDiskMesh = CreateDefaultSubobject<UStaticMeshComponent>("TowerRangeDisk");
+	SceneComponent = CreateDefaultSubobject<USceneComponent>("SceneComponent");
+	SetRootComponent(SceneComponent);
 	
-	SetRootComponent(TowerRangeDiskMesh);
+	TowerRangeDiskMesh = CreateDefaultSubobject<UStaticMeshComponent>("TowerRangeDisk");
+	TowerRangeDiskMesh->SetupAttachment(RootComponent);
 	
 	TowerMesh = CreateDefaultSubobject<USkeletalMeshComponent>("TowerSkeletalMesh");
+	TowerMesh->SetupAttachment(RootComponent);
 }
 
 void ATowerActorBase::SetTowerClass(const ETowerClass& InTowerClass)
@@ -32,11 +36,12 @@ void ATowerActorBase::BeginPlay()
 	USkeletalMesh* SkeletalMeshComponent = *TowerClasDefaultInfo->SkeletalMeshComponentPerLevel.Find(Level);
 	
 	TowerMesh->SetSkeletalMesh(SkeletalMeshComponent);
-	Damage = TowerClasDefaultInfo->DamageCurve.Eval(Level);
+	Damage = TowerClasDefaultInfo->DamageCurve.GetCurve("DamageCurve Not Found")->Eval(Level);
 	
 	TowerRangeDiskMesh->SetRelativeScale3D({TowerAttackRange, TowerAttackRange, .2f});
 	
 	TowerRangeDiskMesh->OnComponentBeginOverlap.AddDynamic(this, &ThisClass::OnActorOverlap);
+	
 }
 
 void ATowerActorBase::OnActorOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -44,4 +49,22 @@ void ATowerActorBase::OnActorOverlap(UPrimitiveComponent* OverlappedComponent, A
 	if (!OtherActor->Implements<UTowerEnemyInterface>()) return;
 	
 	// TODO Spawn and launch projectile towards actor location
+
+	FVector StartLocation = TowerMesh->GetSocketLocation("ArrowFirePoint");
+
+	FVector EndLocation = OtherActor->GetTargetLocation();
+	FVector Direction = (EndLocation - StartLocation).GetSafeNormal();
+	
+	FRotator SpawnRotation = Direction.Rotation();
+	
+	FActorSpawnParameters SpawnParameters;
+	SpawnParameters.Owner = this;
+	SpawnParameters.Instigator = GetInstigator();
+	
+	if (TowerClasDefaultInfo->ProjectileClass)
+	{
+		ATowerProjectileBase* Projectile = GetWorld()->SpawnActor<ATowerLinearProjectile>(TowerClasDefaultInfo->ProjectileClass, StartLocation, SpawnRotation, SpawnParameters);
+		
+		Projectile->TryLaunchAtTarget(StartLocation, EndLocation, Damage, 2000.f, 2000.f);
+	}
 }
