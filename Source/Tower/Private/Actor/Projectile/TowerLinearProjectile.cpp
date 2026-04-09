@@ -38,7 +38,7 @@ void ATowerLinearProjectile::OnHit(UPrimitiveComponent* HitComponent, AActor* Ot
 	
 	if (OtherActor->Implements<UTowerEnemyInterface>())
 	{
-		UGameplayStatics::ApplyDamage(OtherActor, Damage, GetInstigatorController(), GetOwner(), {});
+		UGameplayStatics::ApplyDamage(OtherActor, Damage, GetOwner()->GetInstigatorController(), GetOwner(), {});
 		
 		// TODO Play animation or VFX on hit and then destroy the projectile. Otherwise projectile will self destroy in 10 seconds due to SetLifeSpan(10.f) in Base class BeginPlay
 	}
