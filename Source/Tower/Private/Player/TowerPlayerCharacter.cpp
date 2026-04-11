@@ -7,6 +7,11 @@
 #include "Components/SphereComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "EnhancedInputComponent.h"
+#include "KismetTraceUtils.h"
+#include "Interaction/TowerHighlightInterface.h"
+#include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "Player/TowerPlayerController.h"
 
 
 ATowerPlayerCharacter::ATowerPlayerCharacter()
@@ -38,6 +43,8 @@ void ATowerPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &ThisClass::Move);
+		EnhancedInputComponent->BindAction(LeftClickAction, ETriggerEvent::Started, this, &ThisClass::LMouseButtonPressed);
+		EnhancedInputComponent->BindAction(LeftClickAction, ETriggerEvent::Completed, this, &ThisClass::LMouseButtonReleased);
 	}
 }
 
@@ -46,5 +53,51 @@ void ATowerPlayerCharacter::Move(const FInputActionValue& Value)
 	const FVector WorldDirection = Value.Get<FVector>();
 	
 	AddMovementInput(WorldDirection, 200);
+}
+
+void ATowerPlayerCharacter::LMouseButtonPressed(const FInputActionValue& Value)
+{
+
+	ATowerPlayerController* TowerPlayerController = Cast<ATowerPlayerController>(GetController());
+	
+	float PositionX = 0.f;
+	float PositionY = 0.f;
+
+	TowerPlayerController->GetMousePosition(PositionX, PositionY);
+
+	FVector2D MousePosition = {PositionX, PositionY};
+
+	FVector WorldPosition = {};
+	FVector WorldDirection = {};
+
+	UGameplayStatics::DeprojectScreenToWorld(TowerPlayerController, MousePosition, WorldPosition, WorldDirection);
+
+	const FVector EndPoint = WorldPosition + WorldDirection * 5000;
+
+	FHitResult OutHit;
+	
+	// ECC_GameTraceChannel1 = Tower collision trace channel
+	GetWorld()->LineTraceSingleByChannel(OutHit, WorldPosition, EndPoint, ECC_GameTraceChannel1);
+
+	AActor* ActorHit = OutHit.GetActor();
+	
+	if (const TScriptInterface<ITowerHighlightInterface> HighlightableActor = ActorHit)
+	{
+		HighlightableActor->ActorSelected();
+		
+		SelectedActors.Add(HighlightableActor);
+	} else
+	{
+		for (auto HighlightedActor : SelectedActors)
+		{
+			HighlightedActor->ActorDeselected();
+		}	
+		
+		SelectedActors.Empty();
+	}
+}
+
+void ATowerPlayerCharacter::LMouseButtonReleased(const FInputActionValue& Value)
+{
 }
 

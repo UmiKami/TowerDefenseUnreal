@@ -6,6 +6,7 @@
 #include "GameFramework/Pawn.h"
 #include "TowerPlayerCharacter.generated.h"
 
+class ITowerHighlightInterface;
 class UCameraComponent;
 class USpringArmComponent;
 class USphereComponent;
@@ -69,9 +70,14 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
 private:
+	UPROPERTY()
+	TArray<TScriptInterface<ITowerHighlightInterface>> SelectedActors;
+	
 	/**
 	 * @brief Moves the pawn using SimplePawnMovementComponent added on blueprint
 	 * @param Value FVector2D type value in his case.
 	 */
 	void Move(const FInputActionValue& Value);
+	void LMouseButtonPressed(const FInputActionValue& Value);
+	void LMouseButtonReleased(const FInputActionValue& Value);
 };

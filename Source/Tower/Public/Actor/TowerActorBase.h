@@ -10,6 +10,7 @@
 #include "TowerActorBase.generated.h"
 
 
+class UBoxComponent;
 enum class ETowerClass : uint8;
 class UTowerClassInfo;
 
@@ -43,7 +44,7 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditDefaultsOnly)
-	TObjectPtr<USceneComponent> SceneComponent;
+	TObjectPtr<UBoxComponent> BoxCollider;
 	/**
 	 * @brief Cosmetic mesh that is mostly invisible and allows to check for collision overlaps within @see TowerAttackRange.
 	 * 

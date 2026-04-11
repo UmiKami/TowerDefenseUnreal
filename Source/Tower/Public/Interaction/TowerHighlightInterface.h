@@ -22,7 +22,9 @@ class TOWER_API ITowerHighlightInterface
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	virtual void ActorSelected() = 0;
+	UFUNCTION()
+	virtual void ActorSelected();
 	
-	virtual void ActorDeselected() = 0;
+	UFUNCTION()
+	virtual void ActorDeselected();
 };

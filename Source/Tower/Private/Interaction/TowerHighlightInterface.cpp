@@ -4,4 +4,11 @@
 #include "Interaction/TowerHighlightInterface.h"
 
 
-// Add default functionality here for any ITowerHighlightInterface functions that are not pure virtual.
+void ITowerHighlightInterface::ActorSelected()
+{
+	
+}
+
+void ITowerHighlightInterface::ActorDeselected()
+{
+}

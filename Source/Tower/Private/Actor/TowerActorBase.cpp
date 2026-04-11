@@ -13,6 +13,8 @@ ATowerActorBase::ATowerActorBase()
 	
 	SceneComponent = CreateDefaultSubobject<USceneComponent>("SceneComponent");
 	SetRootComponent(SceneComponent);
+	BoxCollider = CreateDefaultSubobject<UBoxComponent>("BoxCollider");
+	SetRootComponent(BoxCollider);
 	
 	TowerRangeDiskMesh = CreateDefaultSubobject<UStaticMeshComponent>("TowerRangeDisk");
 	TowerRangeDiskMesh->SetupAttachment(RootComponent);
@@ -31,6 +33,8 @@ void ATowerActorBase::BeginPlay()
 	Super::BeginPlay();
 	
 	checkf(TowerClassInfo, TEXT("TowerClassInfo DataAsset MUST be set in tower actor BEFORE spawn."))
+	
+	TowerRangeDiskMesh->SetVisibility(false);
 	
 	TowerClasDefaultInfo = TowerClassInfo->TowerClassInformation.Find(TowerClass);
 	USkeletalMesh* SkeletalMeshComponent = *TowerClasDefaultInfo->SkeletalMeshComponentPerLevel.Find(Level);
