@@ -11,8 +11,6 @@ ATowerActorBase::ATowerActorBase()
 	PrimaryActorTick.bCanEverTick = false;;
 	DisableComponentsSimulatePhysics();
 	
-	SceneComponent = CreateDefaultSubobject<USceneComponent>("SceneComponent");
-	SetRootComponent(SceneComponent);
 	BoxCollider = CreateDefaultSubobject<UBoxComponent>("BoxCollider");
 	SetRootComponent(BoxCollider);
 	

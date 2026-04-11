@@ -7,6 +7,7 @@
 #include "Interaction/TowerEnemyInterface.h"
 #include "TowerEnemyPawn.generated.h"
 
+class UFloatingPawnMovement;
 class AAIController;
 class UCapsuleComponent;
 class ATowerEnemyPathActor;
@@ -33,10 +34,13 @@ protected:
 	TObjectPtr<UCapsuleComponent> CapsuleCollision;
 	
 	UPROPERTY(EditDefaultsOnly)
-	TObjectPtr<UPawnMovementComponent> PawnMovementComponent;
+	TObjectPtr<UFloatingPawnMovement> PawnMovementComponent;
 	
-	UPROPERTY(EditDefaultsOnly, Category="Navigation")
+	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<ATowerEnemyPathActor> PathToFollow;
+	
+	UPROPERTY(EditAnywhere, Category="Movement")
+	float MovementSpeed = 300.f;
 	
 public:
 	virtual void Tick(float DeltaSeconds) override;
@@ -47,7 +51,7 @@ private:
 	UPROPERTY()
 	TObjectPtr<AAIController> PawnAIController = nullptr;
 	
-	float CurrentSplineProgress = 0.f;
+	float CurrentDistanceTravelled = 0.f;
 	
 	void MoveActorAlongSpline();
 };

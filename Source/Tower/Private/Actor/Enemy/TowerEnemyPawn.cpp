@@ -7,7 +7,10 @@
 #include "Components/SplineComponent.h"
 #include "GameFramework/PawnMovementComponent.h"
 #include "AIController.h"
-#include "NavigationSystem.h"
+#include "Blueprint/AIBlueprintHelperLibrary.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/FloatingPawnMovement.h"
+#include "Kismet/GameplayStatics.h"
 #include "Navigation/PathFollowingComponent.h"
 
 // Sets default values
@@ -21,7 +24,8 @@ ATowerEnemyPawn::ATowerEnemyPawn()
 	PawnSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>("PawnSkeletalMesh");
 	PawnSkeletalMesh->SetupAttachment(RootComponent);
 	
-	PawnMovementComponent = CreateDefaultSubobject<UPawnMovementComponent>("PawnMovementComponent");
+	PawnMovementComponent = CreateDefaultSubobject<UFloatingPawnMovement>("PawnMovementComponent");
+	
 }
 
 void ATowerEnemyPawn::BeginPlay()
@@ -31,28 +35,35 @@ void ATowerEnemyPawn::BeginPlay()
 	if (AAIController* AIController = Cast<AAIController>(GetController()))
 	{
 		PawnAIController = AIController;
+		checkf(PawnAIController, TEXT("AI Controller not set."))
+		UE_LOG(LogTemp, Warning, TEXT("%s is %d"), *PawnAIController.GetName(), IsValid(PawnAIController))
 	}
+	
+	PathToFollow = Cast<ATowerEnemyPathActor>(UGameplayStatics::GetActorOfClass(GetWorld(), ATowerEnemyPathActor::StaticClass()));
+	
+	
 }
 
 void ATowerEnemyPawn::MoveActorAlongSpline()
 {
-	if (!IsValid(PawnAIController) || !IsValid(PathToFollow)) return;
-	
-	IsMoving = PawnAIController->GetMoveStatus() == EPathFollowingStatus::Moving;
-	
-	if (!IsMoving)
-	{
-		// The lower the value the smoother
-		CurrentSplineProgress += 0.1f;
-		CurrentSplineProgress = FMath::Clamp(CurrentSplineProgress, 0.f, 1.f);
-		
-		const USplineComponent* SplinePath = PathToFollow->GetSplinePath();
+	if (!IsValid(PathToFollow)) return;
+	if (CurrentDistanceTravelled >= PathToFollow->GetSplinePath()->GetSplineLength()) return;
 
-		const FVector LocationAtDistanceAlongSpline = SplinePath->GetLocationAtDistanceAlongSpline(CurrentSplineProgress, ESplineCoordinateSpace::World);
-		
-		PawnAIController->MoveToLocation(LocationAtDistanceAlongSpline,5);
-		UE_LOG(LogTemp, Warning, TEXT("Enemy pawn %s MOVING!!"), *GetName());
-	}
+	const USplineComponent* SplinePath = PathToFollow->GetSplinePath();
+	const float TotalLength = SplinePath->GetSplineLength();
+
+	// Advance by distance per second, not arbitrary float steps
+	CurrentDistanceTravelled += MovementSpeed * GetWorld()->GetDeltaSeconds();
+	CurrentDistanceTravelled = FMath::Clamp(CurrentDistanceTravelled, 0.f, TotalLength);
+
+	const FVector TargetLocation = SplinePath->GetLocationAtDistanceAlongSpline(
+		CurrentDistanceTravelled,
+		ESplineCoordinateSpace::World
+	);
+
+	FVector Direction = (TargetLocation - GetActorLocation()).GetSafeNormal();
+	Direction.Z = 0.f;
+	AddMovementInput(Direction, 1.f);
 }
 
 void ATowerEnemyPawn::Tick(float DeltaSeconds)
