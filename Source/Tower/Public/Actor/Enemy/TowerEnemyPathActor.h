@@ -22,6 +22,7 @@ public:
 	FORCEINLINE USplineComponent* GetSplinePath() const {return SplinePath;}
 protected:
 	
+	/** @brief Path that enemy pawns will follow during the match */
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USplineComponent> SplinePath;
 };
