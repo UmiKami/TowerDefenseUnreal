@@ -1,7 +1,7 @@
 <map id="ATowerLinearProjectile" name="ATowerLinearProjectile">
-<area shape="rect" id="Node000001" title=" " alt="" coords="30,402,214,542"/>
-<area shape="rect" id="Node000002" href="$classATowerProjectileBase.html" title="Determines behavior of each projectile." alt="" coords="5,126,238,354"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,367,124,403,119,402,121,372"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="95,5,149,78"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,90,124,126,119,126,121,95"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,447,189,631"/>
+<area shape="rect" id="Node000002" href="$classATowerProjectileBase.html" title="Determines behavior of each projectile." alt="" coords="9,126,185,399"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,411,100,448,95,447,97,416"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="70,5,124,78"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,90,100,126,95,126,97,95"/>
 </map>

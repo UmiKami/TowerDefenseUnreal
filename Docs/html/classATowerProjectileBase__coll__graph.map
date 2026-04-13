@@ -1,5 +1,7 @@
 <map id="ATowerProjectileBase" name="ATowerProjectileBase">
-<area shape="rect" id="Node000001" title="Determines behavior of each projectile." alt="" coords="5,126,238,354"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="95,5,149,78"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,90,124,126,119,125,121,95"/>
+<area shape="rect" id="Node000001" title="Determines behavior of each projectile." alt="" coords="12,168,188,419"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,14,59,86"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,97,68,168,62,168,46,103"/>
+<area shape="rect" id="Node000003" href="$classTScriptInterface.html" title=" " alt="" coords="83,5,254,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,92,142,152,137,150,155,97"/>
 </map>

@@ -1,67 +1,69 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,824,95,852"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,853,95,881"/>
 <area shape="rect" id="Node000001" href="$classUActorInstanceManagerInterface.html" title=" " alt="" coords="146,5,381,33"/>
-<area shape="poly" id="edge1117_Node000000_Node000001" title=" " alt="" coords="50,809,60,641,78,398,90,277,105,170,122,89,131,61,141,44,159,31,156,36,145,48,136,64,127,90,110,171,96,277,83,399,65,641,55,809"/>
+<area shape="poly" id="edge1118_Node000000_Node000001" title=" " alt="" coords="50,838,59,663,77,412,89,286,104,175,121,91,130,62,141,44,159,31,156,36,145,48,135,64,126,92,109,176,95,286,82,412,64,664,55,838"/>
 <area shape="rect" id="Node000002" href="$classUActorSoundParameterInterface.html" title=" " alt="" coords="148,57,379,85"/>
-<area shape="poly" id="edge1118_Node000000_Node000002" title=" " alt="" coords="50,808,61,650,80,424,107,213,123,138,131,112,141,96,159,83,157,88,145,100,136,114,128,139,112,214,85,424,66,650,56,809"/>
+<area shape="poly" id="edge1119_Node000000_Node000002" title=" " alt="" coords="50,838,60,673,79,438,91,321,106,218,122,140,131,113,141,96,159,83,156,88,145,100,136,115,127,141,111,219,97,322,84,439,65,674,55,838"/>
 <area shape="rect" id="Node000003" href="$classUAnimClassInterface.html" title=" " alt="" coords="184,109,342,137"/>
-<area shape="poly" id="edge1119_Node000000_Node000003" title=" " alt="" coords="48,808,50,669,60,471,71,370,88,277,110,201,125,171,141,148,160,133,185,125,182,129,163,138,145,152,129,173,115,202,93,278,76,371,65,472,55,669,54,809"/>
+<area shape="poly" id="edge1120_Node000000_Node000003" title=" " alt="" coords="48,838,49,693,58,487,69,380,86,283,109,203,124,172,141,148,160,133,186,124,182,129,163,138,145,152,128,175,114,205,91,284,75,381,64,487,54,693,53,838"/>
 <area shape="rect" id="Node000004" href="$classUAnimLayerInterface.html" title=" " alt="" coords="184,161,343,189"/>
-<area shape="poly" id="edge1120_Node000000_Node000004" title=" " alt="" coords="49,808,51,678,63,496,75,403,91,318,112,248,126,221,141,200,160,185,185,177,182,181,163,190,145,204,130,224,117,250,96,319,80,404,69,497,57,678,54,808"/>
+<area shape="poly" id="edge1121_Node000000_Node000004" title=" " alt="" coords="48,838,50,702,61,511,73,414,89,324,111,251,125,222,141,200,160,185,185,177,182,181,163,190,145,204,130,225,116,253,94,325,78,414,67,512,56,703,54,838"/>
 <area shape="rect" id="Node000005" href="$classUAnimationDataController.html" title=" " alt="" coords="167,213,360,241"/>
-<area shape="poly" id="edge1121_Node000000_Node000005" title=" " alt="" coords="49,809,53,689,67,522,78,437,94,359,114,296,127,271,141,252,168,235,165,239,145,256,131,274,119,298,99,361,83,438,72,522,59,689,54,809"/>
+<area shape="poly" id="edge1122_Node000000_Node000005" title=" " alt="" coords="49,837,52,712,65,536,76,447,92,365,113,298,126,272,141,252,168,235,165,239,145,256,131,275,118,300,97,367,81,448,70,537,58,712,54,838"/>
 <area shape="rect" id="Node000006" href="$classUAnimationDataModel.html" title=" " alt="" coords="179,265,348,293"/>
-<area shape="poly" id="edge1122_Node000000_Node000006" title=" " alt="" coords="50,808,55,697,70,546,82,470,97,400,116,343,141,304,158,291,180,282,177,287,160,295,145,308,121,345,102,402,87,471,75,547,61,698,55,808"/>
+<area shape="poly" id="edge1123_Node000000_Node000006" title=" " alt="" coords="49,838,54,722,68,562,80,481,95,407,115,346,127,322,141,304,158,291,180,282,177,287,160,295,145,308,132,325,120,348,100,408,85,482,73,563,60,722,55,838"/>
 <area shape="rect" id="Node000007" href="$classUBlendProfileProviderInterface.html" title=" " alt="" coords="152,317,374,345"/>
-<area shape="poly" id="edge1123_Node000000_Node000007" title=" " alt="" coords="50,808,58,707,73,572,85,504,100,442,119,391,141,356,160,343,157,348,145,360,123,393,105,443,91,505,79,572,63,707,55,808"/>
+<area shape="poly" id="edge1124_Node000000_Node000007" title=" " alt="" coords="50,837,56,731,71,587,83,514,98,448,117,393,141,356,160,343,157,348,145,360,122,396,104,449,89,515,77,588,62,731,55,838"/>
 <area shape="rect" id="Node000008" href="$classUBlendableInterface.html" title=" " alt="" coords="186,369,340,397"/>
-<area shape="poly" id="edge1124_Node000000_Node000008" title=" " alt="" coords="51,808,60,717,77,598,89,538,103,483,121,439,141,408,161,393,188,385,184,389,164,398,145,412,125,441,108,485,94,539,82,598,65,718,56,809"/>
+<area shape="poly" id="edge1125_Node000000_Node000008" title=" " alt="" coords="50,838,59,741,75,612,87,548,102,489,119,441,141,408,161,393,188,385,184,389,164,398,145,412,124,443,107,491,92,549,80,613,64,741,56,838"/>
 <area shape="rect" id="Node000009" href="$classUBoneReferenceSkeletonProvider.html" title=" " alt="" coords="143,421,384,449"/>
-<area shape="poly" id="edge1125_Node000000_Node000009" title=" " alt="" coords="52,808,62,727,81,623,107,525,123,486,141,460,161,447,158,452,145,464,127,489,112,526,86,624,68,728,57,809"/>
+<area shape="poly" id="edge1126_Node000000_Node000009" title=" " alt="" coords="51,838,61,751,79,638,105,531,121,489,141,460,160,447,158,452,145,464,126,491,110,532,84,639,66,752,57,838"/>
 <area shape="rect" id="Node000010" href="$classUCameraLensEffectInterface.html" title=" " alt="" coords="159,473,368,501"/>
-<area shape="poly" id="edge1126_Node000000_Node000010" title=" " alt="" coords="48,808,50,747,62,667,74,625,90,583,112,545,141,512,161,499,158,504,144,516,117,548,95,586,79,626,67,668,55,747,53,809"/>
+<area shape="poly" id="edge1127_Node000000_Node000010" title=" " alt="" coords="52,837,64,761,82,663,108,572,123,536,141,512,161,499,158,504,145,516,128,539,113,574,88,665,69,762,58,838"/>
 <area shape="rect" id="Node000011" href="$classUCurveSourceInterface.html" title=" " alt="" coords="178,525,349,553"/>
-<area shape="poly" id="edge1127_Node000000_Node000011" title=" " alt="" coords="50,808,55,755,69,689,81,655,97,622,116,591,141,564,158,552,179,545,176,549,160,557,144,568,121,594,101,624,86,657,74,691,60,756,55,808"/>
+<area shape="poly" id="edge1128_Node000000_Node000011" title=" " alt="" coords="48,838,52,780,65,706,77,667,93,629,114,594,141,564,158,552,179,544,176,548,160,557,144,568,118,598,98,632,82,669,70,707,57,780,54,838"/>
 <area shape="rect" id="Node000012" href="$classUImportantToggleSettingInterface.html" title=" " alt="" coords="143,577,384,605"/>
-<area shape="poly" id="edge1128_Node000000_Node000012" title=" " alt="" coords="52,808,61,765,77,713,103,660,120,637,141,616,163,603,161,608,144,620,124,640,107,663,82,715,66,766,58,809"/>
+<area shape="poly" id="edge1129_Node000000_Node000012" title=" " alt="" coords="51,837,58,789,73,729,99,668,118,640,141,616,163,603,160,608,144,620,122,643,104,670,78,730,63,790,56,838"/>
 <area shape="rect" id="Node000013" href="$classUInterface__ActorSubobject.html" title=" " alt="" coords="166,629,360,657"/>
-<area shape="poly" id="edge1129_Node000000_Node000013" title=" " alt="" coords="56,809,68,775,85,737,109,699,141,668,167,655,164,659,144,672,114,703,90,740,73,777,61,810"/>
+<area shape="poly" id="edge1130_Node000000_Node000013" title=" " alt="" coords="54,838,64,799,80,753,106,707,122,686,141,668,167,654,164,658,144,672,126,690,110,710,85,755,69,801,59,839"/>
 <area shape="rect" id="Node000014" href="$classUInterface__AssetUserData.html" title=" " alt="" coords="167,681,360,709"/>
-<area shape="poly" id="edge1130_Node000000_Node000014" title=" " alt="" coords="63,809,95,762,116,739,141,720,170,707,167,712,144,724,120,743,99,766,68,811"/>
+<area shape="poly" id="edge1131_Node000000_Node000014" title=" " alt="" coords="59,838,89,777,112,746,141,720,168,707,165,711,144,724,116,750,94,780,64,840"/>
 <area shape="rect" id="Node000015" href="$classUInterface__AsyncCompilation.html" title=" " alt="" coords="156,733,370,761"/>
-<area shape="poly" id="edge1131_Node000000_Node000015" title=" " alt="" coords="76,813,107,790,142,770,176,759,172,764,144,775,110,794,81,815"/>
+<area shape="poly" id="edge1132_Node000000_Node000015" title=" " alt="" coords="68,839,99,803,141,770,169,759,166,764,144,775,103,806,72,842"/>
 <area shape="rect" id="Node000016" href="$classUInterface__CollisionDataProvider.html" title=" " alt="" coords="172,785,355,830"/>
-<area shape="poly" id="edge1132_Node000000_Node000016" title=" " alt="" coords="108,827,173,818,169,822,111,831"/>
+<area shape="poly" id="edge1133_Node000000_Node000016" title=" " alt="" coords="108,849,183,828,180,832,112,852"/>
 <area shape="rect" id="Node000017" href="$classUInterface__PostProcessVolume.html" title=" " alt="" coords="151,853,376,881"/>
-<area shape="poly" id="edge1133_Node000000_Node000017" title=" " alt="" coords="108,844,160,851,156,854,111,848"/>
+<area shape="poly" id="edge1134_Node000000_Node000017" title=" " alt="" coords="109,865,153,865,149,869,112,869"/>
 <area shape="rect" id="Node000018" href="$classUInterface__PreviewMeshProvider.html" title=" " alt="" coords="145,905,382,933"/>
-<area shape="poly" id="edge1134_Node000000_Node000018" title=" " alt="" coords="82,858,144,890,183,903,178,906,142,895,85,863"/>
+<area shape="poly" id="edge1135_Node000000_Node000018" title=" " alt="" coords="108,882,143,890,197,903,192,906,142,895,111,886"/>
 <area shape="rect" id="Node000019" href="$classUMeshDeformerProducer.html" title=" " alt="" coords="171,957,356,985"/>
-<area shape="poly" id="edge1135_Node000000_Node000019" title=" " alt="" coords="67,862,101,905,121,925,144,942,173,956,168,958,141,947,118,929,97,908,68,867"/>
+<area shape="poly" id="edge1136_Node000000_Node000019" title=" " alt="" coords="74,890,107,918,144,942,177,955,172,958,141,947,104,922,76,895"/>
 <area shape="rect" id="Node000020" href="$classUNavAgentInterface.html" title=" " alt="" coords="187,1009,340,1037"/>
-<area shape="poly" id="edge1136_Node000000_Node000020" title=" " alt="" coords="60,864,74,896,92,931,115,966,144,994,164,1006,188,1015,184,1017,162,1011,141,999,111,969,87,934,69,899,60,869"/>
+<area shape="poly" id="edge1137_Node000000_Node000020" title=" " alt="" coords="63,893,97,946,118,972,144,994,165,1005,188,1014,184,1016,162,1010,141,999,115,976,92,949,64,898"/>
 <area shape="rect" id="Node000021" href="$classUNavEdgeProviderInterface.html" title=" " alt="" coords="163,1061,364,1089"/>
-<area shape="poly" id="edge1137_Node000000_Node000021" title=" " alt="" coords="55,864,67,908,83,956,109,1005,125,1027,144,1046,165,1060,160,1062,141,1051,121,1031,104,1008,78,958,62,909,56,870"/>
+<area shape="poly" id="edge1138_Node000000_Node000021" title=" " alt="" coords="57,894,71,931,88,972,112,1013,144,1046,166,1060,161,1062,141,1051,108,1016,83,974,66,933,58,899"/>
 <area shape="rect" id="Node000022" href="$classUNavMovementInterface.html" title=" " alt="" coords="171,1113,356,1141"/>
-<area shape="poly" id="edge1138_Node000000_Node000022" title=" " alt="" coords="53,864,61,917,76,980,102,1044,121,1073,144,1098,173,1116,168,1118,141,1103,117,1077,98,1047,71,982,56,918,53,869"/>
+<area shape="poly" id="edge1139_Node000000_Node000022" title=" " alt="" coords="54,893,64,941,80,996,106,1052,123,1077,144,1098,173,1115,168,1118,141,1103,119,1080,101,1054,75,998,59,942,54,899"/>
 <area shape="rect" id="Node000023" href="$classUNavPathObserverInterface.html" title=" " alt="" coords="162,1165,365,1193"/>
-<area shape="poly" id="edge1139_Node000000_Node000023" title=" " alt="" coords="51,865,56,927,69,1004,80,1044,96,1083,117,1119,144,1151,164,1165,159,1166,141,1154,113,1122,91,1086,75,1046,63,1005,51,928,51,870"/>
+<area shape="poly" id="edge1140_Node000000_Node000023" title=" " alt="" coords="52,894,59,951,73,1020,84,1056,100,1091,120,1123,144,1150,163,1164,159,1166,141,1155,115,1126,95,1093,79,1058,67,1021,54,952,52,899"/>
 <area shape="rect" id="Node000024" href="$classUNavRelevantInterface.html" title=" " alt="" coords="177,1217,350,1245"/>
-<area shape="poly" id="edge1140_Node000000_Node000024" title=" " alt="" coords="55,864,68,946,87,1047,112,1142,128,1178,145,1203,160,1214,179,1223,174,1225,157,1219,141,1206,123,1181,107,1144,81,1048,63,946,55,870"/>
+<area shape="poly" id="edge1141_Node000000_Node000024" title=" " alt="" coords="55,894,70,969,89,1061,114,1148,129,1181,145,1203,160,1214,178,1223,174,1225,157,1218,141,1206,124,1183,109,1149,84,1063,65,970,55,899"/>
 <area shape="rect" id="Node000025" href="$classUNavigationDataInterface.html" title=" " alt="" coords="168,1269,359,1297"/>
-<area shape="poly" id="edge1141_Node000000_Node000025" title=" " alt="" coords="54,864,66,956,83,1073,109,1183,126,1226,145,1255,170,1272,165,1274,141,1258,121,1229,104,1185,78,1074,60,957,54,870"/>
+<area shape="poly" id="edge1142_Node000000_Node000025" title=" " alt="" coords="54,894,67,980,85,1087,111,1189,127,1228,145,1255,170,1272,165,1274,141,1258,122,1231,106,1191,80,1088,62,980,54,899"/>
 <area shape="rect" id="Node000026" href="$classUNavigationInvokerInterface.html" title=" " alt="" coords="159,1321,368,1349"/>
-<area shape="poly" id="edge1142_Node000000_Node000026" title=" " alt="" coords="53,864,63,966,79,1098,91,1165,106,1225,124,1274,145,1307,161,1320,156,1322,141,1310,119,1276,101,1226,86,1166,74,1099,58,966,53,870"/>
+<area shape="poly" id="edge1143_Node000000_Node000026" title=" " alt="" coords="53,893,65,989,81,1113,93,1175,108,1231,125,1276,145,1307,161,1320,156,1322,141,1310,120,1279,103,1232,88,1176,76,1114,59,990,53,899"/>
 <area shape="rect" id="Node000027" href="$classUNetworkPredictionInterface.html" title=" " alt="" coords="159,1373,368,1401"/>
-<area shape="poly" id="edge1143_Node000000_Node000027" title=" " alt="" coords="52,864,61,975,76,1123,88,1198,103,1266,122,1322,145,1359,161,1372,156,1374,141,1362,117,1324,98,1268,82,1199,71,1124,56,976,52,870"/>
+<area shape="poly" id="edge1144_Node000000_Node000027" title=" " alt="" coords="53,894,62,1000,78,1139,90,1209,104,1272,123,1324,145,1359,161,1372,156,1374,141,1362,118,1326,99,1274,84,1210,73,1139,57,1000,53,899"/>
 <area shape="rect" id="Node000028" href="$classUPathFollowingAgentInterface.html" title=" " alt="" coords="154,1425,372,1453"/>
-<area shape="poly" id="edge1144_Node000000_Node000028" title=" " alt="" coords="52,865,59,986,73,1150,84,1233,100,1308,120,1369,132,1393,145,1411,161,1424,155,1425,141,1414,127,1396,115,1371,94,1309,79,1233,67,1150,54,987,52,870"/>
+<area shape="poly" id="edge1145_Node000000_Node000028" title=" " alt="" coords="52,894,60,1010,74,1164,86,1243,101,1314,121,1372,132,1394,145,1411,161,1424,156,1426,141,1414,128,1397,116,1374,96,1315,81,1244,69,1165,55,1010,52,899"/>
 <area shape="rect" id="Node000029" href="$classUPhysicsBodyInstanceOwnerResolver.html" title=" " alt="" coords="158,1477,368,1522"/>
-<area shape="poly" id="edge1145_Node000000_Node000029" title=" " alt="" coords="52,864,58,994,71,1173,82,1264,98,1348,119,1416,131,1443,145,1463,160,1477,155,1478,141,1466,126,1445,114,1418,93,1349,77,1265,65,1173,53,994,51,870"/>
+<area shape="poly" id="edge1146_Node000000_Node000029" title=" " alt="" coords="52,894,59,1019,72,1189,84,1275,100,1354,120,1419,132,1444,145,1463,160,1477,155,1478,141,1466,127,1446,115,1421,94,1355,79,1276,67,1189,54,1019,52,900"/>
 <area shape="rect" id="Node000030" href="$classUPhysicsComponent.html" title=" " alt="" coords="186,1545,341,1573"/>
-<area shape="poly" id="edge1146_Node000000_Node000030" title=" " alt="" coords="51,865,54,1008,65,1208,76,1311,92,1404,115,1481,129,1510,145,1532,163,1546,188,1556,183,1558,161,1551,141,1536,124,1513,110,1483,87,1405,70,1312,59,1209,49,1008,51,870"/>
+<area shape="poly" id="edge1147_Node000000_Node000030" title=" " alt="" coords="51,894,56,1032,66,1223,78,1321,94,1410,116,1483,129,1511,145,1532,164,1546,188,1556,183,1558,161,1551,141,1536,125,1514,111,1485,89,1412,72,1322,61,1224,50,1032,51,899"/>
 <area shape="rect" id="Node000031" href="$classUReplicatedObjectInterface.html" title=" " alt="" coords="163,1597,364,1625"/>
-<area shape="poly" id="edge1147_Node000000_Node000031" title=" " alt="" coords="53,865,66,1027,85,1255,112,1468,128,1543,136,1568,145,1583,165,1600,160,1600,141,1586,131,1570,122,1544,106,1469,80,1255,61,1028,53,870"/>
+<area shape="poly" id="edge1148_Node000000_Node000031" title=" " alt="" coords="51,894,54,1041,64,1247,75,1353,91,1450,114,1529,128,1560,145,1583,165,1599,160,1600,141,1586,124,1562,109,1531,86,1451,69,1354,58,1248,49,1041,51,899"/>
 <area shape="rect" id="Node000032" href="$classUTowerEnemyInterface.html" title=" " alt="" coords="177,1649,350,1677"/>
-<area shape="poly" id="edge1148_Node000000_Node000032" title=" " alt="" coords="53,864,65,1036,83,1281,95,1403,110,1510,127,1592,135,1619,145,1635,160,1647,179,1658,174,1657,157,1652,141,1638,131,1621,121,1593,105,1511,90,1404,78,1281,59,1037,53,870"/>
+<area shape="poly" id="edge1149_Node000000_Node000032" title=" " alt="" coords="53,894,65,1060,84,1295,97,1413,111,1516,127,1593,136,1619,145,1635,160,1647,179,1657,174,1658,157,1651,141,1638,131,1622,122,1595,106,1516,91,1413,79,1296,60,1061,53,899"/>
+<area shape="rect" id="Node000033" href="$classUTowerHighlightInterface.html" title=" " alt="" coords="170,1701,356,1729"/>
+<area shape="poly" id="edge1150_Node000000_Node000033" title=" " alt="" coords="53,894,64,1071,82,1322,95,1448,109,1559,126,1642,135,1670,145,1687,157,1697,173,1708,167,1707,154,1702,141,1690,130,1672,121,1644,104,1559,89,1449,77,1323,59,1071,52,899"/>
 </map>

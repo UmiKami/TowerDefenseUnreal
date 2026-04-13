@@ -1,5 +1,8 @@
 <map id="ATowerEnemyPawn::Tick" name="ATowerEnemyPawn::Tick">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,14,187,42"/>
-<area shape="rect" id="Node000002" href="$classATowerEnemyPawn.html#a5f841575a41ff1076b50b383097f8f59" title=" " alt="" coords="235,5,460,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,25,222,27,216,28,187,30"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,187,57"/>
+<area shape="rect" id="Node000002" href="$classATowerEnemyPawn.html#a5f841575a41ff1076b50b383097f8f59" title=" " alt="" coords="235,21,460,66"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,41,222,43,216,43,187,46"/>
+<area shape="rect" id="Node000003" href="$classAPawn.html#a128a74c7d49a0a670d82be267ed91eca" title=" " alt="" coords="508,29,709,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="461,41,495,43,490,43,461,46"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="564,28,557,20,563,11,580,5,609,3,639,5,657,14,652,14,638,10,609,8,581,10,566,15,562,20,569,30"/>
 </map>

@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 2564;
+var viewWidth = 2593;
 var viewHeight = 827;
 var sectionId = 'dynsection-1';
 </script>
@@ -59,11 +59,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="1380,-819 1247.75,-819 1247.75,-760 1380,-760 1380,-819"/>
-<text xml:space="preserve" text-anchor="start" x="1255.75" y="-805.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1255.75" y="-792.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1255.75" y="-780" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1313.88" y="-767.25" font-family="Helvetica,sans-Serif" font-size="10.00">/IndexedCurve.h</text>
+<polygon fill="#999999" stroke="#666666" points="1464,-819 1331.75,-819 1331.75,-760 1464,-760 1464,-819"/>
+<text xml:space="preserve" text-anchor="start" x="1339.75" y="-805.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1339.75" y="-792.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1339.75" y="-780" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1397.88" y="-767.25" font-family="Helvetica,sans-Serif" font-size="10.00">/IndexedCurve.h</text>
 </a>
 </g>
 </g>
@@ -71,11 +71,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="AttributeCurve_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="770.75,-724 625,-724 625,-665 770.75,-665 770.75,-724"/>
-<text xml:space="preserve" text-anchor="start" x="633" y="-710.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="633" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="633" y="-685" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="697.88" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AttributeCurve.h</text>
+<polygon fill="white" stroke="#666666" points="1169.75,-724 1024,-724 1024,-665 1169.75,-665 1169.75,-724"/>
+<text xml:space="preserve" text-anchor="start" x="1032" y="-710.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1032" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1032" y="-685" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="1096.88" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AttributeCurve.h</text>
 </a>
 </g>
 </g>
@@ -83,92 +83,92 @@ var sectionId = 'dynsection-1';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1236.12,-776.76C1116.34,-758.68 888.31,-724.25 771.24,-706.58"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1235.46,-780.2 1245.87,-778.23 1236.5,-773.28 1235.46,-780.2"/>
+<path fill="none" stroke="#63b8ff" d="M1320.55,-764.61C1274.18,-750.28 1215.58,-732.18 1169.99,-718.09"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1319.41,-767.92 1330,-767.53 1321.48,-761.23 1319.41,-767.92"/>
 </a>
 </g>
 </g>
-<!-- Node25 -->
-<g id="Node000025" class="node">
-<title>Node25</title>
-<g id="a_Node000025"><a xlink:href="IntegralCurve_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1230,-724 1097.75,-724 1097.75,-665 1230,-665 1230,-724"/>
-<text xml:space="preserve" text-anchor="start" x="1105.75" y="-710.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1105.75" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1105.75" y="-685" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1163.88" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">/IntegralCurve.h</text>
+<!-- Node26 -->
+<g id="Node000026" class="node">
+<title>Node26</title>
+<g id="a_Node000026"><a xlink:href="IntegralCurve_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1370,-629 1237.75,-629 1237.75,-570 1370,-570 1370,-629"/>
+<text xml:space="preserve" text-anchor="start" x="1245.75" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1245.75" y="-602.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1245.75" y="-590" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1303.88" y="-577.25" font-family="Helvetica,sans-Serif" font-size="10.00">/IntegralCurve.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node25 -->
-<g id="edge26_Node000001_Node000025" class="edge">
-<title>Node1&#45;&gt;Node25</title>
-<g id="a_edge26_Node000001_Node000025"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1257.72,-753.69C1242.16,-744.04 1225.44,-733.67 1210.48,-724.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1255.61,-756.49 1265.95,-758.79 1259.3,-750.54 1255.61,-756.49"/>
-</a>
-</g>
-</g>
-<!-- Node29 -->
-<g id="Node000029" class="node">
-<title>Node29</title>
-<g id="a_Node000029"><a xlink:href="NameCurve_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1680,-724 1547.75,-724 1547.75,-665 1680,-665 1680,-724"/>
-<text xml:space="preserve" text-anchor="start" x="1555.75" y="-710.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1555.75" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1555.75" y="-685" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1613.88" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">/NameCurve.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node29 -->
-<g id="edge31_Node000001_Node000029" class="edge">
-<title>Node1&#45;&gt;Node29</title>
-<g id="a_edge31_Node000001_Node000029"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1391.12,-768.08C1434.77,-756.12 1490.18,-740.2 1538.88,-724 1541.65,-723.08 1544.48,-722.11 1547.32,-721.12"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1390.47,-764.63 1381.75,-770.64 1392.32,-771.38 1390.47,-764.63"/>
+<!-- Node1&#45;&gt;Node26 -->
+<g id="edge26_Node000001_Node000026" class="edge">
+<title>Node1&#45;&gt;Node26</title>
+<g id="a_edge26_Node000001_Node000026"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1345.47,-752.1C1336.71,-743.81 1328.62,-734.36 1322.88,-724 1306.56,-694.6 1303.04,-655.53 1302.8,-629.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1343.08,-754.66 1352.89,-758.68 1347.73,-749.43 1343.08,-754.66"/>
 </a>
 </g>
 </g>
 <!-- Node30 -->
 <g id="Node000030" class="node">
 <title>Node30</title>
-<g id="a_Node000030"><a xlink:href="RealCurve_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1530,-724 1397.75,-724 1397.75,-665 1530,-665 1530,-724"/>
-<text xml:space="preserve" text-anchor="start" x="1405.75" y="-710.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1405.75" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1405.75" y="-685" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1463.88" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">/RealCurve.h</text>
+<g id="a_Node000030"><a xlink:href="NameCurve_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1764,-724 1631.75,-724 1631.75,-665 1764,-665 1764,-724"/>
+<text xml:space="preserve" text-anchor="start" x="1639.75" y="-710.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1639.75" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1639.75" y="-685" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1697.88" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">/NameCurve.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node30 -->
-<g id="edge32_Node000001_Node000030" class="edge">
+<g id="edge31_Node000001_Node000030" class="edge">
 <title>Node1&#45;&gt;Node30</title>
-<g id="a_edge32_Node000001_Node000030"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1370.03,-753.69C1385.59,-744.04 1402.31,-733.67 1417.27,-724.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1368.45,-750.54 1361.8,-758.79 1372.14,-756.49 1368.45,-750.54"/>
+<g id="a_edge31_Node000001_Node000030"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1475.12,-768.08C1518.77,-756.12 1574.18,-740.2 1622.88,-724 1625.65,-723.08 1628.48,-722.11 1631.32,-721.12"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1474.47,-764.63 1465.75,-770.64 1476.32,-771.38 1474.47,-764.63"/>
 </a>
 </g>
 </g>
-<!-- Node65 -->
-<g id="Node000065" class="node">
-<title>Node65</title>
-<g id="a_Node000065"><a xlink:href="StringCurve_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1380,-724 1247.75,-724 1247.75,-665 1380,-665 1380,-724"/>
-<text xml:space="preserve" text-anchor="start" x="1255.75" y="-710.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1255.75" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1255.75" y="-685" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1313.88" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">/StringCurve.h</text>
+<!-- Node31 -->
+<g id="Node000031" class="node">
+<title>Node31</title>
+<g id="a_Node000031"><a xlink:href="RealCurve_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1614,-724 1481.75,-724 1481.75,-665 1614,-665 1614,-724"/>
+<text xml:space="preserve" text-anchor="start" x="1489.75" y="-710.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1489.75" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1489.75" y="-685" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1547.88" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">/RealCurve.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node65 -->
-<g id="edge62_Node000001_Node000065" class="edge">
-<title>Node1&#45;&gt;Node65</title>
-<g id="a_edge62_Node000001_Node000065"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1313.88,-748.16C1313.88,-740.16 1313.88,-731.92 1313.88,-724.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1310.38,-748.07 1313.88,-758.07 1317.38,-748.07 1310.38,-748.07"/>
+<!-- Node1&#45;&gt;Node31 -->
+<g id="edge32_Node000001_Node000031" class="edge">
+<title>Node1&#45;&gt;Node31</title>
+<g id="a_edge32_Node000001_Node000031"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1454.03,-753.69C1469.59,-744.04 1486.31,-733.67 1501.27,-724.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1452.45,-750.54 1445.8,-758.79 1456.14,-756.49 1452.45,-750.54"/>
+</a>
+</g>
+</g>
+<!-- Node62 -->
+<g id="Node000062" class="node">
+<title>Node62</title>
+<g id="a_Node000062"><a xlink:href="StringCurve_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1464,-724 1331.75,-724 1331.75,-665 1464,-665 1464,-724"/>
+<text xml:space="preserve" text-anchor="start" x="1339.75" y="-710.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1339.75" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1339.75" y="-685" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1397.88" y="-672.25" font-family="Helvetica,sans-Serif" font-size="10.00">/StringCurve.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node62 -->
+<g id="edge64_Node000001_Node000062" class="edge">
+<title>Node1&#45;&gt;Node62</title>
+<g id="a_edge64_Node000001_Node000062"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1397.88,-748.16C1397.88,-740.16 1397.88,-731.92 1397.88,-724.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1394.38,-748.07 1397.88,-758.07 1401.38,-748.07 1394.38,-748.07"/>
 </a>
 </g>
 </g>
@@ -176,11 +176,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="IAnimationDataModel_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="883,-629 696.75,-629 696.75,-570 883,-570 883,-629"/>
-<text xml:space="preserve" text-anchor="start" x="704.75" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="704.75" y="-602.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="704.75" y="-590" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="789.88" y="-577.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimData/IAnimationDataModel.h</text>
+<polygon fill="white" stroke="#666666" points="868,-629 681.75,-629 681.75,-570 868,-570 868,-629"/>
+<text xml:space="preserve" text-anchor="start" x="689.75" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="689.75" y="-602.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="689.75" y="-590" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="774.88" y="-577.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimData/IAnimationDataModel.h</text>
 </a>
 </g>
 </g>
@@ -188,50 +188,50 @@ var sectionId = 'dynsection-1';
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M734.49,-656.49C743.4,-647.48 752.81,-637.97 761.29,-629.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="732.09,-653.94 727.54,-663.51 737.07,-658.86 732.09,-653.94"/>
+<path fill="none" stroke="#63b8ff" d="M1012.78,-669.21C968.5,-656.42 914.08,-640.71 868.47,-627.53"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1011.78,-672.56 1022.35,-671.98 1013.72,-665.84 1011.78,-672.56"/>
 </a>
 </g>
 </g>
-<!-- Node13 -->
-<g id="Node000013" class="node">
-<title>Node13</title>
-<g id="a_Node000013"><a xlink:href="AnimSequence_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1048.75,-344 903,-344 903,-285 1048.75,-285 1048.75,-344"/>
-<text xml:space="preserve" text-anchor="start" x="911" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="911" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="911" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="975.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimSequence.h</text>
+<!-- Node14 -->
+<g id="Node000014" class="node">
+<title>Node14</title>
+<g id="a_Node000014"><a xlink:href="AnimSequence_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1071.75,-344 926,-344 926,-285 1071.75,-285 1071.75,-344"/>
+<text xml:space="preserve" text-anchor="start" x="934" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="934" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="934" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="998.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimSequence.h</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node13 -->
-<g id="edge24_Node000002_Node000013" class="edge">
-<title>Node2&#45;&gt;Node13</title>
-<g id="a_edge24_Node000002_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M613.55,-671.3C501.22,-637.58 324.38,-567.46 394.88,-475 456.63,-394 760.67,-343.93 902.62,-324.61"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="612.51,-674.65 623.1,-674.12 614.5,-667.93 612.51,-674.65"/>
+<!-- Node2&#45;&gt;Node14 -->
+<g id="edge24_Node000002_Node000014" class="edge">
+<title>Node2&#45;&gt;Node14</title>
+<g id="a_edge24_Node000002_Node000014"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1075.57,-654.52C1071.62,-646.26 1067.81,-637.47 1064.88,-629 1046.46,-575.93 1016.01,-411.42 1003.99,-344.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1072.34,-655.89 1079.93,-663.28 1078.61,-652.77 1072.34,-655.89"/>
 </a>
 </g>
 </g>
-<!-- Node24 -->
-<g id="Node000024" class="node">
-<title>Node24</title>
-<g id="a_Node000024"><a xlink:href="AttributeCurve_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="678.75,-629 533,-629 533,-570 678.75,-570 678.75,-629"/>
-<text xml:space="preserve" text-anchor="start" x="541" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="541" y="-602.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="541" y="-590" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="605.88" y="-577.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AttributeCurve.cpp</text>
+<!-- Node25 -->
+<g id="Node000025" class="node">
+<title>Node25</title>
+<g id="a_Node000025"><a xlink:href="AttributeCurve_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1219.75,-629 1074,-629 1074,-570 1219.75,-570 1219.75,-629"/>
+<text xml:space="preserve" text-anchor="start" x="1082" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1082" y="-602.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1082" y="-590" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="1146.88" y="-577.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AttributeCurve.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node24 -->
-<g id="edge25_Node000002_Node000024" class="edge">
-<title>Node2&#45;&gt;Node24</title>
-<g id="a_edge25_Node000002_Node000024"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M661.26,-656.49C652.35,-647.48 642.94,-637.97 634.46,-629.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="658.68,-658.86 668.21,-663.51 663.66,-653.94 658.68,-658.86"/>
+<!-- Node2&#45;&gt;Node25 -->
+<g id="edge25_Node000002_Node000025" class="edge">
+<title>Node2&#45;&gt;Node25</title>
+<g id="a_edge25_Node000002_Node000025"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1117.82,-654.55C1122.35,-646.12 1127.06,-637.36 1131.34,-629.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1114.79,-652.79 1113.14,-663.25 1120.96,-656.1 1114.79,-652.79"/>
 </a>
 </g>
 </g>
@@ -239,11 +239,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="AnimDataModel_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="784.12,-534 625.62,-534 625.62,-475 784.12,-475 784.12,-534"/>
-<text xml:space="preserve" text-anchor="start" x="633.62" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="633.62" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="633.62" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="704.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimData/AnimDataModel.h</text>
+<polygon fill="white" stroke="#666666" points="854.12,-534 695.62,-534 695.62,-475 854.12,-475 854.12,-534"/>
+<text xml:space="preserve" text-anchor="start" x="703.62" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="703.62" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="703.62" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="774.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimData/AnimDataModel.h</text>
 </a>
 </g>
 </g>
@@ -251,8 +251,8 @@ var sectionId = 'dynsection-1';
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M755.8,-561.21C747.63,-552.28 739.04,-542.88 731.29,-534.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="753.1,-563.45 762.43,-568.47 758.26,-558.72 753.1,-563.45"/>
+<path fill="none" stroke="#63b8ff" d="M774.88,-558.16C774.88,-550.16 774.88,-541.92 774.88,-534.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="771.38,-558.07 774.88,-568.07 778.38,-558.07 771.38,-558.07"/>
 </a>
 </g>
 </g>
@@ -260,11 +260,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="IAnimationDataController_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="608,-534 403.75,-534 403.75,-475 608,-475 608,-534"/>
-<text xml:space="preserve" text-anchor="start" x="411.75" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="411.75" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="411.75" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="505.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimData/IAnimationDataController.h</text>
+<polygon fill="white" stroke="#666666" points="640,-534 435.75,-534 435.75,-475 640,-475 640,-534"/>
+<text xml:space="preserve" text-anchor="start" x="443.75" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="443.75" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="443.75" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="537.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimData/IAnimationDataController.h</text>
 </a>
 </g>
 </g>
@@ -272,38 +272,38 @@ var sectionId = 'dynsection-1';
 <g id="edge4_Node000003_Node000005" class="edge">
 <title>Node3&#45;&gt;Node5</title>
 <g id="a_edge4_Node000003_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M691.01,-566.13C659.49,-555.8 624.84,-544.46 594.12,-534.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="689.54,-569.33 700.13,-569.11 691.72,-562.67 689.54,-569.33"/>
+<path fill="none" stroke="#63b8ff" d="M690.66,-565.45C664.81,-555.31 636.59,-544.24 611.52,-534.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="689.19,-568.64 699.78,-569.03 691.75,-562.12 689.19,-568.64"/>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node13 -->
-<g id="edge22_Node000003_Node000013" class="edge">
-<title>Node3&#45;&gt;Node13</title>
-<g id="a_edge22_Node000003_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M894.2,-578.26C918.27,-568.72 941.34,-554.67 956.88,-534 998.97,-477.99 990.37,-389.62 982.2,-344.34"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="893.06,-574.95 884.89,-581.69 895.48,-581.52 893.06,-574.95"/>
+<!-- Node3&#45;&gt;Node14 -->
+<g id="edge22_Node000003_Node000014" class="edge">
+<title>Node3&#45;&gt;Node14</title>
+<g id="a_edge22_Node000003_Node000014"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M710.34,-562.73C700.88,-554.57 692.45,-545 686.88,-534 675.02,-510.61 673.19,-497.37 686.88,-475 738.63,-390.42 850.97,-348.88 925.76,-329.87"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="708.09,-565.41 718.1,-568.89 712.44,-559.93 708.09,-565.41"/>
 </a>
 </g>
 </g>
-<!-- Node23 -->
-<g id="Node000023" class="node">
-<title>Node23</title>
-<g id="a_Node000023"><a xlink:href="PoseAsset_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="947.75,-534 802,-534 802,-475 947.75,-475 947.75,-534"/>
-<text xml:space="preserve" text-anchor="start" x="810" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="810" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="810" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="874.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/PoseAsset.h</text>
+<!-- Node24 -->
+<g id="Node000024" class="node">
+<title>Node24</title>
+<g id="a_Node000024"><a xlink:href="PoseAsset_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1017.75,-534 872,-534 872,-475 1017.75,-475 1017.75,-534"/>
+<text xml:space="preserve" text-anchor="start" x="880" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="880" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="880" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="944.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/PoseAsset.h</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node23 -->
-<g id="edge23_Node000003_Node000023" class="edge">
-<title>Node3&#45;&gt;Node23</title>
-<g id="a_edge23_Node000003_Node000023"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M823.95,-561.21C832.12,-552.28 840.71,-542.88 848.46,-534.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="821.49,-558.72 817.32,-568.47 826.65,-563.45 821.49,-558.72"/>
+<!-- Node3&#45;&gt;Node24 -->
+<g id="edge23_Node000003_Node000024" class="edge">
+<title>Node3&#45;&gt;Node24</title>
+<g id="a_edge23_Node000003_Node000024"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M837.52,-564.23C855.44,-554.43 874.78,-543.84 892.05,-534.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="836.15,-560.99 829.06,-568.86 839.51,-567.13 836.15,-560.99"/>
 </a>
 </g>
 </g>
@@ -311,11 +311,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="AnimSequenceBase_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="347.75,-439 202,-439 202,-380 347.75,-380 347.75,-439"/>
-<text xml:space="preserve" text-anchor="start" x="210" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="210" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="210" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="274.88" y="-387.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimSequenceBase.h</text>
+<polygon fill="white" stroke="#666666" points="610.75,-439 465,-439 465,-380 610.75,-380 610.75,-439"/>
+<text xml:space="preserve" text-anchor="start" x="473" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="473" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="473" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="537.88" y="-387.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimSequenceBase.h</text>
 </a>
 </g>
 </g>
@@ -323,8 +323,8 @@ var sectionId = 'dynsection-1';
 <g id="edge5_Node000005_Node000006" class="edge">
 <title>Node5&#45;&gt;Node6</title>
 <g id="a_edge5_Node000005_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M423.45,-470.32C398.36,-460.21 370.99,-449.19 346.65,-439.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="422.06,-473.53 432.65,-474.02 424.68,-467.04 422.06,-473.53"/>
+<path fill="none" stroke="#63b8ff" d="M537.88,-463.16C537.88,-455.16 537.88,-446.92 537.88,-439.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="534.38,-463.07 537.88,-473.07 541.38,-463.07 534.38,-463.07"/>
 </a>
 </g>
 </g>
@@ -332,11 +332,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:href="AnimCompositeBase_8h.html" target="_top" xlink:title=" ">
-<polygon fill="#fff0f0" stroke="red" points="145.75,-344 0,-344 0,-285 145.75,-285 145.75,-344"/>
-<text xml:space="preserve" text-anchor="start" x="8" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="8" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="8" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="72.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompositeBase.h</text>
+<polygon fill="#fff0f0" stroke="red" points="782.75,-344 637,-344 637,-285 782.75,-285 782.75,-344"/>
+<text xml:space="preserve" text-anchor="start" x="645" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="645" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="645" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="709.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompositeBase.h</text>
 </a>
 </g>
 </g>
@@ -344,873 +344,899 @@ var sectionId = 'dynsection-1';
 <g id="edge6_Node000006_Node000007" class="edge">
 <title>Node6&#45;&gt;Node7</title>
 <g id="a_edge6_Node000006_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M201.62,-374.77C180,-364.82 156.54,-354.02 135.64,-344.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="200.15,-377.95 210.69,-378.95 203.07,-371.59 200.15,-377.95"/>
+<path fill="none" stroke="#63b8ff" d="M601.26,-374.23C619.38,-364.43 638.96,-353.84 656.43,-344.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="599.82,-371.03 592.69,-378.86 603.15,-377.19 599.82,-371.03"/>
 </a>
 </g>
 </g>
-<!-- Node12 -->
-<g id="Node000012" class="node">
-<title>Node12</title>
-<g id="a_Node000012"><a xlink:href="AnimNode__SequencePlayer_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="528,-344 365.75,-344 365.75,-285 528,-285 528,-344"/>
-<text xml:space="preserve" text-anchor="start" x="373.75" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="373.75" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="373.75" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="446.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimNode_SequencePlayer.h</text>
-</a>
-</g>
-</g>
-<!-- Node6&#45;&gt;Node12 -->
-<g id="edge7_Node000006_Node000012" class="edge">
-<title>Node6&#45;&gt;Node12</title>
-<g id="a_edge7_Node000006_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M338.26,-374.23C356.38,-364.43 375.96,-353.84 393.43,-344.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="336.82,-371.03 329.69,-378.86 340.15,-377.19 336.82,-371.03"/>
+<!-- Node13 -->
+<g id="Node000013" class="node">
+<title>Node13</title>
+<g id="a_Node000013"><a xlink:href="AnimNode__SequencePlayer_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="619,-344 456.75,-344 456.75,-285 619,-285 619,-344"/>
+<text xml:space="preserve" text-anchor="start" x="464.75" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="464.75" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="464.75" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="537.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimNode_SequencePlayer.h</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node13 -->
-<g id="edge8_Node000006_Node000013" class="edge">
+<g id="edge7_Node000006_Node000013" class="edge">
 <title>Node6&#45;&gt;Node13</title>
-<g id="a_edge8_Node000006_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M359.33,-380.56C360.18,-380.37 361.03,-380.18 361.88,-380 554.47,-338.82 786.92,-323.53 902.78,-318.17"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="358.5,-377.16 349.62,-382.93 360.16,-383.96 358.5,-377.16"/>
+<g id="a_edge7_Node000006_Node000013"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M537.88,-368.16C537.88,-360.16 537.88,-351.92 537.88,-344.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="534.38,-368.07 537.88,-378.07 541.38,-368.07 534.38,-368.07"/>
 </a>
 </g>
 </g>
-<!-- Node21 -->
-<g id="Node000021" class="node">
-<title>Node21</title>
-<g id="a_Node000021"><a xlink:href="AnimStreamable_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="215.75,-154 70,-154 70,-95 215.75,-95 215.75,-154"/>
-<text xml:space="preserve" text-anchor="start" x="78" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="78" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="78" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="142.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimStreamable.h</text>
-</a>
-</g>
-</g>
-<!-- Node6&#45;&gt;Node21 -->
-<g id="edge20_Node000006_Node000021" class="edge">
-<title>Node6&#45;&gt;Node21</title>
-<g id="a_edge20_Node000006_Node000021"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M218.5,-372.65C208.76,-364.28 199.62,-354.65 192.88,-344 154.87,-284 145.64,-198.5 143.48,-154.35"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="216.01,-375.14 225.98,-378.73 220.42,-369.71 216.01,-375.14"/>
+<!-- Node6&#45;&gt;Node14 -->
+<g id="edge8_Node000006_Node000014" class="edge">
+<title>Node6&#45;&gt;Node14</title>
+<g id="a_edge8_Node000006_Node000014"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M622.11,-387.22C632.78,-384.69 643.57,-382.23 653.88,-380 747.23,-359.82 855.61,-340.17 925.61,-327.97"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="621.44,-383.78 612.53,-389.51 623.07,-390.59 621.44,-383.78"/>
 </a>
 </g>
 </g>
 <!-- Node22 -->
 <g id="Node000022" class="node">
 <title>Node22</title>
-<g id="a_Node000022"><a xlink:href="BuiltInAttributeTypes_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="347.75,-344 202,-344 202,-285 347.75,-285 347.75,-344"/>
-<text xml:space="preserve" text-anchor="start" x="210" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="210" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="210" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="274.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/BuiltInAttributeTypes.h</text>
+<g id="a_Node000022"><a xlink:href="AnimStreamable_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="145.75,-154 0,-154 0,-95 145.75,-95 145.75,-154"/>
+<text xml:space="preserve" text-anchor="start" x="8" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="72.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimStreamable.h</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node22 -->
-<g id="edge21_Node000006_Node000022" class="edge">
+<g id="edge20_Node000006_Node000022" class="edge">
 <title>Node6&#45;&gt;Node22</title>
-<g id="a_edge21_Node000006_Node000022"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M274.88,-368.16C274.88,-360.16 274.88,-351.92 274.88,-344.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="271.38,-368.07 274.88,-378.07 278.38,-368.07 271.38,-368.07"/>
+<g id="a_edge20_Node000006_Node000022"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M453.46,-398.99C401.79,-390.36 335.84,-374.15 283.88,-344 198.81,-294.64 125.7,-201.23 92.28,-154.15"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="452.67,-402.41 463.1,-400.53 453.77,-395.49 452.67,-402.41"/>
 </a>
 </g>
 </g>
-<!-- Node14 -->
-<g id="Node000014" class="node">
-<title>Node14</title>
-<g id="a_Node000014"><a xlink:href="AnimCompress_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="689.75,-249 544,-249 544,-190 689.75,-190 689.75,-249"/>
-<text xml:space="preserve" text-anchor="start" x="552" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="552" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="552" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="616.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress.h</text>
+<!-- Node23 -->
+<g id="Node000023" class="node">
+<title>Node23</title>
+<g id="a_Node000023"><a xlink:href="BuiltInAttributeTypes_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="438.75,-344 293,-344 293,-285 438.75,-285 438.75,-344"/>
+<text xml:space="preserve" text-anchor="start" x="301" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="301" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="301" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="365.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/BuiltInAttributeTypes.h</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node14 -->
-<g id="edge9_Node000013_Node000014" class="edge">
-<title>Node13&#45;&gt;Node14</title>
-<g id="a_edge9_Node000013_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M892.01,-291.77C830.83,-275.93 748.72,-254.66 690.16,-239.49"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="890.77,-295.07 901.33,-294.19 892.53,-288.29 890.77,-295.07"/>
-</a>
-</g>
-</g>
-<!-- Node18 -->
-<g id="Node000018" class="node">
-<title>Node18</title>
-<g id="a_Node000018"><a xlink:href="AnimCompress__RemoveLinearKeys_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1168.5,-154 967.25,-154 967.25,-95 1168.5,-95 1168.5,-154"/>
-<text xml:space="preserve" text-anchor="start" x="975.25" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="975.25" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="975.25" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="1067.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_RemoveLinearKeys.h</text>
-</a>
-</g>
-</g>
-<!-- Node13&#45;&gt;Node18 -->
-<g id="edge19_Node000013_Node000018" class="edge">
-<title>Node13&#45;&gt;Node18</title>
-<g id="a_edge19_Node000013_Node000018"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M994.98,-274.47C1012.46,-238.73 1037.94,-186.66 1053.69,-154.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="991.97,-272.66 990.71,-283.18 998.25,-275.73 991.97,-272.66"/>
-</a>
-</g>
-</g>
-<!-- Node19 -->
-<g id="Node000019" class="node">
-<title>Node19</title>
-<g id="a_Node000019"><a xlink:href="AnimCompress__PerTrackCompression_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1238.5,-59 1025.25,-59 1025.25,0 1238.5,0 1238.5,-59"/>
-<text xml:space="preserve" text-anchor="start" x="1033.25" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1033.25" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1033.25" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="1131.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_PerTrackCompression.h</text>
-</a>
-</g>
-</g>
-<!-- Node13&#45;&gt;Node19 -->
-<g id="edge18_Node000013_Node000019" class="edge">
-<title>Node13&#45;&gt;Node19</title>
-<g id="a_edge18_Node000013_Node000019"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1046.81,-279.09C1093.48,-252.18 1150.77,-209.94 1177.88,-154 1189.31,-130.4 1185.87,-119.97 1177.88,-95 1173.77,-82.16 1166.06,-69.7 1158.12,-59.21"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1045.34,-275.9 1038.35,-283.86 1048.78,-282 1045.34,-275.9"/>
+<!-- Node6&#45;&gt;Node23 -->
+<g id="edge21_Node000006_Node000023" class="edge">
+<title>Node6&#45;&gt;Node23</title>
+<g id="a_edge21_Node000006_Node000023"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M474.49,-374.23C456.37,-364.43 436.79,-353.84 419.32,-344.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="472.6,-377.19 483.06,-378.86 475.93,-371.03 472.6,-377.19"/>
 </a>
 </g>
 </g>
 <!-- Node15 -->
 <g id="Node000015" class="node">
 <title>Node15</title>
-<g id="a_Node000015"><a xlink:href="AnimCompress__BitwiseCompressOnly_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="485.5,-154 272.25,-154 272.25,-95 485.5,-95 485.5,-154"/>
-<text xml:space="preserve" text-anchor="start" x="280.25" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="280.25" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="280.25" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="378.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_BitwiseCompressOnly.h</text>
+<g id="a_Node000015"><a xlink:href="AnimCompress_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="697.75,-249 552,-249 552,-190 697.75,-190 697.75,-249"/>
+<text xml:space="preserve" text-anchor="start" x="560" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="560" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="560" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="624.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress.h</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node15 -->
-<g id="edge10_Node000014_Node000015" class="edge">
+<g id="edge9_Node000014_Node000015" class="edge">
 <title>Node14&#45;&gt;Node15</title>
-<g id="a_edge10_Node000014_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M532.89,-185.68C506.77,-175.48 478.18,-164.3 452.8,-154.39"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="531.53,-188.91 542.12,-189.29 534.08,-182.39 531.53,-188.91"/>
+<g id="a_edge9_Node000014_Node000015"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M914.82,-292.6C849.65,-276.39 760.24,-254.16 698.01,-238.69"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="913.86,-295.97 924.41,-294.98 915.55,-289.17 913.86,-295.97"/>
 </a>
 </g>
 </g>
-<!-- Node16 -->
-<g id="Node000016" class="node">
-<title>Node16</title>
-<g id="a_Node000016"><a xlink:href="AnimCompress__LeastDestructive_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="406.88,-59 216.88,-59 216.88,0 406.88,0 406.88,-59"/>
-<text xml:space="preserve" text-anchor="start" x="224.88" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="224.88" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="224.88" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="311.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_LeastDestructive.h</text>
+<!-- Node19 -->
+<g id="Node000019" class="node">
+<title>Node19</title>
+<g id="a_Node000019"><a xlink:href="AnimCompress__RemoveLinearKeys_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1099.5,-154 898.25,-154 898.25,-95 1099.5,-95 1099.5,-154"/>
+<text xml:space="preserve" text-anchor="start" x="906.25" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="906.25" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="906.25" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="998.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_RemoveLinearKeys.h</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node16 -->
-<g id="edge12_Node000014_Node000016" class="edge">
-<title>Node14&#45;&gt;Node16</title>
-<g id="a_edge12_Node000014_Node000016"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M532.45,-215.18C438.84,-209.52 296.54,-194.35 262.88,-154 239.75,-126.28 263.21,-86.3 284.94,-59.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="532.2,-218.67 542.39,-215.76 532.6,-211.69 532.2,-218.67"/>
-</a>
-</g>
-</g>
-<!-- Node17 -->
-<g id="Node000017" class="node">
-<title>Node17</title>
-<g id="a_Node000017"><a xlink:href="AnimCompress__RemoveEverySecondKey_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="730.62,-154 503.12,-154 503.12,-95 730.62,-95 730.62,-154"/>
-<text xml:space="preserve" text-anchor="start" x="511.12" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="511.12" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="511.12" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="616.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_RemoveEverySecondKey.h</text>
-</a>
-</g>
-</g>
-<!-- Node14&#45;&gt;Node17 -->
-<g id="edge13_Node000014_Node000017" class="edge">
-<title>Node14&#45;&gt;Node17</title>
-<g id="a_edge13_Node000014_Node000017"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M616.88,-178.16C616.88,-170.16 616.88,-161.92 616.88,-154.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="613.38,-178.07 616.88,-188.07 620.38,-178.07 613.38,-178.07"/>
-</a>
-</g>
-</g>
-<!-- Node14&#45;&gt;Node18 -->
-<g id="edge14_Node000014_Node000018" class="edge">
-<title>Node14&#45;&gt;Node18</title>
-<g id="a_edge14_Node000014_Node000018"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M701.52,-204.22C770.94,-192.11 871.62,-173.61 958.88,-154 961.55,-153.4 964.25,-152.78 966.98,-152.14"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="700.97,-200.76 691.72,-205.92 702.17,-207.66 700.97,-200.76"/>
+<!-- Node14&#45;&gt;Node19 -->
+<g id="edge19_Node000014_Node000019" class="edge">
+<title>Node14&#45;&gt;Node19</title>
+<g id="a_edge19_Node000014_Node000019"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M998.88,-273.08C998.88,-237.4 998.88,-186.25 998.88,-154.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="995.38,-273.02 998.88,-283.02 1002.38,-273.02 995.38,-273.02"/>
 </a>
 </g>
 </g>
 <!-- Node20 -->
 <g id="Node000020" class="node">
 <title>Node20</title>
-<g id="a_Node000020"><a xlink:href="AnimCompress__RemoveTrivialKeys_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="949.5,-154 748.25,-154 748.25,-95 949.5,-95 949.5,-154"/>
-<text xml:space="preserve" text-anchor="start" x="756.25" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="756.25" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="756.25" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="848.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_RemoveTrivialKeys.h</text>
+<g id="a_Node000020"><a xlink:href="AnimCompress__PerTrackCompression_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1169.5,-59 956.25,-59 956.25,0 1169.5,0 1169.5,-59"/>
+<text xml:space="preserve" text-anchor="start" x="964.25" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="964.25" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="964.25" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="1062.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_PerTrackCompression.h</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node20 -->
-<g id="edge16_Node000014_Node000020" class="edge">
+<g id="edge18_Node000014_Node000020" class="edge">
 <title>Node14&#45;&gt;Node20</title>
-<g id="a_edge16_Node000014_Node000020"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M699.66,-185.32C724.86,-175.21 752.35,-164.19 776.79,-154.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="698.39,-182.05 690.41,-189.02 701,-188.55 698.39,-182.05"/>
+<g id="a_edge18_Node000014_Node000020"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1034.47,-276.2C1060.72,-245.94 1094.31,-200.77 1108.88,-154 1116.67,-128.96 1116.87,-119.97 1108.88,-95 1104.77,-82.16 1097.06,-69.7 1089.12,-59.21"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1031.94,-273.77 1027.93,-283.58 1037.18,-278.41 1031.94,-273.77"/>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node21 -->
-<g id="edge17_Node000014_Node000021" class="edge">
-<title>Node14&#45;&gt;Node21</title>
-<g id="a_edge17_Node000014_Node000021"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M532.48,-208.18C453.58,-197.66 332.8,-179.28 229.88,-154 225.4,-152.9 220.82,-151.68 216.22,-150.39"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="531.94,-211.64 542.31,-209.48 532.85,-204.7 531.94,-211.64"/>
+<!-- Node16 -->
+<g id="Node000016" class="node">
+<title>Node16</title>
+<g id="a_Node000016"><a xlink:href="AnimCompress__BitwiseCompressOnly_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="596.5,-154 383.25,-154 383.25,-95 596.5,-95 596.5,-154"/>
+<text xml:space="preserve" text-anchor="start" x="391.25" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="391.25" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="391.25" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="489.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_BitwiseCompressOnly.h</text>
 </a>
 </g>
 </g>
 <!-- Node15&#45;&gt;Node16 -->
-<g id="edge11_Node000015_Node000016" class="edge">
+<g id="edge10_Node000015_Node000016" class="edge">
 <title>Node15&#45;&gt;Node16</title>
-<g id="a_edge11_Node000015_Node000016"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M351.41,-85.38C345.16,-76.7 338.62,-67.62 332.69,-59.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="348.47,-87.29 357.16,-93.36 354.15,-83.2 348.47,-87.29"/>
+<g id="a_edge10_Node000015_Node000016"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M573.54,-183.14C559.76,-173.65 545.03,-163.49 531.82,-154.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="571.43,-185.93 581.65,-188.73 575.4,-180.17 571.43,-185.93"/>
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node19 -->
-<g id="edge15_Node000018_Node000019" class="edge">
-<title>Node18&#45;&gt;Node19</title>
-<g id="a_edge15_Node000018_Node000019"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1094.3,-85.11C1100.21,-76.51 1106.39,-67.53 1111.99,-59.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1091.42,-83.12 1088.63,-93.34 1097.18,-87.08 1091.42,-83.12"/>
+<!-- Node17 -->
+<g id="Node000017" class="node">
+<title>Node17</title>
+<g id="a_Node000017"><a xlink:href="AnimCompress__LeastDestructive_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="652.88,-59 462.88,-59 462.88,0 652.88,0 652.88,-59"/>
+<text xml:space="preserve" text-anchor="start" x="470.88" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="470.88" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="470.88" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="557.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_LeastDestructive.h</text>
 </a>
 </g>
 </g>
-<!-- Node26 -->
-<g id="Node000026" class="node">
-<title>Node26</title>
-<g id="a_Node000026"><a xlink:href="CustomAttributes_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1299.75,-534 1154,-534 1154,-475 1299.75,-475 1299.75,-534"/>
-<text xml:space="preserve" text-anchor="start" x="1162" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1162" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1162" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="1226.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CustomAttributes.h</text>
+<!-- Node15&#45;&gt;Node17 -->
+<g id="edge12_Node000015_Node000017" class="edge">
+<title>Node15&#45;&gt;Node17</title>
+<g id="a_edge12_Node000015_Node000017"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M623.62,-178.53C621.67,-153.68 616.97,-121.52 605.88,-95 600.6,-82.38 592.32,-69.97 584.13,-59.46"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="620.11,-178.47 624.26,-188.22 627.1,-178.01 620.11,-178.47"/>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node26 -->
-<g id="edge27_Node000025_Node000026" class="edge">
-<title>Node25&#45;&gt;Node26</title>
-<g id="a_edge27_Node000025_Node000026"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1177.11,-654.01C1189.08,-618.29 1206.42,-566.53 1217.16,-534.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1173.92,-652.51 1174.06,-663.1 1180.56,-654.73 1173.92,-652.51"/>
+<!-- Node18 -->
+<g id="Node000018" class="node">
+<title>Node18</title>
+<g id="a_Node000018"><a xlink:href="AnimCompress__RemoveEverySecondKey_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="880.62,-154 653.12,-154 653.12,-95 880.62,-95 880.62,-154"/>
+<text xml:space="preserve" text-anchor="start" x="661.12" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="661.12" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="661.12" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="766.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_RemoveEverySecondKey.h</text>
 </a>
 </g>
 </g>
-<!-- Node26&#45;&gt;Node13 -->
-<g id="edge28_Node000026_Node000013" class="edge">
-<title>Node26&#45;&gt;Node13</title>
-<g id="a_edge28_Node000026_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1142.97,-491.15C1105.64,-482.03 1063.34,-466.24 1032.88,-439 1004.89,-413.97 989.68,-372.39 982.17,-344.48"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1141.86,-494.48 1152.39,-493.32 1143.43,-487.66 1141.86,-494.48"/>
+<!-- Node15&#45;&gt;Node18 -->
+<g id="edge13_Node000015_Node000018" class="edge">
+<title>Node15&#45;&gt;Node18</title>
+<g id="a_edge13_Node000015_Node000018"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M678.45,-183.41C693.06,-173.84 708.73,-163.58 722.75,-154.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="676.74,-180.35 670.29,-188.75 680.58,-186.2 676.74,-180.35"/>
+</a>
+</g>
+</g>
+<!-- Node15&#45;&gt;Node19 -->
+<g id="edge14_Node000015_Node000019" class="edge">
+<title>Node15&#45;&gt;Node19</title>
+<g id="a_edge14_Node000015_Node000019"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M708.94,-198.42C761.09,-185.88 829.44,-169.25 889.88,-154 892.53,-153.33 895.22,-152.65 897.94,-151.96"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="708.45,-194.94 699.54,-200.68 710.08,-201.75 708.45,-194.94"/>
+</a>
+</g>
+</g>
+<!-- Node21 -->
+<g id="Node000021" class="node">
+<title>Node21</title>
+<g id="a_Node000021"><a xlink:href="AnimCompress__RemoveTrivialKeys_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="365.5,-154 164.25,-154 164.25,-95 365.5,-95 365.5,-154"/>
+<text xml:space="preserve" text-anchor="start" x="172.25" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="172.25" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="172.25" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="264.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimCompress_RemoveTrivialKeys.h</text>
+</a>
+</g>
+</g>
+<!-- Node15&#45;&gt;Node21 -->
+<g id="edge16_Node000015_Node000021" class="edge">
+<title>Node15&#45;&gt;Node21</title>
+<g id="a_edge16_Node000015_Node000021"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M540.42,-196.89C491.72,-184.41 429.33,-168.38 373.88,-154 371.22,-153.31 368.54,-152.62 365.83,-151.91"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="539.52,-200.27 550.08,-199.37 541.26,-193.49 539.52,-200.27"/>
+</a>
+</g>
+</g>
+<!-- Node15&#45;&gt;Node22 -->
+<g id="edge17_Node000015_Node000022" class="edge">
+<title>Node15&#45;&gt;Node22</title>
+<g id="a_edge17_Node000015_Node000022"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M540.34,-211.98C445.52,-203.49 287.63,-185.85 154.88,-154 151.94,-153.3 148.97,-152.53 145.98,-151.71"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="539.8,-215.45 550.07,-212.84 540.42,-208.47 539.8,-215.45"/>
+</a>
+</g>
+</g>
+<!-- Node16&#45;&gt;Node17 -->
+<g id="edge11_Node000016_Node000017" class="edge">
+<title>Node16&#45;&gt;Node17</title>
+<g id="a_edge11_Node000016_Node000017"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M517.75,-85.38C524.09,-76.7 530.73,-67.62 536.75,-59.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="514.99,-83.22 511.91,-93.36 520.64,-87.36 514.99,-83.22"/>
+</a>
+</g>
+</g>
+<!-- Node19&#45;&gt;Node20 -->
+<g id="edge15_Node000019_Node000020" class="edge">
+<title>Node19&#45;&gt;Node20</title>
+<g id="a_edge15_Node000019_Node000020"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1025.3,-85.11C1031.21,-76.51 1037.39,-67.53 1042.99,-59.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1022.42,-83.12 1019.63,-93.34 1028.18,-87.08 1022.42,-83.12"/>
 </a>
 </g>
 </g>
 <!-- Node27 -->
 <g id="Node000027" class="node">
 <title>Node27</title>
-<g id="a_Node000027"><a xlink:href="AnimationSettings_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1187.75,-439 1042,-439 1042,-380 1187.75,-380 1187.75,-439"/>
-<text xml:space="preserve" text-anchor="start" x="1050" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1050" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1050" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="1114.88" y="-387.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimationSettings.h</text>
+<g id="a_Node000027"><a xlink:href="CustomAttributes_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1410.75,-534 1265,-534 1265,-475 1410.75,-475 1410.75,-534"/>
+<text xml:space="preserve" text-anchor="start" x="1273" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1273" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1273" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="1337.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CustomAttributes.h</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node27 -->
-<g id="edge29_Node000026_Node000027" class="edge">
+<g id="edge27_Node000026_Node000027" class="edge">
 <title>Node26&#45;&gt;Node27</title>
-<g id="a_edge29_Node000026_Node000027"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1183.3,-467.32C1172.15,-458.06 1160.32,-448.23 1149.68,-439.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1180.96,-469.92 1190.89,-473.62 1185.43,-464.54 1180.96,-469.92"/>
+<g id="a_edge27_Node000026_Node000027"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1318.32,-558.99C1321.34,-550.74 1324.46,-542.18 1327.31,-534.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1315.11,-557.57 1314.97,-568.16 1321.69,-559.97 1315.11,-557.57"/>
+</a>
+</g>
+</g>
+<!-- Node27&#45;&gt;Node14 -->
+<g id="edge28_Node000027_Node000014" class="edge">
+<title>Node27&#45;&gt;Node14</title>
+<g id="a_edge28_Node000027_Node000014"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1253.58,-486.64C1214.24,-476.5 1167.85,-461.16 1129.88,-439 1107.13,-425.73 1057.57,-376.42 1026.35,-344.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1252.72,-490.03 1263.27,-489.06 1254.41,-483.24 1252.72,-490.03"/>
 </a>
 </g>
 </g>
 <!-- Node28 -->
 <g id="Node000028" class="node">
 <title>Node28</title>
-<g id="a_Node000028"><a xlink:href="AttributeBlendOperator_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1351.75,-439 1206,-439 1206,-380 1351.75,-380 1351.75,-439"/>
-<text xml:space="preserve" text-anchor="start" x="1214" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1214" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1214" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="1278.88" y="-387.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AttributeBlendOperator.h</text>
+<g id="a_Node000028"><a xlink:href="AnimationSettings_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1448.75,-439 1303,-439 1303,-380 1448.75,-380 1448.75,-439"/>
+<text xml:space="preserve" text-anchor="start" x="1311" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1311" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1311" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="1375.88" y="-387.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimationSettings.h</text>
 </a>
 </g>
 </g>
-<!-- Node26&#45;&gt;Node28 -->
-<g id="edge30_Node000026_Node000028" class="edge">
-<title>Node26&#45;&gt;Node28</title>
-<g id="a_edge30_Node000026_Node000028"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1248.65,-464.55C1253.36,-456.12 1258.27,-447.36 1262.72,-439.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1245.61,-462.83 1243.78,-473.26 1251.72,-466.24 1245.61,-462.83"/>
+<!-- Node27&#45;&gt;Node28 -->
+<g id="edge29_Node000027_Node000028" class="edge">
+<title>Node27&#45;&gt;Node28</title>
+<g id="a_edge29_Node000027_Node000028"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1354.02,-463.99C1357.39,-455.74 1360.89,-447.18 1364.07,-439.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1350.81,-462.6 1350.26,-473.18 1357.29,-465.25 1350.81,-462.6"/>
 </a>
 </g>
 </g>
-<!-- Node31 -->
-<g id="Node000031" class="node">
-<title>Node31</title>
-<g id="a_Node000031"><a xlink:href="RichCurve_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1791,-629 1658.75,-629 1658.75,-570 1791,-570 1791,-629"/>
-<text xml:space="preserve" text-anchor="start" x="1666.75" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1666.75" y="-602.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1666.75" y="-590" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1724.88" y="-577.25" font-family="Helvetica,sans-Serif" font-size="10.00">/RichCurve.h</text>
+<!-- Node29 -->
+<g id="Node000029" class="node">
+<title>Node29</title>
+<g id="a_Node000029"><a xlink:href="AttributeBlendOperator_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1284.75,-439 1139,-439 1139,-380 1284.75,-380 1284.75,-439"/>
+<text xml:space="preserve" text-anchor="start" x="1147" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1147" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1147" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="1211.88" y="-387.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AttributeBlendOperator.h</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node31 -->
-<g id="edge33_Node000030_Node000031" class="edge">
-<title>Node30&#45;&gt;Node31</title>
-<g id="a_edge33_Node000030_Node000031"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1541.1,-664.22C1584.94,-648.37 1625.51,-634.29 1658.42,-623.02"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1540.12,-660.85 1531.92,-667.55 1542.51,-667.43 1540.12,-660.85"/>
-</a>
-</g>
-</g>
-<!-- Node60 -->
-<g id="Node000060" class="node">
-<title>Node60</title>
-<g id="a_Node000060"><a xlink:href="SimpleCurve_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1502,-629 1369.75,-629 1369.75,-570 1502,-570 1502,-629"/>
-<text xml:space="preserve" text-anchor="start" x="1377.75" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1377.75" y="-602.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1377.75" y="-590" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1435.88" y="-577.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SimpleCurve.h</text>
-</a>
-</g>
-</g>
-<!-- Node30&#45;&gt;Node60 -->
-<g id="edge54_Node000030_Node000060" class="edge">
-<title>Node30&#45;&gt;Node60</title>
-<g id="a_edge54_Node000030_Node000060"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1451.9,-653.72C1449.44,-645.55 1446.89,-637.1 1444.58,-629.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1448.5,-654.57 1454.73,-663.13 1455.2,-652.55 1448.5,-654.57"/>
-</a>
-</g>
-</g>
-<!-- Node61 -->
-<g id="Node000061" class="node">
-<title>Node61</title>
-<g id="a_Node000061"><a xlink:href="TowerClassInfo_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2089.75,-616.25 1962,-616.25 1962,-582.75 2089.75,-582.75 2089.75,-616.25"/>
-<text xml:space="preserve" text-anchor="start" x="1970" y="-602.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
-<text xml:space="preserve" text-anchor="middle" x="2025.88" y="-590" font-family="Helvetica,sans-Serif" font-size="10.00">/Data/TowerClassInfo.h</text>
-</a>
-</g>
-</g>
-<!-- Node30&#45;&gt;Node61 -->
-<g id="edge57_Node000030_Node000061" class="edge">
-<title>Node30&#45;&gt;Node61</title>
-<g id="a_edge57_Node000030_Node000061"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1541.37,-665.12C1601.29,-654.5 1844.5,-623.44 1961.99,-608.56"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1540.87,-661.65 1531.76,-667.06 1542.25,-668.51 1540.87,-661.65"/>
+<!-- Node27&#45;&gt;Node29 -->
+<g id="edge30_Node000027_Node000029" class="edge">
+<title>Node27&#45;&gt;Node29</title>
+<g id="a_edge30_Node000027_Node000029"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1289.59,-467.86C1276.84,-458.45 1263.23,-448.41 1251.03,-439.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1287.36,-470.56 1297.48,-473.69 1291.51,-464.93 1287.36,-470.56"/>
 </a>
 </g>
 </g>
 <!-- Node32 -->
 <g id="Node000032" class="node">
 <title>Node32</title>
-<g id="a_Node000032"><a xlink:href="AnimationRecordingSettings_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1724.25,-534 1557.5,-534 1557.5,-475 1724.25,-475 1724.25,-534"/>
-<text xml:space="preserve" text-anchor="start" x="1565.5" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1565.5" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1565.5" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
-<text xml:space="preserve" text-anchor="middle" x="1640.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimationRecordingSettings.h</text>
+<g id="a_Node000032"><a xlink:href="RichCurve_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1853,-629 1720.75,-629 1720.75,-570 1853,-570 1853,-629"/>
+<text xml:space="preserve" text-anchor="start" x="1728.75" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1728.75" y="-602.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1728.75" y="-590" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1786.88" y="-577.25" font-family="Helvetica,sans-Serif" font-size="10.00">/RichCurve.h</text>
 </a>
 </g>
 </g>
 <!-- Node31&#45;&gt;Node32 -->
-<g id="edge34_Node000031_Node000032" class="edge">
+<g id="edge33_Node000031_Node000032" class="edge">
 <title>Node31&#45;&gt;Node32</title>
-<g id="a_edge34_Node000031_Node000032"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1691.2,-561.21C1683.13,-552.28 1674.64,-542.88 1666.98,-534.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1688.44,-563.39 1697.74,-568.46 1693.64,-558.69 1688.44,-563.39"/>
+<g id="a_edge33_Node000031_Node000032"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1625.15,-663.43C1655.95,-651.45 1691.05,-637.79 1720.66,-626.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1623.91,-660.16 1615.86,-667.05 1626.45,-666.68 1623.91,-660.16"/>
+</a>
+</g>
+</g>
+<!-- Node61 -->
+<g id="Node000061" class="node">
+<title>Node61</title>
+<g id="a_Node000061"><a xlink:href="SimpleCurve_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1609,-629 1476.75,-629 1476.75,-570 1609,-570 1609,-629"/>
+<text xml:space="preserve" text-anchor="start" x="1484.75" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1484.75" y="-602.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1484.75" y="-590" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1542.88" y="-577.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SimpleCurve.h</text>
+</a>
+</g>
+</g>
+<!-- Node31&#45;&gt;Node61 -->
+<g id="edge61_Node000031_Node000061" class="edge">
+<title>Node31&#45;&gt;Node61</title>
+<g id="a_edge61_Node000031_Node000061"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1545.71,-653.16C1545.28,-645.16 1544.83,-636.92 1544.43,-629.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1542.21,-653.27 1546.24,-663.07 1549.2,-652.9 1542.21,-653.27"/>
 </a>
 </g>
 </g>
 <!-- Node33 -->
 <g id="Node000033" class="node">
 <title>Node33</title>
-<g id="a_Node000033"><a xlink:href="CurveFloat_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2025,-344 1892.75,-344 1892.75,-285 2025,-285 2025,-344"/>
-<text xml:space="preserve" text-anchor="start" x="1900.75" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1900.75" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1900.75" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1958.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveFloat.h</text>
+<g id="a_Node000033"><a xlink:href="AnimationRecordingSettings_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="2028.25,-534 1861.5,-534 1861.5,-475 2028.25,-475 2028.25,-534"/>
+<text xml:space="preserve" text-anchor="start" x="1869.5" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1869.5" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1869.5" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Animation</text>
+<text xml:space="preserve" text-anchor="middle" x="1944.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AnimationRecordingSettings.h</text>
 </a>
 </g>
 </g>
-<!-- Node31&#45;&gt;Node33 -->
-<g id="edge35_Node000031_Node000033" class="edge">
-<title>Node31&#45;&gt;Node33</title>
-<g id="a_edge35_Node000031_Node000033"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1802.06,-589.25C1839.63,-580.83 1882.48,-564.74 1909.88,-534 1957.73,-480.31 1962.01,-390.11 1960.7,-344.21"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1801.67,-585.76 1792.59,-591.22 1803.1,-592.61 1801.67,-585.76"/>
-</a>
-</g>
-</g>
-<!-- Node53 -->
-<g id="Node000053" class="node">
-<title>Node53</title>
-<g id="a_Node000053"><a xlink:href="CurveLinearColor_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1625,-344 1492.75,-344 1492.75,-285 1625,-285 1625,-344"/>
-<text xml:space="preserve" text-anchor="start" x="1500.75" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1500.75" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1500.75" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1558.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveLinearColor.h</text>
-</a>
-</g>
-</g>
-<!-- Node31&#45;&gt;Node53 -->
-<g id="edge44_Node000031_Node000053" class="edge">
-<title>Node31&#45;&gt;Node53</title>
-<g id="a_edge44_Node000031_Node000053"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1647.23,-590.26C1611.06,-582.09 1571.17,-565.91 1548.88,-534 1508.97,-476.88 1531.41,-389.38 1547.32,-344.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1646.33,-593.65 1656.83,-592.24 1647.75,-586.79 1646.33,-593.65"/>
-</a>
-</g>
-</g>
-<!-- Node55 -->
-<g id="Node000055" class="node">
-<title>Node55</title>
-<g id="a_Node000055"><a xlink:href="CurveOwnerInterface_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1875,-534 1742.75,-534 1742.75,-475 1875,-475 1875,-534"/>
-<text xml:space="preserve" text-anchor="start" x="1750.75" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1750.75" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1750.75" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1808.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveOwnerInterface.h</text>
-</a>
-</g>
-</g>
-<!-- Node31&#45;&gt;Node55 -->
-<g id="edge46_Node000031_Node000055" class="edge">
-<title>Node31&#45;&gt;Node55</title>
-<g id="a_edge46_Node000031_Node000055"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1758.55,-561.21C1766.62,-552.28 1775.11,-542.88 1782.77,-534.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1756.11,-558.69 1752.01,-568.46 1761.31,-563.39 1756.11,-558.69"/>
-</a>
-</g>
-</g>
-<!-- Node57 -->
-<g id="Node000057" class="node">
-<title>Node57</title>
-<g id="a_Node000057"><a xlink:href="CurveVector_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1875,-344 1742.75,-344 1742.75,-285 1875,-285 1875,-344"/>
-<text xml:space="preserve" text-anchor="start" x="1750.75" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1750.75" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1750.75" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1808.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveVector.h</text>
-</a>
-</g>
-</g>
-<!-- Node31&#45;&gt;Node57 -->
-<g id="edge53_Node000031_Node000057" class="edge">
-<title>Node31&#45;&gt;Node57</title>
-<g id="a_edge53_Node000031_Node000057"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1802.04,-586.35C1832.84,-577.3 1865.34,-561.52 1883.88,-534 1922.11,-477.23 1912.42,-442.21 1883.88,-380 1877.5,-366.11 1866.49,-354.08 1854.84,-344.3"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1801.43,-582.89 1792.7,-588.88 1803.26,-589.64 1801.43,-582.89"/>
+<!-- Node32&#45;&gt;Node33 -->
+<g id="edge34_Node000032_Node000033" class="edge">
+<title>Node32&#45;&gt;Node33</title>
+<g id="a_edge34_Node000032_Node000033"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1845.56,-563.96C1862.08,-554.23 1879.88,-543.76 1895.78,-534.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1844.15,-560.73 1837.31,-568.82 1847.7,-566.76 1844.15,-560.73"/>
 </a>
 </g>
 </g>
 <!-- Node34 -->
 <g id="Node000034" class="node">
 <title>Node34</title>
-<g id="a_Node000034"><a xlink:href="Attenuation_8h.html" target="_top" xlink:title=" ">
-<polygon fill="#fff0f0" stroke="red" points="2206,-249 2073.75,-249 2073.75,-190 2206,-190 2206,-249"/>
-<text xml:space="preserve" text-anchor="start" x="2081.75" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="2081.75" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="2081.75" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Engine</text>
-<text xml:space="preserve" text-anchor="middle" x="2139.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/Attenuation.h</text>
+<g id="a_Node000034"><a xlink:href="CurveFloat_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1900,-344 1767.75,-344 1767.75,-285 1900,-285 1900,-344"/>
+<text xml:space="preserve" text-anchor="start" x="1775.75" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1775.75" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1775.75" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1833.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveFloat.h</text>
 </a>
 </g>
 </g>
-<!-- Node33&#45;&gt;Node34 -->
-<g id="edge36_Node000033_Node000034" class="edge">
-<title>Node33&#45;&gt;Node34</title>
-<g id="a_edge36_Node000033_Node000034"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2025.31,-279.37C2044.46,-269.53 2065.16,-258.89 2083.63,-249.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2023.79,-276.21 2016.5,-283.89 2026.99,-282.44 2023.79,-276.21"/>
-</a>
-</g>
-</g>
-<!-- Node42 -->
-<g id="Node000042" class="node">
-<title>Node42</title>
-<g id="a_Node000042"><a xlink:href="UserInterfaceSettings_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2357.75,-249 2224,-249 2224,-190 2357.75,-190 2357.75,-249"/>
-<text xml:space="preserve" text-anchor="start" x="2232" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="2232" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="2232" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Engine</text>
-<text xml:space="preserve" text-anchor="middle" x="2290.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/UserInterfaceSettings.h</text>
-</a>
-</g>
-</g>
-<!-- Node33&#45;&gt;Node42 -->
-<g id="edge38_Node000033_Node000042" class="edge">
-<title>Node33&#45;&gt;Node42</title>
-<g id="a_edge38_Node000033_Node000042"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2036.44,-296.34C2087.53,-284.46 2155.67,-267.49 2214.88,-249 2217.83,-248.08 2220.85,-247.1 2223.88,-246.09"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2035.91,-292.87 2026.95,-298.54 2037.48,-299.69 2035.91,-292.87"/>
-</a>
-</g>
-</g>
-<!-- Node43 -->
-<g id="Node000043" class="node">
-<title>Node43</title>
-<g id="a_Node000043"><a xlink:href="ForceFeedbackEffect_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2555.62,-249 2376.12,-249 2376.12,-190 2555.62,-190 2555.62,-249"/>
-<text xml:space="preserve" text-anchor="start" x="2384.12" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="2384.12" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="2384.12" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="2465.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/ForceFeedbackEffect.h</text>
-</a>
-</g>
-</g>
-<!-- Node33&#45;&gt;Node43 -->
-<g id="edge39_Node000033_Node000043" class="edge">
-<title>Node33&#45;&gt;Node43</title>
-<g id="a_edge39_Node000033_Node000043"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2036.71,-304.1C2119.21,-293.47 2253.04,-274.28 2366.88,-249 2369.84,-248.34 2372.85,-247.64 2375.89,-246.92"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2036.4,-300.62 2026.92,-305.36 2037.29,-307.56 2036.4,-300.62"/>
-</a>
-</g>
-</g>
-<!-- Node44 -->
-<g id="Node000044" class="node">
-<title>Node44</title>
-<g id="a_Node000044"><a xlink:href="HapticFeedbackEffect__Curve_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1604,-249 1435.75,-249 1435.75,-190 1604,-190 1604,-249"/>
-<text xml:space="preserve" text-anchor="start" x="1443.75" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1443.75" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1443.75" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Haptics</text>
-<text xml:space="preserve" text-anchor="middle" x="1519.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/HapticFeedbackEffect_Curve.h</text>
-</a>
-</g>
-</g>
-<!-- Node33&#45;&gt;Node44 -->
-<g id="edge40_Node000033_Node000044" class="edge">
-<title>Node33&#45;&gt;Node44</title>
-<g id="a_edge40_Node000033_Node000044"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1881.6,-284.66C1763.98,-256.33 1728.11,-274.13 1612.88,-249 1610.07,-248.39 1607.23,-247.73 1604.37,-247.04"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1880.46,-287.99 1891.01,-286.99 1882.14,-281.19 1880.46,-287.99"/>
-</a>
-</g>
-</g>
-<!-- Node45 -->
-<g id="Node000045" class="node">
-<title>Node45</title>
-<g id="a_Node000045"><a xlink:href="SoundNodeEnveloper_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1754,-249 1621.75,-249 1621.75,-190 1754,-190 1754,-249"/>
-<text xml:space="preserve" text-anchor="start" x="1629.75" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1629.75" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1629.75" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Sound</text>
-<text xml:space="preserve" text-anchor="middle" x="1687.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SoundNodeEnveloper.h</text>
-</a>
-</g>
-</g>
-<!-- Node33&#45;&gt;Node45 -->
-<g id="edge41_Node000033_Node000045" class="edge">
-<title>Node33&#45;&gt;Node45</title>
-<g id="a_edge41_Node000033_Node000045"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1881.69,-284.36C1829.25,-267 1813.44,-265.71 1763.88,-249 1760.67,-247.92 1757.4,-246.79 1754.1,-245.63"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1880.28,-287.57 1890.87,-287.44 1882.51,-280.94 1880.28,-287.57"/>
-</a>
-</g>
-</g>
-<!-- Node46 -->
-<g id="Node000046" class="node">
-<title>Node46</title>
-<g id="a_Node000046"><a xlink:href="SoundSourceBusSend_8h.html" target="_top" xlink:title=" ">
-<polygon fill="#fff0f0" stroke="red" points="1905.38,-249 1772.38,-249 1772.38,-190 1905.38,-190 1905.38,-249"/>
-<text xml:space="preserve" text-anchor="start" x="1780.38" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1780.38" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1780.38" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Sound</text>
-<text xml:space="preserve" text-anchor="middle" x="1838.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SoundSourceBusSend.h</text>
-</a>
-</g>
-</g>
-<!-- Node33&#45;&gt;Node46 -->
-<g id="edge42_Node000033_Node000046" class="edge">
-<title>Node33&#45;&gt;Node46</title>
-<g id="a_edge42_Node000033_Node000046"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1912.54,-277.59C1900.49,-268.26 1887.67,-258.32 1876.16,-249.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1910.32,-280.3 1920.37,-283.66 1914.61,-274.76 1910.32,-280.3"/>
-</a>
-</g>
-</g>
-<!-- Node48 -->
-<g id="Node000048" class="node">
-<title>Node48</title>
-<g id="a_Node000048"><a xlink:href="SoundSubmixSend_8h.html" target="_top" xlink:title=" ">
-<polygon fill="#fff0f0" stroke="red" points="2056,-249 1923.75,-249 1923.75,-190 2056,-190 2056,-249"/>
-<text xml:space="preserve" text-anchor="start" x="1931.75" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1931.75" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1931.75" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Sound</text>
-<text xml:space="preserve" text-anchor="middle" x="1989.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SoundSubmixSend.h</text>
-</a>
-</g>
-</g>
-<!-- Node33&#45;&gt;Node48 -->
-<g id="edge43_Node000033_Node000048" class="edge">
-<title>Node33&#45;&gt;Node48</title>
-<g id="a_edge43_Node000033_Node000048"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1972.14,-273.72C1974.86,-265.55 1977.68,-257.1 1980.24,-249.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1968.83,-272.55 1968.99,-283.15 1975.48,-274.77 1968.83,-272.55"/>
-</a>
-</g>
-</g>
-<!-- Node35 -->
-<g id="Node000035" class="node">
-<title>Node35</title>
-<g id="a_Node000035"><a xlink:href="ForceFeedbackAttenuation_8h.html" target="_top" xlink:title=" ">
-<polygon fill="#fff0f0" stroke="red" points="2229.62,-154 2050.12,-154 2050.12,-95 2229.62,-95 2229.62,-154"/>
-<text xml:space="preserve" text-anchor="start" x="2058.12" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="2058.12" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="2058.12" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="2139.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/ForceFeedbackAttenuation.h</text>
-</a>
-</g>
-</g>
-<!-- Node34&#45;&gt;Node35 -->
-<g id="edge37_Node000034_Node000035" class="edge">
-<title>Node34&#45;&gt;Node35</title>
-<g id="a_edge37_Node000034_Node000035"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2139.88,-178.16C2139.88,-170.16 2139.88,-161.92 2139.88,-154.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2136.38,-178.07 2139.88,-188.07 2143.38,-178.07 2136.38,-178.07"/>
+<!-- Node32&#45;&gt;Node34 -->
+<g id="edge35_Node000032_Node000034" class="edge">
+<title>Node32&#45;&gt;Node34</title>
+<g id="a_edge35_Node000032_Node000034"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1806.28,-559.27C1809.65,-551.09 1812.75,-542.39 1814.88,-534 1831.71,-467.56 1834.26,-386.53 1834.3,-344.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1803.15,-557.71 1802.37,-568.27 1809.56,-560.5 1803.15,-557.71"/>
 </a>
 </g>
 </g>
 <!-- Node54 -->
 <g id="Node000054" class="node">
 <title>Node54</title>
-<g id="a_Node000054"><a xlink:href="SpecularProfile_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1418,-249 1285.75,-249 1285.75,-190 1418,-190 1418,-249"/>
-<text xml:space="preserve" text-anchor="start" x="1293.75" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1293.75" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1293.75" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Engine</text>
-<text xml:space="preserve" text-anchor="middle" x="1351.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SpecularProfile.h</text>
+<g id="a_Node000054"><a xlink:href="CurveLinearColor_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="2122,-344 1989.75,-344 1989.75,-285 2122,-285 2122,-344"/>
+<text xml:space="preserve" text-anchor="start" x="1997.75" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1997.75" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1997.75" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="2055.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveLinearColor.h</text>
 </a>
 </g>
 </g>
-<!-- Node53&#45;&gt;Node54 -->
-<g id="edge45_Node000053_Node000054" class="edge">
-<title>Node53&#45;&gt;Node54</title>
-<g id="a_edge45_Node000053_Node000054"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1484.11,-279.91C1461.87,-269.92 1437.71,-259.06 1416.2,-249.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1482.58,-283.06 1493.13,-283.96 1485.45,-276.67 1482.58,-283.06"/>
+<!-- Node32&#45;&gt;Node54 -->
+<g id="edge51_Node000032_Node000054" class="edge">
+<title>Node32&#45;&gt;Node54</title>
+<g id="a_edge51_Node000032_Node000054"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1864.48,-588.36C1929.33,-578.19 2014.66,-560.24 2036.88,-534 2082.39,-480.24 2072.04,-390.07 2062.8,-344.19"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1864.3,-584.85 1854.94,-589.82 1865.36,-591.77 1864.3,-584.85"/>
 </a>
 </g>
 </g>
 <!-- Node56 -->
 <g id="Node000056" class="node">
 <title>Node56</title>
-<g id="a_Node000056"><a xlink:href="CurveBase_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1875,-439 1742.75,-439 1742.75,-380 1875,-380 1875,-439"/>
-<text xml:space="preserve" text-anchor="start" x="1750.75" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1750.75" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1750.75" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
-<text xml:space="preserve" text-anchor="middle" x="1808.88" y="-387.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveBase.h</text>
+<g id="a_Node000056"><a xlink:href="CurveOwnerInterface_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1806,-534 1673.75,-534 1673.75,-475 1806,-475 1806,-534"/>
+<text xml:space="preserve" text-anchor="start" x="1681.75" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1681.75" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1681.75" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1739.88" y="-482.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveOwnerInterface.h</text>
 </a>
 </g>
 </g>
-<!-- Node55&#45;&gt;Node56 -->
-<g id="edge47_Node000055_Node000056" class="edge">
-<title>Node55&#45;&gt;Node56</title>
-<g id="a_edge47_Node000055_Node000056"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1808.88,-463.16C1808.88,-455.16 1808.88,-446.92 1808.88,-439.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1805.38,-463.07 1808.88,-473.07 1812.38,-463.07 1805.38,-463.07"/>
+<!-- Node32&#45;&gt;Node56 -->
+<g id="edge53_Node000032_Node000056" class="edge">
+<title>Node32&#45;&gt;Node56</title>
+<g id="a_edge53_Node000032_Node000056"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1767.19,-559.55C1762.93,-551.12 1758.5,-542.36 1754.48,-534.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1763.94,-560.89 1771.58,-568.23 1770.19,-557.73 1763.94,-560.89"/>
 </a>
 </g>
 </g>
 <!-- Node58 -->
 <g id="Node000058" class="node">
 <title>Node58</title>
-<g id="a_Node000058"><a xlink:href="CurveTable_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1502,-439 1369.75,-439 1369.75,-380 1502,-380 1502,-439"/>
-<text xml:space="preserve" text-anchor="start" x="1377.75" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1377.75" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1377.75" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Engine</text>
-<text xml:space="preserve" text-anchor="middle" x="1435.88" y="-387.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveTable.h</text>
+<g id="a_Node000058"><a xlink:href="CurveVector_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1750,-344 1617.75,-344 1617.75,-285 1750,-285 1750,-344"/>
+<text xml:space="preserve" text-anchor="start" x="1625.75" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1625.75" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1625.75" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1683.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveVector.h</text>
 </a>
 </g>
 </g>
-<!-- Node55&#45;&gt;Node58 -->
-<g id="edge51_Node000055_Node000058" class="edge">
-<title>Node55&#45;&gt;Node58</title>
-<g id="a_edge51_Node000055_Node000058"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1731.28,-474.7C1647.14,-450.46 1560.44,-432.84 1502.33,-422.07"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1730.3,-478.06 1740.88,-477.5 1732.26,-471.34 1730.3,-478.06"/>
+<!-- Node32&#45;&gt;Node58 -->
+<g id="edge60_Node000032_Node000058" class="edge">
+<title>Node32&#45;&gt;Node58</title>
+<g id="a_edge60_Node000032_Node000058"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1710.23,-573.89C1692.28,-564.35 1675.36,-551.4 1664.88,-534 1629.01,-474.48 1653.94,-388.78 1671.21,-344.47"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1708.4,-576.89 1718.92,-578.18 1711.5,-570.61 1708.4,-576.89"/>
 </a>
 </g>
 </g>
-<!-- Node56&#45;&gt;Node33 -->
-<g id="edge48_Node000056_Node000033" class="edge">
-<title>Node56&#45;&gt;Node33</title>
-<g id="a_edge48_Node000056_Node000033"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1865.03,-373.69C1880.59,-364.04 1897.31,-353.67 1912.27,-344.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1863.45,-370.54 1856.8,-378.79 1867.14,-376.49 1863.45,-370.54"/>
+<!-- Node35 -->
+<g id="Node000035" class="node">
+<title>Node35</title>
+<g id="a_Node000035"><a xlink:href="Attenuation_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1448,-249 1315.75,-249 1315.75,-190 1448,-190 1448,-249"/>
+<text xml:space="preserve" text-anchor="start" x="1323.75" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1323.75" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1323.75" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Engine</text>
+<text xml:space="preserve" text-anchor="middle" x="1381.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/Attenuation.h</text>
 </a>
 </g>
 </g>
-<!-- Node56&#45;&gt;Node53 -->
-<g id="edge49_Node000056_Node000053" class="edge">
-<title>Node56&#45;&gt;Node53</title>
-<g id="a_edge49_Node000056_Node000053"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1732.11,-379.94C1697.89,-367.21 1657.98,-352.37 1625.09,-340.13"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1730.52,-383.09 1741.12,-383.29 1732.97,-376.53 1730.52,-383.09"/>
+<!-- Node34&#45;&gt;Node35 -->
+<g id="edge36_Node000034_Node000035" class="edge">
+<title>Node34&#45;&gt;Node35</title>
+<g id="a_edge36_Node000034_Node000035"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1756.63,-284.7C1625.46,-254.21 1584.68,-280.4 1456.88,-249 1454.03,-248.3 1451.16,-247.53 1448.26,-246.69"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1755.48,-288.03 1766.02,-286.96 1757.11,-281.22 1755.48,-288.03"/>
+</a>
+</g>
+</g>
+<!-- Node43 -->
+<g id="Node000043" class="node">
+<title>Node43</title>
+<g id="a_Node000043"><a xlink:href="UserInterfaceSettings_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1900.75,-249 1767,-249 1767,-190 1900.75,-190 1900.75,-249"/>
+<text xml:space="preserve" text-anchor="start" x="1775" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1775" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1775" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Engine</text>
+<text xml:space="preserve" text-anchor="middle" x="1833.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/UserInterfaceSettings.h</text>
+</a>
+</g>
+</g>
+<!-- Node34&#45;&gt;Node43 -->
+<g id="edge40_Node000034_Node000043" class="edge">
+<title>Node34&#45;&gt;Node43</title>
+<g id="a_edge40_Node000034_Node000043"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1833.88,-273.16C1833.88,-265.16 1833.88,-256.92 1833.88,-249.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1830.38,-273.07 1833.88,-283.07 1837.38,-273.07 1830.38,-273.07"/>
+</a>
+</g>
+</g>
+<!-- Node44 -->
+<g id="Node000044" class="node">
+<title>Node44</title>
+<g id="a_Node000044"><a xlink:href="ForceFeedbackEffect_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="2098.62,-249 1919.12,-249 1919.12,-190 2098.62,-190 2098.62,-249"/>
+<text xml:space="preserve" text-anchor="start" x="1927.12" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1927.12" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1927.12" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="2008.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/ForceFeedbackEffect.h</text>
+</a>
+</g>
+</g>
+<!-- Node34&#45;&gt;Node44 -->
+<g id="edge41_Node000034_Node000044" class="edge">
+<title>Node34&#45;&gt;Node44</title>
+<g id="a_edge41_Node000034_Node000044"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1898.36,-279.23C1916.81,-269.43 1936.72,-258.84 1954.5,-249.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1896.81,-276.09 1889.62,-283.87 1900.1,-282.27 1896.81,-276.09"/>
+</a>
+</g>
+</g>
+<!-- Node45 -->
+<g id="Node000045" class="node">
+<title>Node45</title>
+<g id="a_Node000045"><a xlink:href="HapticFeedbackEffect__Curve_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="2285,-249 2116.75,-249 2116.75,-190 2285,-190 2285,-249"/>
+<text xml:space="preserve" text-anchor="start" x="2124.75" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="2124.75" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="2124.75" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Haptics</text>
+<text xml:space="preserve" text-anchor="middle" x="2200.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/HapticFeedbackEffect_Curve.h</text>
+</a>
+</g>
+</g>
+<!-- Node34&#45;&gt;Node45 -->
+<g id="edge42_Node000034_Node000045" class="edge">
+<title>Node34&#45;&gt;Node45</title>
+<g id="a_edge42_Node000034_Node000045"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1911.42,-296.68C1966.48,-284.39 2042.01,-266.82 2107.88,-249 2110.65,-248.25 2113.46,-247.47 2116.3,-246.68"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1910.82,-293.23 1901.82,-298.82 1912.34,-300.06 1910.82,-293.23"/>
+</a>
+</g>
+</g>
+<!-- Node46 -->
+<g id="Node000046" class="node">
+<title>Node46</title>
+<g id="a_Node000046"><a xlink:href="SoundNodeEnveloper_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="2435,-249 2302.75,-249 2302.75,-190 2435,-190 2435,-249"/>
+<text xml:space="preserve" text-anchor="start" x="2310.75" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="2310.75" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="2310.75" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Sound</text>
+<text xml:space="preserve" text-anchor="middle" x="2368.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SoundNodeEnveloper.h</text>
+</a>
+</g>
+</g>
+<!-- Node34&#45;&gt;Node46 -->
+<g id="edge43_Node000034_Node000046" class="edge">
+<title>Node34&#45;&gt;Node46</title>
+<g id="a_edge43_Node000034_Node000046"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1911.41,-297.31C1933.77,-292.96 1958.24,-288.49 1980.88,-285 2119.27,-263.66 2157.82,-282.13 2293.88,-249 2296.72,-248.31 2299.6,-247.54 2302.49,-246.71"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1910.9,-293.84 1901.76,-299.21 1912.25,-300.71 1910.9,-293.84"/>
+</a>
+</g>
+</g>
+<!-- Node47 -->
+<g id="Node000047" class="node">
+<title>Node47</title>
+<g id="a_Node000047"><a xlink:href="SoundSourceBusSend_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1749.38,-249 1616.38,-249 1616.38,-190 1749.38,-190 1749.38,-249"/>
+<text xml:space="preserve" text-anchor="start" x="1624.38" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1624.38" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1624.38" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Sound</text>
+<text xml:space="preserve" text-anchor="middle" x="1682.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SoundSourceBusSend.h</text>
+</a>
+</g>
+</g>
+<!-- Node34&#45;&gt;Node47 -->
+<g id="edge44_Node000034_Node000047" class="edge">
+<title>Node34&#45;&gt;Node47</title>
+<g id="a_edge44_Node000034_Node000047"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1777.35,-278.69C1761.68,-269.04 1744.85,-258.67 1729.8,-249.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1775.29,-281.53 1785.64,-283.79 1778.96,-275.57 1775.29,-281.53"/>
+</a>
+</g>
+</g>
+<!-- Node49 -->
+<g id="Node000049" class="node">
+<title>Node49</title>
+<g id="a_Node000049"><a xlink:href="SoundSubmixSend_8h.html" target="_top" xlink:title=" ">
+<polygon fill="#fff0f0" stroke="red" points="1598,-249 1465.75,-249 1465.75,-190 1598,-190 1598,-249"/>
+<text xml:space="preserve" text-anchor="start" x="1473.75" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1473.75" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1473.75" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Sound</text>
+<text xml:space="preserve" text-anchor="middle" x="1531.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SoundSubmixSend.h</text>
+</a>
+</g>
+</g>
+<!-- Node34&#45;&gt;Node49 -->
+<g id="edge47_Node000034_Node000049" class="edge">
+<title>Node34&#45;&gt;Node49</title>
+<g id="a_edge47_Node000034_Node000049"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1756.45,-284.42C1690.88,-265.09 1670.51,-268.13 1607.88,-249 1604.78,-248.05 1601.62,-247.05 1598.44,-246"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1755.34,-287.74 1765.92,-287.28 1757.36,-281.04 1755.34,-287.74"/>
+</a>
+</g>
+</g>
+<!-- Node36 -->
+<g id="Node000036" class="node">
+<title>Node36</title>
+<g id="a_Node000036"><a xlink:href="ForceFeedbackAttenuation_8h.html" target="_top" xlink:title=" ">
+<polygon fill="#fff0f0" stroke="red" points="1335.62,-154 1156.12,-154 1156.12,-95 1335.62,-95 1335.62,-154"/>
+<text xml:space="preserve" text-anchor="start" x="1164.12" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1164.12" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1164.12" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="1245.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/ForceFeedbackAttenuation.h</text>
+</a>
+</g>
+</g>
+<!-- Node35&#45;&gt;Node36 -->
+<g id="edge37_Node000035_Node000036" class="edge">
+<title>Node35&#45;&gt;Node36</title>
+<g id="a_edge37_Node000035_Node000036"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1330.16,-183.14C1316.28,-173.65 1301.44,-163.49 1288.13,-154.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1328.11,-185.97 1338.34,-188.73 1332.06,-180.2 1328.11,-185.97"/>
+</a>
+</g>
+</g>
+<!-- Node38 -->
+<g id="Node000038" class="node">
+<title>Node38</title>
+<g id="a_Node000038"><a xlink:href="SoundAttenuation_8h.html" target="_top" xlink:title=" ">
+<polygon fill="#fff0f0" stroke="red" points="1486,-154 1353.75,-154 1353.75,-95 1486,-95 1486,-154"/>
+<text xml:space="preserve" text-anchor="start" x="1361.75" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1361.75" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1361.75" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Sound</text>
+<text xml:space="preserve" text-anchor="middle" x="1419.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SoundAttenuation.h</text>
+</a>
+</g>
+</g>
+<!-- Node35&#45;&gt;Node38 -->
+<g id="edge38_Node000035_Node000038" class="edge">
+<title>Node35&#45;&gt;Node38</title>
+<g id="a_edge38_Node000035_Node000038"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1398.02,-178.99C1401.39,-170.74 1404.89,-162.18 1408.07,-154.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1394.81,-177.6 1394.26,-188.18 1401.29,-180.25 1394.81,-177.6"/>
+</a>
+</g>
+</g>
+<!-- Node39 -->
+<g id="Node000039" class="node">
+<title>Node39</title>
+<g id="a_Node000039"><a xlink:href="AudioComponent_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1592.38,-59 1435.38,-59 1435.38,0 1592.38,0 1592.38,-59"/>
+<text xml:space="preserve" text-anchor="start" x="1443.38" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1443.38" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1443.38" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Components</text>
+<text xml:space="preserve" text-anchor="middle" x="1513.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AudioComponent.h</text>
+</a>
+</g>
+</g>
+<!-- Node38&#45;&gt;Node39 -->
+<g id="edge39_Node000038_Node000039" class="edge">
+<title>Node38&#45;&gt;Node39</title>
+<g id="a_edge39_Node000038_Node000039"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1457.28,-86.49C1466.39,-77.48 1476,-67.97 1484.67,-59.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1454.83,-84 1450.18,-93.52 1459.75,-88.97 1454.83,-84"/>
+</a>
+</g>
+</g>
+<!-- Node47&#45;&gt;Node39 -->
+<g id="edge45_Node000047_Node000039" class="edge">
+<title>Node47&#45;&gt;Node39</title>
+<g id="a_edge45_Node000047_Node000039"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1693.74,-178.55C1698.38,-152.53 1699.45,-119.07 1682.88,-95 1662.39,-65.26 1626.21,-49.22 1592.56,-40.58"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1690.37,-177.58 1691.8,-188.07 1697.23,-178.97 1690.37,-177.58"/>
+</a>
+</g>
+</g>
+<!-- Node48 -->
+<g id="Node000048" class="node">
+<title>Node48</title>
+<g id="a_Node000048"><a xlink:href="SoundSourceBus_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1862,-154 1729.75,-154 1729.75,-95 1862,-95 1862,-154"/>
+<text xml:space="preserve" text-anchor="start" x="1737.75" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1737.75" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1737.75" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Sound</text>
+<text xml:space="preserve" text-anchor="middle" x="1795.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SoundSourceBus.h</text>
+</a>
+</g>
+</g>
+<!-- Node47&#45;&gt;Node48 -->
+<g id="edge46_Node000047_Node000048" class="edge">
+<title>Node47&#45;&gt;Node48</title>
+<g id="a_edge46_Node000047_Node000048"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1726.84,-182.32C1738.09,-173.06 1750.03,-163.23 1760.76,-154.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1724.68,-179.57 1719.18,-188.62 1729.12,-184.97 1724.68,-179.57"/>
+</a>
+</g>
+</g>
+<!-- Node49&#45;&gt;Node38 -->
+<g id="edge50_Node000049_Node000038" class="edge">
+<title>Node49&#45;&gt;Node38</title>
+<g id="a_edge50_Node000049_Node000038"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1488.3,-182.32C1477.15,-173.06 1465.32,-163.23 1454.68,-154.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1485.96,-184.92 1495.89,-188.62 1490.43,-179.54 1485.96,-184.92"/>
+</a>
+</g>
+</g>
+<!-- Node49&#45;&gt;Node39 -->
+<g id="edge48_Node000049_Node000039" class="edge">
+<title>Node49&#45;&gt;Node39</title>
+<g id="a_edge48_Node000049_Node000039"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1528,-178.08C1524.59,-142.4 1519.69,-91.25 1516.65,-59.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1524.52,-178.41 1528.96,-188.03 1531.49,-177.74 1524.52,-178.41"/>
+</a>
+</g>
+</g>
+<!-- Node50 -->
+<g id="Node000050" class="node">
+<title>Node50</title>
+<g id="a_Node000050"><a xlink:href="AudioVolume_8h.html" target="_top" xlink:title=" ">
+<polygon fill="#fff0f0" stroke="red" points="1674,-154 1541.75,-154 1541.75,-95 1674,-95 1674,-154"/>
+<text xml:space="preserve" text-anchor="start" x="1549.75" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1549.75" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1549.75" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Sound</text>
+<text xml:space="preserve" text-anchor="middle" x="1607.88" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/AudioVolume.h</text>
+</a>
+</g>
+</g>
+<!-- Node49&#45;&gt;Node50 -->
+<g id="edge49_Node000049_Node000050" class="edge">
+<title>Node49&#45;&gt;Node50</title>
+<g id="a_edge49_Node000049_Node000050"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1562.57,-180.94C1569.8,-172.09 1577.4,-162.79 1584.26,-154.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1560.08,-178.45 1556.46,-188.41 1565.5,-182.88 1560.08,-178.45"/>
+</a>
+</g>
+</g>
+<!-- Node55 -->
+<g id="Node000055" class="node">
+<title>Node55</title>
+<g id="a_Node000055"><a xlink:href="SpecularProfile_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="2585,-249 2452.75,-249 2452.75,-190 2585,-190 2585,-249"/>
+<text xml:space="preserve" text-anchor="start" x="2460.75" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="2460.75" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="2460.75" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Engine</text>
+<text xml:space="preserve" text-anchor="middle" x="2518.88" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SpecularProfile.h</text>
+</a>
+</g>
+</g>
+<!-- Node54&#45;&gt;Node55 -->
+<g id="edge52_Node000054_Node000055" class="edge">
+<title>Node54&#45;&gt;Node55</title>
+<g id="a_edge52_Node000054_Node000055"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M2133.61,-305.18C2212.64,-295.65 2338.16,-277.57 2443.88,-249 2446.7,-248.24 2449.56,-247.41 2452.44,-246.53"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="2133.31,-301.69 2123.79,-306.35 2134.14,-308.64 2133.31,-301.69"/>
+</a>
+</g>
+</g>
+<!-- Node57 -->
+<g id="Node000057" class="node">
+<title>Node57</title>
+<g id="a_Node000057"><a xlink:href="CurveBase_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1806,-439 1673.75,-439 1673.75,-380 1806,-380 1806,-439"/>
+<text xml:space="preserve" text-anchor="start" x="1681.75" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1681.75" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1681.75" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Curves</text>
+<text xml:space="preserve" text-anchor="middle" x="1739.88" y="-387.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveBase.h</text>
 </a>
 </g>
 </g>
 <!-- Node56&#45;&gt;Node57 -->
-<g id="edge50_Node000056_Node000057" class="edge">
+<g id="edge54_Node000056_Node000057" class="edge">
 <title>Node56&#45;&gt;Node57</title>
-<g id="a_edge50_Node000056_Node000057"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1808.88,-368.16C1808.88,-360.16 1808.88,-351.92 1808.88,-344.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1805.38,-368.07 1808.88,-378.07 1812.38,-368.07 1805.38,-368.07"/>
+<g id="a_edge54_Node000056_Node000057"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1739.88,-463.16C1739.88,-455.16 1739.88,-446.92 1739.88,-439.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1736.38,-463.07 1739.88,-473.07 1743.38,-463.07 1736.38,-463.07"/>
 </a>
 </g>
 </g>
 <!-- Node59 -->
 <g id="Node000059" class="node">
 <title>Node59</title>
-<g id="a_Node000059"><a xlink:href="CompositeCurveTable_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1475.12,-344 1340.62,-344 1340.62,-285 1475.12,-285 1475.12,-344"/>
-<text xml:space="preserve" text-anchor="start" x="1348.62" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1348.62" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1348.62" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Engine</text>
-<text xml:space="preserve" text-anchor="middle" x="1407.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CompositeCurveTable.h</text>
+<g id="a_Node000059"><a xlink:href="CurveTable_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1609,-439 1476.75,-439 1476.75,-380 1609,-380 1609,-439"/>
+<text xml:space="preserve" text-anchor="start" x="1484.75" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1484.75" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1484.75" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Engine</text>
+<text xml:space="preserve" text-anchor="middle" x="1542.88" y="-387.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CurveTable.h</text>
 </a>
 </g>
 </g>
-<!-- Node58&#45;&gt;Node59 -->
-<g id="edge52_Node000058_Node000059" class="edge">
-<title>Node58&#45;&gt;Node59</title>
-<g id="a_edge52_Node000058_Node000059"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1423.9,-368.72C1421.44,-360.55 1418.89,-352.1 1416.58,-344.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1420.5,-369.57 1426.73,-378.13 1427.2,-367.55 1420.5,-369.57"/>
+<!-- Node56&#45;&gt;Node59 -->
+<g id="edge58_Node000056_Node000059" class="edge">
+<title>Node56&#45;&gt;Node59</title>
+<g id="a_edge58_Node000056_Node000059"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1668.43,-469.77C1647.35,-459.82 1624.47,-449.02 1604.09,-439.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1666.72,-472.83 1677.25,-473.94 1669.71,-466.5 1666.72,-472.83"/>
 </a>
 </g>
 </g>
-<!-- Node60&#45;&gt;Node26 -->
-<g id="edge55_Node000060_Node000026" class="edge">
-<title>Node60&#45;&gt;Node26</title>
-<g id="a_edge55_Node000060_Node000026"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1360.39,-564.91C1337.93,-554.92 1313.54,-544.06 1291.82,-534.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1358.95,-568.1 1369.51,-568.97 1361.8,-561.71 1358.95,-568.1"/>
+<!-- Node57&#45;&gt;Node34 -->
+<g id="edge55_Node000057_Node000034" class="edge">
+<title>Node57&#45;&gt;Node34</title>
+<g id="a_edge55_Node000057_Node000034"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1777.28,-371.49C1786.39,-362.48 1796,-352.97 1804.67,-344.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1774.83,-369 1770.18,-378.52 1779.75,-373.97 1774.83,-369"/>
 </a>
 </g>
 </g>
-<!-- Node60&#45;&gt;Node58 -->
-<g id="edge56_Node000060_Node000058" class="edge">
-<title>Node60&#45;&gt;Node58</title>
-<g id="a_edge56_Node000060_Node000058"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1435.88,-558.08C1435.88,-522.4 1435.88,-471.25 1435.88,-439.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1432.38,-558.02 1435.88,-568.02 1439.38,-558.02 1432.38,-558.02"/>
+<!-- Node57&#45;&gt;Node54 -->
+<g id="edge56_Node000057_Node000054" class="edge">
+<title>Node57&#45;&gt;Node54</title>
+<g id="a_edge56_Node000057_Node000054"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1817.12,-385.77C1869.9,-370.23 1939.13,-349.86 1989.45,-335.05"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1816.18,-382.4 1807.57,-388.58 1818.15,-389.11 1816.18,-382.4"/>
 </a>
 </g>
 </g>
-<!-- Node62 -->
-<g id="Node000062" class="node">
-<title>Node62</title>
-<g id="a_Node000062"><a xlink:href="TowerActorBase_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2130.75,-426.25 1985,-426.25 1985,-392.75 2130.75,-392.75 2130.75,-426.25"/>
-<text xml:space="preserve" text-anchor="start" x="1993" y="-412.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
-<text xml:space="preserve" text-anchor="middle" x="2057.88" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/TowerActorBase.cpp</text>
+<!-- Node57&#45;&gt;Node58 -->
+<g id="edge57_Node000057_Node000058" class="edge">
+<title>Node57&#45;&gt;Node58</title>
+<g id="a_edge57_Node000057_Node000058"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1716.59,-369.83C1711.46,-361.32 1706.12,-352.45 1701.28,-344.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1713.53,-371.53 1721.68,-378.29 1719.52,-367.92 1713.53,-371.53"/>
 </a>
 </g>
 </g>
-<!-- Node61&#45;&gt;Node62 -->
-<g id="edge58_Node000061_Node000062" class="edge">
-<title>Node61&#45;&gt;Node62</title>
-<g id="a_edge58_Node000061_Node000062"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2011.21,-572.45C1998.87,-546.98 1985.13,-507.4 1997.88,-475 2005.54,-455.5 2022.19,-438.4 2036,-426.71"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2007.96,-573.79 2015.63,-581.1 2014.19,-570.6 2007.96,-573.79"/>
+<!-- Node60 -->
+<g id="Node000060" class="node">
+<title>Node60</title>
+<g id="a_Node000060"><a xlink:href="CompositeCurveTable_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1600.12,-344 1465.62,-344 1465.62,-285 1600.12,-285 1600.12,-344"/>
+<text xml:space="preserve" text-anchor="start" x="1473.62" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1473.62" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1473.62" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/Engine</text>
+<text xml:space="preserve" text-anchor="middle" x="1532.88" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CompositeCurveTable.h</text>
 </a>
 </g>
 </g>
-<!-- Node63 -->
-<g id="Node000063" class="node">
-<title>Node63</title>
-<g id="a_Node000063"><a xlink:href="TowerClassInfo_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2298.38,-521.25 2159.38,-521.25 2159.38,-487.75 2298.38,-487.75 2298.38,-521.25"/>
-<text xml:space="preserve" text-anchor="start" x="2167.38" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
-<text xml:space="preserve" text-anchor="middle" x="2228.88" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Data/TowerClassInfo.cpp</text>
+<!-- Node59&#45;&gt;Node60 -->
+<g id="edge59_Node000059_Node000060" class="edge">
+<title>Node59&#45;&gt;Node60</title>
+<g id="a_edge59_Node000059_Node000060"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1538.54,-368.16C1537.68,-360.16 1536.79,-351.92 1535.98,-344.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1535.05,-368.51 1539.6,-378.08 1542.01,-367.76 1535.05,-368.51"/>
 </a>
 </g>
 </g>
-<!-- Node61&#45;&gt;Node63 -->
-<g id="edge59_Node000061_Node000063" class="edge">
-<title>Node61&#45;&gt;Node63</title>
-<g id="a_edge59_Node000061_Node000063"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2071.25,-577.71C2108.21,-560.78 2159.65,-537.21 2193.58,-521.67"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2070.24,-574.32 2062.61,-581.67 2073.16,-580.69 2070.24,-574.32"/>
+<!-- Node61&#45;&gt;Node27 -->
+<g id="edge62_Node000061_Node000027" class="edge">
+<title>Node61&#45;&gt;Node27</title>
+<g id="a_edge62_Node000061_Node000027"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1468.83,-564.91C1446.81,-554.92 1422.88,-544.06 1401.58,-534.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1467.2,-568.01 1477.76,-568.96 1470.1,-561.64 1467.2,-568.01"/>
 </a>
 </g>
 </g>
-<!-- Node64 -->
-<g id="Node000064" class="node">
-<title>Node64</title>
-<g id="a_Node000064"><a xlink:href="TowerActorBase_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2141.12,-521.25 2006.62,-521.25 2006.62,-487.75 2141.12,-487.75 2141.12,-521.25"/>
-<text xml:space="preserve" text-anchor="start" x="2014.62" y="-507.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
-<text xml:space="preserve" text-anchor="middle" x="2073.88" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/TowerActorBase.h</text>
+<!-- Node61&#45;&gt;Node59 -->
+<g id="edge63_Node000061_Node000059" class="edge">
+<title>Node61&#45;&gt;Node59</title>
+<g id="a_edge63_Node000061_Node000059"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1542.88,-558.08C1542.88,-522.4 1542.88,-471.25 1542.88,-439.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1539.38,-558.02 1542.88,-568.02 1546.38,-558.02 1539.38,-558.02"/>
 </a>
 </g>
 </g>
-<!-- Node61&#45;&gt;Node64 -->
-<g id="edge60_Node000061_Node000064" class="edge">
-<title>Node61&#45;&gt;Node64</title>
-<g id="a_edge60_Node000061_Node000064"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2039.41,-572.28C2047.84,-555.94 2058.41,-535.46 2065.61,-521.51"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2036.41,-570.46 2034.93,-580.96 2042.63,-573.67 2036.41,-570.46"/>
-</a>
-</g>
-</g>
-<!-- Node64&#45;&gt;Node62 -->
-<g id="edge61_Node000064_Node000062" class="edge">
-<title>Node64&#45;&gt;Node62</title>
-<g id="a_edge61_Node000064_Node000062"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2069.2,-476.34C2066.42,-460.17 2062.98,-440.19 2060.63,-426.51"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2065.69,-476.55 2070.83,-485.81 2072.59,-475.36 2065.69,-476.55"/>
-</a>
-</g>
-</g>
-<!-- Node65&#45;&gt;Node26 -->
-<g id="edge63_Node000065_Node000026" class="edge">
-<title>Node65&#45;&gt;Node26</title>
-<g id="a_edge63_Node000065_Node000026"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1295.81,-654.47C1279.28,-618.73 1255.18,-566.66 1240.29,-534.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1292.46,-655.56 1299.84,-663.16 1298.81,-652.62 1292.46,-655.56"/>
+<!-- Node62&#45;&gt;Node27 -->
+<g id="edge65_Node000062_Node000027" class="edge">
+<title>Node62&#45;&gt;Node27</title>
+<g id="a_edge65_Node000062_Node000027"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1395.91,-653.56C1393.69,-628.84 1388.95,-596.82 1378.88,-570 1374.21,-557.58 1366.93,-545.02 1359.79,-534.33"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1392.4,-653.5 1396.67,-663.19 1399.38,-652.95 1392.4,-653.5"/>
 </a>
 </g>
 </g>

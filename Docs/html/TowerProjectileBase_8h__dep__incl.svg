@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 871;
+var viewWidth = 888;
 var viewHeight = 276;
 var sectionId = 'dynsection-1';
 </script>
@@ -124,22 +124,22 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node7 -->
-<g id="Node000007" class="node">
-<title>Node7</title>
-<g id="a_Node000007"><a xlink:href="TowerClassInfo_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="682.88,-191.62 555.12,-191.62 555.12,-158.12 682.88,-158.12 682.88,-191.62"/>
-<text xml:space="preserve" text-anchor="start" x="563.12" y="-178.12" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
-<text xml:space="preserve" text-anchor="middle" x="619" y="-165.38" font-family="Helvetica,sans-Serif" font-size="10.00">/Data/TowerClassInfo.h</text>
+<!-- Node8 -->
+<g id="Node000008" class="node">
+<title>Node8</title>
+<g id="a_Node000008"><a xlink:href="TowerClassInfo_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="701.88,-191.62 574.12,-191.62 574.12,-158.12 701.88,-158.12 701.88,-191.62"/>
+<text xml:space="preserve" text-anchor="start" x="582.12" y="-178.12" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
+<text xml:space="preserve" text-anchor="middle" x="638" y="-165.38" font-family="Helvetica,sans-Serif" font-size="10.00">/Data/TowerClassInfo.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge6_Node000001_Node000007" class="edge">
-<title>Node1&#45;&gt;Node7</title>
-<g id="a_edge6_Node000001_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M420.11,-230.5C463.61,-218.55 518.88,-203.37 560.1,-192.05"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="419.21,-227.11 410.49,-233.14 421.06,-233.86 419.21,-227.11"/>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7_Node000001_Node000008" class="edge">
+<title>Node1&#45;&gt;Node8</title>
+<g id="a_edge7_Node000001_Node000008"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M424.17,-230.72C470.88,-218.74 530.52,-203.44 574.94,-192.05"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="423.49,-227.29 414.67,-233.16 425.22,-234.07 423.49,-227.29"/>
 </a>
 </g>
 </g>
@@ -147,10 +147,10 @@ var sectionId = 'dynsection-1';
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="TowerArchedProjectile_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="342.25,-115.75 183.75,-115.75 183.75,-69.5 342.25,-69.5 342.25,-115.75"/>
-<text xml:space="preserve" text-anchor="start" x="191.75" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
-<text xml:space="preserve" text-anchor="start" x="191.75" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/Projectile/TowerArched</text>
-<text xml:space="preserve" text-anchor="middle" x="263" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">Projectile.cpp</text>
+<polygon fill="white" stroke="#666666" points="321.25,-115.75 162.75,-115.75 162.75,-69.5 321.25,-69.5 321.25,-115.75"/>
+<text xml:space="preserve" text-anchor="start" x="170.75" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
+<text xml:space="preserve" text-anchor="start" x="170.75" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/Projectile/TowerArched</text>
+<text xml:space="preserve" text-anchor="middle" x="242" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">Projectile.cpp</text>
 </a>
 </g>
 </g>
@@ -158,8 +158,8 @@ var sectionId = 'dynsection-1';
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M263,-140.09C263,-132 263,-123.57 263,-116.14"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="259.5,-140.01 263,-150.01 266.5,-140.01 259.5,-140.01"/>
+<path fill="none" stroke="#63b8ff" d="M254.31,-140.65C252.15,-132.4 249.88,-123.74 247.89,-116.14"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="250.85,-141.27 256.77,-150.06 257.62,-139.5 250.85,-141.27"/>
 </a>
 </g>
 </g>
@@ -167,10 +167,10 @@ var sectionId = 'dynsection-1';
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="TowerLinearProjectile_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="515.38,-115.75 360.62,-115.75 360.62,-69.5 515.38,-69.5 515.38,-115.75"/>
-<text xml:space="preserve" text-anchor="start" x="368.62" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
-<text xml:space="preserve" text-anchor="start" x="368.62" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/Projectile/TowerLinear</text>
-<text xml:space="preserve" text-anchor="middle" x="438" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">Projectile.cpp</text>
+<polygon fill="white" stroke="#666666" points="494.38,-115.75 339.62,-115.75 339.62,-69.5 494.38,-69.5 494.38,-115.75"/>
+<text xml:space="preserve" text-anchor="start" x="347.62" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
+<text xml:space="preserve" text-anchor="start" x="347.62" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/Projectile/TowerLinear</text>
+<text xml:space="preserve" text-anchor="middle" x="417" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">Projectile.cpp</text>
 </a>
 </g>
 </g>
@@ -178,27 +178,36 @@ var sectionId = 'dynsection-1';
 <g id="edge5_Node000005_Node000006" class="edge">
 <title>Node5&#45;&gt;Node6</title>
 <g id="a_edge5_Node000005_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M438,-140.09C438,-132 438,-123.57 438,-116.14"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="434.5,-140.01 438,-150.01 441.5,-140.01 434.5,-140.01"/>
+<path fill="none" stroke="#63b8ff" d="M429.31,-140.65C427.15,-132.4 424.88,-123.74 422.89,-116.14"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="425.85,-141.27 431.77,-150.06 432.62,-139.5 425.85,-141.27"/>
 </a>
 </g>
 </g>
-<!-- Node8 -->
-<g id="Node000008" class="node">
-<title>Node8</title>
-<g id="a_Node000008"><a xlink:href="TowerActorBase_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="741.88,-33.5 596.12,-33.5 596.12,0 741.88,0 741.88,-33.5"/>
-<text xml:space="preserve" text-anchor="start" x="604.12" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
-<text xml:space="preserve" text-anchor="middle" x="669" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/TowerActorBase.cpp</text>
+<!-- Node7 -->
+<g id="Node000007" class="node">
+<title>Node7</title>
+<g id="a_Node000007"><a xlink:href="TowerActorBase_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="632.88,-33.5 487.12,-33.5 487.12,0 632.88,0 632.88,-33.5"/>
+<text xml:space="preserve" text-anchor="start" x="495.12" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
+<text xml:space="preserve" text-anchor="middle" x="560" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/TowerActorBase.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge7_Node000007_Node000008" class="edge">
-<title>Node7&#45;&gt;Node8</title>
-<g id="a_edge7_Node000007_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M588.26,-150.35C578.24,-140.82 568.32,-128.95 563,-115.75 555.31,-96.69 552.11,-86.93 563,-69.5 573.25,-53.09 590.38,-41.74 607.91,-33.95"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="585.68,-152.73 595.48,-156.77 590.33,-147.5 585.68,-152.73"/>
+<!-- Node5&#45;&gt;Node7 -->
+<g id="edge6_Node000005_Node000007" class="edge">
+<title>Node5&#45;&gt;Node7</title>
+<g id="a_edge6_Node000005_Node000007"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M475.64,-143.83C485.15,-135.3 494.94,-125.63 503,-115.75 524.52,-89.36 542.98,-53.88 552.7,-33.65"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="473.43,-141.12 468.18,-150.32 478.03,-146.4 473.43,-141.12"/>
+</a>
+</g>
+</g>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge8_Node000008_Node000007" class="edge">
+<title>Node8&#45;&gt;Node7</title>
+<g id="a_edge8_Node000008_Node000007"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M608.09,-150.3C597.72,-140.65 586.96,-128.7 580,-115.75 565.87,-89.44 561.7,-54.24 560.48,-33.98"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="605.68,-152.84 615.49,-156.84 610.32,-147.6 605.68,-152.84"/>
 </a>
 </g>
 </g>
@@ -206,18 +215,18 @@ var sectionId = 'dynsection-1';
 <g id="Node000009" class="node">
 <title>Node9</title>
 <g id="a_Node000009"><a xlink:href="TowerClassInfo_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="710.5,-109.38 571.5,-109.38 571.5,-75.88 710.5,-75.88 710.5,-109.38"/>
-<text xml:space="preserve" text-anchor="start" x="579.5" y="-95.88" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
-<text xml:space="preserve" text-anchor="middle" x="641" y="-83.12" font-family="Helvetica,sans-Serif" font-size="10.00">/Data/TowerClassInfo.cpp</text>
+<polygon fill="white" stroke="#666666" points="727.5,-109.38 588.5,-109.38 588.5,-75.88 727.5,-75.88 727.5,-109.38"/>
+<text xml:space="preserve" text-anchor="start" x="596.5" y="-95.88" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
+<text xml:space="preserve" text-anchor="middle" x="658" y="-83.12" font-family="Helvetica,sans-Serif" font-size="10.00">/Data/TowerClassInfo.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node9 -->
-<g id="edge8_Node000007_Node000009" class="edge">
-<title>Node7&#45;&gt;Node9</title>
-<g id="a_edge8_Node000007_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M626.47,-146.63C629.82,-134.4 633.66,-120.39 636.55,-109.84"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="623.12,-145.61 623.85,-156.18 629.87,-147.46 623.12,-145.61"/>
+<!-- Node8&#45;&gt;Node9 -->
+<g id="edge9_Node000008_Node000009" class="edge">
+<title>Node8&#45;&gt;Node9</title>
+<g id="a_edge9_Node000008_Node000009"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M644.79,-146.63C647.84,-134.4 651.33,-120.39 653.96,-109.84"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="641.44,-145.62 642.41,-156.17 648.23,-147.31 641.44,-145.62"/>
 </a>
 </g>
 </g>
@@ -225,27 +234,27 @@ var sectionId = 'dynsection-1';
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:href="TowerActorBase_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="863.25,-109.38 728.75,-109.38 728.75,-75.88 863.25,-75.88 863.25,-109.38"/>
-<text xml:space="preserve" text-anchor="start" x="736.75" y="-95.88" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
-<text xml:space="preserve" text-anchor="middle" x="796" y="-83.12" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/TowerActorBase.h</text>
+<polygon fill="white" stroke="#666666" points="880.25,-109.38 745.75,-109.38 745.75,-75.88 880.25,-75.88 880.25,-109.38"/>
+<text xml:space="preserve" text-anchor="start" x="753.75" y="-95.88" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Public</text>
+<text xml:space="preserve" text-anchor="middle" x="813" y="-83.12" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/TowerActorBase.h</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node10 -->
-<g id="edge9_Node000007_Node000010" class="edge">
-<title>Node7&#45;&gt;Node10</title>
-<g id="a_edge9_Node000007_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M664.95,-153.04C694.66,-139.57 732.78,-122.29 760.23,-109.84"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="663.86,-149.69 656.2,-157.01 666.75,-156.07 663.86,-149.69"/>
+<!-- Node8&#45;&gt;Node10 -->
+<g id="edge10_Node000008_Node000010" class="edge">
+<title>Node8&#45;&gt;Node10</title>
+<g id="a_edge10_Node000008_Node000010"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M683.81,-152.87C713.14,-139.42 750.61,-122.23 777.64,-109.84"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="682.42,-149.65 674.79,-157 685.34,-156.02 682.42,-149.65"/>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node8 -->
-<g id="edge10_Node000010_Node000008" class="edge">
-<title>Node10&#45;&gt;Node8</title>
-<g id="a_edge10_Node000010_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M758.23,-69.66C738.52,-58.19 714.82,-44.41 696.81,-33.92"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="756.42,-72.65 766.82,-74.65 759.94,-66.6 756.42,-72.65"/>
+<!-- Node10&#45;&gt;Node7 -->
+<g id="edge11_Node000010_Node000007" class="edge">
+<title>Node10&#45;&gt;Node7</title>
+<g id="a_edge11_Node000010_Node000007"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M746.54,-72.22C705.7,-60.3 654,-45.2 615.39,-33.92"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="745.45,-75.55 756.03,-74.99 747.41,-68.83 745.45,-75.55"/>
 </a>
 </g>
 </g>

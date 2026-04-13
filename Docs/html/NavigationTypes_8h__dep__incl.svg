@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 1576;
+var viewWidth = 1469;
 var viewHeight = 542;
 var sectionId = 'dynsection-1';
 </script>
@@ -197,11 +197,11 @@ var sectionId = 'dynsection-1';
 <g id="Node000008" class="node">
 <title>Node8</title>
 <g id="a_Node000008"><a xlink:href="CharacterMovementComponent_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1159.75,-154 975.75,-154 975.75,-95 1159.75,-95 1159.75,-154"/>
-<text xml:space="preserve" text-anchor="start" x="983.75" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="983.75" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="983.75" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="1067.75" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CharacterMovementComponent.h</text>
+<polygon fill="white" stroke="#666666" points="1181.75,-154 997.75,-154 997.75,-95 1181.75,-95 1181.75,-154"/>
+<text xml:space="preserve" text-anchor="start" x="1005.75" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1005.75" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1005.75" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="1089.75" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/CharacterMovementComponent.h</text>
 </a>
 </g>
 </g>
@@ -209,28 +209,28 @@ var sectionId = 'dynsection-1';
 <g id="edge7_Node000001_Node000008" class="edge">
 <title>Node1&#45;&gt;Node8</title>
 <g id="a_edge7_Node000001_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M893.22,-493.6C962.41,-484.07 1048.72,-466.91 1070.75,-439 1137.18,-354.83 1099.59,-214.56 1078.74,-154.37"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="892.79,-490.13 883.34,-494.93 893.72,-497.07 892.79,-490.13"/>
+<path fill="none" stroke="#63b8ff" d="M893.1,-493.19C961.98,-483.44 1047.93,-466.18 1070.75,-439 1106.42,-396.51 1097.39,-223.47 1092.18,-154.29"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="892.7,-489.71 883.27,-494.55 893.66,-496.65 892.7,-489.71"/>
 </a>
 </g>
 </g>
-<!-- Node9 -->
-<g id="Node000009" class="node">
-<title>Node9</title>
-<g id="a_Node000009"><a xlink:href="NavMovementComponent_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1335.5,-344 1156,-344 1156,-285 1335.5,-285 1335.5,-344"/>
-<text xml:space="preserve" text-anchor="start" x="1164" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1164" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1164" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="1245.75" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/NavMovementComponent.h</text>
+<!-- Node10 -->
+<g id="Node000010" class="node">
+<title>Node10</title>
+<g id="a_Node000010"><a xlink:href="NavMovementComponent_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1299.5,-344 1120,-344 1120,-285 1299.5,-285 1299.5,-344"/>
+<text xml:space="preserve" text-anchor="start" x="1128" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1128" y="-317.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1128" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="1209.75" y="-292.25" font-family="Helvetica,sans-Serif" font-size="10.00">/NavMovementComponent.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge8_Node000001_Node000009" class="edge">
-<title>Node1&#45;&gt;Node9</title>
-<g id="a_edge8_Node000001_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M892.94,-500.93C956.63,-495.28 1040.86,-479.79 1103.75,-439 1130.97,-421.34 1123.21,-402.34 1146.75,-380 1160.74,-366.73 1177.8,-354.5 1193.79,-344.35"/>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge9_Node000001_Node000010" class="edge">
+<title>Node1&#45;&gt;Node10</title>
+<g id="a_edge9_Node000001_Node000010"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M892.94,-500.93C956.63,-495.28 1040.86,-479.79 1103.75,-439 1130.97,-421.34 1125.8,-404.78 1146.75,-380 1157.06,-367.81 1169.15,-355.09 1179.97,-344.2"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="892.89,-497.43 883.21,-501.73 893.46,-504.4 892.89,-497.43"/>
 </a>
 </g>
@@ -248,93 +248,81 @@ var sectionId = 'dynsection-1';
 </g>
 </g>
 <!-- Node1&#45;&gt;Node14 -->
-<g id="edge14_Node000001_Node000014" class="edge">
+<g id="edge16_Node000001_Node000014" class="edge">
 <title>Node1&#45;&gt;Node14</title>
-<g id="a_edge14_Node000001_Node000014"><a xlink:title=" ">
+<g id="a_edge16_Node000001_Node000014"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M892.98,-488.13C961.83,-476.15 1058.06,-458.35 1141.75,-439 1146.31,-437.95 1150.97,-436.83 1155.67,-435.66"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="892.49,-484.66 883.24,-489.81 893.69,-491.56 892.49,-484.66"/>
 </a>
 </g>
 </g>
-<!-- Node10 -->
-<g id="Node000010" class="node">
-<title>Node10</title>
-<g id="a_Node000010"><a xlink:href="PawnMovementComponent_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1346.5,-249 1167,-249 1167,-190 1346.5,-190 1346.5,-249"/>
-<text xml:space="preserve" text-anchor="start" x="1175" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1175" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1175" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="1256.75" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/PawnMovementComponent.h</text>
+<!-- Node9 -->
+<g id="Node000009" class="node">
+<title>Node9</title>
+<g id="a_Node000009"><a xlink:href="TowerEnemyPawn_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1263.25,-46.25 1070.25,-46.25 1070.25,-12.75 1263.25,-12.75 1263.25,-46.25"/>
+<text xml:space="preserve" text-anchor="start" x="1078.25" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
+<text xml:space="preserve" text-anchor="middle" x="1166.75" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/Enemy/TowerEnemyPawn.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge9_Node000009_Node000010" class="edge">
-<title>Node9&#45;&gt;Node10</title>
-<g id="a_edge9_Node000009_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1250.52,-273.16C1251.47,-265.16 1252.44,-256.92 1253.33,-249.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1247.05,-272.74 1249.35,-283.08 1254,-273.56 1247.05,-272.74"/>
-</a>
-</g>
-</g>
-<!-- Node10&#45;&gt;Node8 -->
-<g id="edge10_Node000010_Node000008" class="edge">
-<title>Node10&#45;&gt;Node8</title>
-<g id="a_edge10_Node000010_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1187.66,-184.5C1167.58,-174.62 1145.85,-163.93 1126.48,-154.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1186.11,-187.64 1196.63,-188.92 1189.2,-181.36 1186.11,-187.64"/>
+<!-- Node8&#45;&gt;Node9 -->
+<g id="edge8_Node000008_Node000009" class="edge">
+<title>Node8&#45;&gt;Node9</title>
+<g id="a_edge8_Node000008_Node000009"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1120.95,-85.82C1132.24,-72.18 1144.41,-57.48 1153.37,-46.67"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1118.34,-83.48 1114.66,-93.42 1123.73,-87.95 1118.34,-83.48"/>
 </a>
 </g>
 </g>
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="FloatingPawnMovement_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1357.5,-154 1178,-154 1178,-95 1357.5,-95 1357.5,-154"/>
-<text xml:space="preserve" text-anchor="start" x="1186" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1186" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1186" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="1267.75" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/FloatingPawnMovement.h</text>
+<g id="a_Node000011"><a xlink:href="PawnMovementComponent_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1299.5,-249 1120,-249 1120,-190 1299.5,-190 1299.5,-249"/>
+<text xml:space="preserve" text-anchor="start" x="1128" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1128" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1128" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="1209.75" y="-197.25" font-family="Helvetica,sans-Serif" font-size="10.00">/PawnMovementComponent.h</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
-<g id="edge11_Node000010_Node000011" class="edge">
+<g id="edge10_Node000010_Node000011" class="edge">
 <title>Node10&#45;&gt;Node11</title>
-<g id="a_edge11_Node000010_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1261.52,-178.16C1262.47,-170.16 1263.44,-161.92 1264.33,-154.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1258.05,-177.74 1260.35,-188.08 1265,-178.56 1258.05,-177.74"/>
+<g id="a_edge10_Node000010_Node000011"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1209.75,-273.16C1209.75,-265.16 1209.75,-256.92 1209.75,-249.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1206.25,-273.07 1209.75,-283.07 1213.25,-273.07 1206.25,-273.07"/>
 </a>
 </g>
 </g>
-<!-- Node13 -->
-<g id="Node000013" class="node">
-<title>Node13</title>
-<g id="a_Node000013"><a xlink:href="TowerEnemyPawn_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1568.25,-141.25 1375.25,-141.25 1375.25,-107.75 1568.25,-107.75 1568.25,-141.25"/>
-<text xml:space="preserve" text-anchor="start" x="1383.25" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">Source/Tower/Private</text>
-<text xml:space="preserve" text-anchor="middle" x="1471.75" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Actor/Enemy/TowerEnemyPawn.cpp</text>
+<!-- Node11&#45;&gt;Node8 -->
+<g id="edge11_Node000011_Node000008" class="edge">
+<title>Node11&#45;&gt;Node8</title>
+<g id="a_edge11_Node000011_Node000008"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1163.41,-182.59C1151.37,-173.26 1138.55,-163.32 1127.04,-154.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1161.19,-185.3 1171.24,-188.66 1165.48,-179.76 1161.19,-185.3"/>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node13 -->
-<g id="edge13_Node000010_Node000013" class="edge">
-<title>Node10&#45;&gt;Node13</title>
-<g id="a_edge13_Node000010_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1334.04,-185.07C1368.18,-170.3 1406.76,-153.61 1434.38,-141.67"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1332.78,-181.8 1324.99,-188.98 1335.56,-188.23 1332.78,-181.8"/>
+<!-- Node11&#45;&gt;Node9 -->
+<g id="edge15_Node000011_Node000009" class="edge">
+<title>Node11&#45;&gt;Node9</title>
+<g id="a_edge15_Node000011_Node000009"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1205.67,-178.38C1202.68,-154.02 1197.88,-122.42 1190.75,-95 1186.36,-78.12 1179.17,-59.51 1173.8,-46.64"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1202.19,-178.69 1206.82,-188.21 1209.14,-177.87 1202.19,-178.69"/>
 </a>
 </g>
 </g>
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="SpectatorPawnMovement_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1357.5,-59 1178,-59 1178,0 1357.5,0 1357.5,-59"/>
-<text xml:space="preserve" text-anchor="start" x="1186" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
-<text xml:space="preserve" text-anchor="start" x="1186" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
-<text xml:space="preserve" text-anchor="start" x="1186" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
-<text xml:space="preserve" text-anchor="middle" x="1267.75" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SpectatorPawnMovement.h</text>
+<g id="a_Node000012"><a xlink:href="FloatingPawnMovement_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1417.5,-154 1238,-154 1238,-95 1417.5,-95 1417.5,-154"/>
+<text xml:space="preserve" text-anchor="start" x="1246" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1246" y="-127.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1246" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="1327.75" y="-102.25" font-family="Helvetica,sans-Serif" font-size="10.00">/FloatingPawnMovement.h</text>
 </a>
 </g>
 </g>
@@ -342,17 +330,47 @@ var sectionId = 'dynsection-1';
 <g id="edge12_Node000011_Node000012" class="edge">
 <title>Node11&#45;&gt;Node12</title>
 <g id="a_edge12_Node000011_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1267.75,-83.16C1267.75,-75.16 1267.75,-66.92 1267.75,-59.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1264.25,-83.07 1267.75,-93.07 1271.25,-83.07 1264.25,-83.07"/>
+<path fill="none" stroke="#63b8ff" d="M1255.31,-182.59C1267.16,-173.26 1279.76,-163.32 1291.08,-154.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1253.32,-179.71 1247.63,-188.65 1257.65,-185.21 1253.32,-179.71"/>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node9 -->
-<g id="edge15_Node000014_Node000009" class="edge">
-<title>Node14&#45;&gt;Node9</title>
-<g id="a_edge15_Node000014_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1245.75,-368.16C1245.75,-360.16 1245.75,-351.92 1245.75,-344.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1242.25,-368.07 1245.75,-378.07 1249.25,-368.07 1242.25,-368.07"/>
+<!-- Node12&#45;&gt;Node9 -->
+<g id="edge14_Node000012_Node000009" class="edge">
+<title>Node12&#45;&gt;Node9</title>
+<g id="a_edge14_Node000012_Node000009"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1267.88,-88.92C1242.82,-74.44 1214.88,-58.3 1194.74,-46.67"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1265.97,-91.86 1276.38,-93.83 1269.47,-85.79 1265.97,-91.86"/>
+</a>
+</g>
+</g>
+<!-- Node13 -->
+<g id="Node000013" class="node">
+<title>Node13</title>
+<g id="a_Node000013"><a xlink:href="SpectatorPawnMovement_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1460.5,-59 1281,-59 1281,0 1460.5,0 1460.5,-59"/>
+<text xml:space="preserve" text-anchor="start" x="1289" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">/opt/unreal&#45;engine</text>
+<text xml:space="preserve" text-anchor="start" x="1289" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Source/Runtime</text>
+<text xml:space="preserve" text-anchor="start" x="1289" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">/Engine/Classes/GameFramework</text>
+<text xml:space="preserve" text-anchor="middle" x="1370.75" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SpectatorPawnMovement.h</text>
+</a>
+</g>
+</g>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge13_Node000012_Node000013" class="edge">
+<title>Node12&#45;&gt;Node13</title>
+<g id="a_edge13_Node000012_Node000013"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1345.89,-84.27C1349.74,-75.93 1353.75,-67.27 1357.39,-59.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1342.77,-82.66 1341.75,-93.21 1349.13,-85.6 1342.77,-82.66"/>
+</a>
+</g>
+</g>
+<!-- Node14&#45;&gt;Node10 -->
+<g id="edge17_Node000014_Node000010" class="edge">
+<title>Node14&#45;&gt;Node10</title>
+<g id="a_edge17_Node000014_Node000010"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1230.46,-368.99C1227.26,-360.74 1223.95,-352.18 1220.94,-344.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1227.14,-370.11 1234.01,-378.17 1233.66,-367.58 1227.14,-370.11"/>
 </a>
 </g>
 </g>
