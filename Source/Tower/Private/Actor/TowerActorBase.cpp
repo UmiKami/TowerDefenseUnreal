@@ -29,17 +29,18 @@ void ATowerActorBase::SetTowerClass(const ETowerClass& InTowerClass)
 void ATowerActorBase::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	checkf(TowerClassInfo, TEXT("TowerClassInfo DataAsset MUST be set in tower actor BEFORE spawn."))
-	
+
 	TowerRangeDiskMesh->SetVisibility(false);
-	
+
 	TowerClasDefaultInfo = TowerClassInfo->TowerClassInformation.Find(TowerClass);
 	USkeletalMesh* SkeletalMeshComponent = *TowerClasDefaultInfo->SkeletalMeshComponentPerLevel.Find(Level);
-	
+
 	TowerMesh->SetSkeletalMesh(SkeletalMeshComponent);
 	Damage = TowerClasDefaultInfo->DamageCurve.GetCurve("DamageCurve Not Found")->Eval(Level);
-	
+	FireRate = TowerClasDefaultInfo->FireRateCurve.GetCurve("FireRateCurve Not Found")->Eval(Level);
+
 	TowerRangeDiskMesh->SetRelativeScale3D({TowerAttackRange, TowerAttackRange, .2f});
 	
 	TowerRangeDiskMesh->OnComponentBeginOverlap.AddDynamic(this, &ThisClass::OnActorOverlap);

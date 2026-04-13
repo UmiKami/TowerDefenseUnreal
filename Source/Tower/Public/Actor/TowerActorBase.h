@@ -75,6 +75,12 @@ protected:
 	float Damage = 10.f;
 	
 	/**
+	 * @brief How often the tower will fire. Based on a curve. Lower Value = Faster/Better
+	 */ 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	float FireRate = 1.f;
+	
+	/**
 	 * @brief Type of tower. E.g. Cannon, Archer, Wizard, Poison
 	 * 
 	 * @see ETowerClass

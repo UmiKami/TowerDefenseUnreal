@@ -48,6 +48,10 @@ struct FTowerClasDefaultInfo
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
 	FCurveTableRowHandle DamageCurve;
 	
+	/** @brief Contains fire rate per level. */
+	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
+	FCurveTableRowHandle FireRateCurve;
+	
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults", meta = (DisplayName=ProjectileType))
 	TSubclassOf<ATowerProjectileBase> ProjectileClass;
 };
