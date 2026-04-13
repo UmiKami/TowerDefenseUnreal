@@ -79,7 +79,7 @@ protected:
 	/**
 	 * @brief Tower level is used to determine damage and display mesh among other things.
 	 */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, meta = (ClampMin = "1", ClampMax = "4", UIMin = "1", UIMax = "4"))
 	int32 Level = 1;
 	
 	/**
