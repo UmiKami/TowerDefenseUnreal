@@ -3,6 +3,7 @@
 
 #include "Actor/TowerProjectileBase.h"
 
+#include "Components/BoxComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/SphereComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
@@ -11,35 +12,36 @@ ATowerProjectileBase::ATowerProjectileBase()
 {
 	PrimaryActorTick.bCanEverTick = false;
 	
-	SphereCollision = CreateDefaultSubobject<UCapsuleComponent>(TEXT("SphereCollision"));
+	SceneComponent = CreateDefaultSubobject<USceneComponent>("SceneComponent");
+	SetRootComponent(SceneComponent);
 	
-	SphereCollision->SetCapsuleHalfHeight(15.f);
-	SphereCollision->SetCapsuleRadius(15.f);
-	SphereCollision->SetCollisionProfileName(TEXT("Projectile"));
-	
-	SetRootComponent(SphereCollision);
+	BoxCollision = CreateDefaultSubobject<UBoxComponent>("SphereCollision");
+	BoxCollision->SetCollisionProfileName(TEXT("Projectile"));
+	BoxCollision->SetupAttachment(RootComponent);
 	
 	ProjectileMesh = CreateDefaultSubobject<UStaticMeshComponent>("ProjectileMesh");
-	ProjectileMesh->SetupAttachment(RootComponent);
+	ProjectileMesh->SetupAttachment(BoxCollision);
 	ProjectileMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	
-	ProjectileMovementComponent = CreateDefaultSubobject<UProjectileMovementComponent>("ProjectileMovementComponent");
-	ProjectileMovementComponent->bShouldBounce = false;
-	ProjectileMovementComponent->ProjectileGravityScale = 1.f;
-	ProjectileMovementComponent->bRotationFollowsVelocity = true;
-	ProjectileMovementComponent->bInitialVelocityInLocalSpace = false;
+
+}
+
+void ATowerProjectileBase::InitProjectileParams(float Damage, float InitSpeed, float InMaxSpeed, TScriptInterface<ITowerEnemyInterface> InTargetEnemy)
+{
+	this->Damage = Damage;
+	TargetEnemy = InTargetEnemy;
 }
 
 void ATowerProjectileBase::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	SphereCollision->OnComponentHit.AddDynamic(this, &ThisClass::OnHit);
+	BoxCollision->OnComponentBeginOverlap.AddDynamic(this, &ThisClass::OnHit);
 	
-	SetLifeSpan(10.f);
+	// SetLifeSpan(10.f);
 }
 
-void ATowerProjectileBase::TryLaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, float InitSpeed, float InMaxSpeed, bool bHasArch, float ArcHeight)
+void ATowerProjectileBase::TryLaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, bool bHasArch, float ArcHeight)
 {
 	if (Damage <= 0)
 	{
@@ -47,23 +49,18 @@ void ATowerProjectileBase::TryLaunchAtTarget(FVector StartLocation, FVector EndL
 		return;
 	}
 	
-	if (InMaxSpeed <= 0 || InitSpeed <= 0)
-	{
-		UE_LOG(LogTemp, Error, TEXT("Speed values cannot 0 or less."))
-		return;
-	}
 	
-	LaunchAtTarget(StartLocation, EndLocation, Damage, InitSpeed, InMaxSpeed, bHasArch, ArcHeight);
+	LaunchAtTarget(StartLocation, EndLocation, Damage, bHasArch, ArcHeight);
 }
 
-void ATowerProjectileBase::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, float InitSpeed, float InMaxSpeed, bool bHasArch, float ArcHeight)
+void ATowerProjectileBase::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, bool bHasArch, float ArcHeight)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Projectile %s Launched from %s."), *GetName(), *StartLocation.ToString());
 	
 
 }
 
-void ATowerProjectileBase::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+void ATowerProjectileBase::OnHit(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Projectile %s Just Hit => %s."), *GetName(), *OtherActor->GetName());
+	UE_LOG(LogTemp, Warning, TEXT("Projectile Just Hit"));
 }
