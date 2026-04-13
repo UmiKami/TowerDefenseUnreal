@@ -28,6 +28,11 @@ ATowerEnemyPawn::ATowerEnemyPawn()
 	
 }
 
+FVector ATowerEnemyPawn::GetCurrentLocation() const
+{
+	return GetActorLocation();
+}
+
 void ATowerEnemyPawn::BeginPlay()
 {
 	Super::BeginPlay();

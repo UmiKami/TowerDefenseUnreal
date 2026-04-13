@@ -23,6 +23,8 @@ class TOWER_API ATowerEnemyPawn : public APawn, public ITowerEnemyInterface
 
 public:
 	ATowerEnemyPawn();
+	
+	virtual FVector GetCurrentLocation() const override;
 
 protected:
 	virtual void BeginPlay() override;
