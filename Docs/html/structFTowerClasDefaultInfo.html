@@ -100,33 +100,51 @@ $(function(){initNavTree('structFTowerClasDefaultInfo.html','','structFTowerClas
 <div class="dynheader">
 Collaboration diagram for FTowerClasDefaultInfo:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="structFTowerClasDefaultInfo__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="structFTowerClasDefaultInfo__coll__graph.svg" width="228" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aca78b32e74adc2753b0bf50250af9fcc" id="r_aca78b32e74adc2753b0bf50250af9fcc"><td class="memItemLeft">TMap&lt; int32, TObjectPtr&lt; USkeletalMesh &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aca78b32e74adc2753b0bf50250af9fcc">SkeletalMeshComponentPerLevel</a></td></tr>
 <tr class="memdesc:aca78b32e74adc2753b0bf50250af9fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies a different mesh per tower level.  <br /></td></tr>
-<tr class="memitem:a71f22fbf266f486c96917c9f7f060490" id="r_a71f22fbf266f486c96917c9f7f060490"><td class="memItemLeft"><a class="el" href="structFRealCurve.html">FRealCurve</a>&#160;</td><td class="memItemRight"><a class="el" href="#a71f22fbf266f486c96917c9f7f060490">DamageCurve</a></td></tr>
-<tr class="memdesc:a71f22fbf266f486c96917c9f7f060490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains amount of damage per level.  <br /></td></tr>
+<tr class="memitem:a43edd6222e2cbaa97b8eecbe7aee54ee" id="r_a43edd6222e2cbaa97b8eecbe7aee54ee"><td class="memItemLeft"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a>&#160;</td><td class="memItemRight"><a class="el" href="#a43edd6222e2cbaa97b8eecbe7aee54ee">DamageCurve</a></td></tr>
+<tr class="memdesc:a43edd6222e2cbaa97b8eecbe7aee54ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains amount of damage per level.  <br /></td></tr>
+<tr class="memitem:a0f3b0d65c0ecb8e22060992f8eaf1eff" id="r_a0f3b0d65c0ecb8e22060992f8eaf1eff"><td class="memItemLeft"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0f3b0d65c0ecb8e22060992f8eaf1eff">FireRateCurve</a></td></tr>
+<tr class="memdesc:a0f3b0d65c0ecb8e22060992f8eaf1eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains fire rate per level.  <br /></td></tr>
 <tr class="memitem:a95dc8039226ea1fb5792992cd5f3ed3b" id="r_a95dc8039226ea1fb5792992cd5f3ed3b"><td class="memItemLeft">TSubclassOf&lt; <a class="el" href="classATowerProjectileBase.html">ATowerProjectileBase</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a95dc8039226ea1fb5792992cd5f3ed3b">ProjectileClass</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This struct contains information about each class including the amount of damage per level, and the Mesh that should be displayed at each level 1-4. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a71f22fbf266f486c96917c9f7f060490" name="a71f22fbf266f486c96917c9f7f060490"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71f22fbf266f486c96917c9f7f060490">&#9670;&#160;</a></span>DamageCurve</h2>
+<a id="a43edd6222e2cbaa97b8eecbe7aee54ee" name="a43edd6222e2cbaa97b8eecbe7aee54ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43edd6222e2cbaa97b8eecbe7aee54ee">&#9670;&#160;</a></span>DamageCurve</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structFRealCurve.html">FRealCurve</a> FTowerClasDefaultInfo::DamageCurve</td>
+          <td class="memname"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a> FTowerClasDefaultInfo::DamageCurve</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Contains amount of damage per level. </p>
+
+</div>
+</div>
+<a id="a0f3b0d65c0ecb8e22060992f8eaf1eff" name="a0f3b0d65c0ecb8e22060992f8eaf1eff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f3b0d65c0ecb8e22060992f8eaf1eff">&#9670;&#160;</a></span>FireRateCurve</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a> FTowerClasDefaultInfo::FireRateCurve</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Contains fire rate per level. </p>
 
 </div>
 </div>

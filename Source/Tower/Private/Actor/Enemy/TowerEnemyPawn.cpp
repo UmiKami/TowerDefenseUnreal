@@ -28,6 +28,11 @@ ATowerEnemyPawn::ATowerEnemyPawn()
 	
 }
 
+FVector ATowerEnemyPawn::GetCurrentLocation() const
+{
+	return GetActorLocation();
+}
+
 void ATowerEnemyPawn::BeginPlay()
 {
 	Super::BeginPlay();
@@ -63,6 +68,9 @@ void ATowerEnemyPawn::MoveActorAlongSpline()
 
 	FVector Direction = (TargetLocation - GetActorLocation()).GetSafeNormal();
 	Direction.Z = 0.f;
+	
+	SetActorRotation(Direction.Rotation());
+	
 	AddMovementInput(Direction, 1.f);
 }
 

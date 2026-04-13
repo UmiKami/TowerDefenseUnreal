@@ -1852,6 +1852,9 @@ var hierarchy =
       [ "ULevel", "classULevel.html", null ]
     ] ],
     [ "ITowerEnemyInterface", "classITowerEnemyInterface.html", [
+      [ "ATowerEnemyPawn", "classATowerEnemyPawn.html", null ]
+    ] ],
+    [ "ITowerHighlightInterface", "classITowerHighlightInterface.html", [
       [ "ATowerActorBase", "classATowerActorBase.html", null ]
     ] ],
     [ "IWorldPartitionStreamingSourceProvider", null, [
@@ -2110,7 +2113,8 @@ var hierarchy =
       [ "UPhysicsBodyInstanceOwnerResolver", "classUPhysicsBodyInstanceOwnerResolver.html", null ],
       [ "UPhysicsComponent", "classUPhysicsComponent.html", null ],
       [ "UReplicatedObjectInterface", "classUReplicatedObjectInterface.html", null ],
-      [ "UTowerEnemyInterface", "classUTowerEnemyInterface.html", null ]
+      [ "UTowerEnemyInterface", "classUTowerEnemyInterface.html", null ],
+      [ "UTowerHighlightInterface", "classUTowerHighlightInterface.html", null ]
     ] ],
     [ "UMeshDescriptionBaseBulkData", null, [
       [ "USkeletalMeshDescriptionBulkData", "classUSkeletalMeshDescriptionBulkData.html", null ],

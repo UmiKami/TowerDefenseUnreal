@@ -11,7 +11,30 @@
 // Sets default values
 ATowerLinearProjectile::ATowerLinearProjectile()
 {
-	PrimaryActorTick.bCanEverTick = false;
+	PrimaryActorTick.bCanEverTick = true;
+}
+
+void ATowerLinearProjectile::Tick(float DeltaSeconds)
+{
+	Super::Tick(DeltaSeconds);
+	
+	if (!TargetEnemy) 
+	{
+		return;
+	}
+	
+	FVector Direction = (TargetEnemy->GetCurrentLocation() - GetActorLocation()).GetSafeNormal();
+	FVector NewLocation = GetActorLocation() + Direction * 2000.f * DeltaSeconds;
+
+	SetActorLocationAndRotation(NewLocation, Direction.Rotation(), true);
+}
+
+void ATowerLinearProjectile::InitProjectileParams(float Damage, float InitSpeed, float InMaxSpeed, TScriptInterface<ITowerEnemyInterface> InTargetEnemy)
+{
+	Super::InitProjectileParams(Damage, InitSpeed, InMaxSpeed, InTargetEnemy);
+	
+
+	
 }
 
 void ATowerLinearProjectile::BeginPlay()
@@ -20,27 +43,27 @@ void ATowerLinearProjectile::BeginPlay()
 	
 }
 
-void ATowerLinearProjectile::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, float InitSpeed, float InMaxSpeed, bool bHasArch, float ArcHeight)
+void ATowerLinearProjectile::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, bool bHasArch, float ArcHeight)
 {
-	Super::LaunchAtTarget(StartLocation, EndLocation, Damage, InitSpeed, InMaxSpeed, bHasArch, ArcHeight);
-		
-	if (bHasArch) return;
+	Super::LaunchAtTarget(StartLocation, EndLocation, Damage,  bHasArch, ArcHeight);
 	
-	ProjectileMovementComponent->InitialSpeed = InitSpeed;
-	ProjectileMovementComponent->MaxSpeed = InMaxSpeed;
-	
-	this->Damage = Damage;
+
  }
 
-void ATowerLinearProjectile::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+void ATowerLinearProjectile::OnHit(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	Super::OnHit(HitComponent, OtherActor, OtherComp, NormalImpulse, Hit);
+	Super::OnHit(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 	
-	if (OtherActor->Implements<UTowerEnemyInterface>())
+	
+	if (OtherActor && OtherActor->Implements<UTowerEnemyInterface>())
 	{
+		
+		UE_LOG(LogTemp, Warning, TEXT("Enemy HIT Confirmed!"));
 		UGameplayStatics::ApplyDamage(OtherActor, Damage, GetOwner()->GetInstigatorController(), GetOwner(), {});
 		
 		// TODO Play animation or VFX on hit and then destroy the projectile. Otherwise projectile will self destroy in 10 seconds due to SetLifeSpan(10.f) in Base class BeginPlay
+		
+		Destroy();
 	}
 }
 

@@ -1,0 +1,9 @@
+<map id="ATowerActorBase::Fire" name="ATowerActorBase::Fire">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,170,76"/>
+<area shape="rect" id="Node000002" href="$classATowerLinearProjectile.html#a769af11e6fa45943e3601bf31c8d6206" title=" " alt="" coords="218,5,386,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,46,205,43,199,45,171,52"/>
+<area shape="rect" id="Node000003" href="$classATowerProjectileBase.html#ad8ec268f177e8c7b2af5130c646c2eb6" title="Validates parameters and checks if projectile can be launched, if it can be launch then it we will ca..." alt="" coords="222,75,382,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,73,209,81,203,82,170,78"/>
+<area shape="rect" id="Node000004" href="$classATowerProjectileBase.html#a80d8d268307cb9fa20046754b35fb3a3" title="Launches the projectile toward a target with the option of using ballistic arc." alt="" coords="434,75,594,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="382,94,421,97,416,97,382,100"/>
+</map>

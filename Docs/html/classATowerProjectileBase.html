@@ -100,36 +100,38 @@ $(function(){initNavTree('classATowerProjectileBase.html','','classATowerProject
 <div class="dynheader">
 Inheritance diagram for ATowerProjectileBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerProjectileBase__inherit__graph.svg" width="408" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerProjectileBase__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ATowerProjectileBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerProjectileBase__coll__graph.svg" width="244" height="360"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerProjectileBase__coll__graph.svg" width="259" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ade2bc5b40d3ae6e4276a928df64675f1" id="r_ade2bc5b40d3ae6e4276a928df64675f1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ade2bc5b40d3ae6e4276a928df64675f1">ATowerProjectileBase</a> ()</td></tr>
+<tr class="memitem:aa363e27107ca6cf5e3f7dc2c8102cb96" id="r_aa363e27107ca6cf5e3f7dc2c8102cb96"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#aa363e27107ca6cf5e3f7dc2c8102cb96">InitProjectileParams</a> (<a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> <a class="el" href="#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a>, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InitSpeed, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InMaxSpeed, <a class="el" href="classTScriptInterface.html">TScriptInterface</a>&lt; <a class="el" href="classITowerEnemyInterface.html">ITowerEnemyInterface</a> &gt; InTargetEnemy)</td></tr>
+<tr class="memitem:ad8ec268f177e8c7b2af5130c646c2eb6" id="r_ad8ec268f177e8c7b2af5130c646c2eb6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad8ec268f177e8c7b2af5130c646c2eb6">TryLaunchAtTarget</a> (FVector StartLocation, FVector EndLocation, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> <a class="el" href="#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a>, bool bHasArch=false, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ArcHeight=500.f)</td></tr>
+<tr class="memdesc:ad8ec268f177e8c7b2af5130c646c2eb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates parameters and checks if projectile can be launched, if it can be launch then it we will call.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a690f3e7514f348617131286f6d8c7866" id="r_a690f3e7514f348617131286f6d8c7866"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a690f3e7514f348617131286f6d8c7866">BeginPlay</a> () override</td></tr>
-<tr class="memitem:ac6fedce8bb3d8edd208e55e4aece578a" id="r_ac6fedce8bb3d8edd208e55e4aece578a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac6fedce8bb3d8edd208e55e4aece578a">TryLaunchAtTarget</a> (FVector StartLocation, FVector EndLocation, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> <a class="el" href="#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a>, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InitSpeed, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InMaxSpeed, bool bHasArch=false, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ArcHeight=500.f)</td></tr>
-<tr class="memdesc:ac6fedce8bb3d8edd208e55e4aece578a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates parameters and checks if projectile can be launch, if it can be launch then it we will call.  <br /></td></tr>
-<tr class="memitem:a9b622c69ea7025d9d723b243d216680b" id="r_a9b622c69ea7025d9d723b243d216680b"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a9b622c69ea7025d9d723b243d216680b">LaunchAtTarget</a> (FVector StartLocation, FVector EndLocation, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> <a class="el" href="#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a>, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InitSpeed, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InMaxSpeed, bool bHasArch=false, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ArcHeight=500.f)</td></tr>
-<tr class="memdesc:a9b622c69ea7025d9d723b243d216680b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launches the projectile toward a target with the option of using ballistic arc.  <br /></td></tr>
-<tr class="memitem:affa33f800ae7f63de35ec68e523e5b93" id="r_affa33f800ae7f63de35ec68e523e5b93"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#affa33f800ae7f63de35ec68e523e5b93">OnHit</a> (UPrimitiveComponent *HitComponent, AActor *OtherActor, UPrimitiveComponent *OtherComp, FVector NormalImpulse, const <a class="el" href="structFHitResult.html">FHitResult</a> &amp;Hit)</td></tr>
-<tr class="memdesc:affa33f800ae7f63de35ec68e523e5b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the projectile hits something.  <br /></td></tr>
+<tr class="memitem:a80d8d268307cb9fa20046754b35fb3a3" id="r_a80d8d268307cb9fa20046754b35fb3a3"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a80d8d268307cb9fa20046754b35fb3a3">LaunchAtTarget</a> (FVector StartLocation, FVector EndLocation, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> <a class="el" href="#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a>, bool bHasArch=false, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ArcHeight=500.f)</td></tr>
+<tr class="memdesc:a80d8d268307cb9fa20046754b35fb3a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launches the projectile toward a target with the option of using ballistic arc.  <br /></td></tr>
+<tr class="memitem:a2bbd7b5a792df6fab57a3f5c4c566799" id="r_a2bbd7b5a792df6fab57a3f5c4c566799"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a2bbd7b5a792df6fab57a3f5c4c566799">OnHit</a> (UPrimitiveComponent *OverlappedComponent, AActor *OtherActor, UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const <a class="el" href="structFHitResult.html">FHitResult</a> &amp;SweepResult)</td></tr>
+<tr class="memdesc:a2bbd7b5a792df6fab57a3f5c4c566799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the projectile hits something.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:af3f89790a71b323c3f21bc0f3b8d46f2" id="r_af3f89790a71b323c3f21bc0f3b8d46f2"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUProjectileMovementComponent.html">UProjectileMovementComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af3f89790a71b323c3f21bc0f3b8d46f2">ProjectileMovementComponent</a></td></tr>
-<tr class="memdesc:af3f89790a71b323c3f21bc0f3b8d46f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The movement component driving this projectile.  <br /></td></tr>
+<tr class="memitem:ac27019d9e122e7fac0d8964e33989749" id="r_ac27019d9e122e7fac0d8964e33989749"><td class="memItemLeft"><a class="el" href="classTScriptInterface.html">TScriptInterface</a>&lt; <a class="el" href="classITowerEnemyInterface.html">ITowerEnemyInterface</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac27019d9e122e7fac0d8964e33989749">TargetEnemy</a></td></tr>
 <tr class="memitem:af40d9cf95dffbefdeb343d2961171ef9" id="r_af40d9cf95dffbefdeb343d2961171ef9"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUStaticMeshComponent.html">UStaticMeshComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af40d9cf95dffbefdeb343d2961171ef9">ProjectileMesh</a></td></tr>
 <tr class="memdesc:af40d9cf95dffbefdeb343d2961171ef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh of the projectile (sphere for cannonball, capsule for arrow).  <br /></td></tr>
-<tr class="memitem:a4fb17d0efbd014c5dccceedd589bccbe" id="r_a4fb17d0efbd014c5dccceedd589bccbe"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUCapsuleComponent.html">UCapsuleComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4fb17d0efbd014c5dccceedd589bccbe">SphereCollision</a></td></tr>
-<tr class="memdesc:a4fb17d0efbd014c5dccceedd589bccbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision sphere for hit detection.  <br /></td></tr>
+<tr class="memitem:a04f8bd0f6da6672ca2befe493f94f6d4" id="r_a04f8bd0f6da6672ca2befe493f94f6d4"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUBoxComponent.html">UBoxComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a04f8bd0f6da6672ca2befe493f94f6d4">BoxCollision</a></td></tr>
+<tr class="memdesc:a04f8bd0f6da6672ca2befe493f94f6d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision capsule for hit detection.  <br /></td></tr>
+<tr class="memitem:a6fea3b5c17e5685df822608da81eaa06" id="r_a6fea3b5c17e5685df822608da81eaa06"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUSceneComponent.html">USceneComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6fea3b5c17e5685df822608da81eaa06">SceneComponent</a></td></tr>
+<tr class="memdesc:a6fea3b5c17e5685df822608da81eaa06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acts as root component and allows to rotate collision component as desired.  <br /></td></tr>
 <tr class="memitem:a2d1ec16ed47d11126dbadb0185047ffc" id="r_a2d1ec16ed47d11126dbadb0185047ffc"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a> = 25.f</td></tr>
 <tr class="memdesc:a2d1ec16ed47d11126dbadb0185047ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Damage dealt on impact.  <br /></td></tr>
 </table>
@@ -181,8 +183,49 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b622c69ea7025d9d723b243d216680b" name="a9b622c69ea7025d9d723b243d216680b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b622c69ea7025d9d723b243d216680b">&#9670;&#160;</a></span>LaunchAtTarget()</h2>
+<a id="aa363e27107ca6cf5e3f7dc2c8102cb96" name="aa363e27107ca6cf5e3f7dc2c8102cb96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa363e27107ca6cf5e3f7dc2c8102cb96">&#9670;&#160;</a></span>InitProjectileParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATowerProjectileBase::InitProjectileParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>Damage</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>InitSpeed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>InMaxSpeed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classTScriptInterface.html">TScriptInterface</a>&lt; <a class="el" href="classITowerEnemyInterface.html">ITowerEnemyInterface</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>InTargetEnemy</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classATowerLinearProjectile.html#a769af11e6fa45943e3601bf31c8d6206">ATowerLinearProjectile</a>.</p>
+
+</div>
+</div>
+<a id="a80d8d268307cb9fa20046754b35fb3a3" name="a80d8d268307cb9fa20046754b35fb3a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d8d268307cb9fa20046754b35fb3a3">&#9670;&#160;</a></span>LaunchAtTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,16 +247,6 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>Damage</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>InitSpeed</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>InMaxSpeed</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -246,17 +279,17 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classATowerLinearProjectile.html#aba5fa0d412674a7b99305023b42f116a">ATowerLinearProjectile</a>.</p>
+<p>Reimplemented in <a class="el" href="classATowerLinearProjectile.html#a4d6bfc47cd8c82a407309016a9333395">ATowerLinearProjectile</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerProjectileBase_a9b622c69ea7025d9d723b243d216680b_icgraph.svg" width="380" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerProjectileBase_a80d8d268307cb9fa20046754b35fb3a3_icgraph.svg" width="592" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="affa33f800ae7f63de35ec68e523e5b93" name="affa33f800ae7f63de35ec68e523e5b93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affa33f800ae7f63de35ec68e523e5b93">&#9670;&#160;</a></span>OnHit()</h2>
+<a id="a2bbd7b5a792df6fab57a3f5c4c566799" name="a2bbd7b5a792df6fab57a3f5c4c566799"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bbd7b5a792df6fab57a3f5c4c566799">&#9670;&#160;</a></span>OnHit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,7 +300,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void ATowerProjectileBase::OnHit </td>
           <td>(</td>
-          <td class="paramtype">UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>HitComponent</em></span>, </td>
+          <td class="paramtype">UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>OverlappedComponent</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -282,12 +315,17 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FVector</td>          <td class="paramname"><span class="paramname"><em>NormalImpulse</em></span>, </td>
+          <td class="paramtype">int32</td>          <td class="paramname"><span class="paramname"><em>OtherBodyIndex</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structFHitResult.html">FHitResult</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>Hit</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>bFromSweep</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structFHitResult.html">FHitResult</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>SweepResult</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -300,27 +338,25 @@ Here is the caller graph for this function:</div>
 <p>Called when the projectile hits something. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">HitComponent</td><td>The component on this projectile that was hit. </td></tr>
+    <tr><td class="paramname">OverlappedComponent</td><td>The component on this projectile that was hit. </td></tr>
     <tr><td class="paramname">OtherActor</td><td>The actor that was hit. </td></tr>
     <tr><td class="paramname">OtherComp</td><td>The component on the other actor that was hit. </td></tr>
     <tr><td class="paramname">NormalImpulse</td><td>The impulse applied at the hit point. </td></tr>
+    <tr><td class="paramname">bFromSweep</td><td></td></tr>
     <tr><td class="paramname">Hit</td><td>Detailed hit result data. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classATowerLinearProjectile.html#a49ed0ae76ec5c0da2a6001571f004f0b">ATowerLinearProjectile</a>.</p>
+<p>Reimplemented in <a class="el" href="classATowerLinearProjectile.html#acebe640c734aa3b30e8b9e3e7498cd08">ATowerLinearProjectile</a>.</p>
 
 </div>
 </div>
-<a id="ac6fedce8bb3d8edd208e55e4aece578a" name="ac6fedce8bb3d8edd208e55e4aece578a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6fedce8bb3d8edd208e55e4aece578a">&#9670;&#160;</a></span>TryLaunchAtTarget()</h2>
+<a id="ad8ec268f177e8c7b2af5130c646c2eb6" name="ad8ec268f177e8c7b2af5130c646c2eb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8ec268f177e8c7b2af5130c646c2eb6">&#9670;&#160;</a></span>TryLaunchAtTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ATowerProjectileBase::TryLaunchAtTarget </td>
@@ -340,22 +376,52 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>InitSpeed</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>InMaxSpeed</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>bHasArch</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>ArcHeight</em></span><span class="paramdefsep"> = </span><span class="paramdefval">500.f</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Validates parameters and checks if projectile can be launched, if it can be launch then it we will call. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a80d8d268307cb9fa20046754b35fb3a3" title="Launches the projectile toward a target with the option of using ballistic arc.">LaunchAtTarget()</a> method. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">StartLocation</td><td>Where the projectile spawns. </td></tr>
+    <tr><td class="paramname">EndLocation</td><td>Where it should land. </td></tr>
+    <tr><td class="paramname"><a class="el" href="#a2d1ec16ed47d11126dbadb0185047ffc" title="Damage dealt on impact.">Damage</a></td><td>Amount of Damage that it should do on hit </td></tr>
+    <tr><td class="paramname">ArcHeight</td><td>How high the arc peaks above the midpoint. Higher = floatier, lower = flatter. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerProjectileBase_ad8ec268f177e8c7b2af5130c646c2eb6_cgraph.svg" width="380" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerProjectileBase_ad8ec268f177e8c7b2af5130c646c2eb6_icgraph.svg" width="384" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a04f8bd0f6da6672ca2befe493f94f6d4" name="a04f8bd0f6da6672ca2befe493f94f6d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04f8bd0f6da6672ca2befe493f94f6d4">&#9670;&#160;</a></span>BoxCollision</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TObjectPtr&lt;<a class="el" href="classUBoxComponent.html">UBoxComponent</a>&gt; ATowerProjectileBase::BoxCollision</td>
         </tr>
       </table>
   </td>
@@ -365,28 +431,10 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Validates parameters and checks if projectile can be launch, if it can be launch then it we will call. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a9b622c69ea7025d9d723b243d216680b" title="Launches the projectile toward a target with the option of using ballistic arc.">LaunchAtTarget()</a> method. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">StartLocation</td><td>Where the projectile spawns. </td></tr>
-    <tr><td class="paramname">EndLocation</td><td>Where it should land. </td></tr>
-    <tr><td class="paramname"><a class="el" href="#a2d1ec16ed47d11126dbadb0185047ffc" title="Damage dealt on impact.">Damage</a></td><td>Amount of Damage that it should do on hit </td></tr>
-    <tr><td class="paramname">InitSpeed</td><td>Initial velocity of projectile on Spawn </td></tr>
-    <tr><td class="paramname">InMaxSpeed</td><td>Maximum possible velocity. </td></tr>
-    <tr><td class="paramname">ArcHeight</td><td>How high the arc peaks above the midpoint. Higher = floatier, lower = flatter. </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerProjectileBase_ac6fedce8bb3d8edd208e55e4aece578a_cgraph.svg" width="380" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<p>Collision capsule for hit detection. </p>
 
 </div>
 </div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a2d1ec16ed47d11126dbadb0185047ffc" name="a2d1ec16ed47d11126dbadb0185047ffc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d1ec16ed47d11126dbadb0185047ffc">&#9670;&#160;</a></span>Damage</h2>
 
@@ -435,8 +483,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="af3f89790a71b323c3f21bc0f3b8d46f2" name="af3f89790a71b323c3f21bc0f3b8d46f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3f89790a71b323c3f21bc0f3b8d46f2">&#9670;&#160;</a></span>ProjectileMovementComponent</h2>
+<a id="a6fea3b5c17e5685df822608da81eaa06" name="a6fea3b5c17e5685df822608da81eaa06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fea3b5c17e5685df822608da81eaa06">&#9670;&#160;</a></span>SceneComponent</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +493,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TObjectPtr&lt;<a class="el" href="classUProjectileMovementComponent.html">UProjectileMovementComponent</a>&gt; ATowerProjectileBase::ProjectileMovementComponent</td>
+          <td class="memname">TObjectPtr&lt;<a class="el" href="classUSceneComponent.html">USceneComponent</a>&gt; ATowerProjectileBase::SceneComponent</td>
         </tr>
       </table>
   </td>
@@ -455,12 +503,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>The movement component driving this projectile. </p>
+<p>Acts as root component and allows to rotate collision component as desired. </p>
 
 </div>
 </div>
-<a id="a4fb17d0efbd014c5dccceedd589bccbe" name="a4fb17d0efbd014c5dccceedd589bccbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fb17d0efbd014c5dccceedd589bccbe">&#9670;&#160;</a></span>SphereCollision</h2>
+<a id="ac27019d9e122e7fac0d8964e33989749" name="ac27019d9e122e7fac0d8964e33989749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac27019d9e122e7fac0d8964e33989749">&#9670;&#160;</a></span>TargetEnemy</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,7 +517,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TObjectPtr&lt;<a class="el" href="classUCapsuleComponent.html">UCapsuleComponent</a>&gt; ATowerProjectileBase::SphereCollision</td>
+          <td class="memname"><a class="el" href="classTScriptInterface.html">TScriptInterface</a>&lt;<a class="el" href="classITowerEnemyInterface.html">ITowerEnemyInterface</a>&gt; ATowerProjectileBase::TargetEnemy</td>
         </tr>
       </table>
   </td>
@@ -478,8 +526,6 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Collision sphere for hit detection. </p>
 
 </div>
 </div>

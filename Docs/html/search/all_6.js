@@ -2,7 +2,7 @@ var searchData=
 [
   ['d_0',['d',['../structUHierarchicalInstancedStaticMeshComponent_1_1FClusterBuilder_1_1FSortPair.html#a4e4fb61ba73759dce46df695ab9dddf9',1,'UHierarchicalInstancedStaticMeshComponent::FClusterBuilder::FSortPair']]],
   ['damage_1',['Damage',['../classATowerActorBase.html#a93f6e33959de2833e07a4a634fd6fb2c',1,'ATowerActorBase::Damage'],['../classATowerProjectileBase.html#a2d1ec16ed47d11126dbadb0185047ffc',1,'ATowerProjectileBase::Damage'],['../structFPointDamageEvent.html#aa019c7b8dd868134f22aaf436aaec408',1,'FPointDamageEvent::Damage']]],
-  ['damagecurve_2',['DamageCurve',['../structFTowerClasDefaultInfo.html#a71f22fbf266f486c96917c9f7f060490',1,'FTowerClasDefaultInfo']]],
+  ['damagecurve_2',['DamageCurve',['../structFTowerClasDefaultInfo.html#a43edd6222e2cbaa97b8eecbe7aee54ee',1,'FTowerClasDefaultInfo']]],
   ['damageevents_2eh_3',['DamageEvents.h',['../DamageEvents_8h.html',1,'']]],
   ['damagefalloff_4',['DamageFalloff',['../structFRadialDamageParams.html#a745c8301026900911909a16410db2bc6',1,'FRadialDamageParams::DamageFalloff'],['../classUDamageType.html#a34753b24577ac5eb6f27facc8e9253b9',1,'UDamageType::DamageFalloff']]],
   ['damageimpulse_5',['DamageImpulse',['../classUDamageType.html#aa3e713b2031e01dda96a6b9e883efd7d',1,'UDamageType']]],

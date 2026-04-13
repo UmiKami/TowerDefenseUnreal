@@ -1,7 +1,7 @@
 <map id="ATowerPlayerCharacter" name="ATowerPlayerCharacter">
-<area shape="rect" id="Node000001" title="Representation of the player character in the world." alt="" coords="21,1307,244,1536"/>
+<area shape="rect" id="Node000001" title="Representation of the player character in the world." alt="" coords="21,1307,244,1603"/>
 <area shape="rect" id="Node000002" href="$classAPawn.html" title=" " alt="" coords="5,282,260,1259"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,1272,135,1308,130,1307,132,1277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,1272,135,1308,130,1307,132,1277"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="26,84,80,156"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="59,168,75,282,70,282,59,173"/>
 <area shape="rect" id="Node000004" href="$classINavAgentInterface.html" title=" " alt="" coords="104,5,322,234"/>

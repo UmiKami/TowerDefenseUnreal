@@ -5,11 +5,11 @@
 #include "CoreMinimal.h"
 #include "Data/TowerClassInfo.h"
 #include "GameFramework/Actor.h"
-#include "Interaction/TowerEnemyInterface.h"
 #include "Interaction/TowerHighlightInterface.h"
+#include "Containers/SpscQueue.h"
 #include "TowerActorBase.generated.h"
 
-
+class ATowerEnemyPawn;
 class UBoxComponent;
 enum class ETowerClass : uint8;
 class UTowerClassInfo;
@@ -26,6 +26,7 @@ class TOWER_API ATowerActorBase : public AActor, public ITowerHighlightInterface
 
 public:
 	ATowerActorBase();
+	virtual void Tick(float DeltaSeconds) override;
 	
 	/**
 	 * @brief Sets the tower class that needs to be spawned.
@@ -42,7 +43,20 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+	void Fire();
 
+	/**
+	 * @brief This function is used to detect when enemies are within range of tower and launch projectiles accordingly.
+	 */
+	UFUNCTION()
+	void OnActorOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+	
+	/**
+	 * @brief This function removes target that is still alive
+	 */
+	UFUNCTION()
+	void OnActorOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	
 	UPROPERTY(EditDefaultsOnly)
 	TObjectPtr<UBoxComponent> BoxCollider;
 	/**
@@ -65,7 +79,7 @@ protected:
 	/**
 	 * @brief Tower level is used to determine damage and display mesh among other things.
 	 */
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	int32 Level = 1;
 	
 	/**
@@ -73,6 +87,12 @@ protected:
 	 */ 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	float Damage = 10.f;
+	
+	/**
+	 * @brief How often the tower will fire. Based on a curve. Lower Value = Faster/Better
+	 */ 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	float FireRate = 1.f;
 	
 	/**
 	 * @brief Type of tower. E.g. Cannon, Archer, Wizard, Poison
@@ -90,12 +110,10 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	TObjectPtr<UTowerClassInfo> TowerClassInfo;
 	
-	/**
-	 * @brief This function is used to detect when enemies are within range of tower and launch projectiles accordingly.
-	 */
-	UFUNCTION()
-	void OnActorOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
-
+	UPROPERTY()
+	TArray<TObjectPtr<ATowerEnemyPawn>> Targets;
 private:
 	FTowerClasDefaultInfo* TowerClasDefaultInfo;
+	
+	FTimerHandle FireRateTimer;
 };

@@ -42,6 +42,9 @@ var NAVTREEINDEX20 =
 "TowerGameState_8cpp.html":[5,0,1,0,0,2,1],
 "TowerGameState_8h.html":[5,0,1,0,1,2,1],
 "TowerGameState_8h_source.html":[5,0,1,0,1,2,1],
+"TowerHighlightInterface_8cpp.html":[5,0,1,0,0,3,1],
+"TowerHighlightInterface_8h.html":[5,0,1,0,1,3,1],
+"TowerHighlightInterface_8h_source.html":[5,0,1,0,1,3,1],
 "TowerLinearProjectile_8cpp.html":[5,0,1,0,0,0,1,1],
 "TowerLinearProjectile_8h.html":[5,0,1,0,1,0,1,1],
 "TowerLinearProjectile_8h_source.html":[5,0,1,0,1,0,1,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX20 =
 "classAAudioVolume.html#a003ff54abcbbbfc137caabb78ab505a3":[4,0,7,5],
 "classAAudioVolume.html#a29ce45f7544e34cc76f2a22f48159005":[4,0,7,7],
 "classAAudioVolume.html#a35d4c1f55826ca5845643e7a90543711":[4,0,7,14],
-"classAAudioVolume.html#a46aa91371b07c7b26e3ff66066b39764":[4,0,7,8],
-"classAAudioVolume.html#a4fb7f27a2e735f1344931c64eeb38b95":[4,0,7,19],
-"classAAudioVolume.html#a4fbf8e307738c46f787c5e7578b4467b":[4,0,7,4],
-"classAAudioVolume.html#a5d7ebbf505c70149eedecd977c22f66f":[4,0,7,3]
+"classAAudioVolume.html#a46aa91371b07c7b26e3ff66066b39764":[4,0,7,8]
 };

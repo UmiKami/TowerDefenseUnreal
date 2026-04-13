@@ -4,4 +4,8 @@
 #include "Interaction/TowerEnemyInterface.h"
 
 
-// Add default functionality here for any ITowerEnemyInterface functions that are not pure virtual.
+
+FVector ITowerEnemyInterface::GetCurrentLocation() const
+{
+	return {};
+}

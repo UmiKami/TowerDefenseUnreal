@@ -89,7 +89,7 @@ $(function(){initNavTree('classATowerLinearProjectile.html','','classATowerLinea
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">ATowerLinearProjectile Class Reference</div></div>
+  <div class="headertitle"><div class="title">ATowerLinearProjectile Class Reference<div class="ingroups"><a class="el" href="group__Tower.html">Tower Game Classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -97,40 +97,43 @@ $(function(){initNavTree('classATowerLinearProjectile.html','','classATowerLinea
 <div class="dynheader">
 Inheritance diagram for ATowerLinearProjectile:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerLinearProjectile__inherit__graph.svg" width="244" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerLinearProjectile__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ATowerLinearProjectile:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerLinearProjectile__coll__graph.svg" width="244" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerLinearProjectile__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1761eb14ca8b4f4ea03d4fa3ae5a6deb" id="r_a1761eb14ca8b4f4ea03d4fa3ae5a6deb"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1761eb14ca8b4f4ea03d4fa3ae5a6deb">ATowerLinearProjectile</a> ()</td></tr>
+<tr class="memitem:a3288f3945ad7de9be01550038c7505c2" id="r_a3288f3945ad7de9be01550038c7505c2"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a3288f3945ad7de9be01550038c7505c2">Tick</a> (<a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> DeltaSeconds) override</td></tr>
+<tr class="memitem:a769af11e6fa45943e3601bf31c8d6206" id="r_a769af11e6fa45943e3601bf31c8d6206"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a769af11e6fa45943e3601bf31c8d6206">InitProjectileParams</a> (<a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> <a class="el" href="classATowerProjectileBase.html#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a>, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InitSpeed, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InMaxSpeed, <a class="el" href="classTScriptInterface.html">TScriptInterface</a>&lt; <a class="el" href="classITowerEnemyInterface.html">ITowerEnemyInterface</a> &gt; InTargetEnemy) override</td></tr>
 <tr class="inherit_header pub_methods_classATowerProjectileBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classATowerProjectileBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classATowerProjectileBase.html">ATowerProjectileBase</a></td></tr>
 <tr class="memitem:ade2bc5b40d3ae6e4276a928df64675f1 inherit pub_methods_classATowerProjectileBase" id="r_ade2bc5b40d3ae6e4276a928df64675f1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="classATowerProjectileBase.html#ade2bc5b40d3ae6e4276a928df64675f1">ATowerProjectileBase</a> ()</td></tr>
+<tr class="memitem:ad8ec268f177e8c7b2af5130c646c2eb6 inherit pub_methods_classATowerProjectileBase" id="r_ad8ec268f177e8c7b2af5130c646c2eb6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="classATowerProjectileBase.html#ad8ec268f177e8c7b2af5130c646c2eb6">TryLaunchAtTarget</a> (FVector StartLocation, FVector EndLocation, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> <a class="el" href="classATowerProjectileBase.html#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a>, bool bHasArch=false, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ArcHeight=500.f)</td></tr>
+<tr class="memdesc:ad8ec268f177e8c7b2af5130c646c2eb6 inherit pub_methods_classATowerProjectileBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates parameters and checks if projectile can be launched, if it can be launch then it we will call.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a118f1a14b19dc76669136bf2fd4a9805" id="r_a118f1a14b19dc76669136bf2fd4a9805"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a118f1a14b19dc76669136bf2fd4a9805">BeginPlay</a> () override</td></tr>
-<tr class="memitem:aba5fa0d412674a7b99305023b42f116a" id="r_aba5fa0d412674a7b99305023b42f116a"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#aba5fa0d412674a7b99305023b42f116a">LaunchAtTarget</a> (FVector StartLocation, FVector EndLocation, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> <a class="el" href="classATowerProjectileBase.html#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a>, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InitSpeed, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InMaxSpeed, bool bHasArch=false, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ArcHeight=500.f) override</td></tr>
-<tr class="memdesc:aba5fa0d412674a7b99305023b42f116a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launches the projectile toward a target with the option of using ballistic arc.  <br /></td></tr>
-<tr class="memitem:a49ed0ae76ec5c0da2a6001571f004f0b" id="r_a49ed0ae76ec5c0da2a6001571f004f0b"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a49ed0ae76ec5c0da2a6001571f004f0b">OnHit</a> (UPrimitiveComponent *HitComponent, AActor *OtherActor, UPrimitiveComponent *OtherComp, FVector NormalImpulse, const <a class="el" href="structFHitResult.html">FHitResult</a> &amp;Hit) override</td></tr>
-<tr class="memdesc:a49ed0ae76ec5c0da2a6001571f004f0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the projectile hits something.  <br /></td></tr>
-<tr class="inherit_header pro_methods_classATowerProjectileBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classATowerProjectileBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classATowerProjectileBase.html">ATowerProjectileBase</a></td></tr>
-<tr class="memitem:ac6fedce8bb3d8edd208e55e4aece578a inherit pro_methods_classATowerProjectileBase" id="r_ac6fedce8bb3d8edd208e55e4aece578a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="classATowerProjectileBase.html#ac6fedce8bb3d8edd208e55e4aece578a">TryLaunchAtTarget</a> (FVector StartLocation, FVector EndLocation, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> <a class="el" href="classATowerProjectileBase.html#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a>, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InitSpeed, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> InMaxSpeed, bool bHasArch=false, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ArcHeight=500.f)</td></tr>
-<tr class="memdesc:ac6fedce8bb3d8edd208e55e4aece578a inherit pro_methods_classATowerProjectileBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates parameters and checks if projectile can be launch, if it can be launch then it we will call.  <br /></td></tr>
+<tr class="memitem:a4d6bfc47cd8c82a407309016a9333395" id="r_a4d6bfc47cd8c82a407309016a9333395"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a4d6bfc47cd8c82a407309016a9333395">LaunchAtTarget</a> (FVector StartLocation, FVector EndLocation, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> <a class="el" href="classATowerProjectileBase.html#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a>, bool bHasArch=false, <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ArcHeight=500.f) override</td></tr>
+<tr class="memdesc:a4d6bfc47cd8c82a407309016a9333395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launches the projectile toward a target with the option of using ballistic arc.  <br /></td></tr>
+<tr class="memitem:acebe640c734aa3b30e8b9e3e7498cd08" id="r_acebe640c734aa3b30e8b9e3e7498cd08"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#acebe640c734aa3b30e8b9e3e7498cd08">OnHit</a> (UPrimitiveComponent *OverlappedComponent, AActor *OtherActor, UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const <a class="el" href="structFHitResult.html">FHitResult</a> &amp;SweepResult) override</td></tr>
+<tr class="memdesc:acebe640c734aa3b30e8b9e3e7498cd08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the projectile hits something.  <br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:affaa6b5eca0d6cac12497fa9e75177d7" id="r_affaa6b5eca0d6cac12497fa9e75177d7"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#affaa6b5eca0d6cac12497fa9e75177d7">HomingStrength</a> = 1.f</td></tr>
 <tr class="inherit_header pro_attribs_classATowerProjectileBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classATowerProjectileBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="classATowerProjectileBase.html">ATowerProjectileBase</a></td></tr>
-<tr class="memitem:af3f89790a71b323c3f21bc0f3b8d46f2 inherit pro_attribs_classATowerProjectileBase" id="r_af3f89790a71b323c3f21bc0f3b8d46f2"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUProjectileMovementComponent.html">UProjectileMovementComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="classATowerProjectileBase.html#af3f89790a71b323c3f21bc0f3b8d46f2">ProjectileMovementComponent</a></td></tr>
-<tr class="memdesc:af3f89790a71b323c3f21bc0f3b8d46f2 inherit pro_attribs_classATowerProjectileBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">The movement component driving this projectile.  <br /></td></tr>
+<tr class="memitem:ac27019d9e122e7fac0d8964e33989749 inherit pro_attribs_classATowerProjectileBase" id="r_ac27019d9e122e7fac0d8964e33989749"><td class="memItemLeft"><a class="el" href="classTScriptInterface.html">TScriptInterface</a>&lt; <a class="el" href="classITowerEnemyInterface.html">ITowerEnemyInterface</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="classATowerProjectileBase.html#ac27019d9e122e7fac0d8964e33989749">TargetEnemy</a></td></tr>
 <tr class="memitem:af40d9cf95dffbefdeb343d2961171ef9 inherit pro_attribs_classATowerProjectileBase" id="r_af40d9cf95dffbefdeb343d2961171ef9"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUStaticMeshComponent.html">UStaticMeshComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="classATowerProjectileBase.html#af40d9cf95dffbefdeb343d2961171ef9">ProjectileMesh</a></td></tr>
 <tr class="memdesc:af40d9cf95dffbefdeb343d2961171ef9 inherit pro_attribs_classATowerProjectileBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh of the projectile (sphere for cannonball, capsule for arrow).  <br /></td></tr>
-<tr class="memitem:a4fb17d0efbd014c5dccceedd589bccbe inherit pro_attribs_classATowerProjectileBase" id="r_a4fb17d0efbd014c5dccceedd589bccbe"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUCapsuleComponent.html">UCapsuleComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="classATowerProjectileBase.html#a4fb17d0efbd014c5dccceedd589bccbe">SphereCollision</a></td></tr>
-<tr class="memdesc:a4fb17d0efbd014c5dccceedd589bccbe inherit pro_attribs_classATowerProjectileBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision sphere for hit detection.  <br /></td></tr>
+<tr class="memitem:a04f8bd0f6da6672ca2befe493f94f6d4 inherit pro_attribs_classATowerProjectileBase" id="r_a04f8bd0f6da6672ca2befe493f94f6d4"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUBoxComponent.html">UBoxComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="classATowerProjectileBase.html#a04f8bd0f6da6672ca2befe493f94f6d4">BoxCollision</a></td></tr>
+<tr class="memdesc:a04f8bd0f6da6672ca2befe493f94f6d4 inherit pro_attribs_classATowerProjectileBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision capsule for hit detection.  <br /></td></tr>
+<tr class="memitem:a6fea3b5c17e5685df822608da81eaa06 inherit pro_attribs_classATowerProjectileBase" id="r_a6fea3b5c17e5685df822608da81eaa06"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUSceneComponent.html">USceneComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="classATowerProjectileBase.html#a6fea3b5c17e5685df822608da81eaa06">SceneComponent</a></td></tr>
+<tr class="memdesc:a6fea3b5c17e5685df822608da81eaa06 inherit pro_attribs_classATowerProjectileBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acts as root component and allows to rotate collision component as desired.  <br /></td></tr>
 <tr class="memitem:a2d1ec16ed47d11126dbadb0185047ffc inherit pro_attribs_classATowerProjectileBase" id="r_a2d1ec16ed47d11126dbadb0185047ffc"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="classATowerProjectileBase.html#a2d1ec16ed47d11126dbadb0185047ffc">Damage</a> = 25.f</td></tr>
 <tr class="memdesc:a2d1ec16ed47d11126dbadb0185047ffc inherit pro_attribs_classATowerProjectileBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Damage dealt on impact.  <br /></td></tr>
 </table>
@@ -180,8 +183,54 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aba5fa0d412674a7b99305023b42f116a" name="aba5fa0d412674a7b99305023b42f116a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba5fa0d412674a7b99305023b42f116a">&#9670;&#160;</a></span>LaunchAtTarget()</h2>
+<a id="a769af11e6fa45943e3601bf31c8d6206" name="a769af11e6fa45943e3601bf31c8d6206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a769af11e6fa45943e3601bf31c8d6206">&#9670;&#160;</a></span>InitProjectileParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATowerLinearProjectile::InitProjectileParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>Damage</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>InitSpeed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>InMaxSpeed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classTScriptInterface.html">TScriptInterface</a>&lt; <a class="el" href="classITowerEnemyInterface.html">ITowerEnemyInterface</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>InTargetEnemy</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classATowerProjectileBase.html#aa363e27107ca6cf5e3f7dc2c8102cb96">ATowerProjectileBase</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerLinearProjectile_a769af11e6fa45943e3601bf31c8d6206_icgraph.svg" width="392" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4d6bfc47cd8c82a407309016a9333395" name="a4d6bfc47cd8c82a407309016a9333395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d6bfc47cd8c82a407309016a9333395">&#9670;&#160;</a></span>LaunchAtTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,16 +252,6 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>Damage</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>InitSpeed</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>InMaxSpeed</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -245,12 +284,12 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="classATowerProjectileBase.html#a9b622c69ea7025d9d723b243d216680b">ATowerProjectileBase</a>.</p>
+<p>Reimplemented from <a class="el" href="classATowerProjectileBase.html#a80d8d268307cb9fa20046754b35fb3a3">ATowerProjectileBase</a>.</p>
 
 </div>
 </div>
-<a id="a49ed0ae76ec5c0da2a6001571f004f0b" name="a49ed0ae76ec5c0da2a6001571f004f0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49ed0ae76ec5c0da2a6001571f004f0b">&#9670;&#160;</a></span>OnHit()</h2>
+<a id="acebe640c734aa3b30e8b9e3e7498cd08" name="acebe640c734aa3b30e8b9e3e7498cd08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acebe640c734aa3b30e8b9e3e7498cd08">&#9670;&#160;</a></span>OnHit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,7 +300,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void ATowerLinearProjectile::OnHit </td>
           <td>(</td>
-          <td class="paramtype">UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>HitComponent</em></span>, </td>
+          <td class="paramtype">UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>OverlappedComponent</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -276,12 +315,17 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FVector</td>          <td class="paramname"><span class="paramname"><em>NormalImpulse</em></span>, </td>
+          <td class="paramtype">int32</td>          <td class="paramname"><span class="paramname"><em>OtherBodyIndex</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structFHitResult.html">FHitResult</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>Hit</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>bFromSweep</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structFHitResult.html">FHitResult</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>SweepResult</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -294,16 +338,65 @@ Additional Inherited Members</h2></td></tr>
 <p>Called when the projectile hits something. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">HitComponent</td><td>The component on this projectile that was hit. </td></tr>
+    <tr><td class="paramname">OverlappedComponent</td><td>The component on this projectile that was hit. </td></tr>
     <tr><td class="paramname">OtherActor</td><td>The actor that was hit. </td></tr>
     <tr><td class="paramname">OtherComp</td><td>The component on the other actor that was hit. </td></tr>
     <tr><td class="paramname">NormalImpulse</td><td>The impulse applied at the hit point. </td></tr>
+    <tr><td class="paramname">bFromSweep</td><td></td></tr>
     <tr><td class="paramname">Hit</td><td>Detailed hit result data. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="classATowerProjectileBase.html#affa33f800ae7f63de35ec68e523e5b93">ATowerProjectileBase</a>.</p>
+<p>Reimplemented from <a class="el" href="classATowerProjectileBase.html#a2bbd7b5a792df6fab57a3f5c4c566799">ATowerProjectileBase</a>.</p>
+
+</div>
+</div>
+<a id="a3288f3945ad7de9be01550038c7505c2" name="a3288f3945ad7de9be01550038c7505c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3288f3945ad7de9be01550038c7505c2">&#9670;&#160;</a></span>Tick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATowerLinearProjectile::Tick </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>DeltaSeconds</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="affaa6b5eca0d6cac12497fa9e75177d7" name="affaa6b5eca0d6cac12497fa9e75177d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affaa6b5eca0d6cac12497fa9e75177d7">&#9670;&#160;</a></span>HomingStrength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ATowerLinearProjectile::HomingStrength = 1.f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
