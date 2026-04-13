@@ -26,6 +26,7 @@ public:
 	 */
 	UFUNCTION(BlueprintCallable)
 	FORCEINLINE float GetHealth() const {return Health;} 
+
 	
 	/**
 	 * 
@@ -34,13 +35,24 @@ public:
 	UFUNCTION(BlueprintCallable)
 	FORCEINLINE float GetMaxHealth() const {return MaxHealth;} 
 	
+	/**
+	* @brief Adds to current player health
+	*/
+	UFUNCTION()
+	void AddHealth(const float InHealthAmount); 
+	
+	/**
+	* @brief Sets a new value for MaxHealth 
+	*/
+	UFUNCTION()
+	void SetMaxHealth(const float NewMaxHealth); 
 	
 	/**
 	 * 
 	 * @return List of all towers placed in the world owned by the player.
 	 */
 	UFUNCTION(BlueprintCallable)
-	FORCEINLINE TArray<TObjectPtr<ATowerActorBase>> GetOwnedTowers() const {return PlacedTowers;} 
+	FORCEINLINE TArray<ATowerActorBase*> GetOwnedTowers() const {return PlacedTowers;} 
 	
 	/**
 	 * @brief Adds tower just placed in the world to tracker.

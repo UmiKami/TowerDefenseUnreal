@@ -8,6 +8,16 @@ ATowerPlayerState::ATowerPlayerState()
 	Health = MaxHealth;
 }
 
+void ATowerPlayerState::AddHealth(const float InHealthAmount)
+{
+	Health = FMath::Clamp(Health + InHealthAmount, 0.f, MaxHealth);
+}
+
+void ATowerPlayerState::SetMaxHealth(const float NewMaxHealth)
+{
+	MaxHealth = NewMaxHealth;
+}
+
 void ATowerPlayerState::AddPlacedTower(ATowerActorBase* NewTower)
 {
 	PlacedTowers.Add(NewTower);
