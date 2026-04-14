@@ -46,6 +46,7 @@ public:
 	/**
 	 * @brief Signature fired when pawn dies.
 	 */
+	UPROPERTY(BlueprintAssignable)
 	FEnemyDiedSignature OnDeath;
 
 protected:
@@ -96,7 +97,7 @@ protected:
 	/**
 	 * @brief Movement speed used while traversing the spline.
 	 */
-	UPROPERTY(EditAnywhere, Category="Movement")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite,Category="Movement")
 	float MovementSpeed = 300.f;
 	
 public:
