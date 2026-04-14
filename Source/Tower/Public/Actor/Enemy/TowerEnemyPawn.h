@@ -49,6 +49,8 @@ public:
 	UPROPERTY(BlueprintAssignable)
 	FEnemyDiedSignature OnDeath;
 
+	virtual bool IsValidPtr() const override;
+	
 protected:
 	/**
 	 * @brief Initializes runtime state when the pawn enters play.

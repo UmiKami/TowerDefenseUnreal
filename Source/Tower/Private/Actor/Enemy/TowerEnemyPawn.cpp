@@ -33,6 +33,11 @@ FVector ATowerEnemyPawn::GetCurrentLocation() const
 	return GetActorLocation();
 }
 
+bool ATowerEnemyPawn::IsValidPtr() const
+{
+	return IsValid(this);
+}
+
 void ATowerEnemyPawn::BeginPlay()
 {
 	Super::BeginPlay();

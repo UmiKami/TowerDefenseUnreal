@@ -9,3 +9,8 @@ FVector ITowerEnemyInterface::GetCurrentLocation() const
 {
 	return {};
 }
+
+bool ITowerEnemyInterface::IsValidPtr() const
+{
+	return true;
+}
