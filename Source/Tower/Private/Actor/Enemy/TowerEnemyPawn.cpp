@@ -37,6 +37,8 @@ void ATowerEnemyPawn::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	Health = MaxHealth;
+	
 	if (AAIController* AIController = Cast<AAIController>(GetController()))
 	{
 		PawnAIController = AIController;
@@ -46,7 +48,20 @@ void ATowerEnemyPawn::BeginPlay()
 	
 	PathToFollow = Cast<ATowerEnemyPathActor>(UGameplayStatics::GetActorOfClass(GetWorld(), ATowerEnemyPathActor::StaticClass()));
 	
+}
+
+float ATowerEnemyPawn::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)
+{
+	Health = FMath::Clamp(Health - DamageAmount, 0.f, MaxHealth);
 	
+	if (Health <= 0.f)
+	{
+		OnDeath.Broadcast(this);
+		// TODO: Play death animation in BP
+		// TODO: Destroy in BP
+	}
+	
+	return DamageAmount;
 }
 
 void ATowerEnemyPawn::MoveActorAlongSpline()
