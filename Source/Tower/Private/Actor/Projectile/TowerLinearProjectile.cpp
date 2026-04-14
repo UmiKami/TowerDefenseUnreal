@@ -18,8 +18,9 @@ void ATowerLinearProjectile::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
 	
-	if (!TargetEnemy) 
+	if (!TargetEnemy || !TargetEnemy->IsValidPtr()) 
 	{
+		Destroy();
 		return;
 	}
 	
