@@ -12,6 +12,9 @@ class AAIController;
 class UCapsuleComponent;
 class ATowerEnemyPathActor;
 class USplineComponent;
+class ATowerEnemyPawn;
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FEnemyDiedSignature, ATowerEnemyPawn*, EnemyPawn);
 
 /**
  * @ingroup Tower
@@ -25,9 +28,20 @@ public:
 	ATowerEnemyPawn();
 	
 	virtual FVector GetCurrentLocation() const override;
+	
+	
+	FEnemyDiedSignature OnDeath;
 
 protected:
 	virtual void BeginPlay() override;
+	
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	float Health;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	float MaxHealth;
 
 	UPROPERTY(EditDefaultsOnly)
 	TObjectPtr<USkeletalMeshComponent> PawnSkeletalMesh;
