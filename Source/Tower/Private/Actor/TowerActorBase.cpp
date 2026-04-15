@@ -115,7 +115,7 @@ void ATowerActorBase::OnActorOverlap(UPrimitiveComponent* OverlappedComponent, A
 	
 	Targets.Add(TargetActor);
 	
-	if (TowerClasDefaultInfo->ProjectileClass)
+	if (TowerClasDefaultInfo->ProjectileClass && !FireRateTimer.IsValid())
 	{
 		GetWorldTimerManager().SetTimer(FireRateTimer, this, &ThisClass::Fire, FireRate, true, 0);
 	}
