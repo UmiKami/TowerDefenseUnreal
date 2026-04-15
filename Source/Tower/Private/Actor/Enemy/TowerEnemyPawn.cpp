@@ -8,6 +8,8 @@
 #include "GameFramework/PawnMovementComponent.h"
 #include "AIController.h"
 #include "Blueprint/AIBlueprintHelperLibrary.h"
+#include "Game/TowerGameMode.h"
+#include "Game/TowerGameState.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/FloatingPawnMovement.h"
 #include "Interaction/TowerPlayerInterface.h"
@@ -53,16 +55,8 @@ void ATowerEnemyPawn::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	Health = MaxHealth;
 	
-	if (AAIController* AIController = Cast<AAIController>(GetController()))
-	{
-		PawnAIController = AIController;
-		checkf(PawnAIController, TEXT("AI Controller not set."))
-		UE_LOG(LogTemp, Warning, TEXT("%s is %d"), *PawnAIController.GetName(), IsValid(PawnAIController))
-	}
-	
-	PathToFollow = Cast<ATowerEnemyPathActor>(UGameplayStatics::GetActorOfClass(GetWorld(), ATowerEnemyPathActor::StaticClass()));
+	SetInitialProperties();
 	
 	CapsuleCollision->OnComponentBeginOverlap.AddDynamic(this, &ThisClass::OnOverlap);
 }
@@ -104,6 +98,26 @@ void ATowerEnemyPawn::MoveActorAlongSpline()
 	SetActorRotation(Direction.Rotation());
 	
 	AddMovementInput(Direction, 1.f);
+}
+
+void ATowerEnemyPawn::SetInitialProperties()
+{
+	ATowerGameState* TowerGameState = Cast<ATowerGameState>(UGameplayStatics::GetGameState(this));
+	
+	MaxHealth = MaxHealthCurve.Eval(TowerGameState->Wave, "MaxHealthCurve Not Found");
+	Damage = DamageCurve.Eval(TowerGameState->Wave, "DamageCurve Not Found");
+	MovementSpeed = MovementSpeedCurve.Eval(TowerGameState->Wave, "MaxHealthCurve Not Found");
+	
+	Health = MaxHealth;
+	
+	if (AAIController* AIController = Cast<AAIController>(GetController()))
+	{
+		PawnAIController = AIController;
+		checkf(PawnAIController, TEXT("AI Controller not set."))
+		UE_LOG(LogTemp, Warning, TEXT("%s is %d"), *PawnAIController.GetName(), IsValid(PawnAIController))
+	}
+	
+	PathToFollow = Cast<ATowerEnemyPathActor>(UGameplayStatics::GetActorOfClass(GetWorld(), ATowerEnemyPathActor::StaticClass()));
 }
 
 void ATowerEnemyPawn::Tick(float DeltaSeconds)
