@@ -52,6 +52,8 @@ public:
 	virtual bool IsValidPtr() const override;
 	
 protected:
+	UFUNCTION()
+	void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 	/**
 	 * @brief Initializes runtime state when the pawn enters play.
 	 */
@@ -101,6 +103,9 @@ protected:
 	 */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite,Category="Movement")
 	float MovementSpeed = 300.f;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite,Category="Stats")
+	float Damage = 10.f;
 	
 public:
 	virtual void Tick(float DeltaSeconds) override;

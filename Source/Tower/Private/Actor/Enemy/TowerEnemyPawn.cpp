@@ -10,6 +10,7 @@
 #include "Blueprint/AIBlueprintHelperLibrary.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/FloatingPawnMovement.h"
+#include "Interaction/TowerPlayerInterface.h"
 #include "Kismet/GameplayStatics.h"
 #include "Navigation/PathFollowingComponent.h"
 
@@ -38,6 +39,16 @@ bool ATowerEnemyPawn::IsValidPtr() const
 	return IsValid(this);
 }
 
+void ATowerEnemyPawn::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,
+                                const FHitResult& SweepResult)
+{
+	TScriptInterface<ITowerPlayerInterface> PlayerStronghold = OtherActor;
+	
+	if (!PlayerStronghold) return;
+	
+	UGameplayStatics::ApplyDamage(OtherActor, Damage, GetController(), this, {});
+}
+
 void ATowerEnemyPawn::BeginPlay()
 {
 	Super::BeginPlay();
@@ -53,6 +64,7 @@ void ATowerEnemyPawn::BeginPlay()
 	
 	PathToFollow = Cast<ATowerEnemyPathActor>(UGameplayStatics::GetActorOfClass(GetWorld(), ATowerEnemyPathActor::StaticClass()));
 	
+	CapsuleCollision->OnComponentBeginOverlap.AddDynamic(this, &ThisClass::OnOverlap);
 }
 
 float ATowerEnemyPawn::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)
