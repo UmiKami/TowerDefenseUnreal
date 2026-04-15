@@ -65,15 +65,18 @@ protected:
 	/**
 	 * @brief Current health available to the pawn.
 	 */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Stats")
 	float Health;
 	
 	/**
 	 * @brief Maximum health value the pawn can have.
 	 */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Stats")
 	float MaxHealth;
-
+	
+	UPROPERTY(EditDefaultsOnly, Category="Stats")
+	FCurveTableRowHandle MaxHealthCurve;
+	
 	/**
 	 * @brief Skeletal mesh used to render the pawn.
 	 */
@@ -98,11 +101,18 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<ATowerEnemyPathActor> PathToFollow;
 	
+	UPROPERTY(EditDefaultsOnly, Category="Stats")
+	FCurveTableRowHandle MovementSpeedCurve;
 	/**
 	 * @brief Movement speed used while traversing the spline.
 	 */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite,Category="Movement")
 	float MovementSpeed = 300.f;
+
+
+	
+	UPROPERTY(EditDefaultsOnly, Category="Stats")
+	FCurveTableRowHandle DamageCurve;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite,Category="Stats")
 	float Damage = 10.f;
@@ -131,4 +141,6 @@ private:
 	 * @brief Advances the pawn along its assigned spline path.
 	 */
 	void MoveActorAlongSpline();
+	
+	void SetInitialProperties();
 };
