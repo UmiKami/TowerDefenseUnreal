@@ -34,6 +34,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Match Stats", meta=(DisplayPriority=0))
 	int32 RemainingEnemyCount;
 	
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Match Stats", meta=(DisplayPriority=0))
+	int32 EnemiesKilled;
+	
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Match Stats", meta=(DisplayPriority=0))
 	FCurveTableRowHandle SpawnLimitPerWaveCurve;
