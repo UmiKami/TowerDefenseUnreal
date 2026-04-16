@@ -6,6 +6,8 @@
 #include "GameFramework/PlayerState.h"
 #include "TowerPlayerState.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHealthChangeSignature, float, NewHealth);
+
 class ATowerActorBase;
 /**
  * @brief Manages state of the player including health and owned stuff.
@@ -19,6 +21,8 @@ class TOWER_API ATowerPlayerState : public APlayerState
 	
 public:
 	ATowerPlayerState();
+	
+	virtual void BeginPlay() override;
 	
 	/**
 	 * 
@@ -68,6 +72,9 @@ public:
 	 */
 	UFUNCTION()
 	void RemoveTower(ATowerActorBase* InTower);
+	
+	UPROPERTY(BlueprintAssignable)
+	FOnHealthChangeSignature OnHealthChangeSignature;
 	
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)

@@ -6,6 +6,8 @@
 #include "GameFramework/PlayerController.h"
 #include "TowerPlayerController.generated.h"
 
+class UTowerWidgetController;
+class UTowerUserWidget;
 class UInputMappingContext;
 
 /**
@@ -25,6 +27,14 @@ public:
 	
 protected:
 	virtual void SetupInputComponent() override;
+	
+	virtual void OnPossess(APawn* InPawn) override;
+	
+	UPROPERTY(EditDefaultsOnly, Category="UI")
+	TSubclassOf<UUserWidget> PlayerHUDClass; 
+	
+	UPROPERTY(EditDefaultsOnly, Category = "Tower|UI")
+	TSubclassOf<UTowerWidgetController> WidgetControllerClass;
 	
 	UPROPERTY(EditAnywhere, Category ="Input|Input Mappings")
 	TObjectPtr<UInputMappingContext> DefaultMappingContext;
