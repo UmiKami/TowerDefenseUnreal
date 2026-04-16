@@ -8,9 +8,17 @@ ATowerPlayerState::ATowerPlayerState()
 	Health = MaxHealth;
 }
 
+void ATowerPlayerState::BeginPlay()
+{
+	Super::BeginPlay();
+	
+	OnHealthChangeSignature.Broadcast(Health);
+}
+
 void ATowerPlayerState::AddHealth(const float InHealthAmount)
 {
 	Health = FMath::Clamp(Health + InHealthAmount, 0.f, MaxHealth);
+	OnHealthChangeSignature.Broadcast(Health);
 }
 
 void ATowerPlayerState::SetMaxHealth(const float NewMaxHealth)
