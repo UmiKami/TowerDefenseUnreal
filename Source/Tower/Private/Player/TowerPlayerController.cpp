@@ -35,20 +35,47 @@ void ATowerPlayerController::OnPossess(APawn* InPawn)
 	Super::OnPossess(InPawn);
 
 	UUserWidget* PlayerHUDUserWidget = CreateWidget(this, PlayerHUDClass);
-	UTowerUserWidget* PlayerHUD= Cast<UTowerUserWidget>(PlayerHUDUserWidget);
+	PlayerHUD= Cast<UTowerUserWidget>(PlayerHUDUserWidget);
 
 	UTowerWidgetController* PlayerHUDWidgetController = NewObject<UTowerWidgetController>(this, WidgetControllerClass);
 
+	ATowerGameMode* GameMode = Cast<ATowerGameMode>(UGameplayStatics::GetGameMode(this));
+	
+	const FWidgetControllerParams Params{
+		this,
+		GetPlayerState<ATowerPlayerState>(),
+		Cast<ATowerGameState>(UGameplayStatics::GetGameState(this)),
+		GameMode
+	};
+	PlayerHUDWidgetController->SetWidgetControllerParams(Params);
+
+	PlayerHUD->AddToViewport();
+	PlayerHUD->SetWidgetController(PlayerHUDWidgetController);
+	
+	GameMode->OnGameOverSignature.AddDynamic(this, &ThisClass::DisplayGameOverOverlay);
+}
+
+void ATowerPlayerController::DisplayGameOverOverlay()
+{
+	PlayerHUD->RemoveFromParent();
+	
+	UUserWidget* GameOverUserWidget = CreateWidget(this, GameOverWidgetClass);
+	
+	GameOverWidget = Cast<UTowerUserWidget>(GameOverUserWidget);
+	
+	UTowerWidgetController* GameOverWidgetController = NewObject<UTowerWidgetController>(this, WidgetControllerClass);
 	const FWidgetControllerParams Params{
 		this,
 		GetPlayerState<ATowerPlayerState>(),
 		Cast<ATowerGameState>(UGameplayStatics::GetGameState(this)),
 		Cast<ATowerGameMode>(UGameplayStatics::GetGameMode(this))
 	};
-
-	PlayerHUDWidgetController->SetWidgetControllerParams(Params);
-
-	PlayerHUD->AddToViewport();
+	GameOverWidgetController->SetWidgetControllerParams(Params);
 	
-	PlayerHUD->SetWidgetController(PlayerHUDWidgetController);
+	GameOverWidget->AddToViewport();
+	GameOverWidget->SetWidgetController(GameOverWidgetController);
+	
 }
+	
+	
+
