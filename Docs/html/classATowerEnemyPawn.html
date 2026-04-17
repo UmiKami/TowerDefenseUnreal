@@ -93,6 +93,9 @@ $(function(){initNavTree('classATowerEnemyPawn.html','','classATowerEnemyPawn-me
 </div><!--header-->
 <div class="contents">
 
+<p>Player's enemy pawn. Capable of killing the player 🤷‍♂️  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="TowerEnemyPawn_8h_source.html">TowerEnemyPawn.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ATowerEnemyPawn:</div>
@@ -108,7 +111,10 @@ Collaboration diagram for ATowerEnemyPawn:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a88bfc6152cd70467ae175b99ceef24f6" id="r_a88bfc6152cd70467ae175b99ceef24f6"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a88bfc6152cd70467ae175b99ceef24f6">ATowerEnemyPawn</a> ()</td></tr>
+<tr class="memdesc:a88bfc6152cd70467ae175b99ceef24f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the enemy pawn and its default components.  <br /></td></tr>
 <tr class="memitem:a91caf82699b95e187e76d0388db05d83" id="r_a91caf82699b95e187e76d0388db05d83"><td class="memItemLeft">virtual FVector&#160;</td><td class="memItemRight"><a class="el" href="#a91caf82699b95e187e76d0388db05d83">GetCurrentLocation</a> () const override</td></tr>
+<tr class="memdesc:a91caf82699b95e187e76d0388db05d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current location of the actor.  <br /></td></tr>
+<tr class="memitem:a46687719aad6c51e712bc56c2526009a" id="r_a46687719aad6c51e712bc56c2526009a"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a46687719aad6c51e712bc56c2526009a">IsValidPtr</a> () const override</td></tr>
 <tr class="memitem:ab4088ef4a6dce266203570ccff112986" id="r_ab4088ef4a6dce266203570ccff112986"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#ab4088ef4a6dce266203570ccff112986">Tick</a> (<a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> DeltaSeconds) override</td></tr>
 <tr class="inherit_header pub_methods_classAPawn"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classAPawn')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classAPawn.html">APawn</a></td></tr>
 <tr class="memitem:a29d023c7f33afae7be6da499c2137bdd inherit pub_methods_classAPawn" id="r_a29d023c7f33afae7be6da499c2137bdd"><td class="memItemLeft">ENGINE_API&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a29d023c7f33afae7be6da499c2137bdd">APawn</a> (const FObjectInitializer &amp;ObjectInitializer=FObjectInitializer::Get())</td></tr>
@@ -163,7 +169,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a314c9a0660c090bc35c1465bdabd6476 inherit pub_methods_classAPawn" id="r_a314c9a0660c090bc35c1465bdabd6476"><td class="memItemLeft">virtual ENGINE_API class <a class="el" href="classUNetConnection.html">UNetConnection</a> *&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a314c9a0660c090bc35c1465bdabd6476">GetNetConnection</a> () const override</td></tr>
 <tr class="memitem:a25e5d83d5236e40803130535f448580c inherit pub_methods_classAPawn" id="r_a25e5d83d5236e40803130535f448580c"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a25e5d83d5236e40803130535f448580c">PostLoad</a> () override</td></tr>
 <tr class="memitem:a814b9290b063df0c33dc8b9651bb3191 inherit pub_methods_classAPawn" id="r_a814b9290b063df0c33dc8b9651bb3191"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a814b9290b063df0c33dc8b9651bb3191">PostRegisterAllComponents</a> () override</td></tr>
-<tr class="memitem:af7caa17b2f2ada4e2f64683a5ec64e1a inherit pub_methods_classAPawn" id="r_af7caa17b2f2ada4e2f64683a5ec64e1a"><td class="memItemLeft">virtual ENGINE_API <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#af7caa17b2f2ada4e2f64683a5ec64e1a">TakeDamage</a> (<a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> Damage, struct <a class="el" href="structFDamageEvent.html">FDamageEvent</a> const &amp;DamageEvent, <a class="el" href="classAController.html">AController</a> *EventInstigator, AActor *DamageCauser) override</td></tr>
 <tr class="memitem:af8edb92fc305a82000fdb9144ee2cbb2 inherit pub_methods_classAPawn" id="r_af8edb92fc305a82000fdb9144ee2cbb2"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#af8edb92fc305a82000fdb9144ee2cbb2">BecomeViewTarget</a> (APlayerController *PC) override</td></tr>
 <tr class="memitem:a31c7d21ee7e5302e495107d0c7385f9a inherit pub_methods_classAPawn" id="r_a31c7d21ee7e5302e495107d0c7385f9a"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a31c7d21ee7e5302e495107d0c7385f9a">EndViewTarget</a> (APlayerController *PC) override</td></tr>
 <tr class="memitem:a098821d9d7a72fe9b53675796afd4cfc inherit pub_methods_classAPawn" id="r_a098821d9d7a72fe9b53675796afd4cfc"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a098821d9d7a72fe9b53675796afd4cfc">EnableInput</a> (APlayerController *PlayerController) override</td></tr>
@@ -223,44 +228,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb8ca2e18a7753a2993ee4a6628138d1 inherit pub_methods_classAPawn" id="r_adb8ca2e18a7753a2993ee4a6628138d1"><td class="memItemLeft">ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#adb8ca2e18a7753a2993ee4a6628138d1">MoveIgnoreActorAdd</a> (AActor *ActorToIgnore)</td></tr>
 <tr class="memitem:afe5738e98dd2ad9e1ed93dcbc9aa6267 inherit pub_methods_classAPawn" id="r_afe5738e98dd2ad9e1ed93dcbc9aa6267"><td class="memItemLeft">ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#afe5738e98dd2ad9e1ed93dcbc9aa6267">MoveIgnoreActorRemove</a> (AActor *ActorToIgnore)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a3604731bf997226513d3861690c251e8" id="r_a3604731bf997226513d3861690c251e8"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a3604731bf997226513d3861690c251e8">BeginPlay</a> () override</td></tr>
-<tr class="inherit_header pro_methods_classAPawn"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classAPawn')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classAPawn.html">APawn</a></td></tr>
-<tr class="memitem:a5b9995008f326ae119130538b0a1cd77 inherit pro_methods_classAPawn" id="r_a5b9995008f326ae119130538b0a1cd77"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a5b9995008f326ae119130538b0a1cd77">OnPlayerStateChanged</a> (<a class="el" href="classAPlayerState.html">APlayerState</a> *NewPlayerState, <a class="el" href="classAPlayerState.html">APlayerState</a> *OldPlayerState)</td></tr>
-<tr class="memitem:a38e66638564559ddeb26b1436fb0bf23 inherit pro_methods_classAPawn" id="r_a38e66638564559ddeb26b1436fb0bf23"><td class="memItemLeft">virtual ENGINE_API <a class="el" href="classAController.html">AController</a> *&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a38e66638564559ddeb26b1436fb0bf23">GetDamageInstigator</a> (<a class="el" href="classAController.html">AController</a> *InstigatedBy, const <a class="el" href="classUDamageType.html">UDamageType</a> &amp;DamageType) const</td></tr>
-<tr class="memitem:a2800206c86cd8c4dd268507fe0737f66 inherit pro_methods_classAPawn" id="r_a2800206c86cd8c4dd268507fe0737f66"><td class="memItemLeft">virtual ENGINE_API <a class="el" href="classUInputComponent.html">UInputComponent</a> *&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a2800206c86cd8c4dd268507fe0737f66">CreatePlayerInputComponent</a> ()</td></tr>
-<tr class="memitem:a82b19e19987a39469100e72f704fb64a inherit pro_methods_classAPawn" id="r_a82b19e19987a39469100e72f704fb64a"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a82b19e19987a39469100e72f704fb64a">DestroyPlayerInputComponent</a> ()</td></tr>
-<tr class="memitem:a1d88989b837ade8dc062d187d8bf0563 inherit pro_methods_classAPawn" id="r_a1d88989b837ade8dc062d187d8bf0563"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a1d88989b837ade8dc062d187d8bf0563">SetupPlayerInputComponent</a> (<a class="el" href="classUInputComponent.html">UInputComponent</a> *PlayerInputComponent)</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a9f1d2546c7a694ea84795eab6a27962f" id="r_a9f1d2546c7a694ea84795eab6a27962f"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUSkeletalMeshComponent.html">USkeletalMeshComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9f1d2546c7a694ea84795eab6a27962f">PawnSkeletalMesh</a></td></tr>
-<tr class="memitem:a199ce9ad73ec2d95789b3324d2de0892" id="r_a199ce9ad73ec2d95789b3324d2de0892"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUCapsuleComponent.html">UCapsuleComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a199ce9ad73ec2d95789b3324d2de0892">CapsuleCollision</a></td></tr>
-<tr class="memitem:aa47d76d5f9a5da9682f50409f944c7b8" id="r_aa47d76d5f9a5da9682f50409f944c7b8"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUFloatingPawnMovement.html">UFloatingPawnMovement</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa47d76d5f9a5da9682f50409f944c7b8">PawnMovementComponent</a></td></tr>
-<tr class="memitem:a5b94efd053977ab0e4dc80269d5484cd" id="r_a5b94efd053977ab0e4dc80269d5484cd"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classATowerEnemyPathActor.html">ATowerEnemyPathActor</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a5b94efd053977ab0e4dc80269d5484cd">PathToFollow</a></td></tr>
-<tr class="memitem:a50a1f51bcab212eb25eec9d3cad32c9e" id="r_a50a1f51bcab212eb25eec9d3cad32c9e"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#a50a1f51bcab212eb25eec9d3cad32c9e">MovementSpeed</a> = 300.f</td></tr>
-<tr class="inherit_header pro_attribs_classAPawn"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classAPawn')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="classAPawn.html">APawn</a></td></tr>
-<tr class="memitem:a9ed3cd8edf4f8e3bad265513ca1b6003 inherit pro_attribs_classAPawn" id="r_a9ed3cd8edf4f8e3bad265513ca1b6003"><td class="memItemLeft">uint32&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a9ed3cd8edf4f8e3bad265513ca1b6003">bIsLocalViewTarget</a>: 1</td></tr>
-<tr class="memitem:a1a110a10503618bac530b93f7a28555a inherit pro_attribs_classAPawn" id="r_a1a110a10503618bac530b93f7a28555a"><td class="memItemLeft">uint16&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a1a110a10503618bac530b93f7a28555a">RemoteViewPitch16</a></td></tr>
-<tr class="memitem:a4e11087638eb044a8f40306753e43fbc inherit pro_attribs_classAPawn" id="r_a4e11087638eb044a8f40306753e43fbc"><td class="memItemLeft">FVector&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a4e11087638eb044a8f40306753e43fbc">ControlInputVector</a></td></tr>
-<tr class="memitem:a3f80c41d830107bb31274fc82cc3ece0 inherit pro_attribs_classAPawn" id="r_a3f80c41d830107bb31274fc82cc3ece0"><td class="memItemLeft">FVector&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a3f80c41d830107bb31274fc82cc3ece0">LastControlInputVector</a></td></tr>
-<tr class="memitem:aa165c2c1ac9a2ec1a3803e6c8c07a600 inherit pro_attribs_classAPawn" id="r_aa165c2c1ac9a2ec1a3803e6c8c07a600"><td class="memItemLeft">TSubclassOf&lt; <a class="el" href="classUInputComponent.html">UInputComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#aa165c2c1ac9a2ec1a3803e6c8c07a600">OverrideInputComponentClass</a> = nullptr</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a5f841575a41ff1076b50b383097f8f59" id="r_a5f841575a41ff1076b50b383097f8f59"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5f841575a41ff1076b50b383097f8f59">MoveActorAlongSpline</a> ()</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:ae723ddc1a5dea4cfacc79074780ab5b0" id="r_ae723ddc1a5dea4cfacc79074780ab5b0"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae723ddc1a5dea4cfacc79074780ab5b0">IsMoving</a> = false</td></tr>
-<tr class="memitem:a8b62a9e39e8008ddaedc670684d4e7d8" id="r_a8b62a9e39e8008ddaedc670684d4e7d8"><td class="memItemLeft">TObjectPtr&lt; AAIController &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8b62a9e39e8008ddaedc670684d4e7d8">PawnAIController</a> = nullptr</td></tr>
-<tr class="memitem:a59db4dbb0833946aebe6f552e32b0a09" id="r_a59db4dbb0833946aebe6f552e32b0a09"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#a59db4dbb0833946aebe6f552e32b0a09">CurrentDistanceTravelled</a> = 0.f</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_classAPawn"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classAPawn')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classAPawn.html">APawn</a></td></tr>
-<tr class="memitem:aab66fedd3e37e671ae741febaa626155 inherit pub_static_methods_classAPawn" id="r_aab66fedd3e37e671ae741febaa626155"><td class="memItemLeft">static ENGINE_API AActor *&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#aab66fedd3e37e671ae741febaa626155">GetMovementBaseActor</a> (const <a class="el" href="classAPawn.html">APawn</a> *Pawn)</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ad7770478d0998efacab6eb4a0677fb33" id="r_ad7770478d0998efacab6eb4a0677fb33"><td class="memItemLeft">FEnemyDiedSignature&#160;</td><td class="memItemRight"><a class="el" href="#ad7770478d0998efacab6eb4a0677fb33">OnDeath</a></td></tr>
+<tr class="memdesc:ad7770478d0998efacab6eb4a0677fb33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signature fired when pawn dies.  <br /></td></tr>
 <tr class="inherit_header pub_attribs_classAPawn"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classAPawn')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Attributes inherited from <a class="el" href="classAPawn.html">APawn</a></td></tr>
 <tr class="memitem:a96563e3bf1e882f2635368e8b602df4b inherit pub_attribs_classAPawn" id="r_a96563e3bf1e882f2635368e8b602df4b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a96563e3bf1e882f2635368e8b602df4b">Category</a></td></tr>
 <tr class="memitem:a71b469ca954c376cb2d748fa9bab0b21 inherit pub_attribs_classAPawn" id="r_a71b469ca954c376cb2d748fa9bab0b21"><td class="memItemLeft">uint32&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a71b469ca954c376cb2d748fa9bab0b21">bUseControllerRotationPitch</a>:1</td></tr>
@@ -277,10 +248,72 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a20bf8afd862144695a7d8260b2c5430b inherit pub_attribs_classAPawn" id="r_a20bf8afd862144695a7d8260b2c5430b"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a20bf8afd862144695a7d8260b2c5430b">AllowedYawError</a></td></tr>
 <tr class="memitem:a72b344ef5fb531c8153b92933f68e83b inherit pub_attribs_classAPawn" id="r_a72b344ef5fb531c8153b92933f68e83b"><td class="memItemLeft">FPawnControllerChangedSignature&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a72b344ef5fb531c8153b92933f68e83b">ReceiveControllerChangedDelegate</a></td></tr>
 <tr class="memitem:ac557bf57e31b370b8cb29baa270bc5e8 inherit pub_attribs_classAPawn" id="r_ac557bf57e31b370b8cb29baa270bc5e8"><td class="memItemLeft">FPawnRestartedSignature&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#ac557bf57e31b370b8cb29baa270bc5e8">ReceiveRestartedDelegate</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ac8f725839541fb2d04b0783d2cd4415f" id="r_ac8f725839541fb2d04b0783d2cd4415f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac8f725839541fb2d04b0783d2cd4415f">OnOverlap</a> (UPrimitiveComponent *OverlappedComponent, AActor *OtherActor, UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const <a class="el" href="structFHitResult.html">FHitResult</a> &amp;SweepResult)</td></tr>
+<tr class="memitem:a3604731bf997226513d3861690c251e8" id="r_a3604731bf997226513d3861690c251e8"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a3604731bf997226513d3861690c251e8">BeginPlay</a> () override</td></tr>
+<tr class="memdesc:a3604731bf997226513d3861690c251e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes runtime state when the pawn enters play.  <br /></td></tr>
+<tr class="memitem:ac47ea7c291274d62fb0cfc76473afa69" id="r_ac47ea7c291274d62fb0cfc76473afa69"><td class="memItemLeft">virtual <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac47ea7c291274d62fb0cfc76473afa69">TakeDamage</a> (<a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> DamageAmount, struct <a class="el" href="structFDamageEvent.html">FDamageEvent</a> const &amp;DamageEvent, class <a class="el" href="classAController.html">AController</a> *EventInstigator, AActor *DamageCauser) override</td></tr>
+<tr class="inherit_header pro_methods_classAPawn"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classAPawn')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classAPawn.html">APawn</a></td></tr>
+<tr class="memitem:a5b9995008f326ae119130538b0a1cd77 inherit pro_methods_classAPawn" id="r_a5b9995008f326ae119130538b0a1cd77"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a5b9995008f326ae119130538b0a1cd77">OnPlayerStateChanged</a> (<a class="el" href="classAPlayerState.html">APlayerState</a> *NewPlayerState, <a class="el" href="classAPlayerState.html">APlayerState</a> *OldPlayerState)</td></tr>
+<tr class="memitem:a38e66638564559ddeb26b1436fb0bf23 inherit pro_methods_classAPawn" id="r_a38e66638564559ddeb26b1436fb0bf23"><td class="memItemLeft">virtual ENGINE_API <a class="el" href="classAController.html">AController</a> *&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a38e66638564559ddeb26b1436fb0bf23">GetDamageInstigator</a> (<a class="el" href="classAController.html">AController</a> *InstigatedBy, const <a class="el" href="classUDamageType.html">UDamageType</a> &amp;DamageType) const</td></tr>
+<tr class="memitem:a2800206c86cd8c4dd268507fe0737f66 inherit pro_methods_classAPawn" id="r_a2800206c86cd8c4dd268507fe0737f66"><td class="memItemLeft">virtual ENGINE_API <a class="el" href="classUInputComponent.html">UInputComponent</a> *&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a2800206c86cd8c4dd268507fe0737f66">CreatePlayerInputComponent</a> ()</td></tr>
+<tr class="memitem:a82b19e19987a39469100e72f704fb64a inherit pro_methods_classAPawn" id="r_a82b19e19987a39469100e72f704fb64a"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a82b19e19987a39469100e72f704fb64a">DestroyPlayerInputComponent</a> ()</td></tr>
+<tr class="memitem:a1d88989b837ade8dc062d187d8bf0563 inherit pro_methods_classAPawn" id="r_a1d88989b837ade8dc062d187d8bf0563"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a1d88989b837ade8dc062d187d8bf0563">SetupPlayerInputComponent</a> (<a class="el" href="classUInputComponent.html">UInputComponent</a> *PlayerInputComponent)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aaef86b28ecad580d62a74a67cba7b82c" id="r_aaef86b28ecad580d62a74a67cba7b82c"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#aaef86b28ecad580d62a74a67cba7b82c">Health</a></td></tr>
+<tr class="memdesc:aaef86b28ecad580d62a74a67cba7b82c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current health available to the pawn.  <br /></td></tr>
+<tr class="memitem:acb2c2f47e3591087a49c808d47bb70d0" id="r_acb2c2f47e3591087a49c808d47bb70d0"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#acb2c2f47e3591087a49c808d47bb70d0">MaxHealth</a></td></tr>
+<tr class="memdesc:acb2c2f47e3591087a49c808d47bb70d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum health value the pawn can have.  <br /></td></tr>
+<tr class="memitem:a77c8ce5f1c6eeb9b339c68999bb8c598" id="r_a77c8ce5f1c6eeb9b339c68999bb8c598"><td class="memItemLeft"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a>&#160;</td><td class="memItemRight"><a class="el" href="#a77c8ce5f1c6eeb9b339c68999bb8c598">MaxHealthCurve</a></td></tr>
+<tr class="memitem:a9f1d2546c7a694ea84795eab6a27962f" id="r_a9f1d2546c7a694ea84795eab6a27962f"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUSkeletalMeshComponent.html">USkeletalMeshComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9f1d2546c7a694ea84795eab6a27962f">PawnSkeletalMesh</a></td></tr>
+<tr class="memdesc:a9f1d2546c7a694ea84795eab6a27962f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skeletal mesh used to render the pawn.  <br /></td></tr>
+<tr class="memitem:a199ce9ad73ec2d95789b3324d2de0892" id="r_a199ce9ad73ec2d95789b3324d2de0892"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUCapsuleComponent.html">UCapsuleComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a199ce9ad73ec2d95789b3324d2de0892">CapsuleCollision</a></td></tr>
+<tr class="memdesc:a199ce9ad73ec2d95789b3324d2de0892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Capsule collision used for overlap and hit detection.  <br /></td></tr>
+<tr class="memitem:aa47d76d5f9a5da9682f50409f944c7b8" id="r_aa47d76d5f9a5da9682f50409f944c7b8"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUFloatingPawnMovement.html">UFloatingPawnMovement</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa47d76d5f9a5da9682f50409f944c7b8">PawnMovementComponent</a></td></tr>
+<tr class="memdesc:aa47d76d5f9a5da9682f50409f944c7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Movement component that drives pawn translation.  <br /></td></tr>
+<tr class="memitem:a5b94efd053977ab0e4dc80269d5484cd" id="r_a5b94efd053977ab0e4dc80269d5484cd"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classATowerEnemyPathActor.html">ATowerEnemyPathActor</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a5b94efd053977ab0e4dc80269d5484cd">PathToFollow</a></td></tr>
+<tr class="memdesc:a5b94efd053977ab0e4dc80269d5484cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path actor whose spline this pawn follows.  <br /></td></tr>
+<tr class="memitem:aa4b46aabb5da4b8868588509dcebb0ce" id="r_aa4b46aabb5da4b8868588509dcebb0ce"><td class="memItemLeft"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa4b46aabb5da4b8868588509dcebb0ce">MovementSpeedCurve</a></td></tr>
+<tr class="memitem:a50a1f51bcab212eb25eec9d3cad32c9e" id="r_a50a1f51bcab212eb25eec9d3cad32c9e"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#a50a1f51bcab212eb25eec9d3cad32c9e">MovementSpeed</a> = 300.f</td></tr>
+<tr class="memdesc:a50a1f51bcab212eb25eec9d3cad32c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Movement speed used while traversing the spline.  <br /></td></tr>
+<tr class="memitem:a1dd5fb3454f9e0df57b2d860ce9645de" id="r_a1dd5fb3454f9e0df57b2d860ce9645de"><td class="memItemLeft"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1dd5fb3454f9e0df57b2d860ce9645de">DamageCurve</a></td></tr>
+<tr class="memitem:a6f3a91a733b0e2a93b99024265391d8b" id="r_a6f3a91a733b0e2a93b99024265391d8b"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6f3a91a733b0e2a93b99024265391d8b">Damage</a> = 10.f</td></tr>
+<tr class="inherit_header pro_attribs_classAPawn"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classAPawn')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="classAPawn.html">APawn</a></td></tr>
+<tr class="memitem:a9ed3cd8edf4f8e3bad265513ca1b6003 inherit pro_attribs_classAPawn" id="r_a9ed3cd8edf4f8e3bad265513ca1b6003"><td class="memItemLeft">uint32&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a9ed3cd8edf4f8e3bad265513ca1b6003">bIsLocalViewTarget</a>: 1</td></tr>
+<tr class="memitem:a1a110a10503618bac530b93f7a28555a inherit pro_attribs_classAPawn" id="r_a1a110a10503618bac530b93f7a28555a"><td class="memItemLeft">uint16&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a1a110a10503618bac530b93f7a28555a">RemoteViewPitch16</a></td></tr>
+<tr class="memitem:a4e11087638eb044a8f40306753e43fbc inherit pro_attribs_classAPawn" id="r_a4e11087638eb044a8f40306753e43fbc"><td class="memItemLeft">FVector&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a4e11087638eb044a8f40306753e43fbc">ControlInputVector</a></td></tr>
+<tr class="memitem:a3f80c41d830107bb31274fc82cc3ece0 inherit pro_attribs_classAPawn" id="r_a3f80c41d830107bb31274fc82cc3ece0"><td class="memItemLeft">FVector&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a3f80c41d830107bb31274fc82cc3ece0">LastControlInputVector</a></td></tr>
+<tr class="memitem:aa165c2c1ac9a2ec1a3803e6c8c07a600 inherit pro_attribs_classAPawn" id="r_aa165c2c1ac9a2ec1a3803e6c8c07a600"><td class="memItemLeft">TSubclassOf&lt; <a class="el" href="classUInputComponent.html">UInputComponent</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#aa165c2c1ac9a2ec1a3803e6c8c07a600">OverrideInputComponentClass</a> = nullptr</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5f841575a41ff1076b50b383097f8f59" id="r_a5f841575a41ff1076b50b383097f8f59"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5f841575a41ff1076b50b383097f8f59">MoveActorAlongSpline</a> ()</td></tr>
+<tr class="memdesc:a5f841575a41ff1076b50b383097f8f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advances the pawn along its assigned spline path.  <br /></td></tr>
+<tr class="memitem:a9a1c764b95895c549e41a21dce6863a7" id="r_a9a1c764b95895c549e41a21dce6863a7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9a1c764b95895c549e41a21dce6863a7">SetInitialProperties</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ae723ddc1a5dea4cfacc79074780ab5b0" id="r_ae723ddc1a5dea4cfacc79074780ab5b0"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae723ddc1a5dea4cfacc79074780ab5b0">IsMoving</a> = false</td></tr>
+<tr class="memdesc:ae723ddc1a5dea4cfacc79074780ab5b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the pawn should currently advance along its path.  <br /></td></tr>
+<tr class="memitem:a8b62a9e39e8008ddaedc670684d4e7d8" id="r_a8b62a9e39e8008ddaedc670684d4e7d8"><td class="memItemLeft">TObjectPtr&lt; AAIController &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8b62a9e39e8008ddaedc670684d4e7d8">PawnAIController</a> = nullptr</td></tr>
+<tr class="memdesc:a8b62a9e39e8008ddaedc670684d4e7d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI controller assigned to this pawn.  <br /></td></tr>
+<tr class="memitem:a59db4dbb0833946aebe6f552e32b0a09" id="r_a59db4dbb0833946aebe6f552e32b0a09"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#a59db4dbb0833946aebe6f552e32b0a09">CurrentDistanceTravelled</a> = 0.f</td></tr>
+<tr class="memdesc:a59db4dbb0833946aebe6f552e32b0a09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance already travelled along the active spline path.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classAPawn"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classAPawn')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classAPawn.html">APawn</a></td></tr>
+<tr class="memitem:aab66fedd3e37e671ae741febaa626155 inherit pub_static_methods_classAPawn" id="r_aab66fedd3e37e671ae741febaa626155"><td class="memItemLeft">static ENGINE_API AActor *&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#aab66fedd3e37e671ae741febaa626155">GetMovementBaseActor</a> (const <a class="el" href="classAPawn.html">APawn</a> *Pawn)</td></tr>
 <tr class="inherit_header pub_static_attribs_classAPawn"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_classAPawn')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="classAPawn.html">APawn</a></td></tr>
 <tr class="memitem:a8ad7dde13575a08d4459c139998efcc1 inherit pub_static_attribs_classAPawn" id="r_a8ad7dde13575a08d4459c139998efcc1"><td class="memItemLeft">static ENGINE_API FOnPawnBeginPlay&#160;</td><td class="memItemRight"><a class="el" href="classAPawn.html#a8ad7dde13575a08d4459c139998efcc1">OnPawnBeginPlay</a></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Player's enemy pawn. Capable of killing the player 🤷‍♂️ </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a88bfc6152cd70467ae175b99ceef24f6" name="a88bfc6152cd70467ae175b99ceef24f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88bfc6152cd70467ae175b99ceef24f6">&#9670;&#160;</a></span>ATowerEnemyPawn()</h2>
 
@@ -295,6 +328,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates the enemy pawn and its default components. </p>
 
 </div>
 </div>
@@ -321,6 +356,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Initializes runtime state when the pawn enters play. </p>
 
 <p>Reimplemented from <a class="el" href="classAPawn.html#aec1d7e3e873e5bfb5bbd00a8892f52e7">APawn</a>.</p>
 <div class="dynheader">
@@ -354,7 +391,37 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns the current location of the actor. </p>
+<dl class="section return"><dt>Returns</dt><dd>FVector of current location of actor. </dd></dl>
+
 <p>Reimplemented from <a class="el" href="classITowerEnemyInterface.html#a7736be4dca60991867639f8c4517e15f">ITowerEnemyInterface</a>.</p>
+
+</div>
+</div>
+<a id="a46687719aad6c51e712bc56c2526009a" name="a46687719aad6c51e712bc56c2526009a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46687719aad6c51e712bc56c2526009a">&#9670;&#160;</a></span>IsValidPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ATowerEnemyPawn::IsValidPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classITowerEnemyInterface.html#a8430ccc62de1fb430f2d6ee0062c9aa6">ITowerEnemyInterface</a>.</p>
 
 </div>
 </div>
@@ -380,6 +447,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Advances the pawn along its assigned spline path. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -390,6 +459,136 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerEnemyPawn_a5f841575a41ff1076b50b383097f8f59_icgraph.svg" width="466" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="ac8f725839541fb2d04b0783d2cd4415f" name="ac8f725839541fb2d04b0783d2cd4415f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8f725839541fb2d04b0783d2cd4415f">&#9670;&#160;</a></span>OnOverlap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATowerEnemyPawn::OnOverlap </td>
+          <td>(</td>
+          <td class="paramtype">UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>OverlappedComponent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AActor *</td>          <td class="paramname"><span class="paramname"><em>OtherActor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>OtherComp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32</td>          <td class="paramname"><span class="paramname"><em>OtherBodyIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>bFromSweep</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structFHitResult.html">FHitResult</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>SweepResult</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerEnemyPawn_ac8f725839541fb2d04b0783d2cd4415f_cgraph.svg" width="444" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9a1c764b95895c549e41a21dce6863a7" name="a9a1c764b95895c549e41a21dce6863a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1c764b95895c549e41a21dce6863a7">&#9670;&#160;</a></span>SetInitialProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATowerEnemyPawn::SetInitialProperties </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerEnemyPawn_a9a1c764b95895c549e41a21dce6863a7_cgraph.svg" width="666" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerEnemyPawn_a9a1c764b95895c549e41a21dce6863a7_icgraph.svg" width="492" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ac47ea7c291274d62fb0cfc76473afa69" name="ac47ea7c291274d62fb0cfc76473afa69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac47ea7c291274d62fb0cfc76473afa69">&#9670;&#160;</a></span>TakeDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ATowerEnemyPawn::TakeDamage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>DamageAmount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structFDamageEvent.html">FDamageEvent</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>DamageEvent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">class <a class="el" href="classAController.html">AController</a> *</td>          <td class="paramname"><span class="paramname"><em>EventInstigator</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AActor *</td>          <td class="paramname"><span class="paramname"><em>DamageCauser</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classAPawn.html#af7caa17b2f2ada4e2f64683a5ec64e1a">APawn</a>.</p>
 
 </div>
 </div>
@@ -444,6 +643,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Capsule collision used for overlap and hit detection. </p>
+
 </div>
 </div>
 <a id="a59db4dbb0833946aebe6f552e32b0a09" name="a59db4dbb0833946aebe6f552e32b0a09"></a>
@@ -466,6 +667,76 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Distance already travelled along the active spline path. </p>
+
+</div>
+</div>
+<a id="a6f3a91a733b0e2a93b99024265391d8b" name="a6f3a91a733b0e2a93b99024265391d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3a91a733b0e2a93b99024265391d8b">&#9670;&#160;</a></span>Damage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ATowerEnemyPawn::Damage = 10.f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1dd5fb3454f9e0df57b2d860ce9645de" name="a1dd5fb3454f9e0df57b2d860ce9645de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dd5fb3454f9e0df57b2d860ce9645de">&#9670;&#160;</a></span>DamageCurve</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a> ATowerEnemyPawn::DamageCurve</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaef86b28ecad580d62a74a67cba7b82c" name="aaef86b28ecad580d62a74a67cba7b82c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaef86b28ecad580d62a74a67cba7b82c">&#9670;&#160;</a></span>Health</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ATowerEnemyPawn::Health</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current health available to the pawn. </p>
+
 </div>
 </div>
 <a id="ae723ddc1a5dea4cfacc79074780ab5b0" name="ae723ddc1a5dea4cfacc79074780ab5b0"></a>
@@ -484,6 +755,54 @@ Here is the call graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indicates whether the pawn should currently advance along its path. </p>
+
+</div>
+</div>
+<a id="acb2c2f47e3591087a49c808d47bb70d0" name="acb2c2f47e3591087a49c808d47bb70d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb2c2f47e3591087a49c808d47bb70d0">&#9670;&#160;</a></span>MaxHealth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ATowerEnemyPawn::MaxHealth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maximum health value the pawn can have. </p>
+
+</div>
+</div>
+<a id="a77c8ce5f1c6eeb9b339c68999bb8c598" name="a77c8ce5f1c6eeb9b339c68999bb8c598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77c8ce5f1c6eeb9b339c68999bb8c598">&#9670;&#160;</a></span>MaxHealthCurve</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a> ATowerEnemyPawn::MaxHealthCurve</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -510,6 +829,46 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Movement speed used while traversing the spline. </p>
+
+</div>
+</div>
+<a id="aa4b46aabb5da4b8868588509dcebb0ce" name="aa4b46aabb5da4b8868588509dcebb0ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4b46aabb5da4b8868588509dcebb0ce">&#9670;&#160;</a></span>MovementSpeedCurve</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a> ATowerEnemyPawn::MovementSpeedCurve</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad7770478d0998efacab6eb4a0677fb33" name="ad7770478d0998efacab6eb4a0677fb33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7770478d0998efacab6eb4a0677fb33">&#9670;&#160;</a></span>OnDeath</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FEnemyDiedSignature ATowerEnemyPawn::OnDeath</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Signature fired when pawn dies. </p>
+
 </div>
 </div>
 <a id="a5b94efd053977ab0e4dc80269d5484cd" name="a5b94efd053977ab0e4dc80269d5484cd"></a>
@@ -531,6 +890,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Path actor whose spline this pawn follows. </p>
 
 </div>
 </div>
@@ -554,6 +915,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>AI controller assigned to this pawn. </p>
+
 </div>
 </div>
 <a id="aa47d76d5f9a5da9682f50409f944c7b8" name="aa47d76d5f9a5da9682f50409f944c7b8"></a>
@@ -576,6 +939,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Movement component that drives pawn translation. </p>
+
 </div>
 </div>
 <a id="a9f1d2546c7a694ea84795eab6a27962f" name="a9f1d2546c7a694ea84795eab6a27962f"></a>
@@ -597,6 +962,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Skeletal mesh used to render the pawn. </p>
 
 </div>
 </div>

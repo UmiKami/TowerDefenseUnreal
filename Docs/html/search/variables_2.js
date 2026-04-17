@@ -1829,7 +1829,7 @@ var searchData=
   ['boverridewireframecolor_1826',['bOverrideWireframeColor',['../classUStaticMeshComponent.html#ad2696ae4c5f5470c2db780513bd27ee2',1,'UStaticMeshComponent']]],
   ['boverwriteclientstats_1827',['bOverwriteClientStats',['../classAServerStatReplicator.html#a232c26103bcf7f86e466b19405b60581',1,'AServerStatReplicator']]],
   ['boxcollider_1828',['BoxCollider',['../classATowerActorBase.html#a2e3a21ee97fc5d91068eff5b2f0fa8f0',1,'ATowerActorBase']]],
-  ['boxcollision_1829',['BoxCollision',['../classATowerProjectileBase.html#a04f8bd0f6da6672ca2befe493f94f6d4',1,'ATowerProjectileBase']]],
+  ['boxcollision_1829',['BoxCollision',['../classATowerPlayerStronghold.html#a6c120b3a1167342bdf08604f57dd02f8',1,'ATowerPlayerStronghold::BoxCollision'],['../classATowerProjectileBase.html#a04f8bd0f6da6672ca2befe493f94f6d4',1,'ATowerProjectileBase::BoxCollision']]],
   ['boxcomponent_1830',['BoxComponent',['../classALevelBounds.html#a58d3c7ec1625716226931e27da1fae70',1,'ALevelBounds']]],
   ['boxextent_1831',['BoxExtent',['../classUBoxComponent.html#a09ce26d2514cb9f93b491c29db2711f6',1,'UBoxComponent']]],
   ['boxtransitiondistance_1832',['BoxTransitionDistance',['../classUBoxReflectionCaptureComponent.html#a87057b413e7221734f42806265dc0c68',1,'UBoxReflectionCaptureComponent']]],

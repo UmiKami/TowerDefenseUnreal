@@ -19,6 +19,11 @@ void ATowerPlayerState::AddHealth(const float InHealthAmount)
 {
 	Health = FMath::Clamp(Health + InHealthAmount, 0.f, MaxHealth);
 	OnHealthChangeSignature.Broadcast(Health);
+	
+	if (Health <= 0.f)
+	{
+		OnPlayerDeathSignature.Broadcast();
+	}
 }
 
 void ATowerPlayerState::SetMaxHealth(const float NewMaxHealth)

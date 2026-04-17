@@ -1,0 +1,9 @@
+<map id="ATowerPlayerState" name="ATowerPlayerState">
+<area shape="rect" id="Node000001" title="Manages state of the player including health and owned stuff." alt="" coords="18,1311,217,1651"/>
+<area shape="rect" id="Node000002" href="$classAPlayerState.html" title=" " alt="" coords="6,352,229,1263"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,1275,120,1311,115,1310,117,1280"/>
+<area shape="rect" id="Node000003" href="$classAInfo.html" title=" " alt="" coords="5,126,230,304"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,316,120,353,115,353,118,322"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="91,5,145,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="118,90,120,126,115,126,118,95"/>
+</map>

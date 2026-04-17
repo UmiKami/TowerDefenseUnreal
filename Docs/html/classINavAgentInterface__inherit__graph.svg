@@ -594,39 +594,61 @@ var sectionId = 'dynsection-0';
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="classATowerEnemyPawn.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="none" points="818.38,-742.25 663.12,-742.25 663.12,-503.75 818.38,-503.75 818.38,-742.25"/>
-<text xml:space="preserve" text-anchor="start" x="693.5" y="-728.5" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerEnemyPawn</text>
-<text xml:space="preserve" text-anchor="start" x="667.12" y="-711.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-711.75" font-family="Helvetica,sans-Serif" font-size="10.00">PawnSkeletalMesh</text>
-<text xml:space="preserve" text-anchor="start" x="667.12" y="-695" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-695" font-family="Helvetica,sans-Serif" font-size="10.00">CapsuleCollision</text>
-<text xml:space="preserve" text-anchor="start" x="667.12" y="-678.25" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-678.25" font-family="Helvetica,sans-Serif" font-size="10.00">PawnMovementComponent</text>
-<text xml:space="preserve" text-anchor="start" x="667.12" y="-661.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-661.5" font-family="Helvetica,sans-Serif" font-size="10.00">PathToFollow</text>
-<text xml:space="preserve" text-anchor="start" x="667.12" y="-644.75" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-644.75" font-family="Helvetica,sans-Serif" font-size="10.00">MovementSpeed</text>
-<text xml:space="preserve" text-anchor="start" x="669.38" y="-628" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-628" font-family="Helvetica,sans-Serif" font-size="10.00">IsMoving</text>
-<text xml:space="preserve" text-anchor="start" x="669.38" y="-611.25" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-611.25" font-family="Helvetica,sans-Serif" font-size="10.00">PawnAIController</text>
-<text xml:space="preserve" text-anchor="start" x="669.38" y="-594.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-594.5" font-family="Helvetica,sans-Serif" font-size="10.00">CurrentDistanceTravelled</text>
-<text xml:space="preserve" text-anchor="start" x="667.12" y="-577.75" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-577.75" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerEnemyPawn()</text>
-<text xml:space="preserve" text-anchor="start" x="667.12" y="-561" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-561" font-family="Helvetica,sans-Serif" font-size="10.00">GetCurrentLocation()</text>
-<text xml:space="preserve" text-anchor="start" x="667.12" y="-544.25" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-544.25" font-family="Helvetica,sans-Serif" font-size="10.00">Tick()</text>
-<text xml:space="preserve" text-anchor="start" x="667.12" y="-527.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-527.5" font-family="Helvetica,sans-Serif" font-size="10.00">BeginPlay()</text>
-<text xml:space="preserve" text-anchor="start" x="669.38" y="-510.75" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
-<text xml:space="preserve" text-anchor="start" x="679.38" y="-510.75" font-family="Helvetica,sans-Serif" font-size="10.00">MoveActorAlongSpline()</text>
-<polygon fill="#666666" stroke="#666666" points="663.12,-723.5 663.12,-723.5 818.38,-723.5 818.38,-723.5 663.12,-723.5"/>
-<polygon fill="#666666" stroke="#666666" points="663.12,-589.5 663.12,-589.5 677.38,-589.5 677.38,-589.5 663.12,-589.5"/>
-<polygon fill="#666666" stroke="#666666" points="677.38,-589.5 677.38,-589.5 818.38,-589.5 818.38,-589.5 677.38,-589.5"/>
-<polygon fill="none" stroke="#666666" points="663.12,-503.75 663.12,-742.25 818.38,-742.25 818.38,-503.75 663.12,-503.75"/>
+<g id="a_Node000010"><a xlink:href="classATowerEnemyPawn.html" target="_top" xlink:title="Player&#39;s enemy pawn. Capable of killing the player 🤷‍♂️">
+<polygon fill="white" stroke="none" points="818.38,-834.38 663.12,-834.38 663.12,-411.62 818.38,-411.62 818.38,-834.38"/>
+<text xml:space="preserve" text-anchor="start" x="693.5" y="-820.62" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerEnemyPawn</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-803.88" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-803.88" font-family="Helvetica,sans-Serif" font-size="10.00">OnDeath</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-787.12" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-787.12" font-family="Helvetica,sans-Serif" font-size="10.00">Health</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-770.38" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-770.38" font-family="Helvetica,sans-Serif" font-size="10.00">MaxHealth</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-753.62" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-753.62" font-family="Helvetica,sans-Serif" font-size="10.00">MaxHealthCurve</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-736.88" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-736.88" font-family="Helvetica,sans-Serif" font-size="10.00">PawnSkeletalMesh</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-720.12" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-720.12" font-family="Helvetica,sans-Serif" font-size="10.00">CapsuleCollision</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-703.38" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-703.38" font-family="Helvetica,sans-Serif" font-size="10.00">PawnMovementComponent</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-686.62" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-686.62" font-family="Helvetica,sans-Serif" font-size="10.00">PathToFollow</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-669.88" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-669.88" font-family="Helvetica,sans-Serif" font-size="10.00">MovementSpeedCurve</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-653.12" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-653.12" font-family="Helvetica,sans-Serif" font-size="10.00">MovementSpeed</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-636.38" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-636.38" font-family="Helvetica,sans-Serif" font-size="10.00">DamageCurve</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-619.62" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-619.62" font-family="Helvetica,sans-Serif" font-size="10.00">Damage</text>
+<text xml:space="preserve" text-anchor="start" x="669.38" y="-602.88" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-602.88" font-family="Helvetica,sans-Serif" font-size="10.00">IsMoving</text>
+<text xml:space="preserve" text-anchor="start" x="669.38" y="-586.12" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-586.12" font-family="Helvetica,sans-Serif" font-size="10.00">PawnAIController</text>
+<text xml:space="preserve" text-anchor="start" x="669.38" y="-569.38" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-569.38" font-family="Helvetica,sans-Serif" font-size="10.00">CurrentDistanceTravelled</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-552.62" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-552.62" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerEnemyPawn()</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-535.88" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-535.88" font-family="Helvetica,sans-Serif" font-size="10.00">GetCurrentLocation()</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-519.12" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-519.12" font-family="Helvetica,sans-Serif" font-size="10.00">IsValidPtr()</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-502.38" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-502.38" font-family="Helvetica,sans-Serif" font-size="10.00">Tick()</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-485.62" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-485.62" font-family="Helvetica,sans-Serif" font-size="10.00">OnOverlap()</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-468.88" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-468.88" font-family="Helvetica,sans-Serif" font-size="10.00">BeginPlay()</text>
+<text xml:space="preserve" text-anchor="start" x="667.12" y="-452.12" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-452.12" font-family="Helvetica,sans-Serif" font-size="10.00">TakeDamage()</text>
+<text xml:space="preserve" text-anchor="start" x="669.38" y="-435.38" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-435.38" font-family="Helvetica,sans-Serif" font-size="10.00">MoveActorAlongSpline()</text>
+<text xml:space="preserve" text-anchor="start" x="669.38" y="-418.62" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text xml:space="preserve" text-anchor="start" x="679.38" y="-418.62" font-family="Helvetica,sans-Serif" font-size="10.00">SetInitialProperties()</text>
+<polygon fill="#666666" stroke="#666666" points="663.12,-815.62 663.12,-815.62 818.38,-815.62 818.38,-815.62 663.12,-815.62"/>
+<polygon fill="#666666" stroke="#666666" points="663.12,-564.38 663.12,-564.38 677.38,-564.38 677.38,-564.38 663.12,-564.38"/>
+<polygon fill="#666666" stroke="#666666" points="677.38,-564.38 677.38,-564.38 818.38,-564.38 818.38,-564.38 677.38,-564.38"/>
+<polygon fill="none" stroke="#666666" points="663.12,-411.62 663.12,-834.38 818.38,-834.38 818.38,-411.62 663.12,-411.62"/>
 </a>
 </g>
 </g>
@@ -634,7 +656,7 @@ var sectionId = 'dynsection-0';
 <g id="edge9_Node000006_Node000010" class="edge">
 <title>Node6&#45;&gt;Node10</title>
 <g id="a_edge9_Node000006_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M649.09,-1149.24C651.02,-1140.16 652.91,-1131.15 654.75,-1122.25 681.44,-992.86 706.47,-843.4 722.57,-742.19"/>
+<path fill="none" stroke="#63b8ff" d="M649.09,-1149.24C651.02,-1140.16 652.91,-1131.15 654.75,-1122.25 674.17,-1028.11 692.71,-923.35 707.57,-834.27"/>
 <polygon fill="none" stroke="#63b8ff" points="645.7,-1148.35 647.02,-1158.87 652.54,-1149.82 645.7,-1148.35"/>
 </a>
 </g>

@@ -100,12 +100,12 @@ $(function(){initNavTree('classATowerPlayerController.html','','classATowerPlaye
 <div class="dynheader">
 Inheritance diagram for ATowerPlayerController:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerPlayerController__inherit__graph.svg" width="199" height="226"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerPlayerController__inherit__graph.svg" width="218" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ATowerPlayerController:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerPlayerController__coll__graph.svg" width="199" height="226"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerPlayerController__coll__graph.svg" width="218" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -116,10 +116,20 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a3526b4daca3d648d12ccb5df49367ae8" id="r_a3526b4daca3d648d12ccb5df49367ae8"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a3526b4daca3d648d12ccb5df49367ae8">SetupInputComponent</a> () override</td></tr>
+<tr class="memitem:a36f15dda5f5cb2444613064009feb8db" id="r_a36f15dda5f5cb2444613064009feb8db"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a36f15dda5f5cb2444613064009feb8db">OnPossess</a> (<a class="el" href="classAPawn.html">APawn</a> *InPawn) override</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:ae91e7ba4d094f5ecdf3791888e0be48f" id="r_ae91e7ba4d094f5ecdf3791888e0be48f"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUTowerUserWidget.html">UTowerUserWidget</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ae91e7ba4d094f5ecdf3791888e0be48f">PlayerHUD</a></td></tr>
+<tr class="memitem:a83ead55319509c8c0e1e378a4264ef02" id="r_a83ead55319509c8c0e1e378a4264ef02"><td class="memItemLeft">TSubclassOf&lt; UUserWidget &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a83ead55319509c8c0e1e378a4264ef02">PlayerHUDClass</a></td></tr>
+<tr class="memitem:aa51fac5dd217793bae9589e63bae2b3d" id="r_aa51fac5dd217793bae9589e63bae2b3d"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classUTowerUserWidget.html">UTowerUserWidget</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa51fac5dd217793bae9589e63bae2b3d">GameOverWidget</a></td></tr>
+<tr class="memitem:ab7219aabdb5b8522a72ef32626cd5b1f" id="r_ab7219aabdb5b8522a72ef32626cd5b1f"><td class="memItemLeft">TSubclassOf&lt; UUserWidget &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab7219aabdb5b8522a72ef32626cd5b1f">GameOverWidgetClass</a></td></tr>
+<tr class="memitem:a14e69e6d1edbc550249e50e9727c31dd" id="r_a14e69e6d1edbc550249e50e9727c31dd"><td class="memItemLeft">TSubclassOf&lt; <a class="el" href="classUTowerWidgetController.html">UTowerWidgetController</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a14e69e6d1edbc550249e50e9727c31dd">WidgetControllerClass</a></td></tr>
 <tr class="memitem:a9ee0d3dd98d313c027e01920108f6816" id="r_a9ee0d3dd98d313c027e01920108f6816"><td class="memItemLeft">TObjectPtr&lt; UInputMappingContext &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9ee0d3dd98d313c027e01920108f6816">DefaultMappingContext</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a692be976db1047d7caede91020ee6704" id="r_a692be976db1047d7caede91020ee6704"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a692be976db1047d7caede91020ee6704">DisplayGameOverOverlay</a> ()</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Custom player controller for input setup. </p>
@@ -144,6 +154,66 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a692be976db1047d7caede91020ee6704" name="a692be976db1047d7caede91020ee6704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a692be976db1047d7caede91020ee6704">&#9670;&#160;</a></span>DisplayGameOverOverlay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATowerPlayerController::DisplayGameOverOverlay </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerPlayerController_a692be976db1047d7caede91020ee6704_cgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a36f15dda5f5cb2444613064009feb8db" name="a36f15dda5f5cb2444613064009feb8db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f15dda5f5cb2444613064009feb8db">&#9670;&#160;</a></span>OnPossess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATowerPlayerController::OnPossess </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAPawn.html">APawn</a> *</td>          <td class="paramname"><span class="paramname"><em>InPawn</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerPlayerController_a36f15dda5f5cb2444613064009feb8db_cgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a3526b4daca3d648d12ccb5df49367ae8" name="a3526b4daca3d648d12ccb5df49367ae8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3526b4daca3d648d12ccb5df49367ae8">&#9670;&#160;</a></span>SetupInputComponent()</h2>
 
@@ -186,6 +256,116 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">TObjectPtr&lt;UInputMappingContext&gt; ATowerPlayerController::DefaultMappingContext</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa51fac5dd217793bae9589e63bae2b3d" name="aa51fac5dd217793bae9589e63bae2b3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa51fac5dd217793bae9589e63bae2b3d">&#9670;&#160;</a></span>GameOverWidget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TObjectPtr&lt;<a class="el" href="classUTowerUserWidget.html">UTowerUserWidget</a>&gt; ATowerPlayerController::GameOverWidget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7219aabdb5b8522a72ef32626cd5b1f" name="ab7219aabdb5b8522a72ef32626cd5b1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7219aabdb5b8522a72ef32626cd5b1f">&#9670;&#160;</a></span>GameOverWidgetClass</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TSubclassOf&lt;UUserWidget&gt; ATowerPlayerController::GameOverWidgetClass</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae91e7ba4d094f5ecdf3791888e0be48f" name="ae91e7ba4d094f5ecdf3791888e0be48f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae91e7ba4d094f5ecdf3791888e0be48f">&#9670;&#160;</a></span>PlayerHUD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TObjectPtr&lt;<a class="el" href="classUTowerUserWidget.html">UTowerUserWidget</a>&gt; ATowerPlayerController::PlayerHUD</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83ead55319509c8c0e1e378a4264ef02" name="a83ead55319509c8c0e1e378a4264ef02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ead55319509c8c0e1e378a4264ef02">&#9670;&#160;</a></span>PlayerHUDClass</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TSubclassOf&lt;UUserWidget&gt; ATowerPlayerController::PlayerHUDClass</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14e69e6d1edbc550249e50e9727c31dd" name="a14e69e6d1edbc550249e50e9727c31dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14e69e6d1edbc550249e50e9727c31dd">&#9670;&#160;</a></span>WidgetControllerClass</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TSubclassOf&lt;<a class="el" href="classUTowerWidgetController.html">UTowerWidgetController</a>&gt; ATowerPlayerController::WidgetControllerClass</td>
         </tr>
       </table>
   </td>

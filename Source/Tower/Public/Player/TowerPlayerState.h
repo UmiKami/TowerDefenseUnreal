@@ -7,6 +7,7 @@
 #include "TowerPlayerState.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHealthChangeSignature, float, NewHealth);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnPlayerDeathSignature);
 
 class ATowerActorBase;
 /**
@@ -75,6 +76,9 @@ public:
 	
 	UPROPERTY(BlueprintAssignable)
 	FOnHealthChangeSignature OnHealthChangeSignature;
+	
+	UPROPERTY(BlueprintAssignable)
+	FOnPlayerDeathSignature OnPlayerDeathSignature;
 	
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)

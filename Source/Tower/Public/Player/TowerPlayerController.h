@@ -30,12 +30,26 @@ protected:
 	
 	virtual void OnPossess(APawn* InPawn) override;
 	
+	UPROPERTY()
+	TObjectPtr<UTowerUserWidget> PlayerHUD;
+	
 	UPROPERTY(EditDefaultsOnly, Category="UI")
 	TSubclassOf<UUserWidget> PlayerHUDClass; 
+	
+	UPROPERTY()
+	TObjectPtr<UTowerUserWidget> GameOverWidget;
+	
+	UPROPERTY(EditDefaultsOnly, Category="UI")
+	TSubclassOf<UUserWidget> GameOverWidgetClass; 
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Tower|UI")
 	TSubclassOf<UTowerWidgetController> WidgetControllerClass;
 	
 	UPROPERTY(EditAnywhere, Category ="Input|Input Mappings")
 	TObjectPtr<UInputMappingContext> DefaultMappingContext;
+	
+private:
+	
+	UFUNCTION()
+	void DisplayGameOverOverlay();
 };

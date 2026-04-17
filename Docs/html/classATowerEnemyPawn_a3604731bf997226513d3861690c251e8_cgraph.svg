@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 505;
+var viewWidth = 701;
 var viewHeight = 86;
 var sectionId = 'dynsection-2';
 </script>
@@ -58,7 +58,7 @@ var sectionId = 'dynsection-2';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Initializes runtime state when the pawn enters play.">
 <polygon fill="#999999" stroke="#666666" points="165.25,-39.75 0,-39.75 0,-19 165.25,-19 165.25,-39.75"/>
 <text xml:space="preserve" text-anchor="middle" x="82.62" y="-26.25" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerEnemyPawn::BeginPlay</text>
 </a>
@@ -67,9 +67,10 @@ var sectionId = 'dynsection-2';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="PawnIterator_8h.html#a60de95b890b12253839b1151d564a100" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="280.25,-59.75 242.5,-59.75 242.5,-39 280.25,-39 280.25,-59.75"/>
-<text xml:space="preserve" text-anchor="middle" x="261.38" y="-46.25" font-family="Helvetica,sans-Serif" font-size="10.00">Cast</text>
+<g id="a_Node000002"><a xlink:href="classATowerEnemyPawn.html#a9a1c764b95895c549e41a21dce6863a7" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="361.25,-46.12 201.25,-46.12 201.25,-12.62 361.25,-12.62 361.25,-46.12"/>
+<text xml:space="preserve" text-anchor="start" x="209.25" y="-32.62" font-family="Helvetica,sans-Serif" font-size="10.00">ATowerEnemyPawn::SetInitial</text>
+<text xml:space="preserve" text-anchor="middle" x="281.25" y="-19.88" font-family="Helvetica,sans-Serif" font-size="10.00">Properties</text>
 </a>
 </g>
 </g>
@@ -77,53 +78,71 @@ var sectionId = 'dynsection-2';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M165.53,-38.64C188.86,-41.28 212.8,-43.99 230.79,-46.03"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="230.38,-49.5 240.71,-47.15 231.17,-42.55 230.38,-49.5"/>
-</a>
-</g>
-</g>
-<!-- Node4 -->
-<g id="Node000004" class="node">
-<title>Node4</title>
-<g id="a_Node000004"><a xlink:href="classAPawn.html#a5ea0ef2603176a7db4935e0347e52d2c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="321.5,-20.75 201.25,-20.75 201.25,0 321.5,0 321.5,-20.75"/>
-<text xml:space="preserve" text-anchor="middle" x="261.38" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">APawn::GetController</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge4_Node000001_Node000004" class="edge">
-<title>Node1&#45;&gt;Node4</title>
-<g id="a_edge4_Node000001_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M165.53,-20.57C173.54,-19.71 181.62,-18.84 189.51,-17.99"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="189.82,-21.48 199.39,-16.93 189.07,-14.52 189.82,-21.48"/>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node2 -->
-<g id="edge2_Node000002_Node000002" class="edge">
-<title>Node2&#45;&gt;Node2</title>
-<g id="a_edge2_Node000002_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M242.15,-55.65C221.49,-65.38 227.89,-77.75 261.38,-77.75 288.06,-77.75 297.54,-69.9 289.84,-61.78"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="292.13,-59.1 281.86,-56.48 288.26,-64.93 292.13,-59.1"/>
+<path fill="none" stroke="#63b8ff" d="M165.59,-29.38C173.54,-29.38 181.63,-29.38 189.66,-29.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="189.43,-32.88 199.43,-29.38 189.43,-25.88 189.43,-32.88"/>
 </a>
 </g>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="structFPawnIteratorObject.html#a684316caab3954b0e82449d86f7ff960" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="496.5,-59.75 357.5,-59.75 357.5,-39 496.5,-39 496.5,-59.75"/>
-<text xml:space="preserve" text-anchor="middle" x="427" y="-46.25" font-family="Helvetica,sans-Serif" font-size="10.00">FPawnIteratorObject::Get</text>
+<g id="a_Node000003"><a xlink:href="PawnIterator_8h.html#a60de95b890b12253839b1151d564a100" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="476.25,-59.75 438.5,-59.75 438.5,-39 476.25,-39 476.25,-59.75"/>
+<text xml:space="preserve" text-anchor="middle" x="457.38" y="-46.25" font-family="Helvetica,sans-Serif" font-size="10.00">Cast</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
-<g id="edge3_Node000002_Node000003" class="edge">
+<g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<g id="a_edge3_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M280.51,-49.38C296.6,-49.38 321.29,-49.38 345.79,-49.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="345.49,-52.88 355.49,-49.38 345.49,-45.88 345.49,-52.88"/>
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M361.67,-38.5C384.84,-41.16 408.75,-43.9 426.74,-45.97"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="426.34,-49.45 436.67,-47.11 427.13,-42.49 426.34,-49.45"/>
+</a>
+</g>
+</g>
+<!-- Node5 -->
+<g id="Node000005" class="node">
+<title>Node5</title>
+<g id="a_Node000005"><a xlink:href="classAPawn.html#a5ea0ef2603176a7db4935e0347e52d2c" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="517.5,-20.75 397.25,-20.75 397.25,0 517.5,0 517.5,-20.75"/>
+<text xml:space="preserve" text-anchor="middle" x="457.38" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">APawn::GetController</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node5 -->
+<g id="edge5_Node000002_Node000005" class="edge">
+<title>Node2&#45;&gt;Node5</title>
+<g id="a_edge5_Node000002_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M361.67,-20.71C369.62,-19.84 377.66,-18.96 385.52,-18.11"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="385.81,-21.6 395.37,-17.03 385.05,-14.64 385.81,-21.6"/>
+</a>
+</g>
+</g>
+<!-- Node3&#45;&gt;Node3 -->
+<g id="edge3_Node000003_Node000003" class="edge">
+<title>Node3&#45;&gt;Node3</title>
+<g id="a_edge3_Node000003_Node000003"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M438.15,-55.65C417.49,-65.38 423.89,-77.75 457.38,-77.75 484.06,-77.75 493.54,-69.9 485.84,-61.78"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="488.13,-59.1 477.86,-56.48 484.26,-64.93 488.13,-59.1"/>
+</a>
+</g>
+</g>
+<!-- Node4 -->
+<g id="Node000004" class="node">
+<title>Node4</title>
+<g id="a_Node000004"><a xlink:href="structFPawnIteratorObject.html#a684316caab3954b0e82449d86f7ff960" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="692.5,-59.75 553.5,-59.75 553.5,-39 692.5,-39 692.5,-59.75"/>
+<text xml:space="preserve" text-anchor="middle" x="623" y="-46.25" font-family="Helvetica,sans-Serif" font-size="10.00">FPawnIteratorObject::Get</text>
+</a>
+</g>
+</g>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge4_Node000003_Node000004" class="edge">
+<title>Node3&#45;&gt;Node4</title>
+<g id="a_edge4_Node000003_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M476.51,-49.38C492.6,-49.38 517.29,-49.38 541.79,-49.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="541.49,-52.88 551.49,-49.38 541.49,-45.88 541.49,-52.88"/>
 </a>
 </g>
 </g>

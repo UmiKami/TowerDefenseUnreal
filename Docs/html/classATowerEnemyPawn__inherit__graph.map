@@ -1,11 +1,11 @@
 <map id="ATowerEnemyPawn" name="ATowerEnemyPawn">
-<area shape="rect" id="Node000001" title=" " alt="" coords="145,1307,352,1625"/>
+<area shape="rect" id="Node000001" title="Player&#39;s enemy pawn. Capable of killing the player 🤷‍♂️" alt="" coords="145,1307,352,1871"/>
 <area shape="rect" id="Node000002" href="$classAPawn.html" title=" " alt="" coords="5,282,260,1259"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,1271,225,1308,220,1307,216,1276"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,1271,212,1308,206,1307,204,1276"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="26,84,80,156"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="59,168,75,282,70,282,59,173"/>
 <area shape="rect" id="Node000004" href="$classINavAgentInterface.html" title=" " alt="" coords="104,5,322,234"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="197,246,196,282,190,282,197,252"/>
-<area shape="rect" id="Node000005" href="$classITowerEnemyInterface.html" title="Base interface for ATowerEnemyPawn enemies." alt="" coords="285,734,448,807"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="360,820,278,1308,273,1307,355,822"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="197,252,196,282,190,282,197,246"/>
+<area shape="rect" id="Node000005" href="$classITowerEnemyInterface.html" title="Base interface for ATowerEnemyPawn enemies." alt="" coords="285,723,448,818"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="359,831,292,1308,287,1307,356,835"/>
 </map>
