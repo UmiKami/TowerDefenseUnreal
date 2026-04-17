@@ -38,6 +38,8 @@ void ATowerPlayerStronghold::BeginPlay()
 	
 	TowerGameState = Cast<ATowerGameState>(UGameplayStatics::GetGameState(this)); 
 	checkf(TowerPlayerState, TEXT("Unable to access Tower Game State from stronghold."));
+	
+	TowerPlayerState->OnPlayerDeathSignature.AddDynamic(this, &ThisClass::Die);
 }
 
 // Called every frame

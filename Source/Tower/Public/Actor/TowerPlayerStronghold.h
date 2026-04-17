@@ -29,6 +29,9 @@ protected:
 	
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 	
+	UFUNCTION(BlueprintImplementableEvent)
+	void Die();
+	
 	/**
 	 * @brief This function is called after health has been deducted to play any sort of cues to indicate stronghold has been hit
 	 */
@@ -37,7 +40,7 @@ protected:
 	
 	// TODO consider adding a level to the stronghold and being able to upgrade it 
 	
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	TObjectPtr<UStaticMeshComponent> StrongholdMesh;
 	
 	UPROPERTY(EditDefaultsOnly)
