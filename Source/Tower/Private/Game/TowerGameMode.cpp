@@ -4,6 +4,8 @@
 #include "Game/TowerGameMode.h"
 
 #include "Game/TowerGameState.h"
+#include "Kismet/GameplayStatics.h"
+#include "Player/TowerPlayerState.h"
 
 void ATowerGameMode::BeginPlay()
 {
@@ -12,7 +14,15 @@ void ATowerGameMode::BeginPlay()
 	if(!TowerGameState) TowerGameState = GetGameState<ATowerGameState>();
 	checkf(TowerGameState, TEXT("Invalid Tower Game State"));
 	
-	StartNextWave();
+	if (TowerGameState->State == Playing)
+	{
+		StartNextWave();
+	}
+	
+	if ( ATowerPlayerState* Player = Cast<ATowerPlayerState>( UGameplayStatics::GetPlayerState(this, 0)) )
+	{
+		Player->OnHealthChangeSignature.AddDynamic(this, &ThisClass::CheckGameOverConditions);
+	}
 }
 
 void ATowerGameMode::Tick(float DeltaSeconds)
@@ -20,6 +30,7 @@ void ATowerGameMode::Tick(float DeltaSeconds)
 	Super::Tick(DeltaSeconds);
 	
 	if (!TowerGameState) return;
+	if (TowerGameState->State != Playing) return;
 	
 	if (TowerGameState->RemainingEnemyCount == 0)
 	{
@@ -30,7 +41,6 @@ void ATowerGameMode::Tick(float DeltaSeconds)
 void ATowerGameMode::StartNextWave()
 {
 	StopSpawningEnemy();
-	
 	
 	TowerGameState->Wave++;
 	TowerGameState->RemainingEnemyCount = TowerGameState->GetSpawnLimit();
