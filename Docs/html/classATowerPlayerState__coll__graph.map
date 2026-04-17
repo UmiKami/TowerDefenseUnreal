@@ -1,0 +1,15 @@
+<map id="ATowerPlayerState" name="ATowerPlayerState">
+<area shape="rect" id="Node000001" title="Manages state of the player including health and owned stuff." alt="" coords="272,1673,471,2014"/>
+<area shape="rect" id="Node000002" href="$classAPlayerState.html" title=" " alt="" coords="260,624,483,1624"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="372,1636,374,1674,369,1673,370,1641"/>
+<area shape="rect" id="Node000003" href="$classAInfo.html" title=" " alt="" coords="5,250,230,428"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,440,262,778,257,779,151,445"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="91,5,145,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="118,89,120,250,115,250,118,95"/>
+<area shape="rect" id="Node000005" href="$structFUniqueNetIdRepl.html" title=" " alt="" coords="255,127,488,551"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="372,549,374,608,369,607,371,554"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="294,5,448,78"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="371,90,374,127,369,127,371,95"/>
+<area shape="rect" id="Node000007" href="$structPingAvgData.html" title=" " alt="" coords="512,292,633,386"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="562,383,489,674,484,673,560,388"/>
+</map>

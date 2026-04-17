@@ -1,11 +1,13 @@
 <map id="ATowerEnemyPawn" name="ATowerEnemyPawn">
-<area shape="rect" id="Node000001" title=" " alt="" coords="145,1307,352,1625"/>
-<area shape="rect" id="Node000002" href="$classAPawn.html" title=" " alt="" coords="5,282,260,1259"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,1271,225,1308,220,1307,216,1276"/>
+<area shape="rect" id="Node000001" title="Player&#39;s enemy pawn. Capable of killing the player 🤷‍♂️" alt="" coords="263,1378,470,1875"/>
+<area shape="rect" id="Node000002" href="$classAPawn.html" title=" " alt="" coords="5,283,260,1261"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="265,1251,301,1379,296,1379,264,1256"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="26,84,80,156"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="59,168,75,282,70,282,59,173"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="59,168,76,283,70,284,59,173"/>
 <area shape="rect" id="Node000004" href="$classINavAgentInterface.html" title=" " alt="" coords="104,5,322,234"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="197,246,196,282,190,282,197,252"/>
-<area shape="rect" id="Node000005" href="$classITowerEnemyInterface.html" title="Base interface for ATowerEnemyPawn enemies." alt="" coords="285,734,448,807"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="360,820,278,1308,273,1307,355,822"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="197,251,195,284,190,284,197,246"/>
+<area shape="rect" id="Node000005" href="$classITowerEnemyInterface.html" title="Base interface for ATowerEnemyPawn enemies." alt="" coords="285,725,448,819"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="368,833,369,1379,364,1378,364,836"/>
+<area shape="rect" id="Node000006" href="$structFCurveTableRowHandle.html" title=" " alt="" coords="472,613,663,931"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="535,928,462,1261,437,1363,432,1361,457,1260,533,933"/>
 </map>

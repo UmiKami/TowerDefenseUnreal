@@ -49,7 +49,9 @@ var hierarchy =
         ] ],
         [ "AHeterogeneousVolume", "classAHeterogeneousVolume.html", null ],
         [ "ALocalFogVolume", "classALocalFogVolume.html", null ],
-        [ "APlayerState", "classAPlayerState.html", null ],
+        [ "APlayerState", "classAPlayerState.html", [
+          [ "ATowerPlayerState", "classATowerPlayerState.html", null ]
+        ] ],
         [ "AServerStatReplicator", "classAServerStatReplicator.html", null ],
         [ "ASkyAtmosphere", "classASkyAtmosphere.html", null ],
         [ "ASkyLight", "classASkyLight.html", null ],
@@ -103,6 +105,7 @@ var hierarchy =
       [ "ATextRenderActor", "classATextRenderActor.html", null ],
       [ "ATowerActorBase", "classATowerActorBase.html", null ],
       [ "ATowerEnemyPathActor", "classATowerEnemyPathActor.html", null ],
+      [ "ATowerPlayerStronghold", "classATowerPlayerStronghold.html", null ],
       [ "ATowerProjectileBase", "classATowerProjectileBase.html", [
         [ "ATowerArchedProjectile", "classATowerArchedProjectile.html", null ],
         [ "ATowerLinearProjectile", "classATowerLinearProjectile.html", null ]
@@ -1543,6 +1546,7 @@ var hierarchy =
     [ "FWeightedRandomSampler", null, [
       [ "FSkeletalMeshAreaWeightedTriangleSampler", "structFSkeletalMeshAreaWeightedTriangleSampler.html", null ]
     ] ],
+    [ "FWidgetControllerParams", "structFWidgetControllerParams.html", null ],
     [ "FWorldAsyncTraceState", "structFWorldAsyncTraceState.html", null ],
     [ "FWorldCachedViewInfo", "structFWorldCachedViewInfo.html", null ],
     [ "FWorldCompositionTile", "structFWorldCompositionTile.html", null ],
@@ -1857,6 +1861,9 @@ var hierarchy =
     [ "ITowerHighlightInterface", "classITowerHighlightInterface.html", [
       [ "ATowerActorBase", "classATowerActorBase.html", null ]
     ] ],
+    [ "ITowerPlayerInterface", "classITowerPlayerInterface.html", [
+      [ "ATowerPlayerStronghold", "classATowerPlayerStronghold.html", null ]
+    ] ],
     [ "IWorldPartitionStreamingSourceProvider", null, [
       [ "UWorldPartitionStreamingSourceComponent", "classUWorldPartitionStreamingSourceComponent.html", null ]
     ] ],
@@ -2114,7 +2121,8 @@ var hierarchy =
       [ "UPhysicsComponent", "classUPhysicsComponent.html", null ],
       [ "UReplicatedObjectInterface", "classUReplicatedObjectInterface.html", null ],
       [ "UTowerEnemyInterface", "classUTowerEnemyInterface.html", null ],
-      [ "UTowerHighlightInterface", "classUTowerHighlightInterface.html", null ]
+      [ "UTowerHighlightInterface", "classUTowerHighlightInterface.html", null ],
+      [ "UTowerPlayerInterface", "classUTowerPlayerInterface.html", null ]
     ] ],
     [ "UMeshDescriptionBaseBulkData", null, [
       [ "USkeletalMeshDescriptionBulkData", "classUSkeletalMeshDescriptionBulkData.html", null ],
@@ -2629,6 +2637,7 @@ var hierarchy =
       ] ],
       [ "UTimelineTemplate", "classUTimelineTemplate.html", null ],
       [ "UTouchInterface", "classUTouchInterface.html", null ],
+      [ "UTowerWidgetController", "classUTowerWidgetController.html", null ],
       [ "UVariableFrameStrippingSettings", "classUVariableFrameStrippingSettings.html", null ],
       [ "UVectorField", "classUVectorField.html", [
         [ "UVectorFieldAnimated", "classUVectorFieldAnimated.html", null ],

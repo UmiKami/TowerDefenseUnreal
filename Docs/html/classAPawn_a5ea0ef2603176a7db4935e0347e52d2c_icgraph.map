@@ -1,12 +1,16 @@
 <map id="APawn::GetController" name="APawn::GetController">
-<area shape="rect" id="Node000001" title=" " alt="" coords="274,96,434,124"/>
-<area shape="rect" id="Node000002" href="$classATowerEnemyPawn.html#a3604731bf997226513d3861690c251e8" title=" " alt="" coords="5,5,226,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="312,88,272,69,225,48,186,36,186,31,227,43,274,64,318,88"/>
-<area shape="rect" id="Node000003" href="$classAPawn.html#a74aab5a0f3523d3ac69c15ea025f8371" title=" " alt="" coords="35,57,196,85"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,95,196,87,196,82,261,93"/>
-<area shape="rect" id="Node000004" href="$classAPawn.html#ac175114c1c5acd037b680721b5525d8a" title=" " alt="" coords="22,133,209,161"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="256,126,209,135,207,130,261,124"/>
-<area shape="rect" id="Node000005" href="$classATowerPlayerCharacter.html#ad3ade2319f6c2bcf344e2db5f73b157f" title=" " alt="" coords="29,185,202,230"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="315,131,227,175,194,187,193,182,225,170,310,132"/>
-<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="155,119,142,114,115,112,91,114,77,119,74,124,80,133,74,133,68,124,73,115,89,109,116,107,143,109,160,118"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="546,141,706,169"/>
+<area shape="rect" id="Node000002" href="$classAPawn.html#a74aab5a0f3523d3ac69c15ea025f8371" title=" " alt="" coords="306,5,466,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="600,129,555,88,527,67,497,48,466,36,466,31,499,43,530,62,559,84,605,130"/>
+<area shape="rect" id="Node000003" href="$classAPawn.html#ac175114c1c5acd037b680721b5525d8a" title=" " alt="" coords="293,81,479,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="557,137,497,123,452,112,452,107,499,118,562,136"/>
+<area shape="rect" id="Node000004" href="$classATowerPlayerCharacter.html#ad3ade2319f6c2bcf344e2db5f73b157f" title=" " alt="" coords="299,133,472,178"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="528,156,473,158,473,153,533,155"/>
+<area shape="rect" id="Node000005" href="$classATowerEnemyPawn.html#ac8f725839541fb2d04b0783d2cd4415f" title=" " alt="" coords="274,201,498,229"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="562,173,499,192,453,203,452,198,497,187,557,174"/>
+<area shape="rect" id="Node000006" href="$classATowerEnemyPawn.html#a9a1c764b95895c549e41a21dce6863a7" title=" " alt="" coords="279,253,492,298"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="598,178,552,213,499,243,471,255,469,250,497,238,549,208,593,180"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="425,66,413,62,386,60,361,62,347,67,343,72,350,81,344,80,338,72,343,63,360,57,386,55,414,57,431,66"/>
+<area shape="rect" id="Node000007" href="$classATowerEnemyPawn.html#a3604731bf997226513d3861690c251e8" title="Initializes runtime state when the pawn enters play." alt="" coords="5,261,226,289"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="261,275,226,278,226,273,266,275"/>
 </map>

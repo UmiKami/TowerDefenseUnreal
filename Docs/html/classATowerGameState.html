@@ -108,8 +108,11 @@ Collaboration diagram for ATowerGameState:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerGameState__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad6d4b903285b9d203674db0b5149018d" id="r_ad6d4b903285b9d203674db0b5149018d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad6d4b903285b9d203674db0b5149018d">IncreaseGameTimer</a> (const <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> DeltaSeconds)</td></tr>
+<tr class="memitem:a9787b938de34f321accd2eb90a64790c" id="r_a9787b938de34f321accd2eb90a64790c"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9787b938de34f321accd2eb90a64790c">GetSpawnRate</a> () const</td></tr>
+<tr class="memitem:a74f791fc0502e4e9f0740bd34200e7c5" id="r_a74f791fc0502e4e9f0740bd34200e7c5"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#a74f791fc0502e4e9f0740bd34200e7c5">GetSpawnLimit</a> () const</td></tr>
 <tr class="inherit_header pub_methods_classAGameState"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classAGameState')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classAGameState.html">AGameState</a></td></tr>
 <tr class="memitem:adf10eaaaf257440f59ff41f72b2b3da9 inherit pub_methods_classAGameState" id="r_adf10eaaaf257440f59ff41f72b2b3da9"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#adf10eaaaf257440f59ff41f72b2b3da9">OnRep_MatchState</a> ()</td></tr>
 <tr class="memitem:a770d9e93b7460f0294bf650f94b32d72 inherit pub_methods_classAGameState" id="r_a770d9e93b7460f0294bf650f94b32d72"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#a770d9e93b7460f0294bf650f94b32d72">OnRep_ElapsedTime</a> ()</td></tr>
@@ -137,6 +140,14 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_methods_classAInfo"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classAInfo')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classAInfo.html">AInfo</a></td></tr>
 <tr class="memitem:ae0c9052f0d795c8952508545c5601b56 inherit pub_methods_classAInfo" id="r_ae0c9052f0d795c8952508545c5601b56"><td class="memItemLeft">ENGINE_API&#160;</td><td class="memItemRight"><a class="el" href="classAInfo.html#ae0c9052f0d795c8952508545c5601b56">AInfo</a> (const FObjectInitializer &amp;ObjectInitializer=FObjectInitializer::Get())</td></tr>
 <tr class="memitem:ad58b7afde5328e5c1b5545a559c9de4e inherit pub_methods_classAInfo" id="r_ad58b7afde5328e5c1b5545a559c9de4e"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAInfo.html#ad58b7afde5328e5c1b5545a559c9de4e">PostLoad</a> () override</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae3085f32c52431bc4ee80d5bb03ced41" id="r_ae3085f32c52431bc4ee80d5bb03ced41"><td class="memItemLeft">int32&#160;</td><td class="memItemRight"><a class="el" href="#ae3085f32c52431bc4ee80d5bb03ced41">Wave</a> = 0</td></tr>
+<tr class="memitem:a661e124c45e4e47011785048e69b44ee" id="r_a661e124c45e4e47011785048e69b44ee"><td class="memItemLeft">int32&#160;</td><td class="memItemRight"><a class="el" href="#a661e124c45e4e47011785048e69b44ee">EnemiesPendingSpawn</a></td></tr>
+<tr class="memitem:a4f2e40d4c864d662a7c8d4b9553fdca1" id="r_a4f2e40d4c864d662a7c8d4b9553fdca1"><td class="memItemLeft">int32&#160;</td><td class="memItemRight"><a class="el" href="#a4f2e40d4c864d662a7c8d4b9553fdca1">RemainingEnemyCount</a></td></tr>
+<tr class="memitem:a27fd4190cac51f2c97adbf547d4a84d9" id="r_a27fd4190cac51f2c97adbf547d4a84d9"><td class="memItemLeft">int32&#160;</td><td class="memItemRight"><a class="el" href="#a27fd4190cac51f2c97adbf547d4a84d9">EnemiesKilled</a></td></tr>
+<tr class="memitem:a295e53550cfcd5aadd8d3adbd8e8675e" id="r_a295e53550cfcd5aadd8d3adbd8e8675e"><td class="memItemLeft"><a class="el" href="TowerGameState_8h.html#aef043b64f9f899a93fa09c8399730352">ETowerGameState</a>&#160;</td><td class="memItemRight"><a class="el" href="#a295e53550cfcd5aadd8d3adbd8e8675e">State</a></td></tr>
 <tr class="inherit_header pub_attribs_classAGameState"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classAGameState')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Attributes inherited from <a class="el" href="classAGameState.html">AGameState</a></td></tr>
 <tr class="memitem:a6230d93f0f33fc7e5abea7de846061d7 inherit pub_attribs_classAGameState" id="r_a6230d93f0f33fc7e5abea7de846061d7"><td class="memItemLeft">int32&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#a6230d93f0f33fc7e5abea7de846061d7">ElapsedTime</a></td></tr>
 <tr class="inherit_header pub_attribs_classAGameStateBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classAGameStateBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Attributes inherited from <a class="el" href="classAGameStateBase.html">AGameStateBase</a></td></tr>
@@ -144,18 +155,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ad1dff7ccc3899996a6230cdc5c99f188 inherit pub_attribs_classAGameStateBase" id="r_ad1dff7ccc3899996a6230cdc5c99f188"><td class="memItemLeft">TObjectPtr&lt; <a class="el" href="classAGameModeBase.html">AGameModeBase</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#ad1dff7ccc3899996a6230cdc5c99f188">AuthorityGameMode</a></td></tr>
 <tr class="memitem:a71a0c17c8f138d998bc09637634230ea inherit pub_attribs_classAGameStateBase" id="r_a71a0c17c8f138d998bc09637634230ea"><td class="memItemLeft">TSubclassOf&lt; <a class="el" href="classASpectatorPawn.html">ASpectatorPawn</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a71a0c17c8f138d998bc09637634230ea">SpectatorClass</a></td></tr>
 <tr class="memitem:ae9a86d12ade7da21522460ce2f94f271 inherit pub_attribs_classAGameStateBase" id="r_ae9a86d12ade7da21522460ce2f94f271"><td class="memItemLeft">TArray&lt; TObjectPtr&lt; <a class="el" href="classAPlayerState.html">APlayerState</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#ae9a86d12ade7da21522460ce2f94f271">PlayerArray</a></td></tr>
-<tr class="inherit_header pro_methods_classAGameState"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classAGameState')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classAGameState.html">AGameState</a></td></tr>
-<tr class="memitem:ac6f7148f050f113b5fdff9d22d1c02cf inherit pro_methods_classAGameState" id="r_ac6f7148f050f113b5fdff9d22d1c02cf"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#ac6f7148f050f113b5fdff9d22d1c02cf">HandleMatchIsWaitingToStart</a> ()</td></tr>
-<tr class="memitem:ab228ff23c369b4d5e5c694b9ecf655aa inherit pro_methods_classAGameState" id="r_ab228ff23c369b4d5e5c694b9ecf655aa"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#ab228ff23c369b4d5e5c694b9ecf655aa">HandleMatchHasStarted</a> ()</td></tr>
-<tr class="memitem:a665f739464fc630af99f53d90d35db1a inherit pro_methods_classAGameState" id="r_a665f739464fc630af99f53d90d35db1a"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#a665f739464fc630af99f53d90d35db1a">HandleMatchHasEnded</a> ()</td></tr>
-<tr class="memitem:ac31fca096c0e09ed3c1fdf2909a0ad42 inherit pro_methods_classAGameState" id="r_ac31fca096c0e09ed3c1fdf2909a0ad42"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#ac31fca096c0e09ed3c1fdf2909a0ad42">HandleLeavingMap</a> ()</td></tr>
-<tr class="inherit_header pro_methods_classAGameStateBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classAGameStateBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classAGameStateBase.html">AGameStateBase</a></td></tr>
-<tr class="memitem:ab0e71ee8bac016c03b7f69e83d02a2fc inherit pro_methods_classAGameStateBase" id="r_ab0e71ee8bac016c03b7f69e83d02a2fc"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#ab0e71ee8bac016c03b7f69e83d02a2fc">OnRep_GameModeClass</a> ()</td></tr>
-<tr class="memitem:a7aa85f7168b6b27447aeb84d86561742 inherit pro_methods_classAGameStateBase" id="r_a7aa85f7168b6b27447aeb84d86561742"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a7aa85f7168b6b27447aeb84d86561742">OnRep_SpectatorClass</a> ()</td></tr>
-<tr class="memitem:a94db36860562b046787cedd00392944c inherit pro_methods_classAGameStateBase" id="r_a94db36860562b046787cedd00392944c"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a94db36860562b046787cedd00392944c">OnRep_ReplicatedHasBegunPlay</a> ()</td></tr>
-<tr class="memitem:a8c04ae624e2128b63a8044fbc17f0083 inherit pro_methods_classAGameStateBase" id="r_a8c04ae624e2128b63a8044fbc17f0083"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a8c04ae624e2128b63a8044fbc17f0083">UpdateServerTimeSeconds</a> ()</td></tr>
-<tr class="memitem:a9f5aae502c6e0b0afe046644567ce1d2 inherit pro_methods_classAGameStateBase" id="r_a9f5aae502c6e0b0afe046644567ce1d2"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a9f5aae502c6e0b0afe046644567ce1d2">UE_DEPRECATED</a> (5.2, &quot;OnRep_ReplicatedWorldTimeSeconds() is deprecated. Use <a class="el" href="classAGameStateBase.html#a1169f860fb65665c7734544847f4d465">OnRep_ReplicatedWorldTimeSecondsDouble</a>().&quot;) ENGINE_API virtual void OnRep_ReplicatedWorldTimeSeconds() final</td></tr>
-<tr class="memitem:a1169f860fb65665c7734544847f4d465 inherit pro_methods_classAGameStateBase" id="r_a1169f860fb65665c7734544847f4d465"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a1169f860fb65665c7734544847f4d465">OnRep_ReplicatedWorldTimeSecondsDouble</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a613cec6be3a5e23d1beb9c437a6f3eee" id="r_a613cec6be3a5e23d1beb9c437a6f3eee"><td class="memItemLeft"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a>&#160;</td><td class="memItemRight"><a class="el" href="#a613cec6be3a5e23d1beb9c437a6f3eee">SpawnLimitPerWaveCurve</a></td></tr>
+<tr class="memitem:a55349aade72948aeefeea5c746e80181" id="r_a55349aade72948aeefeea5c746e80181"><td class="memItemLeft"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a>&#160;</td><td class="memItemRight"><a class="el" href="#a55349aade72948aeefeea5c746e80181">EnemySpawnRateCurve</a></td></tr>
+<tr class="memitem:adbe3111425155b89aec62387e2f58bf2" id="r_adbe3111425155b89aec62387e2f58bf2"><td class="memItemLeft"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a>&#160;</td><td class="memItemRight"><a class="el" href="#adbe3111425155b89aec62387e2f58bf2">GameTime</a></td></tr>
 <tr class="inherit_header pro_attribs_classAGameState"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classAGameState')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="classAGameState.html">AGameState</a></td></tr>
 <tr class="memitem:ad8ea67e140332956634531617b0ef0ff inherit pro_attribs_classAGameState" id="r_ad8ea67e140332956634531617b0ef0ff"><td class="memItemLeft"><a class="el" href="AnimInstance_8h.html#ab45c27dd9822b299411973637022bfbc">FName</a>&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#ad8ea67e140332956634531617b0ef0ff">MatchState</a></td></tr>
 <tr class="memitem:a030087d4004e1b8696f222206bc96f5c inherit pro_attribs_classAGameState" id="r_a030087d4004e1b8696f222206bc96f5c"><td class="memItemLeft"><a class="el" href="AnimInstance_8h.html#ab45c27dd9822b299411973637022bfbc">FName</a>&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#a030087d4004e1b8696f222206bc96f5c">PreviousMatchState</a></td></tr>
@@ -169,11 +174,259 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2589585773ead4438685966144036cfe inherit pro_attribs_classAGameStateBase" id="r_a2589585773ead4438685966144036cfe"><td class="memItemLeft"><a class="el" href="structFTimerHandle.html">FTimerHandle</a>&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a2589585773ead4438685966144036cfe">TimerHandle_UpdateServerTimeSeconds</a></td></tr>
 <tr class="memitem:ab2843c4dc52f873ba5cae5a21d6a9c50 inherit pro_attribs_classAGameStateBase" id="r_ab2843c4dc52f873ba5cae5a21d6a9c50"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#ab2843c4dc52f873ba5cae5a21d6a9c50">SumServerWorldTimeSecondsDelta</a></td></tr>
 <tr class="memitem:a533b4753eedc0206b609745fb5901f2a inherit pro_attribs_classAGameStateBase" id="r_a533b4753eedc0206b609745fb5901f2a"><td class="memItemLeft">uint32&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a533b4753eedc0206b609745fb5901f2a">NumServerWorldTimeSecondsDeltas</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classAGameState"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classAGameState')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classAGameState.html">AGameState</a></td></tr>
+<tr class="memitem:ac6f7148f050f113b5fdff9d22d1c02cf inherit pro_methods_classAGameState" id="r_ac6f7148f050f113b5fdff9d22d1c02cf"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#ac6f7148f050f113b5fdff9d22d1c02cf">HandleMatchIsWaitingToStart</a> ()</td></tr>
+<tr class="memitem:ab228ff23c369b4d5e5c694b9ecf655aa inherit pro_methods_classAGameState" id="r_ab228ff23c369b4d5e5c694b9ecf655aa"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#ab228ff23c369b4d5e5c694b9ecf655aa">HandleMatchHasStarted</a> ()</td></tr>
+<tr class="memitem:a665f739464fc630af99f53d90d35db1a inherit pro_methods_classAGameState" id="r_a665f739464fc630af99f53d90d35db1a"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#a665f739464fc630af99f53d90d35db1a">HandleMatchHasEnded</a> ()</td></tr>
+<tr class="memitem:ac31fca096c0e09ed3c1fdf2909a0ad42 inherit pro_methods_classAGameState" id="r_ac31fca096c0e09ed3c1fdf2909a0ad42"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameState.html#ac31fca096c0e09ed3c1fdf2909a0ad42">HandleLeavingMap</a> ()</td></tr>
+<tr class="inherit_header pro_methods_classAGameStateBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classAGameStateBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classAGameStateBase.html">AGameStateBase</a></td></tr>
+<tr class="memitem:ab0e71ee8bac016c03b7f69e83d02a2fc inherit pro_methods_classAGameStateBase" id="r_ab0e71ee8bac016c03b7f69e83d02a2fc"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#ab0e71ee8bac016c03b7f69e83d02a2fc">OnRep_GameModeClass</a> ()</td></tr>
+<tr class="memitem:a7aa85f7168b6b27447aeb84d86561742 inherit pro_methods_classAGameStateBase" id="r_a7aa85f7168b6b27447aeb84d86561742"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a7aa85f7168b6b27447aeb84d86561742">OnRep_SpectatorClass</a> ()</td></tr>
+<tr class="memitem:a94db36860562b046787cedd00392944c inherit pro_methods_classAGameStateBase" id="r_a94db36860562b046787cedd00392944c"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a94db36860562b046787cedd00392944c">OnRep_ReplicatedHasBegunPlay</a> ()</td></tr>
+<tr class="memitem:a8c04ae624e2128b63a8044fbc17f0083 inherit pro_methods_classAGameStateBase" id="r_a8c04ae624e2128b63a8044fbc17f0083"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a8c04ae624e2128b63a8044fbc17f0083">UpdateServerTimeSeconds</a> ()</td></tr>
+<tr class="memitem:a9f5aae502c6e0b0afe046644567ce1d2 inherit pro_methods_classAGameStateBase" id="r_a9f5aae502c6e0b0afe046644567ce1d2"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a9f5aae502c6e0b0afe046644567ce1d2">UE_DEPRECATED</a> (5.2, &quot;OnRep_ReplicatedWorldTimeSeconds() is deprecated. Use <a class="el" href="classAGameStateBase.html#a1169f860fb65665c7734544847f4d465">OnRep_ReplicatedWorldTimeSecondsDouble</a>().&quot;) ENGINE_API virtual void OnRep_ReplicatedWorldTimeSeconds() final</td></tr>
+<tr class="memitem:a1169f860fb65665c7734544847f4d465 inherit pro_methods_classAGameStateBase" id="r_a1169f860fb65665c7734544847f4d465"><td class="memItemLeft">virtual ENGINE_API void&#160;</td><td class="memItemRight"><a class="el" href="classAGameStateBase.html#a1169f860fb65665c7734544847f4d465">OnRep_ReplicatedWorldTimeSecondsDouble</a> ()</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages the game state for the <a class="el" href="classTower.html">Tower</a> game mode. </p>
 <p>Tracks score, wave number, and player stats. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a74f791fc0502e4e9f0740bd34200e7c5" name="a74f791fc0502e4e9f0740bd34200e7c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74f791fc0502e4e9f0740bd34200e7c5">&#9670;&#160;</a></span>GetSpawnLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ATowerGameState::GetSpawnLimit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerGameState_a74f791fc0502e4e9f0740bd34200e7c5_cgraph.svg" width="226" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerGameState_a74f791fc0502e4e9f0740bd34200e7c5_icgraph.svg" width="226" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9787b938de34f321accd2eb90a64790c" name="a9787b938de34f321accd2eb90a64790c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9787b938de34f321accd2eb90a64790c">&#9670;&#160;</a></span>GetSpawnRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ATowerGameState::GetSpawnRate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerGameState_a9787b938de34f321accd2eb90a64790c_cgraph.svg" width="255" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classATowerGameState_a9787b938de34f321accd2eb90a64790c_icgraph.svg" width="255" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad6d4b903285b9d203674db0b5149018d" name="ad6d4b903285b9d203674db0b5149018d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6d4b903285b9d203674db0b5149018d">&#9670;&#160;</a></span>IncreaseGameTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATowerGameState::IncreaseGameTimer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a></td>          <td class="paramname"><span class="paramname"><em>DeltaSeconds</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a27fd4190cac51f2c97adbf547d4a84d9" name="a27fd4190cac51f2c97adbf547d4a84d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27fd4190cac51f2c97adbf547d4a84d9">&#9670;&#160;</a></span>EnemiesKilled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32 ATowerGameState::EnemiesKilled</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a661e124c45e4e47011785048e69b44ee" name="a661e124c45e4e47011785048e69b44ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a661e124c45e4e47011785048e69b44ee">&#9670;&#160;</a></span>EnemiesPendingSpawn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32 ATowerGameState::EnemiesPendingSpawn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55349aade72948aeefeea5c746e80181" name="a55349aade72948aeefeea5c746e80181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55349aade72948aeefeea5c746e80181">&#9670;&#160;</a></span>EnemySpawnRateCurve</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a> ATowerGameState::EnemySpawnRateCurve</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbe3111425155b89aec62387e2f58bf2" name="adbe3111425155b89aec62387e2f58bf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbe3111425155b89aec62387e2f58bf2">&#9670;&#160;</a></span>GameTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="SkinnedMeshComponent_8h.html#ab40e775e244347565bd20b1dc69a61f4">float</a> ATowerGameState::GameTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f2e40d4c864d662a7c8d4b9553fdca1" name="a4f2e40d4c864d662a7c8d4b9553fdca1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f2e40d4c864d662a7c8d4b9553fdca1">&#9670;&#160;</a></span>RemainingEnemyCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32 ATowerGameState::RemainingEnemyCount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a613cec6be3a5e23d1beb9c437a6f3eee" name="a613cec6be3a5e23d1beb9c437a6f3eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a613cec6be3a5e23d1beb9c437a6f3eee">&#9670;&#160;</a></span>SpawnLimitPerWaveCurve</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structFCurveTableRowHandle.html">FCurveTableRowHandle</a> ATowerGameState::SpawnLimitPerWaveCurve</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a295e53550cfcd5aadd8d3adbd8e8675e" name="a295e53550cfcd5aadd8d3adbd8e8675e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a295e53550cfcd5aadd8d3adbd8e8675e">&#9670;&#160;</a></span>State</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="TowerGameState_8h.html#aef043b64f9f899a93fa09c8399730352">ETowerGameState</a> ATowerGameState::State</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3085f32c52431bc4ee80d5bb03ced41" name="ae3085f32c52431bc4ee80d5bb03ced41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3085f32c52431bc4ee80d5bb03ced41">&#9670;&#160;</a></span>Wave</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32 ATowerGameState::Wave = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>Source/Tower/Public/Game/<a class="el" href="TowerGameState_8h_source.html">TowerGameState.h</a></li>
 </ul>
 </div><!-- contents -->

@@ -1214,11 +1214,12 @@ var searchData=
   ['fweightedblendable_1211',['FWeightedBlendable',['../structFWeightedBlendable.html#a60c8364829f603db116f4fd38ce02188',1,'FWeightedBlendable::FWeightedBlendable()'],['../structFWeightedBlendable.html#a381e80e439fba986e8715cec6a685a89',1,'FWeightedBlendable::FWeightedBlendable(float InWeight, UObject *InObject)']]],
   ['fweightedblendables_1212',['FWeightedBlendables',['../structFWeightedBlendables.html#aef89a9cd63983b761b31b156bd0186c0',1,'FWeightedBlendables::FWeightedBlendables()'],['../structFWeightedBlendables.html#a9372ef606b8f293dfb50e8c93d2c2e34',1,'FWeightedBlendables::FWeightedBlendables(const TArray&lt; FWeightedBlendable &gt; &amp;InArray)']]],
   ['fweightedblendsample_1213',['FWeightedBlendSample',['../structFWeightedBlendSample.html#acde2aa36536edeaca4e9415970d7062f',1,'FWeightedBlendSample']]],
-  ['fworldasynctracestate_1214',['FWorldAsyncTraceState',['../structFWorldAsyncTraceState.html#a538c7b48c6320288385ada607041b947',1,'FWorldAsyncTraceState']]],
-  ['fworldcompositiontile_1215',['FWorldCompositionTile',['../structFWorldCompositionTile.html#a0448cb58c415d2a53d1e96a28f90ca7f',1,'FWorldCompositionTile']]],
-  ['fworldcontext_1216',['FWorldContext',['../structFWorldContext.html#a7103044fdbace8ac9b5797643dd30a5f',1,'FWorldContext']]],
-  ['fworlddelegates_1217',['FWorldDelegates',['../classFWorldDelegates.html#a5019b027bf0bce8fc5989bf76dcfb0f5',1,'FWorldDelegates']]],
-  ['fworldinitializationvalues_1218',['FWorldInitializationValues',['../structFWorldInitializationValues.html#a7b7b31629562bb71b6cf3f2eaf24374f',1,'FWorldInitializationValues']]],
-  ['fworldpscpool_1219',['FWorldPSCPool',['../structFWorldPSCPool.html#a19047edf774773a97bf3c8d8e2526839',1,'FWorldPSCPool']]],
-  ['fwrittenchannelsrecord_1220',['FWrittenChannelsRecord',['../structFWrittenChannelsRecord.html#acee65346214a1a593d4e6a817e3f520c',1,'FWrittenChannelsRecord']]]
+  ['fwidgetcontrollerparams_1214',['FWidgetControllerParams',['../structFWidgetControllerParams.html#a0d04197abd5ed047abf6d481549d6b92',1,'FWidgetControllerParams::FWidgetControllerParams()'],['../structFWidgetControllerParams.html#af1f2e7aef5a8f09714328d933d2c8df0',1,'FWidgetControllerParams::FWidgetControllerParams(ATowerPlayerController *PC, ATowerPlayerState *PS, ATowerGameState *GS, ATowerGameMode *GM)']]],
+  ['fworldasynctracestate_1215',['FWorldAsyncTraceState',['../structFWorldAsyncTraceState.html#a538c7b48c6320288385ada607041b947',1,'FWorldAsyncTraceState']]],
+  ['fworldcompositiontile_1216',['FWorldCompositionTile',['../structFWorldCompositionTile.html#a0448cb58c415d2a53d1e96a28f90ca7f',1,'FWorldCompositionTile']]],
+  ['fworldcontext_1217',['FWorldContext',['../structFWorldContext.html#a7103044fdbace8ac9b5797643dd30a5f',1,'FWorldContext']]],
+  ['fworlddelegates_1218',['FWorldDelegates',['../classFWorldDelegates.html#a5019b027bf0bce8fc5989bf76dcfb0f5',1,'FWorldDelegates']]],
+  ['fworldinitializationvalues_1219',['FWorldInitializationValues',['../structFWorldInitializationValues.html#a7b7b31629562bb71b6cf3f2eaf24374f',1,'FWorldInitializationValues']]],
+  ['fworldpscpool_1220',['FWorldPSCPool',['../structFWorldPSCPool.html#a19047edf774773a97bf3c8d8e2526839',1,'FWorldPSCPool']]],
+  ['fwrittenchannelsrecord_1221',['FWrittenChannelsRecord',['../structFWrittenChannelsRecord.html#acee65346214a1a593d4e6a817e3f520c',1,'FWrittenChannelsRecord']]]
 ];
