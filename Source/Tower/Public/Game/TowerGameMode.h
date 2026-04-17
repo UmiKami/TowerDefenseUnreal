@@ -6,6 +6,7 @@
 #include "GameFramework/GameMode.h"
 #include "TowerGameMode.generated.h"
 
+enum ETowerGameState : int8;
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnGameOverSignature);
 
 
@@ -22,6 +23,9 @@ public:
 	virtual void BeginPlay() override;
 	
 	virtual void Tick(float DeltaSeconds) override;
+	
+	UFUNCTION(BlueprintCallable)
+	void ChangeGameState(ETowerGameState NewGameState) const;
 	
 	UPROPERTY(BlueprintAssignable)
 	FOnGameOverSignature OnGameOverSignature;
@@ -47,5 +51,5 @@ private:
 	void StopSpawningEnemy();
 	
 	UFUNCTION()
-	void CheckGameOverConditions(float PlayerHealth);
+	void SetGameOver();
 };
