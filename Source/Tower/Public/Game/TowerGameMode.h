@@ -6,6 +6,9 @@
 #include "GameFramework/GameMode.h"
 #include "TowerGameMode.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnGameOverSignature);
+
+
 class ATowerGameState;
 /**
  * @ingroup Tower
@@ -19,6 +22,9 @@ public:
 	virtual void BeginPlay() override;
 	
 	virtual void Tick(float DeltaSeconds) override;
+	
+	UPROPERTY(BlueprintAssignable)
+	FOnGameOverSignature OnGameOverSignature;
 	
 protected:
 	UFUNCTION(BlueprintImplementableEvent)
