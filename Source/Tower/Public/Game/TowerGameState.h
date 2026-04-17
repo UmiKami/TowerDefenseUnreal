@@ -6,6 +6,15 @@
 #include "GameFramework/GameState.h"
 #include "TowerGameState.generated.h"
 
+UENUM(BlueprintType)
+enum ETowerGameState
+{
+	MainMenu,
+	Playing,
+	GameOver,
+	PauseMenu
+};
+
 /**
  * @brief Manages the game state for the Tower game mode.
  *
@@ -19,6 +28,8 @@ class TOWER_API ATowerGameState : public AGameState
 	GENERATED_BODY()
 
 public:
+	virtual void Tick(float DeltaSeconds) override;
+	
 	UFUNCTION(BlueprintCallable)
 	FORCEINLINE float GetSpawnRate() const { return EnemySpawnRateCurve.Eval(Wave, "SpawnRateCurve not found."); }
 	
@@ -36,11 +47,15 @@ public:
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Match Stats", meta=(DisplayPriority=0))
 	int32 EnemiesKilled;
-	
+
+	ETowerGameState State;
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Match Stats", meta=(DisplayPriority=0))
 	FCurveTableRowHandle SpawnLimitPerWaveCurve;
 	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Match Stats", meta=(DisplayPriority=0))
 	FCurveTableRowHandle EnemySpawnRateCurve;
+	
+	UPROPERTY(BlueprintReadOnly)
+	float GameTime;
 };
