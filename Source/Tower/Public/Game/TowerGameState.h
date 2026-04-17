@@ -7,7 +7,7 @@
 #include "TowerGameState.generated.h"
 
 UENUM(BlueprintType)
-enum ETowerGameState
+enum ETowerGameState : int8
 {
 	MainMenu,
 	Playing,
@@ -28,7 +28,7 @@ class TOWER_API ATowerGameState : public AGameState
 	GENERATED_BODY()
 
 public:
-	virtual void Tick(float DeltaSeconds) override;
+	FORCEINLINE void IncreaseGameTimer(const float DeltaSeconds) {GameTime += DeltaSeconds;}
 	
 	UFUNCTION(BlueprintCallable)
 	FORCEINLINE float GetSpawnRate() const { return EnemySpawnRateCurve.Eval(Wave, "SpawnRateCurve not found."); }
