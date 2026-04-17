@@ -38,7 +38,8 @@ protected:
 	
 private:
 	UFUNCTION(BlueprintCallable)
-	void StopSpawningEnemy(); 
+	void StopSpawningEnemy();
+	
 	UFUNCTION()
 	void CheckGameOverConditions(float PlayerHealth);
 };

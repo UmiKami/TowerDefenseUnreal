@@ -58,3 +58,13 @@ void ATowerGameMode::StopSpawningEnemy()
 	GetWorldTimerManager().ClearTimer(EnemySpawnTimer);
 }
 
+void ATowerGameMode::CheckGameOverConditions(float PlayerHealth)
+{
+	if (PlayerHealth <= 0.f)
+	{
+		TowerGameState->State = GameOver;
+		
+		OnGameOverSignature.Broadcast();
+	}
+}
+
