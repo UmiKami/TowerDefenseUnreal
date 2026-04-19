@@ -49,6 +49,8 @@ void ATowerEnemyPawn::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor
 	if (!PlayerStronghold) return;
 	
 	UGameplayStatics::ApplyDamage(OtherActor, Damage, GetController(), this, {});
+	
+	OnDeath.Broadcast(this);
 }
 
 void ATowerEnemyPawn::BeginPlay()
