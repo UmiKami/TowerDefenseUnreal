@@ -30,9 +30,9 @@ void ATowerLinearProjectile::Tick(float DeltaSeconds)
 	SetActorLocationAndRotation(NewLocation, Direction.Rotation(), true);
 }
 
-void ATowerLinearProjectile::InitProjectileParams(float Damage, float InitSpeed, float InMaxSpeed, TScriptInterface<ITowerEnemyInterface> InTargetEnemy)
+void ATowerLinearProjectile::InitProjectileParams(float InDamage, float InitSpeed, float InMaxSpeed, TScriptInterface<ITowerEnemyInterface> InTargetEnemy)
 {
-	Super::InitProjectileParams(Damage, InitSpeed, InMaxSpeed, InTargetEnemy);
+	Super::InitProjectileParams(InDamage, InitSpeed, InMaxSpeed, InTargetEnemy);
 	
 
 	
@@ -44,9 +44,9 @@ void ATowerLinearProjectile::BeginPlay()
 	
 }
 
-void ATowerLinearProjectile::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, bool bHasArch, float ArcHeight)
+void ATowerLinearProjectile::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float InDamage, bool bHasArch, float ArcHeight)
 {
-	Super::LaunchAtTarget(StartLocation, EndLocation, Damage,  bHasArch, ArcHeight);
+	Super::LaunchAtTarget(StartLocation, EndLocation, InDamage,  bHasArch, ArcHeight);
 	
 
  }

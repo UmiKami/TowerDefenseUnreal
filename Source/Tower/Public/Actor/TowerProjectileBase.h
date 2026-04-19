@@ -25,17 +25,17 @@ public:
 	
 	
 	UFUNCTION()
-	virtual void InitProjectileParams(float Damage, float InitSpeed, float InMaxSpeed, TScriptInterface<ITowerEnemyInterface> InTargetEnemy);
+	virtual void InitProjectileParams(float InDamage, float InitSpeed, float InMaxSpeed, TScriptInterface<ITowerEnemyInterface> InTargetEnemy);
 	/**
 	 * @brief Validates parameters and checks if projectile can be launched, if it can be launch then it we will call @see LaunchAtTarget() method.
 	 * @param StartLocation Where the projectile spawns.
 	 * @param EndLocation   Where it should land.
-	 * @param Damage		Amount of Damage that it should do on hit
+	 * @param InDamage		Amount of Damage that it should do on hit
 	 * @param ArcHeight     How high the arc peaks above the midpoint. 
 	 *                      Higher = floatier, lower = flatter.
 	 */
 	UFUNCTION()
-	void TryLaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, bool bHasArch = false, float ArcHeight = 500.f);
+	void TryLaunchAtTarget(FVector StartLocation, FVector EndLocation, float InDamage, bool bHasArch = false, float ArcHeight = 500.f);
 protected:
 	virtual void BeginPlay() override;
 	
@@ -45,14 +45,14 @@ protected:
 	 * @brief Launches the projectile toward a target with the option of using ballistic arc.
 	 * @param StartLocation Where the projectile spawns.
 	 * @param EndLocation   Where it should land.
-	 * @param Damage		Amount of Damage that it should do on hit
+	 * @param InDamage		Amount of Damage that it should do on hit
 	 * @param InitSpeed		Initial velocity of projectile on Spawn
 	 * @param InMaxSpeed	Maximum possible velocity.
 	 * @param ArcHeight     How high the arc peaks above the midpoint. 
 	 *                      Higher = floatier, lower = flatter.
 	 */
 	UFUNCTION()
-	virtual void LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, bool bHasArch = false, float ArcHeight = 500.f);
+	virtual void LaunchAtTarget(FVector StartLocation, FVector EndLocation, float InDamage, bool bHasArch = false, float ArcHeight = 500.f);
 	
 	/**
 	 * @brief Called when the projectile hits something.

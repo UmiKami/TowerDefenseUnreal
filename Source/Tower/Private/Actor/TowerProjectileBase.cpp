@@ -26,9 +26,9 @@ ATowerProjectileBase::ATowerProjectileBase()
 
 }
 
-void ATowerProjectileBase::InitProjectileParams(float Damage, float InitSpeed, float InMaxSpeed, TScriptInterface<ITowerEnemyInterface> InTargetEnemy)
+void ATowerProjectileBase::InitProjectileParams(float InDamage, float InitSpeed, float InMaxSpeed, TScriptInterface<ITowerEnemyInterface> InTargetEnemy)
 {
-	this->Damage = Damage;
+	this->Damage = InDamage;
 	TargetEnemy = InTargetEnemy;
 }
 
@@ -41,19 +41,19 @@ void ATowerProjectileBase::BeginPlay()
 	// SetLifeSpan(10.f);
 }
 
-void ATowerProjectileBase::TryLaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, bool bHasArch, float ArcHeight)
+void ATowerProjectileBase::TryLaunchAtTarget(FVector StartLocation, FVector EndLocation, float InDamage, bool bHasArch, float ArcHeight)
 {
-	if (Damage <= 0)
+	if (InDamage <= 0)
 	{
 		UE_LOG(LogTemp, Error, TEXT("Damage cannot be 0 or less."))
 		return;
 	}
 	
 	
-	LaunchAtTarget(StartLocation, EndLocation, Damage, bHasArch, ArcHeight);
+	LaunchAtTarget(StartLocation, EndLocation, InDamage, bHasArch, ArcHeight);
 }
 
-void ATowerProjectileBase::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float Damage, bool bHasArch, float ArcHeight)
+void ATowerProjectileBase::LaunchAtTarget(FVector StartLocation, FVector EndLocation, float InDamage, bool bHasArch, float ArcHeight)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Projectile %s Launched from %s."), *GetName(), *StartLocation.ToString());
 	
