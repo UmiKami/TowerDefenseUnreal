@@ -38,8 +38,7 @@ protected:
 	void StartNextWave();
 	
 	FTimerHandle EnemySpawnTimer;
-	
-	// TODO Consider evaluating this on a curve so there is less delays between waves the higher up we are
+
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly);
 	int DelayBeforeNextWave = 5.f;
 
