@@ -113,6 +113,9 @@ protected:
 	UPROPERTY()
 	TArray<TObjectPtr<ATowerEnemyPawn>> Targets;
 private:
+	UFUNCTION()
+	void OnTargetDeath(ATowerEnemyPawn* EnemyPawn);
+	
 	FTowerClasDefaultInfo* TowerClasDefaultInfo;
 	
 	FTimerHandle FireRateTimer;

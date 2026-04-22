@@ -113,6 +113,8 @@ void ATowerActorBase::OnActorOverlap(UPrimitiveComponent* OverlappedComponent, A
 
 	TObjectPtr<ATowerEnemyPawn> TargetActor = Cast<ATowerEnemyPawn>(OtherActor);
 	
+	TargetActor->OnDeath.AddDynamic(this, &ThisClass::OnTargetDeath);
+	
 	Targets.Add(TargetActor);
 	
 	if (TowerClasDefaultInfo->ProjectileClass && !FireRateTimer.IsValid())
@@ -126,6 +128,11 @@ void ATowerActorBase::OnActorOverlapEnd(UPrimitiveComponent* OverlappedComponent
 	if (!OtherActor->Implements<UTowerEnemyInterface>()) return;
 
 	Targets.Remove(Cast<ATowerEnemyPawn>(OtherActor));
+}
+
+void ATowerActorBase::OnTargetDeath(ATowerEnemyPawn* EnemyPawn)
+{
+	Targets.Remove(EnemyPawn);
 }
 
 void ATowerActorBase::ActorSelected()
