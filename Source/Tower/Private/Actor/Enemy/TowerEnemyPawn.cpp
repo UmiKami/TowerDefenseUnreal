@@ -70,8 +70,6 @@ float ATowerEnemyPawn::TakeDamage(float DamageAmount, struct FDamageEvent const&
 	if (Health <= 0.f)
 	{
 		OnDeath.Broadcast(this);
-		// TODO: Play death animation in BP
-		// TODO: Destroy in BP
 	}
 	
 	return DamageAmount;
