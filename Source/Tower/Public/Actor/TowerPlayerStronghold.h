@@ -38,8 +38,6 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void PostTakeDamageAction();
 	
-	// TODO consider adding a level to the stronghold and being able to upgrade it 
-	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	TObjectPtr<UStaticMeshComponent> StrongholdMesh;
 	
