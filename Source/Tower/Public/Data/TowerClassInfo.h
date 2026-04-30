@@ -44,6 +44,9 @@ struct FTowerClasDefaultInfo
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
 	TMap<int32,TObjectPtr<USkeletalMesh>> SkeletalMeshComponentPerLevel;
 	
+	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
+	TMap<int32,TObjectPtr<USkeletalMesh>> SkeletalGhostMeshComponentPerLevel;
+	
 	/** @brief Contains amount of damage per level. */
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
 	FCurveTableRowHandle DamageCurve;
@@ -69,4 +72,22 @@ class TOWER_API UTowerClassInfo : public UDataAsset
 public:
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
 	TMap<ETowerClass, FTowerClasDefaultInfo> TowerClassInformation;
+	
+	/**
+	 * @brief This is the material used to display the tower before it is placed, while the user is dragging it with the mouse cursor.
+	 */
+	UPROPERTY(EditDefaultsOnly, Category="Materials")
+	TObjectPtr<UMaterialInstance> GhostMaterialInstance; 
+	
+#if WITH_EDITOR
+	virtual void PreEditChange(FProperty* PropertyAboutToChange) override;
+
+	virtual void PostEditChangeChainProperty(struct FPropertyChangedChainEvent& PropertyChangedEvent) override;
+	
+private:
+	void SetGhostSkeletalMeshOnTowerMeshSet(struct FPropertyChangedChainEvent& PropertyChangedEvent,
+										FName PropertyName);
+	
+	TMap<ETowerClass, FTowerClasDefaultInfo> CachedTowerClassInformation;
+#endif
 };
