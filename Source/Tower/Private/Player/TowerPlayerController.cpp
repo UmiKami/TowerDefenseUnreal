@@ -1,8 +1,11 @@
 // Copyright UmiKami (Ernesto Gonzalez) © 2026
 
 #include "Player/TowerPlayerController.h"
+#include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "Actor/Tower/TowerActorGhostMirror.h"
 #include "Blueprint/UserWidget.h"
+#include "Data/TowerClassInfo.h"
 #include "Player/TowerPlayerState.h"
 #include "Game/TowerGameMode.h"
 #include "Game/TowerGameState.h"
@@ -13,6 +16,76 @@
 ATowerPlayerController::ATowerPlayerController()
 {
 	bShowMouseCursor = true;
+}
+
+void ATowerPlayerController::AttachMeshToFollowCursor(ETowerClass TowerClass, int32 TowerLevel)
+{
+	if (!TowerClassInfo) return;
+	
+	if (GhostMesh)
+	{
+		GhostMesh->Destroy();
+		GhostMesh = nullptr;
+	}
+
+	FVector WorldLocation;
+	FVector WorldDirection;
+
+	DeprojectMousePositionToWorld(WorldLocation, WorldDirection);
+	
+	FHitResult Hit;
+	FVector End = WorldLocation + WorldDirection * 10000.f;
+
+	GetWorld()->LineTraceSingleByChannel(
+		Hit,
+		WorldLocation,
+		End,
+		ECC_Visibility
+	);
+
+	FVector TowerSpawnLocation = Hit.bBlockingHit ? Hit.ImpactPoint : End;
+
+	FActorSpawnParameters Params;
+	Params.SpawnCollisionHandlingOverride =
+		ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	GhostMesh = GetWorld()->SpawnActor<ATowerActorGhostMirror>(
+		TowerClassInfo->GhostActorClass,
+		TowerSpawnLocation,
+		FRotator::ZeroRotator,
+		Params
+	);
+
+	USkeletalMeshComponent* MeshComp = GhostMesh->Mesh;
+	
+	MeshComp->SetSkeletalMesh(*TowerClassInfo->TowerClassInformation[TowerClass].SkeletalMeshComponentPerLevel.Find(TowerLevel));
+	MeshComp->SetMaterial(0, TowerClassInfo->GhostMaterialInstance);
+}
+
+void ATowerPlayerController::Tick(float DeltaSeconds)
+{
+	Super::Tick(DeltaSeconds);
+	
+	if (!GhostMesh || GhostMesh->IsPendingKillPending()) return;
+	
+	FVector WorldLocation;
+	FVector WorldDirection;
+
+	DeprojectMousePositionToWorld(WorldLocation, WorldDirection);
+	
+	FHitResult Hit;
+	FVector End = WorldLocation + WorldDirection * 10000.f;
+
+	GetWorld()->LineTraceSingleByChannel(
+		Hit,
+		WorldLocation,
+		End,
+		ECC_Visibility
+	);
+
+	const FVector NextLocation = Hit.bBlockingHit ? Hit.ImpactPoint : End;
+	
+	GhostMesh->SetActorLocation(NextLocation);
 }
 
 void ATowerPlayerController::SetupInputComponent()
@@ -27,6 +100,12 @@ void ATowerPlayerController::SetupInputComponent()
 		{
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
+	}
+	
+	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(InputComponent))
+	{
+		EnhancedInputComponent->BindAction(EscapeAction, ETriggerEvent::Started, this, &ThisClass::OnEscape);
+		EnhancedInputComponent->BindAction(RightMouseAction, ETriggerEvent::Started, this, &ThisClass::OnRMB);
 	}
 }
 
@@ -52,12 +131,32 @@ void ATowerPlayerController::OnPossess(APawn* InPawn)
 	PlayerHUD->AddToViewport();
 	PlayerHUD->SetWidgetController(PlayerHUDWidgetController);
 	
-	GameMode->OnGameOverSignature.AddDynamic(this, &ThisClass::DisplayGameOverOverlay);
+	GameMode->OnGameOverSignature.AddDynamic(this, &ThisClass::OnGameOver);
 }
 
-void ATowerPlayerController::DisplayGameOverOverlay()
+void ATowerPlayerController::OnEscape(const FInputActionValue& Value)
+{
+	if (GhostMesh)
+	{
+		GhostMesh->Destroy();
+		GhostMesh = nullptr;
+	}
+}
+
+void ATowerPlayerController::OnRMB(const FInputActionValue& InputActionValue)
+{
+	if (GhostMesh)
+	{
+		GhostMesh->Destroy();
+		GhostMesh = nullptr;
+	}
+}
+
+void ATowerPlayerController::OnGameOver()
 {
 	PlayerHUD->RemoveFromParent();
+	GhostMesh->Destroy();
+	GhostMesh = nullptr;
 	
 	UUserWidget* GameOverUserWidget = CreateWidget(this, GameOverWidgetClass);
 	
@@ -74,7 +173,6 @@ void ATowerPlayerController::DisplayGameOverOverlay()
 	
 	GameOverWidget->AddToViewport();
 	GameOverWidget->SetWidgetController(GameOverWidgetController);
-	
 }
 	
 	

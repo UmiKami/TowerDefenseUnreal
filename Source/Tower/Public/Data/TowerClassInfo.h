@@ -6,6 +6,7 @@
 #include "Engine/DataAsset.h"
 #include "Actor/TowerProjectileBase.h"
 #include "TowerClassInfo.generated.h"
+class ATowerActorGhostMirror;
 /**
  * @brief These are the types of towers that can be spawned.
  * @ingroup Tower
@@ -44,9 +45,6 @@ struct FTowerClasDefaultInfo
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
 	TMap<int32,TObjectPtr<USkeletalMesh>> SkeletalMeshComponentPerLevel;
 	
-	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
-	TMap<int32,TObjectPtr<USkeletalMesh>> SkeletalGhostMeshComponentPerLevel;
-	
 	/** @brief Contains amount of damage per level. */
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
 	FCurveTableRowHandle DamageCurve;
@@ -79,15 +77,6 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category="Materials")
 	TObjectPtr<UMaterialInstance> GhostMaterialInstance; 
 	
-#if WITH_EDITOR
-	virtual void PreEditChange(FProperty* PropertyAboutToChange) override;
-
-	virtual void PostEditChangeChainProperty(struct FPropertyChangedChainEvent& PropertyChangedEvent) override;
-	
-private:
-	void SetGhostSkeletalMeshOnTowerMeshSet(struct FPropertyChangedChainEvent& PropertyChangedEvent,
-										FName PropertyName);
-	
-	TMap<ETowerClass, FTowerClasDefaultInfo> CachedTowerClassInformation;
-#endif
+	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
+	TSubclassOf<ATowerActorGhostMirror> GhostActorClass;
 };
