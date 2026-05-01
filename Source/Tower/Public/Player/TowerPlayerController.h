@@ -51,7 +51,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category="UI")
 	TSubclassOf<UUserWidget> GameOverWidgetClass; 
 	
-	UPROPERTY(EditDefaultsOnly, Category = "Tower|UI")
+	UPROPERTY(EditDefaultsOnly, Category = "UI")
 	TSubclassOf<UTowerWidgetController> WidgetControllerClass;
 	
 	UPROPERTY(EditAnywhere, Category ="Input|Input Mappings")
@@ -63,14 +63,19 @@ protected:
 	UPROPERTY(EditDefaultsOnly,Category="Input")
 	TObjectPtr<UInputAction> RightMouseAction;
 	
+	UPROPERTY(EditDefaultsOnly,Category="Input")
+	TObjectPtr<UInputAction> LeftMouseAction;
+	
 	UPROPERTY(EditDefaultsOnly, Category="UI|Gameplay Actions")
 	TObjectPtr<UTowerClassInfo> TowerClassInfo;
 	
 	UPROPERTY()
 	TObjectPtr<ATowerActorGhostMirror> GhostMesh;
+
 private:
 	void OnEscape(const FInputActionValue& Value);
 	void OnRMB(const FInputActionValue& InputActionValue);
+	void OnLMB(const FInputActionValue& InputActionValue);
 	
 	UFUNCTION()
 	void OnGameOver();
