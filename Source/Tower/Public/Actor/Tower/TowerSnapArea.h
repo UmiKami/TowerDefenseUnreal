@@ -18,6 +18,9 @@ class TOWER_API ATowerSnapArea : public AActor
 public:
 	ATowerSnapArea();
 	
+	UPROPERTY(BlueprintReadOnly)
+	bool bOccupied = false;
+	
 protected:
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UStaticMeshComponent> SnapAreaRecognitionRangeMesh;

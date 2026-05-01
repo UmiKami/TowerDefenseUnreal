@@ -6,6 +6,7 @@
 #include "Engine/DataAsset.h"
 #include "Actor/TowerProjectileBase.h"
 #include "TowerClassInfo.generated.h"
+class ATowerActorBase;
 class ATowerActorGhostMirror;
 /**
  * @brief These are the types of towers that can be spawned.
@@ -79,4 +80,7 @@ public:
 	
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
 	TSubclassOf<ATowerActorGhostMirror> GhostActorClass;
+	
+	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
+	TSubclassOf<ATowerActorBase> TowerActorBaseClass;
 };

@@ -3,7 +3,9 @@
 #include "Player/TowerPlayerController.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "Actor/TowerActorBase.h"
 #include "Actor/Tower/TowerActorGhostMirror.h"
+#include "Actor/Tower/TowerSnapArea.h"
 #include "Blueprint/UserWidget.h"
 #include "Data/TowerClassInfo.h"
 #include "Player/TowerPlayerState.h"
@@ -57,8 +59,11 @@ void ATowerPlayerController::AttachMeshToFollowCursor(ETowerClass TowerClass, in
 	);
 
 	USkeletalMeshComponent* MeshComp = GhostMesh->Mesh;
-	
-	MeshComp->SetSkeletalMesh(*TowerClassInfo->TowerClassInformation[TowerClass].SkeletalMeshComponentPerLevel.Find(TowerLevel));
+	GhostMesh->TowerClass = TowerClass;
+	GhostMesh->Level = TowerLevel;
+
+	MeshComp->SetSkeletalMesh(
+		*TowerClassInfo->TowerClassInformation[TowerClass].SkeletalMeshComponentPerLevel.Find(TowerLevel));
 	MeshComp->SetMaterial(0, TowerClassInfo->GhostMaterialInstance);
 }
 
@@ -84,25 +89,31 @@ void ATowerPlayerController::Tick(float DeltaSeconds)
 	);
 
 	const FVector NextLocation = Hit.bBlockingHit ? Hit.ImpactPoint : End;
-	
+
 	// DrawDebugSphere(GetWorld(), NextLocation, 32, 12, FColor::Green, false, 5);
 
-	if (IsValid(Hit.GetActor()) && Hit.GetActor()->ActorHasTag("SnapArea"))
+	AActor* HitActor = Hit.GetActor();
+
+	// TODO This can be optimized, avoid casting on Tick
+	ATowerSnapArea* HitSnapArea = IsValid(HitActor) ? Cast<ATowerSnapArea>(HitActor) : nullptr;
+
+	if (HitSnapArea && !HitSnapArea->bOccupied)
 	{
-		FAttachmentTransformRules AttachmentTransformRules{
+		const FAttachmentTransformRules AttachmentTransformRules{
 			EAttachmentRule::SnapToTarget,
 			EAttachmentRule::KeepWorld,
 			EAttachmentRule::KeepWorld,
 			false
 		};
-			
-		GhostMesh->bSnappedToArea = GhostMesh->AttachToActor(Hit.GetActor(), AttachmentTransformRules);
+
+		GhostMesh->bSnappedToArea = GhostMesh->AttachToActor(HitActor, AttachmentTransformRules);
+		GhostMesh->CurrentSnapArea = HitSnapArea;
 	}
-	
-	if (!IsValid(Hit.GetActor()) || IsValid(Hit.GetActor()) && !Hit.GetActor()->ActorHasTag("SnapArea"))
+
+	if (!IsValid(HitActor) || IsValid(HitActor) && !HitActor->ActorHasTag("SnapArea"))
 	{
 		GhostMesh->bSnappedToArea = false;
-		
+
 		FDetachmentTransformRules DetachmentTransformRules{
 			EDetachmentRule::KeepWorld,
 			EDetachmentRule::KeepWorld,
@@ -110,12 +121,12 @@ void ATowerPlayerController::Tick(float DeltaSeconds)
 			false
 		};
 
-			
 		GhostMesh->DetachFromActor(DetachmentTransformRules);
+		GhostMesh->CurrentSnapArea = nullptr;
 	}
-	
+
 	if (GhostMesh->bSnappedToArea) return;
-	
+
 	GhostMesh->SetActorLocation(NextLocation);
 }
 
@@ -138,6 +149,7 @@ void ATowerPlayerController::SetupInputComponent()
 	{
 		EnhancedInputComponent->BindAction(EscapeAction, ETriggerEvent::Started, this, &ThisClass::OnEscape);
 		EnhancedInputComponent->BindAction(RightMouseAction, ETriggerEvent::Started, this, &ThisClass::OnRMB);
+		EnhancedInputComponent->BindAction(LeftMouseAction, ETriggerEvent::Started, this, &ThisClass::OnLMB);
 	}
 }
 
@@ -184,11 +196,45 @@ void ATowerPlayerController::OnRMB(const FInputActionValue& InputActionValue)
 	}
 }
 
+void ATowerPlayerController::OnLMB(const FInputActionValue& InputActionValue)
+{
+	if (IsValid(GhostMesh) && GhostMesh->bSnappedToArea)
+	{
+		const FTransform NewTowerTransform
+		{
+			GhostMesh->GetActorLocation()
+		};
+
+		ATowerActorBase* Tower = GetWorld()->SpawnActorDeferred<ATowerActorBase>(
+			TowerClassInfo->TowerActorBaseClass,
+			NewTowerTransform,
+			this,
+			GetInstigator()
+		);
+
+		Tower->SetTowerLevel(GhostMesh->Level);
+		Tower->SetTowerClass(GhostMesh->TowerClass);
+
+		Tower->FinishSpawning(NewTowerTransform);
+
+		if (Tower)
+		{
+			GhostMesh->CurrentSnapArea->bOccupied = true;
+			GhostMesh->Destroy();
+			GhostMesh = nullptr;
+		}
+	}
+}
+
 void ATowerPlayerController::OnGameOver()
 {
 	PlayerHUD->RemoveFromParent();
-	GhostMesh->Destroy();
-	GhostMesh = nullptr;
+	
+	if (IsValid(GhostMesh))
+	{
+		GhostMesh->Destroy();
+		GhostMesh = nullptr;
+	}
 
 	UUserWidget* GameOverUserWidget = CreateWidget(this, GameOverWidgetClass);
 
