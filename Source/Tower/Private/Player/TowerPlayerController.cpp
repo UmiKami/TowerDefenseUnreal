@@ -21,7 +21,7 @@ ATowerPlayerController::ATowerPlayerController()
 void ATowerPlayerController::AttachMeshToFollowCursor(ETowerClass TowerClass, int32 TowerLevel)
 {
 	if (!TowerClassInfo) return;
-	
+
 	if (GhostMesh)
 	{
 		GhostMesh->Destroy();
@@ -32,7 +32,7 @@ void ATowerPlayerController::AttachMeshToFollowCursor(ETowerClass TowerClass, in
 	FVector WorldDirection;
 
 	DeprojectMousePositionToWorld(WorldLocation, WorldDirection);
-	
+
 	FHitResult Hit;
 	FVector End = WorldLocation + WorldDirection * 10000.f;
 
@@ -65,14 +65,14 @@ void ATowerPlayerController::AttachMeshToFollowCursor(ETowerClass TowerClass, in
 void ATowerPlayerController::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
-	
+
 	if (!GhostMesh || GhostMesh->IsPendingKillPending()) return;
-	
+
 	FVector WorldLocation;
 	FVector WorldDirection;
 
 	DeprojectMousePositionToWorld(WorldLocation, WorldDirection);
-	
+
 	FHitResult Hit;
 	FVector End = WorldLocation + WorldDirection * 10000.f;
 
@@ -85,6 +85,37 @@ void ATowerPlayerController::Tick(float DeltaSeconds)
 
 	const FVector NextLocation = Hit.bBlockingHit ? Hit.ImpactPoint : End;
 	
+	// DrawDebugSphere(GetWorld(), NextLocation, 32, 12, FColor::Green, false, 5);
+
+	if (IsValid(Hit.GetActor()) && Hit.GetActor()->ActorHasTag("SnapArea"))
+	{
+		FAttachmentTransformRules AttachmentTransformRules{
+			EAttachmentRule::SnapToTarget,
+			EAttachmentRule::KeepWorld,
+			EAttachmentRule::KeepWorld,
+			false
+		};
+			
+		GhostMesh->bSnappedToArea = GhostMesh->AttachToActor(Hit.GetActor(), AttachmentTransformRules);
+	}
+	
+	if (!IsValid(Hit.GetActor()) || IsValid(Hit.GetActor()) && !Hit.GetActor()->ActorHasTag("SnapArea"))
+	{
+		GhostMesh->bSnappedToArea = false;
+		
+		FDetachmentTransformRules DetachmentTransformRules{
+			EDetachmentRule::KeepWorld,
+			EDetachmentRule::KeepWorld,
+			EDetachmentRule::KeepWorld,
+			false
+		};
+
+			
+		GhostMesh->DetachFromActor(DetachmentTransformRules);
+	}
+	
+	if (GhostMesh->bSnappedToArea) return;
+	
 	GhostMesh->SetActorLocation(NextLocation);
 }
 
@@ -96,12 +127,13 @@ void ATowerPlayerController::SetupInputComponent()
 
 	if (IsLocalPlayerController())
 	{
-		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer()))
+		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<
+			UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer()))
 		{
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
 	}
-	
+
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(InputComponent))
 	{
 		EnhancedInputComponent->BindAction(EscapeAction, ETriggerEvent::Started, this, &ThisClass::OnEscape);
@@ -114,12 +146,12 @@ void ATowerPlayerController::OnPossess(APawn* InPawn)
 	Super::OnPossess(InPawn);
 
 	UUserWidget* PlayerHUDUserWidget = CreateWidget(this, PlayerHUDClass);
-	PlayerHUD= Cast<UTowerUserWidget>(PlayerHUDUserWidget);
+	PlayerHUD = Cast<UTowerUserWidget>(PlayerHUDUserWidget);
 
 	UTowerWidgetController* PlayerHUDWidgetController = NewObject<UTowerWidgetController>(this, WidgetControllerClass);
 
 	ATowerGameMode* GameMode = Cast<ATowerGameMode>(UGameplayStatics::GetGameMode(this));
-	
+
 	const FWidgetControllerParams Params{
 		this,
 		GetPlayerState<ATowerPlayerState>(),
@@ -130,7 +162,7 @@ void ATowerPlayerController::OnPossess(APawn* InPawn)
 
 	PlayerHUD->AddToViewport();
 	PlayerHUD->SetWidgetController(PlayerHUDWidgetController);
-	
+
 	GameMode->OnGameOverSignature.AddDynamic(this, &ThisClass::OnGameOver);
 }
 
@@ -157,11 +189,11 @@ void ATowerPlayerController::OnGameOver()
 	PlayerHUD->RemoveFromParent();
 	GhostMesh->Destroy();
 	GhostMesh = nullptr;
-	
+
 	UUserWidget* GameOverUserWidget = CreateWidget(this, GameOverWidgetClass);
-	
+
 	GameOverWidget = Cast<UTowerUserWidget>(GameOverUserWidget);
-	
+
 	UTowerWidgetController* GameOverWidgetController = NewObject<UTowerWidgetController>(this, WidgetControllerClass);
 	const FWidgetControllerParams Params{
 		this,
@@ -170,10 +202,7 @@ void ATowerPlayerController::OnGameOver()
 		Cast<ATowerGameMode>(UGameplayStatics::GetGameMode(this))
 	};
 	GameOverWidgetController->SetWidgetControllerParams(Params);
-	
+
 	GameOverWidget->AddToViewport();
 	GameOverWidget->SetWidgetController(GameOverWidgetController);
 }
-	
-	
-
