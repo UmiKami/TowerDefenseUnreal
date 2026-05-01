@@ -114,7 +114,6 @@ void ATowerEnemyPawn::SetInitialProperties()
 	{
 		PawnAIController = AIController;
 		checkf(PawnAIController, TEXT("AI Controller not set."))
-		UE_LOG(LogTemp, Warning, TEXT("%s is %d"), *PawnAIController.GetName(), IsValid(PawnAIController))
 	}
 	
 	PathToFollow = Cast<ATowerEnemyPathActor>(UGameplayStatics::GetActorOfClass(GetWorld(), ATowerEnemyPathActor::StaticClass()));

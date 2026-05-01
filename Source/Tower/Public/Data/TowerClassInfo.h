@@ -6,6 +6,8 @@
 #include "Engine/DataAsset.h"
 #include "Actor/TowerProjectileBase.h"
 #include "TowerClassInfo.generated.h"
+class ATowerActorBase;
+class ATowerActorGhostMirror;
 /**
  * @brief These are the types of towers that can be spawned.
  * @ingroup Tower
@@ -69,4 +71,16 @@ class TOWER_API UTowerClassInfo : public UDataAsset
 public:
 	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
 	TMap<ETowerClass, FTowerClasDefaultInfo> TowerClassInformation;
+	
+	/**
+	 * @brief This is the material used to display the tower before it is placed, while the user is dragging it with the mouse cursor.
+	 */
+	UPROPERTY(EditDefaultsOnly, Category="Materials")
+	TObjectPtr<UMaterialInstance> GhostMaterialInstance; 
+	
+	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
+	TSubclassOf<ATowerActorGhostMirror> GhostActorClass;
+	
+	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
+	TSubclassOf<ATowerActorBase> TowerActorBaseClass;
 };

@@ -6,6 +6,11 @@
 #include "GameFramework/PlayerController.h"
 #include "TowerPlayerController.generated.h"
 
+struct FInputActionValue;
+class UInputAction;
+class ATowerActorGhostMirror;
+enum class ETowerClass : uint8;
+class UTowerClassInfo;
 class UTowerWidgetController;
 class UTowerUserWidget;
 class UInputMappingContext;
@@ -25,6 +30,10 @@ public:
 	 */
 	ATowerPlayerController();
 	
+	UFUNCTION(BlueprintCallable)
+	void AttachMeshToFollowCursor(ETowerClass TowerClass, int32 TowerLevel = 1);
+	
+	virtual void Tick(float DeltaSeconds) override;
 protected:
 	virtual void SetupInputComponent() override;
 	
@@ -42,14 +51,32 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category="UI")
 	TSubclassOf<UUserWidget> GameOverWidgetClass; 
 	
-	UPROPERTY(EditDefaultsOnly, Category = "Tower|UI")
+	UPROPERTY(EditDefaultsOnly, Category = "UI")
 	TSubclassOf<UTowerWidgetController> WidgetControllerClass;
 	
 	UPROPERTY(EditAnywhere, Category ="Input|Input Mappings")
 	TObjectPtr<UInputMappingContext> DefaultMappingContext;
 	
+	UPROPERTY(EditDefaultsOnly,Category="Input")
+	TObjectPtr<UInputAction> EscapeAction;
+	
+	UPROPERTY(EditDefaultsOnly,Category="Input")
+	TObjectPtr<UInputAction> RightMouseAction;
+	
+	UPROPERTY(EditDefaultsOnly,Category="Input")
+	TObjectPtr<UInputAction> LeftMouseAction;
+	
+	UPROPERTY(EditDefaultsOnly, Category="UI|Gameplay Actions")
+	TObjectPtr<UTowerClassInfo> TowerClassInfo;
+	
+	UPROPERTY()
+	TObjectPtr<ATowerActorGhostMirror> GhostMesh;
+
 private:
+	void OnEscape(const FInputActionValue& Value);
+	void OnRMB(const FInputActionValue& InputActionValue);
+	void OnLMB(const FInputActionValue& InputActionValue);
 	
 	UFUNCTION()
-	void DisplayGameOverOverlay();
+	void OnGameOver();
 };

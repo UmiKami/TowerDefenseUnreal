@@ -7,7 +7,6 @@
 #include "Actor/Projectile/TowerLinearProjectile.h"
 #include "Components/BoxComponent.h"
 #include "Data/TowerClassInfo.h"
-#include "Kismet/KismetSystemLibrary.h"
 
 ATowerActorBase::ATowerActorBase()
 {
@@ -39,6 +38,11 @@ void ATowerActorBase::Tick(float DeltaSeconds)
 void ATowerActorBase::SetTowerClass(const ETowerClass& InTowerClass)
 {
 	TowerClass = InTowerClass;
+}
+
+void ATowerActorBase::SetTowerLevel(int32 InLevel)
+{
+	Level = InLevel;
 }
 
 void ATowerActorBase::BeginPlay()
@@ -128,6 +132,11 @@ void ATowerActorBase::OnActorOverlapEnd(UPrimitiveComponent* OverlappedComponent
 	if (!OtherActor->Implements<UTowerEnemyInterface>()) return;
 
 	Targets.Remove(Cast<ATowerEnemyPawn>(OtherActor));
+}
+
+void ATowerActorBase::SetCollisionEnable(const bool bEnabled) const
+{
+	BoxCollider->SetCollisionEnabled(bEnabled ? ECollisionEnabled::QueryAndProbe : ECollisionEnabled::NoCollision);
 }
 
 void ATowerActorBase::OnTargetDeath(ATowerEnemyPawn* EnemyPawn)
