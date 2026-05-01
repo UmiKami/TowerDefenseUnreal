@@ -16,4 +16,7 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	USkeletalMeshComponent* Mesh;
+	
+	UPROPERTY(VisibleAnywhere)
+	bool bSnappedToArea = false;
 };
