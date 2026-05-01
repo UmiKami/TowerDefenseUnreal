@@ -55,6 +55,16 @@ void ATowerPlayerCharacter::Move(const FInputActionValue& Value)
 	AddMovementInput(WorldDirection, 200);
 }
 
+void ATowerPlayerCharacter::DeselectCurrentlySelectedActors()
+{
+	for (auto HighlightedActor : SelectedActors)
+	{
+		HighlightedActor->ActorDeselected();
+	}	
+		
+	SelectedActors.Empty();
+}
+
 void ATowerPlayerCharacter::LMouseButtonPressed(const FInputActionValue& Value)
 {
 
@@ -83,17 +93,14 @@ void ATowerPlayerCharacter::LMouseButtonPressed(const FInputActionValue& Value)
 	
 	if (const TScriptInterface<ITowerHighlightInterface> HighlightableActor = ActorHit)
 	{
+		DeselectCurrentlySelectedActors();
+		
 		HighlightableActor->ActorSelected();
 		
 		SelectedActors.Add(HighlightableActor);
 	} else
 	{
-		for (auto HighlightedActor : SelectedActors)
-		{
-			HighlightedActor->ActorDeselected();
-		}	
-		
-		SelectedActors.Empty();
+		DeselectCurrentlySelectedActors();
 	}
 }
 

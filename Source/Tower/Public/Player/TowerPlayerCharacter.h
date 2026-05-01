@@ -78,6 +78,7 @@ private:
 	 * @param Value FVector2D type value in his case.
 	 */
 	void Move(const FInputActionValue& Value);
+	void DeselectCurrentlySelectedActors();
 	void LMouseButtonPressed(const FInputActionValue& Value);
 	void LMouseButtonReleased(const FInputActionValue& Value);
 };
