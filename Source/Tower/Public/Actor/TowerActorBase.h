@@ -37,6 +37,7 @@ public:
 	 * @param InTowerClass Type of tower to be spawn. @see ETowerClass
 	 */
 	void SetTowerClass(const ETowerClass& InTowerClass); 
+	void SetTowerLevel(int32 InLevel); 
 	
 	virtual void ActorSelected() override;
 	virtual void ActorDeselected() override;
@@ -56,6 +57,10 @@ protected:
 	 */
 	UFUNCTION()
 	void OnActorOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	
+	
+	UFUNCTION(BlueprintCallable)
+	void SetCollisionEnable(bool bEnabled) const;
 	
 	UPROPERTY(EditDefaultsOnly)
 	TObjectPtr<UBoxComponent> BoxCollider;
