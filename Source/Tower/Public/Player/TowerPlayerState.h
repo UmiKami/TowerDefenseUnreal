@@ -23,8 +23,6 @@ class TOWER_API ATowerPlayerState : public APlayerState
 public:
 	ATowerPlayerState();
 	
-	virtual void BeginPlay() override;
-	
 	/**
 	 * 
 	 * @return Current Health of the player.
@@ -81,6 +79,8 @@ public:
 	FOnPlayerDeathSignature OnPlayerDeathSignature;
 	
 protected:
+	virtual void BeginPlay() override;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	float Health;
 	
