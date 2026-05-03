@@ -9,10 +9,15 @@
 #include "Containers/SpscQueue.h"
 #include "TowerActorBase.generated.h"
 
+class UTowerActorContextMenuWidgetController;
+class UWidgetComponent;
 class ATowerEnemyPawn;
 class UBoxComponent;
 enum class ETowerClass : uint8;
 class UTowerClassInfo;
+
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnTowerLevelChangeSignature, int32, NewTowerLevel);
 
 /**
  * @brief The actual tower actor player will be spawning in the world.
@@ -39,8 +44,30 @@ public:
 	void SetTowerClass(const ETowerClass& InTowerClass); 
 	void SetTowerLevel(int32 InLevel); 
 	
+	UFUNCTION(BlueprintPure)
+	FORCEINLINE int32 GetTowerLevel() const {return Level;}
+	
 	virtual void ActorSelected() override;
 	virtual void ActorDeselected() override;
+
+	/**
+	 * 
+	 * @return Returns the cost of the tower at level 1. Aka Base Cost.
+	 */
+	UFUNCTION(BlueprintPure)
+	float GetBaseCost() const;
+	
+	UFUNCTION(BlueprintCallable)
+	float GetUpgradeCost() const;
+	
+	UFUNCTION(BlueprintCallable)
+	float GetDowngradeRefund() const;
+
+	UFUNCTION(BlueprintCallable)
+	void UpgradeTower();
+	
+	UFUNCTION(BlueprintCallable)
+	void DowngradeTower();
 
 protected:
 	virtual void BeginPlay() override;
@@ -58,7 +85,6 @@ protected:
 	UFUNCTION()
 	void OnActorOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 	
-	
 	UFUNCTION(BlueprintCallable)
 	void SetCollisionEnable(bool bEnabled) const;
 	
@@ -74,6 +100,12 @@ protected:
 	
 	UPROPERTY(EditDefaultsOnly)
 	TObjectPtr<USkeletalMeshComponent> TowerMesh;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="UI")
+	TObjectPtr<UWidgetComponent> TowerContextMenu;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="UI")
+	TSubclassOf<UTowerActorContextMenuWidgetController> ContextMenuWidgetControllerClass;
 	
 	/**
 	 * @brief Determines how far the tower can shoot from and detect enemies.
@@ -117,9 +149,21 @@ protected:
 	
 	UPROPERTY()
 	TArray<TObjectPtr<ATowerEnemyPawn>> Targets;
+	
+	UPROPERTY(BlueprintAssignable)
+	FOnTowerLevelChangeSignature OnTowerLevelChange;
+
 private:
 	UFUNCTION()
 	void OnTargetDeath(ATowerEnemyPawn* EnemyPawn);
+	
+	UFUNCTION()
+	void DisplayContextMenu();
+	
+	UFUNCTION()
+	void HideContextMenu();
+	
+	void UpdateTowerLevelBasedProperties();
 	
 	FTowerClasDefaultInfo* TowerClasDefaultInfo;
 	
