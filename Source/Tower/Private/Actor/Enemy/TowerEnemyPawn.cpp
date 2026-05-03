@@ -41,6 +41,11 @@ bool ATowerEnemyPawn::IsValidPtr() const
 	return IsValid(this);
 }
 
+float ATowerEnemyPawn::GetKillReward() const
+{
+	return GoldRewardOnKill;
+}
+
 void ATowerEnemyPawn::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,
                                 const FHitResult& SweepResult)
 {

@@ -51,6 +51,9 @@ public:
 
 	virtual bool IsValidPtr() const override;
 
+	UFUNCTION(BlueprintPure)
+	float GetKillReward() const;
+	
 protected:
 	UFUNCTION()
 	void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
@@ -114,6 +117,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Stats")
 	float Damage = 10.f;
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Loot")
+	float GoldRewardOnKill = 5.f;
 
 public:
 	virtual void Tick(float DeltaSeconds) override;
