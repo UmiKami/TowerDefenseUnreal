@@ -43,18 +43,21 @@ struct FTowerClasDefaultInfo
 	GENERATED_BODY()
 	
 	/** @brief Specifies a different mesh per tower level. */
-	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Class Defaults")
 	TMap<int32,TObjectPtr<USkeletalMesh>> SkeletalMeshComponentPerLevel;
 	
 	/** @brief Contains amount of damage per level. */
-	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Class Defaults")
 	FCurveTableRowHandle DamageCurve;
 	
 	/** @brief Contains fire rate per level. */
-	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
+	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly, Category="Class Defaults")
 	FCurveTableRowHandle FireRateCurve;
 	
-	UPROPERTY(EditDefaultsOnly, Category="Class Defaults", meta = (DisplayName=ProjectileType))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Class Defaults")
+	FCurveTableRowHandle CostPerLevel;
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Class Defaults", meta = (DisplayName=ProjectileType))
 	TSubclassOf<ATowerProjectileBase> ProjectileClass;
 };
 
@@ -69,7 +72,7 @@ class TOWER_API UTowerClassInfo : public UDataAsset
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY(EditDefaultsOnly, Category="Class Defaults")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Class Defaults")
 	TMap<ETowerClass, FTowerClasDefaultInfo> TowerClassInformation;
 	
 	/**
