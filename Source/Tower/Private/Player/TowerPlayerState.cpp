@@ -31,6 +31,22 @@ void ATowerPlayerState::SetMaxHealth(const float NewMaxHealth)
 	MaxHealth = NewMaxHealth;
 }
 
+void ATowerPlayerState::WithdrawGold(const float Amount)
+{
+	if (Amount < 0 || Amount > Gold) return;
+	
+	Gold -= Amount;
+	OnPlayerGoldChangeSignature.Broadcast(Gold);
+}
+
+void ATowerPlayerState::DepositGold(const float Amount)
+{
+	if (Amount < 0) return;
+	
+	Gold += Amount;
+	OnPlayerGoldChangeSignature.Broadcast(Gold);
+}
+
 void ATowerPlayerState::AddPlacedTower(ATowerActorBase* NewTower)
 {
 	PlacedTowers.Add(NewTower);

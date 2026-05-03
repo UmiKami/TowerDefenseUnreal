@@ -219,6 +219,9 @@ void ATowerPlayerController::OnLMB(const FInputActionValue& InputActionValue)
 
 		if (Tower)
 		{
+			ATowerPlayerState* TPS = CastChecked<ATowerPlayerState>(PlayerState);
+			TPS->WithdrawGold(Tower->GetBaseCost());
+			
 			GhostMesh->CurrentSnapArea->bOccupied = true;
 			GhostMesh->Destroy();
 			GhostMesh = nullptr;

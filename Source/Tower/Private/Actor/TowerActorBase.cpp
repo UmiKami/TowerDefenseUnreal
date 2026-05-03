@@ -6,7 +6,13 @@
 #include "Actor/Enemy/TowerEnemyPawn.h"
 #include "Actor/Projectile/TowerLinearProjectile.h"
 #include "Components/BoxComponent.h"
+#include "Components/WidgetComponent.h"
 #include "Data/TowerClassInfo.h"
+#include "Game/TowerGameMode.h"
+#include "Kismet/GameplayStatics.h"
+#include "Player/TowerPlayerState.h"
+#include "UserInterface/TowerUserWidget.h"
+#include "UserInterface/WidgetController/TowerActorContextMenuWidgetController.h"
 
 ATowerActorBase::ATowerActorBase()
 {
@@ -22,6 +28,9 @@ ATowerActorBase::ATowerActorBase()
 
 	TowerMesh = CreateDefaultSubobject<USkeletalMeshComponent>("TowerSkeletalMesh");
 	TowerMesh->SetupAttachment(RootComponent);
+	
+	TowerContextMenu = CreateDefaultSubobject<UWidgetComponent>("ContextMenu");
+	TowerContextMenu->SetupAttachment(RootComponent);
 }
 
 void ATowerActorBase::Tick(float DeltaSeconds)
@@ -50,20 +59,42 @@ void ATowerActorBase::BeginPlay()
 	Super::BeginPlay();
 
 	checkf(TowerClassInfo, TEXT("TowerClassInfo DataAsset MUST be set in tower actor BEFORE spawn."))
+	checkf(TowerContextMenu->GetUserWidgetObject(), TEXT("No context menu user widget assigned for tower.")) 
+	checkf(ContextMenuWidgetControllerClass, TEXT("No widget controller class assign for tower.")) 
 
 	TowerRangeDiskMesh->SetVisibility(false);
 
 	TowerClasDefaultInfo = TowerClassInfo->TowerClassInformation.Find(TowerClass);
-	USkeletalMesh* SkeletalMeshComponent = *TowerClasDefaultInfo->SkeletalMeshComponentPerLevel.Find(Level);
 
-	TowerMesh->SetSkeletalMesh(SkeletalMeshComponent);
-	Damage = TowerClasDefaultInfo->DamageCurve.GetCurve("DamageCurve Not Found")->Eval(Level);
-	FireRate = TowerClasDefaultInfo->FireRateCurve.GetCurve("FireRateCurve Not Found")->Eval(Level);
-
-	TowerRangeDiskMesh->SetRelativeScale3D({TowerAttackRange, TowerAttackRange, .2f});
+	UpdateTowerLevelBasedProperties();
 
 	TowerRangeDiskMesh->OnComponentBeginOverlap.AddDynamic(this, &ThisClass::OnActorOverlap);
 	TowerRangeDiskMesh->OnComponentEndOverlap.AddDynamic(this, &ThisClass::OnActorOverlapEnd);
+	
+	if (UTowerUserWidget* ContextMenuUserWidget = Cast<UTowerUserWidget>(TowerContextMenu->GetUserWidgetObject()))
+	{
+		UTowerActorContextMenuWidgetController* ContextMenuWidgetController = NewObject<UTowerActorContextMenuWidgetController>(this, ContextMenuWidgetControllerClass);
+		
+		const FWidgetControllerParams Params{
+			nullptr,
+			Cast<ATowerPlayerState>(UGameplayStatics::GetPlayerState(this, 0)),
+			nullptr,
+			nullptr
+		};
+		
+		ContextMenuWidgetController->OwningTowerActor = this;
+		
+		ContextMenuWidgetController->SetWidgetControllerParams(Params);
+
+		ContextMenuUserWidget->SetWidgetController(ContextMenuWidgetController);
+		
+		HideContextMenu();
+	}
+	
+	if (ATowerGameMode* GM =  Cast<ATowerGameMode>(UGameplayStatics::GetGameMode(this)))
+	{
+		GM->OnGameOverSignature.AddDynamic(this, &ThisClass::HideContextMenu);
+	}
 }
 
 void ATowerActorBase::Fire()
@@ -147,9 +178,84 @@ void ATowerActorBase::OnTargetDeath(ATowerEnemyPawn* EnemyPawn)
 void ATowerActorBase::ActorSelected()
 {
 	TowerRangeDiskMesh->SetVisibility(true);
+	DisplayContextMenu();
 }
 
 void ATowerActorBase::ActorDeselected()
 {
 	TowerRangeDiskMesh->SetVisibility(false);
+	HideContextMenu();
+}
+
+float ATowerActorBase::GetBaseCost() const
+{
+	const FTowerClasDefaultInfo ClasDefaultInfo = TowerClassInfo->TowerClassInformation[TowerClass];
+	
+	return ClasDefaultInfo.CostPerLevel.Eval(1, TEXT("Could not find cost for Tower at Level 1")); 
+}
+
+float ATowerActorBase::GetUpgradeCost() const
+{
+	checkf(TowerClassInfo, TEXT("TowerClassInfo is not set on TowerActor.")); 
+	
+	const int32 NextLevel = FMath::Clamp(Level+1, 1, 4);
+
+	const FTowerClasDefaultInfo ClasDefaultInfo = TowerClassInfo->TowerClassInformation[TowerClass];
+	
+	const FString CtxString = FString::Printf(TEXT("Could not find cost for Tower at Level %d"), Level + 1);
+	
+	return ClasDefaultInfo.CostPerLevel.Eval(NextLevel, CtxString); 
+}
+
+float ATowerActorBase::GetDowngradeRefund() const
+{
+	checkf(TowerClassInfo, TEXT("TowerClassInfo is not set on TowerActor.")); 
+	
+	const FTowerClasDefaultInfo ClasDefaultInfo = TowerClassInfo->TowerClassInformation[TowerClass];
+	
+	const FString CtxString = FString::Printf(TEXT("Could not find cost for Tower at Level %d"), Level);
+	
+	return ClasDefaultInfo.CostPerLevel.Eval(Level, CtxString); 
+}
+
+void ATowerActorBase::UpdateTowerLevelBasedProperties()
+{
+	USkeletalMesh* SkeletalMeshComponent = *TowerClasDefaultInfo->SkeletalMeshComponentPerLevel.Find(Level);
+
+	TowerMesh->SetSkeletalMesh(SkeletalMeshComponent);
+	Damage = TowerClasDefaultInfo->DamageCurve.GetCurve("DamageCurve Not Found")->Eval(Level);
+	FireRate = TowerClasDefaultInfo->FireRateCurve.GetCurve("FireRateCurve Not Found")->Eval(Level);
+
+	TowerRangeDiskMesh->SetRelativeScale3D({TowerAttackRange, TowerAttackRange, .2f});
+}
+
+void ATowerActorBase::UpgradeTower()
+{
+	if (Level >= 4) return;
+	
+	Level++;
+	OnTowerLevelChange.Broadcast(Level);
+	
+	UpdateTowerLevelBasedProperties();
+}
+
+void ATowerActorBase::DowngradeTower()
+{
+	if (Level <= 1) return;
+	
+	Level--;
+	OnTowerLevelChange.Broadcast(Level);
+	
+	UpdateTowerLevelBasedProperties();
+}
+
+void ATowerActorBase::DisplayContextMenu()
+{
+	TowerContextMenu->GetUserWidgetObject()->SetVisibility(ESlateVisibility::Visible);
+}
+
+void ATowerActorBase::HideContextMenu()
+{
+	TowerContextMenu->GetUserWidgetObject()->SetVisibility(ESlateVisibility::Hidden);
+
 }

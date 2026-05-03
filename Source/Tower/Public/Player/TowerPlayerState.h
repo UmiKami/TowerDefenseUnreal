@@ -7,6 +7,7 @@
 #include "TowerPlayerState.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHealthChangeSignature, float, NewHealth);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnGoldChangeSignature, float, NewGoldAmount);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnPlayerDeathSignature);
 
 class ATowerActorBase;
@@ -23,7 +24,12 @@ class TOWER_API ATowerPlayerState : public APlayerState
 public:
 	ATowerPlayerState();
 	
-	virtual void BeginPlay() override;
+	/**
+	 *  
+	 * @return Current amount of gold that can be spent by the player.
+	 */
+	UFUNCTION(BlueprintCallable)
+	FORCEINLINE float GetGoldAmount() const { return Gold;}
 	
 	/**
 	 * 
@@ -31,7 +37,6 @@ public:
 	 */
 	UFUNCTION(BlueprintCallable)
 	FORCEINLINE float GetHealth() const {return Health;} 
-
 	
 	/**
 	 * 
@@ -51,6 +56,12 @@ public:
 	*/
 	UFUNCTION()
 	void SetMaxHealth(const float NewMaxHealth); 
+	
+	UFUNCTION(BlueprintCallable)
+	void WithdrawGold(const float Amount); 
+	
+	UFUNCTION(BlueprintCallable)
+	void DepositGold(const float Amount);
 	
 	/**
 	 * 
@@ -80,12 +91,20 @@ public:
 	UPROPERTY(BlueprintAssignable)
 	FOnPlayerDeathSignature OnPlayerDeathSignature;
 	
+	UPROPERTY(BlueprintAssignable)
+	FOnGoldChangeSignature OnPlayerGoldChangeSignature;
+	
 protected:
+	virtual void BeginPlay() override;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	float Health;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	float MaxHealth = 100.f;
+	
+	UPROPERTY(EditDefaultsOnly)
+	float Gold = 100.f;	
 	
 	/**
 	 * @brief Keeps track of player own towers.
