@@ -27,5 +27,9 @@ protected:
 
 	virtual void LaunchAtTarget(FVector StartLocation, FVector EndLocation, float InDamage, bool bHasArch = false, float ArcHeight = 500.f) override;
 	virtual void OnHit(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) override;
+	
+	UFUNCTION(BlueprintImplementableEvent)
+	void KillProjectile();
+	
 	float HomingStrength = 1.f;
 };
