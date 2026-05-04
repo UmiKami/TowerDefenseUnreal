@@ -64,7 +64,7 @@ void ATowerLinearProjectile::OnHit(UPrimitiveComponent* OverlappedComponent, AAc
 		
 		// TODO Play animation or VFX on hit and then destroy the projectile. Otherwise projectile will self destroy in 10 seconds due to SetLifeSpan(10.f) in Base class BeginPlay
 		
-		Destroy();
+		KillProjectile();
 	}
 }
 

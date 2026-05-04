@@ -78,7 +78,7 @@ protected:
 
 	
 	/** @brief Mesh of the projectile (sphere for cannonball, capsule for arrow). */
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	TObjectPtr<UStaticMeshComponent> ProjectileMesh;
 	
 	/** @brief Collision capsule for hit detection. */

@@ -62,7 +62,9 @@ protected:
 	 */
 	virtual void BeginPlay() override;
 
-
+	UFUNCTION(BlueprintImplementableEvent)
+	void PlayHitEffect();
+	
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 
 	/**
@@ -83,7 +85,7 @@ protected:
 	/**
 	 * @brief Skeletal mesh used to render the pawn.
 	 */
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	TObjectPtr<USkeletalMeshComponent> PawnSkeletalMesh;
 
 	/**

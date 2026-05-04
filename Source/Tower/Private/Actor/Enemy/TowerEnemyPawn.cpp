@@ -72,6 +72,8 @@ float ATowerEnemyPawn::TakeDamage(float DamageAmount, struct FDamageEvent const&
 {
 	Health = FMath::Clamp(Health - DamageAmount, 0.f, MaxHealth);
 	
+	PlayHitEffect();
+	
 	if (Health <= 0.f)
 	{
 		OnDeath.Broadcast(this);
