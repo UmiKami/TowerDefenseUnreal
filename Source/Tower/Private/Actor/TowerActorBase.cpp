@@ -148,7 +148,7 @@ void ATowerActorBase::OnActorOverlap(UPrimitiveComponent* OverlappedComponent, A
 
 	TObjectPtr<ATowerEnemyPawn> TargetActor = Cast<ATowerEnemyPawn>(OtherActor);
 	
-	if (!IsValid(TargetActor)) return;
+	if (!IsValid(TargetActor) || TargetActor->OnDeath.IsAlreadyBound(this, &ThisClass::OnTargetDeath) || TargetActor->IsActorBeingDestroyed() ) return;
 	
 	TargetActor->OnDeath.AddDynamic(this, &ThisClass::OnTargetDeath);
 	
