@@ -123,6 +123,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Loot")
 	float GoldRewardOnKill = 5.f;
 
+	UPROPERTY(BlueprintReadOnly)
+	bool bAlreadyDead = false;
+	
 public:
 	virtual void Tick(float DeltaSeconds) override;
 
