@@ -91,7 +91,7 @@ void ATowerPlayerCharacter::LMouseButtonPressed(const FInputActionValue& Value)
 
 	AActor* ActorHit = OutHit.GetActor();
 	
-	if (const TScriptInterface<ITowerHighlightInterface> HighlightableActor = ActorHit)
+	if (const TScriptInterface<ITowerHighlightInterface> HighlightableActor = ActorHit; HighlightableActor && !TowerPlayerController->IsHoldingGhostTower())
 	{
 		DeselectCurrentlySelectedActors();
 		
