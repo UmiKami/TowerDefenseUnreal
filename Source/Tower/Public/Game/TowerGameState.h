@@ -11,6 +11,7 @@ enum ETowerGameState : int8
 {
 	MainMenu,
 	Playing,
+	Playing_WaveTransition,
 	GameOver,
 	PauseMenu
 };

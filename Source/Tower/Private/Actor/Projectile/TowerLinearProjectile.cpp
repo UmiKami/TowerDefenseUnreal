@@ -58,11 +58,7 @@ void ATowerLinearProjectile::OnHit(UPrimitiveComponent* OverlappedComponent, AAc
 	
 	if (OtherActor && OtherActor->Implements<UTowerEnemyInterface>())
 	{
-		
-		UE_LOG(LogTemp, Warning, TEXT("Enemy HIT Confirmed!"));
 		UGameplayStatics::ApplyDamage(OtherActor, Damage, GetOwner()->GetInstigatorController(), GetOwner(), {});
-		
-		// TODO Play animation or VFX on hit and then destroy the projectile. Otherwise projectile will self destroy in 10 seconds due to SetLifeSpan(10.f) in Base class BeginPlay
 		
 		KillProjectile();
 	}

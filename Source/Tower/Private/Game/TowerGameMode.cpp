@@ -29,15 +29,24 @@ void ATowerGameMode::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
 	
-	if (!TowerGameState) return;
-	if (TowerGameState->State != ETowerGameState::Playing) return;
-	
-	if (TowerGameState->RemainingEnemyCount == 0)
+	if (!TowerGameState)
 	{
-		StartNextWave();
+		UE_LOG(LogTemp, Error, TEXT("INVALID: Tower Game State"))
+		return;
 	}
 	
-	if (TowerGameState->State != Playing) return;
+	if (TowerGameState->State != Playing)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("CAUTION: Not in playing state."))
+		return;
+	}
+	
+	
+	if (TowerGameState->RemainingEnemyCount == 0 && TowerGameState->EnemiesPendingSpawn == 0)
+	{
+		TowerGameState->State = Playing_WaveTransition;
+		StartNextWave();
+	}
 	
 	TowerGameState->IncreaseGameTimer(DeltaSeconds);
 }
@@ -59,7 +68,10 @@ void ATowerGameMode::StartNextWave()
 	UE_LOG(LogTemp, Warning, TEXT("Enemy Spawn Limit: %d"), TowerGameState->EnemiesPendingSpawn);
 
 	DelayBeforeNextWave = 0;
+	
 	GetWorldTimerManager().SetTimer(EnemySpawnTimer, this, &ThisClass::SpawnEnemy, TowerGameState->GetSpawnRate(), true, DelayBeforeNextWave);
+	
+	TowerGameState->State = Playing;
 }
 
 void ATowerGameMode::StopSpawningEnemy()

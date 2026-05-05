@@ -74,9 +74,10 @@ float ATowerEnemyPawn::TakeDamage(float DamageAmount, struct FDamageEvent const&
 	
 	PlayHitEffect();
 	
-	if (Health <= 0.f)
+	if (!bAlreadyDead && Health <= 0.f)
 	{
 		OnDeath.Broadcast(this);
+		bAlreadyDead = true;
 	}
 	
 	return DamageAmount;
