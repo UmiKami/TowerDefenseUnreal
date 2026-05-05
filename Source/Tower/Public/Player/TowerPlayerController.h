@@ -30,6 +30,9 @@ public:
 	 */
 	ATowerPlayerController();
 	
+	UFUNCTION(BlueprintPure)
+	FORCEINLINE bool IsHoldingGhostTower() const { return GhostMesh != nullptr; }
+	
 	UFUNCTION(BlueprintCallable)
 	void AttachMeshToFollowCursor(ETowerClass TowerClass, int32 TowerLevel = 1);
 	
